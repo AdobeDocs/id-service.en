@@ -1,0 +1,22 @@
+---
+description: getCustomerIDs returns any customer IDs set by the Experience Cloud ID service.
+keywords: ID Service
+seo-description: getCustomerIDs returns any customer IDs set by the Experience Cloud ID service.
+seo-title: getCustomerIDs
+solution: Marketing Cloud
+title: getCustomerIDs
+uuid: 4eb6ff00-2a92-46b6-b9a6-8e0c6e2e73d1
+index: y
+internal: n
+snippet: y
+---
+
+# getCustomerIDs{#getcustomerids}
+
+getCustomerIDs returns any customer IDs set by the Experience Cloud ID service.
+
+<!--
+Is there anything else we can say about this??
+-->
+
+` var *`variable name`* = visitor.getCustomerIDs();` 
