@@ -39,7 +39,3 @@ To sum up, the ID service:
 * Receives aliases and ID mappings from [!DNL Experience Cloud] customers and partners. 
 * Manages ID synchronization within the [!DNL Experience Cloud]. 
 * Supports ID synchronization with different third-parties across the ad tech ecosystem.
-
-## ID Service Requirements {#section-f0cba8844a794946a2038940b34bf798}
-
-Your solution and other Adobe code libraries must meet [these requirements](../mcvid-reference/mcvid-requirements.md#concept-b9374b5db89a43ecb6e6ff7ed4b8de8b) before you can use the ID service. 
