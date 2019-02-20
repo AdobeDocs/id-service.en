@@ -8,7 +8,8 @@ user-guide: null
 # Table of Contents {#table-of-contents}
 
 + [Experience Cloud ID Service](mcvid-home.md)
-+ [Overview](mcvid-overview/mcvid-overview.md)
++ Overview {#overview}
+   + [About the ID Service](mcvid-overview/mcvid-about-id-service.md)
    + [Cookies and the Experience Cloud ID Service](mcvid-overview/mcvid-cookies.md)
    + [How the Experience Cloud ID Service requests and sets IDs](mcvid-overview/mcvid-id-request.md)
    + [Understanding ID synchronization and match rates](mcvid-overview/mcvid-match-rates.md)
