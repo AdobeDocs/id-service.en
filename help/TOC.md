@@ -25,7 +25,7 @@ user-guide: null
    + [Direct Integration with the Experience Cloud ID Service](mcvid-implementation-guides/mcvid-direct-integration.md)
    + [Direct Integration Use Cases](mcvid-implementation-guides/mcvid-direct-integration-examples.md)
    + [Test and verify the Experience Cloud ID Service](mcvid-implementation-guides/mcvid-test-verify.md)
-   + Opt-in Documentation
+   + Opt-in Documentation {#opt-in}
       + [Opt-in Service](mcvid-implementation-guides/overview/overview.md)
          + [Setting up Opt-in Service](mcvid-implementation-guides/overview/getting-started.md)
          + [Validating Opt-in Service](mcvid-implementation-guides/overview/testing-optin-and-iab-plugin.md)
