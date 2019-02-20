@@ -1,4 +1,3 @@
-
 ---
 description: The role of the Experience Cloud ID service in the Adobe Experience Cloud.
 keywords: ID Service
