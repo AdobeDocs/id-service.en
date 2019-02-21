@@ -34,7 +34,7 @@ user-guide: null
       + [Opt-in Use Cases](mcvid-implementation-guides/opt-in-service/use-cases.md)
       + [Opt-in Reference](mcvid-implementation-guides/opt-in-service/api.md)
       + [(beta) Using Opt-in Services with IAB Framework](mcvid-implementation-guides/opt-in-service/iab.md)
-+ [ID Service API](mcvid-library/mcvid-library.md)
++ ID Service API {#id-service-api}
    + [Configurations](mcvid-library/mcvid-function-vars/mcvid-function-vars.md)
       + [audienceManagerServer and audienceManagerServerSecure](mcvid-library/mcvid-function-vars/mcvid-subdomain-config.md)
       + [cookieDomain](mcvid-library/mcvid-function-vars/mcvid-cookiedomain.md)
