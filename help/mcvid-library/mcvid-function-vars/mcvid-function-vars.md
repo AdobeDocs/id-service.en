@@ -15,3 +15,6 @@ snippet: y
 
 Configure the ID service by passing these properties to the Visitor.getInstance static method.
 
+>[!NOTE]
+>
+>The *Experience Cloud ID Javascript Libraries* have moved recently. The latest release of the ECID JS libraries can be found at [https://github.com/Adobe-Marketing-Cloud/id-service/releases](https://github.com/Adobe-Marketing-Cloud/id-service/releases).
