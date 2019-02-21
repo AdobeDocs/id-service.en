@@ -15,3 +15,6 @@ snippet: y
 
 Public methods that let you interact with the ID service.
 
+>[!NOTE]
+>
+>The *Experience Cloud ID Javascript Libraries* have moved recently. The latest release of the ECID JS libraries can be found at [https://github.com/Adobe-Marketing-Cloud/id-service/releases](https://github.com/Adobe-Marketing-Cloud/id-service/releases).
