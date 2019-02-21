@@ -1,14 +1,11 @@
 ---
-description: The Experience Cloud ID Service (ID service) provides a universal, persistent ID that identifies your visitors across all the solutions in the Experience Cloud. It can replace ID generation code for services such as Analytics, Audience Manager, Target, and other Experience Cloud solutions or features.
+description: The Experience Cloud ID Service provides a universal, persistent ID that identifies your visitors across all the solutions in the Experience Cloud. 
 keywords: ID Service
-seo-description: The Experience Cloud ID Service (ID service) provides a universal, persistent ID that identifies your visitors across all the solutions in the Experience Cloud. It can replace ID generation code for services such as Analytics, Audience Manager, Target, and other Experience Cloud solutions or features.
+seo-description: The Adobe Experience Cloud ID Service provides a universal, persistent ID that identifies your visitors across all the solutions in the Experience Cloud. It can replace ID generation code for services such as Analytics, Audience Manager, Target, and other Experience Cloud solutions or features.
 seo-title: Experience Cloud ID Service
 solution: Marketing Cloud
 title: Experience Cloud ID Service
 uuid: b68194b5-e549-4f6f-bfaf-7744926aeaac
-index: y
-internal: n
-snippet: y
 ---
 
 # Experience Cloud ID Service{#experience-cloud-id-service}
