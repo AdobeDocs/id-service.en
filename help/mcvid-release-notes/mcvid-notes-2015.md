@@ -19,7 +19,7 @@ Release notes and updates for 2015.
 
 November, 2015
 
-The Children's Online Privacy Protection Act (COPPA) prohibits the online collection of personal information from children under 13 years old without verifiable parental consent. Customers concerned about COPPA can add an optional variable to their [!DNL Experience Cloud] ID service code that prevents it from setting cookies in the third-party domain of a browser. See [COPPA Support in the Experience Cloud ID Service](../mcvid-reference/mcvid-coppa.md#concept-d7ddf81bebd74f129661fcec1ca19413). For version 1.5.3 or greater.
+The Children's Online Privacy Protection Act (COPPA) prohibits online collection of personal information from children under 13 years old without verifiable parental consent. Customers concerned about COPPA can add an optional variable to their [!DNL Experience Cloud] ID service code that prevents it from setting cookies in the third-party domain of a browser. See [COPPA Support in the Experience Cloud ID Service](../mcvid-reference/mcvid-coppa.md#concept-d7ddf81bebd74f129661fcec1ca19413). For version 1.5.3 or greater.
 
 ## Version 1.5.2 {#section-e3c73e47539942a89b02d33061128148}
 
