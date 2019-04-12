@@ -90,7 +90,7 @@ To use the ID service, your company must be enabled for the [!DNL Experience Clo
 
 ## Analytics Requirements: Regional Data Collection (RDC) {#section-7d04bb013bc84a25bae3b148bc0ca25f}
 
-[!DNL Analytics] customers must be using [RDC](https://marketing.adobe.com/resources/help/en_US/whitepapers/rdc/) to implement the ID service. RDC improves [!DNL Analytics] data collection processes and ensures that you're ready for integrations with other [!DNL Experience Cloud] solutions. Review the [Experience Cloud ID Service Migration Decision Points](../mcvid-reference/mcvid-analytics-reference/mcvid-migration-decisions.md#concept-ba44803eea3c4cc185232a510cec0257) before getting started.
+All tracking servers have been converted to RDC, so there is no need to change the Analytics tracking server. [More info...](https://docs.adobe.com/content/help/en/analytics/admin/data-collection/regional-data-collection/regional-data-collection.html)
 
 ## Code Libraries and Version Requirements {#section-ad7542a4317d430fa79fc6b095beb84d}
 
