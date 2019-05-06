@@ -11,7 +11,7 @@ internal: n
 snippet: y
 ---
 
-# Experience Cloud ID Service Migration Decision Points{#experience-cloud-id-service-migration-decision-points}
+# Experience Cloud ID Service Migration Decision Points
 
 Before deploying the Experience Cloud ID service, you should understand how this service affects visitor tracking on multiple domains and potential issues if you are collecting data with different methods or through JavaScript files.
 
@@ -22,7 +22,7 @@ Answers to the questions in this section help determine any additional migration
 * [Do you have multiple Analytics JavaScript files, or are you tracking Flash applications or videos?](../../mcvid-reference/mcvid-analytics-reference/mcvid-migration-decisions.md#section-943a04529f3d456ab608252d146658b3) 
 * [Are you using unsupported data collection methods?](../../mcvid-reference/mcvid-analytics-reference/mcvid-migration-decisions.md#section-6af5ff728c054a3f8d27ba073e5b268b)
 
-## Do you have a data collection CNAME? {#section-e23785daa3a14abdbf007bd35e093f88}
+## Do you have a data collection CNAME? 
 
 Many customers can migrate away from a data collection CNAME as part of the ID service migration.
 
@@ -45,8 +45,7 @@ Many customers can migrate away from a data collection CNAME as part of the ID s
  </tbody> 
 </table>
 
-## If you have a data collection CNAME, do you have multiple domains? {#section-69eb55192f8b40a5833da41aaff5bfc0}
-
+## If you have a data collection CNAME, do you have multiple domains? 
 If you have multiple domains that send data to the *same report suite*, then we recommend data collection with a CNAME. This helps you track visitors across domains. If you are collecting data on a single domain, there is no advantage to maintaining a data collection CNAME.
 
 <table id="table_D132BCA243E54657AEC930559343FDD3"> 
@@ -75,8 +74,7 @@ If you have multiple domains that send data to the *same report suite*, then we 
 </table>
 
 
-## Do you have multiple Analytics JavaScript files, or are you tracking Flash applications or videos? {#section-943a04529f3d456ab608252d146658b3}
-
+## Do you have multiple Analytics JavaScript files, or are you tracking Flash applications or videos? 
 If you have multiple Analytics JavaScript files or Flash applications or videos across your site that send data to the *same report suite*, You should configure a grace period so that visitors continue to be identified by an Analytics ID while you roll out the [!DNL Experience Cloud] ID service.
 
 <table id="table_8A4EA063AF4345B69BC98537E2E702BA"> 
@@ -102,7 +100,7 @@ If you have multiple Analytics JavaScript files or Flash applications or videos 
  </tbody> 
 </table>
 
-## Are you using unsupported data collection methods? {#section-6af5ff728c054a3f8d27ba073e5b268b}
+## Are you using unsupported data collection methods? 
 
 You might need to update the way you track links or migrate away from Sliverlight.
 
