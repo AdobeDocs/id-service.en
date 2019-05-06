@@ -19,8 +19,6 @@ Answers to the questions in this section help determine any additional migration
 
 * [Do you have a data collection CNAME?](../../mcvid-reference/mcvid-analytics-reference/mcvid-migration-decisions.md#section-e23785daa3a14abdbf007bd35e093f88) 
 * [If you have a data collection CNAME, do you have multiple domains?](../../mcvid-reference/mcvid-analytics-reference/mcvid-migration-decisions.md#section-69eb55192f8b40a5833da41aaff5bfc0) 
-* [If you are keeping your data collection CNAME, is it mapped to omtrdc.net?](../../mcvid-reference/mcvid-analytics-reference/mcvid-migration-decisions.md#section-c9009cbf58594746a5b78bbf44acafbd) 
-* [If you do not have a data collection CNAME, is your data collection server *.2o7.net or *.sc.omtrdc.net?](../../mcvid-reference/mcvid-analytics-reference/mcvid-migration-decisions.md#section-34dabde7780e4a339f134c0ca7768961) 
 * [Do you have multiple Analytics JavaScript files, or are you tracking Flash applications or videos?](../../mcvid-reference/mcvid-analytics-reference/mcvid-migration-decisions.md#section-943a04529f3d456ab608252d146658b3) 
 * [Are you using unsupported data collection methods?](../../mcvid-reference/mcvid-analytics-reference/mcvid-migration-decisions.md#section-6af5ff728c054a3f8d27ba073e5b268b)
 
@@ -76,54 +74,6 @@ If you have multiple domains that send data to the *same report suite*, then we 
  </tbody> 
 </table>
 
-## If you are keeping your data collection CNAME, is it mapped to omtrdc.net? {#section-c9009cbf58594746a5b78bbf44acafbd}
-
-If you decided to keep your CNAME, open a command prompt and ping your CNAME:
-
-```
-$: ping metrics.example.com
-PING example.com.d1.sc.omtrdc.net (66.235.139.256)
-```
-
-<table id="table_8023DDC56EE44F9286ED844DEBD965D0"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> CNAME Resolves To </th> 
-   <th colname="col2" class="entry"> Required Actions </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> *.omtrdc.net</span> </p> </td> 
-   <td colname="col2"> <p>Your CNAME is configured correctly. No additional action is necessary. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Someplace other than <span class="codeph"> *.omtrdc.net</span></p> </td> 
-   <td colname="col2"> <p>Update the CNAME record to point to your <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/rdc/" format="http" scope="external"> RDC</a> hostname. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-## If you do not have a data collection CNAME, is your data collection server *.2o7.net or *.sc.omtrdc.net? {#section-34dabde7780e4a339f134c0ca7768961}
-
-<table id="table_0C0F018F309B473784C875341C379EFD"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Server Address </th> 
-   <th colname="col2" class="entry"> Required Actions </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> *.2o7.net</span> </p> </td> 
-   <td colname="col2"> <p>If you are using <span class="codeph"> *.2o7.net</span>, migrate to the <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/rdc/" format="http" scope="external"> RDC</a> data collection domain, <span class="codeph"> *.sc.omtrdc.net</span>. </p> <p>To make this migration, configure visitor migration from <span class="codeph"> *.2o7.net</span> to <span class="codeph"> *.sc.omtrdc.net</span>, and then update <span class="codeph"> s.trackingServer</span> to <span class="codeph"> [namespace].sc.omtrdc.net</span> when you update your Analytics JavaScript code later as part of the <a href="../../mcvid-implementation-guides/mcvid-setup-analytics.md#section-70ec9ebff47940d8ab520be5ec4728c5" format="dita" scope="local"> implementation process</a>. If you have any questions at all about the hostname of your tracking server, contact <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html" format="https" scope="external"> Customer Care</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> *.sc.omtrdc</span> </p> </td> 
-   <td colname="col2"> <p>Continue to use your current data collection server. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
 
 ## Do you have multiple Analytics JavaScript files, or are you tracking Flash applications or videos? {#section-943a04529f3d456ab608252d146658b3}
 
