@@ -35,7 +35,8 @@ user-guide: null
       + [Opt-in Reference](mcvid-implementation-guides/opt-in-service/api.md)
       + [(beta) Using Opt-in Services with IAB Framework](mcvid-implementation-guides/opt-in-service/iab.md)
 + ID Service API {#id-service-api}
-   + [Configurations](mcvid-library/mcvid-function-vars/mcvid-function-vars.md)
+   + Configuration {#configurations}
+      + [Configurations overview](mcvid-library/mcvid-function-vars/mcvid-function-vars.md)
       + [audienceManagerServer and audienceManagerServerSecure](mcvid-library/mcvid-function-vars/mcvid-subdomain-config.md)
       + [cookieDomain](mcvid-library/mcvid-function-vars/mcvid-cookiedomain.md)
       + [cookieLifetime](mcvid-library/mcvid-function-vars/mcvid-cookielifetime.md)
@@ -53,7 +54,8 @@ user-guide: null
       + [secureCookie](mcvid-library/mcvid-function-vars/mcvid-securecookie.md)
       + [useCORSOnly](mcvid-library/mcvid-function-vars/mcvid-use-cors-only.md)
       + [whitelistParentDomain and whitelistIframeDomains](mcvid-library/mcvid-function-vars/mcvid-whitelistdomain.md)
-   + [Methods](mcvid-library/mcvid-get-set/mcvid-get-set.md)
+   + Methods {#methods}
+      + [Methods](mcvid-library/mcvid-get-set/mcvid-get-set.md)
       + [appendSupplementalDataIDTo](mcvid-library/mcvid-get-set/mcvid-appendsupplementaldataidto.md)
       + [appendVisitorIDsTo (Cross-Domain Tracking)](mcvid-library/mcvid-get-set/mcvid-appendvisitorid.md)
       + [callTimeOut Methods](mcvid-library/mcvid-get-set/mcvid-timeout-functions.md)
@@ -68,7 +70,8 @@ user-guide: null
       + [isClientSideMarketingCloudVisitorID](mcvid-library/mcvid-get-set/mcvid-client-side-id.md)
       + [resetState](mcvid-library/mcvid-get-set/mcvid-resetstate.md)
 + Reference {#reference}
-   + [Analytics Reference](mcvid-reference/mcvid-analytics-reference/mcvid-analytics-reference.md)
+   + Analytics Reference {#analytics-reference}
+      + [Analytics Reference Overview](mcvid-reference/mcvid-analytics-reference/mcvid-analytics-reference.md)
       + [Setting Analytics and Experience Cloud IDs](mcvid-reference/mcvid-analytics-reference/mcvid-analytics-ids.md)
       + [Order of Operations for Analytics IDs](mcvid-reference/mcvid-analytics-reference/mcvid-analytics-order-of-operations.md)
       + [Experience Cloud ID Service Migration Decision Points](mcvid-reference/mcvid-analytics-reference/mcvid-migration-decisions.md)
