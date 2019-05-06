@@ -46,6 +46,7 @@ Many customers can migrate away from a data collection CNAME as part of the ID s
 </table>
 
 ## If you have a data collection CNAME, do you have multiple domains? 
+
 If you have multiple domains that send data to the *same report suite*, then we recommend data collection with a CNAME. This helps you track visitors across domains. If you are collecting data on a single domain, there is no advantage to maintaining a data collection CNAME.
 
 <table id="table_D132BCA243E54657AEC930559343FDD3"> 
@@ -75,6 +76,7 @@ If you have multiple domains that send data to the *same report suite*, then we 
 
 
 ## Do you have multiple Analytics JavaScript files, or are you tracking Flash applications or videos? 
+
 If you have multiple Analytics JavaScript files or Flash applications or videos across your site that send data to the *same report suite*, You should configure a grace period so that visitors continue to be identified by an Analytics ID while you roll out the [!DNL Experience Cloud] ID service.
 
 <table id="table_8A4EA063AF4345B69BC98537E2E702BA"> 
