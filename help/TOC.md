@@ -54,7 +54,8 @@ user-guide: null
       + [secureCookie](mcvid-library/mcvid-function-vars/mcvid-securecookie.md)
       + [useCORSOnly](mcvid-library/mcvid-function-vars/mcvid-use-cors-only.md)
       + [whitelistParentDomain and whitelistIframeDomains](mcvid-library/mcvid-function-vars/mcvid-whitelistdomain.md)
-   + [Methods](mcvid-library/mcvid-get-set/mcvid-get-set.md)
+   + Methods {#methods}
+      + [Methods](mcvid-library/mcvid-get-set/mcvid-get-set.md)
       + [appendSupplementalDataIDTo](mcvid-library/mcvid-get-set/mcvid-appendsupplementaldataidto.md)
       + [appendVisitorIDsTo (Cross-Domain Tracking)](mcvid-library/mcvid-get-set/mcvid-appendvisitorid.md)
       + [callTimeOut Methods](mcvid-library/mcvid-get-set/mcvid-timeout-functions.md)
