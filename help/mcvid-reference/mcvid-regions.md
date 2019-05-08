@@ -11,7 +11,7 @@ internal: n
 snippet: y
 ---
 
-# Get Region and User IDs From the AMCV Cookie or the ID Service{#get-region-and-user-ids-from-the-amcv-cookie-or-the-id-service}
+# Get Region and User IDs From the AMCV Cookie or the ID Service {#get-region-and-user-ids-from-the-amcv-cookie-or-the-id-service}
 
 The AMCV cookie contains the Experience Cloud ID (MID) and a region ID for your site visitors. These IDs are stored as key-value pairs. The mid:user ID holds the visitor's Experience Cloud ID. The aamlh:region ID holds the region ID for your site visitors. You can recover this information by parsing the AMCV cookie.
 

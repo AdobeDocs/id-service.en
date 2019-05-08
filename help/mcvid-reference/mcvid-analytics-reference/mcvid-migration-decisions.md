@@ -17,11 +17,6 @@ Before deploying the Experience Cloud ID service, you should understand how this
 
 Answers to the questions in this section help determine any additional migration steps you should take.
 
-* [Do you have a data collection CNAME?](../../mcvid-reference/mcvid-analytics-reference/mcvid-migration-decisions.md#section-e23785daa3a14abdbf007bd35e093f88) 
-* [If you have a data collection CNAME, do you have multiple domains?](../../mcvid-reference/mcvid-analytics-reference/mcvid-migration-decisions.md#section-69eb55192f8b40a5833da41aaff5bfc0) 
-* [Do you have multiple Analytics JavaScript files, or are you tracking Flash applications or videos?](../../mcvid-reference/mcvid-analytics-reference/mcvid-migration-decisions.md#section-943a04529f3d456ab608252d146658b3) 
-* [Are you using unsupported data collection methods?](../../mcvid-reference/mcvid-analytics-reference/mcvid-migration-decisions.md#section-6af5ff728c054a3f8d27ba073e5b268b)
-
 ## Do you have a data collection CNAME? 
 
 Many customers can migrate away from a data collection CNAME as part of the ID service migration.
@@ -73,7 +68,6 @@ If you have multiple domains that send data to the *same report suite*, then we 
   </tr> 
  </tbody> 
 </table>
-
 
 ## Do you have multiple Analytics JavaScript files, or are you tracking Flash applications or videos? 
 

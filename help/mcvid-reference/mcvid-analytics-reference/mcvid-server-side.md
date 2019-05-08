@@ -11,7 +11,7 @@ internal: n
 snippet: y
 ---
 
-# Server-side Implementation Mixed with JavaScript{#server-side-implementation-mixed-with-javascript}
+# Server-side Implementation Mixed with JavaScript {#server-side-implementation-mixed-with-javascript}
 
 In some implementations, visitor IDs are passed from JavaScript to a server so that additional Analytics events (such as a purchase) can be sent by the server.
 

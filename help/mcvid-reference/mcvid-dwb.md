@@ -11,7 +11,7 @@ internal: n
 snippet: y
 ---
 
-# Data Workbench and the Experience Cloud ID Service{#data-workbench-and-the-experience-cloud-id-service}
+# Data Workbench and the Experience Cloud ID Service {#data-workbench-and-the-experience-cloud-id-service}
 
 Follow these instructions to integrate the Experience Cloud ID field into Data Workbench. This process lets you use the persistent Experience Cloud ID in your data feed, which enables stronger integration with other products in the Adobe Experience Cloud and provides enhanced visitor tracking.
 

@@ -11,7 +11,7 @@ internal: n
 snippet: y
 ---
 
-# FAQs{#faqs}
+# FAQs {#faqs}
 
 Frequently asked questions about the Experience Cloud ID service itself along with sections about the ID service and other Experience Cloud solution combinations.
 

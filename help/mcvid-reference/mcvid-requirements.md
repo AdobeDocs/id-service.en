@@ -11,7 +11,7 @@ internal: n
 snippet: y
 ---
 
-# Requirements for the Experience Cloud ID Service{#requirements-for-the-experience-cloud-id-service}
+# Requirements for the Experience Cloud ID Service {#requirements-for-the-experience-cloud-id-service}
 
 Review this section to make sure you're using the right solutions, services, and code versions required by the Experience Cloud ID service.
 

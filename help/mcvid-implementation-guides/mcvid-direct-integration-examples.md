@@ -11,7 +11,7 @@ internal: n
 snippet: y
 ---
 
-# Direct integration use cases{#direct-integration-use-cases}
+# Direct integration use cases {#direct-integration-use-cases}
 
 These examples cover 2 common use cases related to a direct integration and the Experience Cloud ID (MID). The MID is a unique, persistent ID for your site visitors.
 

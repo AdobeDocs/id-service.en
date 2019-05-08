@@ -9,7 +9,7 @@ internal: n
 snippet: y
 ---
 
-# Opt-in Use Cases{#opt-in-use-cases}
+# Opt-in Use Cases {#opt-in-use-cases}
 
 Sample use cases and solutions to manage the Opt-in service.
 

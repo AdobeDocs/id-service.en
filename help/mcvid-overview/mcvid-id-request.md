@@ -19,7 +19,7 @@ An overview of the ID request and response process. These examples cover ID assi
 >
 >If you're not familiar with how the Experience Cloud ID service creates the visitor ID, take a moment to review [Experience Cloud](../mcvid-overview/mcvid-cookies.md#concept-37156268512445f287cd4bbb2839ffaa).
 
-** Tip:** See also our [ID service video on cross-domain tracking](https://helpx.adobe.com/marketing-cloud-core/kb/MCID/CrossDomain.html).
+**Tip:** See also our [ID service video on cross-domain tracking](https://helpx.adobe.com/marketing-cloud-core/kb/MCID/CrossDomain.html).
 
 ## Requesting a Experience Cloud ID {#section-0b5e261fbd0547d9b9a1680e5ce536cc}
 

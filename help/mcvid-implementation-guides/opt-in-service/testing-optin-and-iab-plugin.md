@@ -13,16 +13,6 @@ snippet: y
 
 Once you have enabled Opt-in on your website, use the validation methods to test that the service is working as expected using the developer tools in your browser.
 
-<ul class="simplelist"> 
- <li> <a href="../../mcvid-implementation-guides/overview/testing-optin-and-iab-plugin.md#section-c8fe1ee3711b420c8186c7057abbecb3" format="dita" scope="local"> Use case 1: Enable Opt-In </a> </li> 
- <li> <a href="../../mcvid-implementation-guides/overview/testing-optin-and-iab-plugin.md#section-bd28326f52474fa09a2addca23ccdc0f" format="dita" scope="local"> Use case 2: Enable Opt-In and Storage </a> </li> 
- <li> <a href="../../mcvid-implementation-guides/overview/testing-optin-and-iab-plugin.md#section-257fe582b425496cbf986d0ec12d3692" format="dita" scope="local"> Use case 3: Enable Opt-In and pre approve Adobe Analytics </a> </li> 
- <li> 
-  <draft-comment> 
-   <a href="../../mcvid-implementation-guides/overview/testing-optin-and-iab-plugin.md#section-ca5c6f92fbdf4fd29b4acb6b644efbd0" format="dita" scope="local"> Use case 4: Enable Opt-In and IAB </a> 
-  </draft-comment> </li> 
-</ul>
-
 ## Use case 1: Enable Opt-in {#section-c8fe1ee3711b420c8186c7057abbecb3}
 
 ```
@@ -123,4 +113,3 @@ If one of the following is not valid, you will not see any requests to Adobe ser
 
 * Purposes 1, 2 OR 5 are not approved. 
 * The Audience Manager vendor ID is not approved.
-

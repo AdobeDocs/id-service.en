@@ -145,7 +145,7 @@ Add the `Visitor.getInstance` function shown below to your `AppMeasurement.js` f
 >
 >At this point, you should remove the [!DNL Audience Manager] DIL code and replace it with the Audience Management Module. See [Implement Server-Side Forwarding](https://marketing.adobe.com/resources/help/en_US/reference/ssf.html) for instructions.
 
-** *(Optional, but recommended)* Create a custom prop**
+***(Optional, but recommended)* Create a custom prop**
 
 Set a custom prop in `AppMeasurement.js` to measure coverage. Add this custom prop to the `doPlugins` function of your `AppMeasurement.js` file:
 

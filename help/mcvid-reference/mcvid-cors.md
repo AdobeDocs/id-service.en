@@ -11,7 +11,7 @@ internal: n
 snippet: y
 ---
 
-# CORS Support in the Experience Cloud ID Service{#cors-support-in-the-experience-cloud-id-service}
+# CORS Support in the Experience Cloud ID Service {#cors-support-in-the-experience-cloud-id-service}
 
 Browsers use Cross Origin Resource Sharing (CORS) to request resources from a domain other than the current domain. The Experience Cloud ID service supports CORS standards that enable these client-side, cross-origin resource requests. The ID service reverts to JSONP requests on older browsers or browsers that do not support CORS.
 

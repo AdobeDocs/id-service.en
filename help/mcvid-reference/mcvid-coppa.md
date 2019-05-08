@@ -11,7 +11,7 @@ internal: n
 snippet: y
 ---
 
-# COPPA Support in the Experience Cloud ID Service{#coppa-support-in-the-experience-cloud-id-service}
+# COPPA Support in the Experience Cloud ID Service {#coppa-support-in-the-experience-cloud-id-service}
 
 The Children’s Online Privacy Protection Act (COPPA) prohibits the online collection of personal information from children under 13 years old without verifiable parental consent. Customers concerned about COPPA can add an optional variable to their Experience Cloud ID service code that prevents it from setting cookies in the third-party domain of a browser.
 

@@ -11,19 +11,9 @@ internal: n
 snippet: y
 ---
 
-# Direct integration with the Experience Cloud ID Service{#direct-integration-with-the-experience-cloud-id-service}
+# Direct integration with the Experience Cloud ID Service {#direct-integration-with-the-experience-cloud-id-service}
 
 This implementation lets customers use the ID service on devices that cannot accept or work with our JavaScript or SDK code. This includes devices such as gaming consoles, smart TVs, or other Internet-enabled appliances. Refer to this section for syntax, code samples, and definitions.
-
-Contents:
-
-<ul class="simplelist"> 
- <li> <a href="../mcvid-implementation-guides/mcvid-direct-integration.md#section-a4754afec5ad40b6be00d6f1011d68bb" format="dita" scope="local"> Syntax </a> </li> 
- <li> <a href="../mcvid-implementation-guides/mcvid-direct-integration.md#section-26302b8851704888b6f8e6b2071bcdb0" format="dita" scope="local"> Sample Request </a> </li> 
- <li> <a href="../mcvid-implementation-guides/mcvid-direct-integration.md#section-89bc103b3e9e4a8b98e74c32897b1200" format="dita" scope="local"> Sample Response </a> </li> 
- <li> <a href="../mcvid-implementation-guides/mcvid-direct-integration.md#section-4a9912b545364dc4acad4f1ea5ec641d" format="dita" scope="local"> Request and Response Parameters Defined </a> </li> 
- <li> <a href="../mcvid-implementation-guides/mcvid-direct-integration.md#section-16f044aa0861456ea6d19a010bf79976" format="dita" scope="local"> Use Cases </a> </li> 
-</ul>
 
 ## Syntax {#section-a4754afec5ad40b6be00d6f1011d68bb}
 

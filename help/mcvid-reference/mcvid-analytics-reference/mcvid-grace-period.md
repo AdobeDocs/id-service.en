@@ -11,7 +11,7 @@ internal: n
 snippet: y
 ---
 
-# The ID Service Grace Period{#the-id-service-grace-period}
+# The ID Service Grace Period {#the-id-service-grace-period}
 
 If you have multiple JavaScript files that are sending data to the same report suite, or if you are using other technologies on your site such as Flash video measurement, we recommend configuring a grace period.
 

@@ -11,7 +11,7 @@ internal: n
 snippet: y
 ---
 
-# Video Heartbeat and the Experience Cloud ID Service{#video-heartbeat-and-the-experience-cloud-id-service}
+# Video Heartbeat and the Experience Cloud ID Service {#video-heartbeat-and-the-experience-cloud-id-service}
 
 Video heartbeat requires the Experience Cloud ID service. When measuring video on JavaScript or Flash, implementing the ID service on your site pages and in video playback ensures that visitors are not counted separately when viewing video.
 

@@ -11,7 +11,7 @@ internal: n
 snippet: y
 ---
 
-# Implement the Experience Cloud ID Service for Analytics, Audience Manager, and Target{#implement-the-experience-cloud-id-service-for-analytics-audience-manager-and-target}
+# Implement the Experience Cloud ID Service for Analytics, Audience Manager, and Target {#implement-the-experience-cloud-id-service-for-analytics-audience-manager-and-target}
 
 These instructions are for Analytics, Audience Manager, and Target customers who want to use the Experience Cloud ID service and do not use Dynamic Tag Management (DTM). However, we strongly recommend that you use DTM to implement the ID service. DTM streamlines the implementation workflow and automatically ensures the correct code placement and sequencing.
 
@@ -144,7 +144,7 @@ Add the `Visitor.getInstance` function shown below to your `AppMeasurement.js` f
 >
 >At this point, you should remove the [!DNL Audience Manager] DIL code and replace it with the Audience Management Module. See [Implement Server-Side Forwarding](https://marketing.adobe.com/resources/help/en_US/reference/ssf.html) for instructions.
 
-** *(Optional, but recommended)* Create a custom prop**
+***(Optional, but recommended)* Create a custom prop**
 
 Set a custom prop in `AppMeasurement.js` to measure coverage. Add this custom prop to the `doPlugins` function of your `AppMeasurement.js` file:
 

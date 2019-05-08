@@ -11,7 +11,7 @@ internal: n
 snippet: y
 ---
 
-# 2015 Release Notes{#release-notes}
+# 2015 Release Notes {#release-notes}
 
 Release notes and updates for 2015.
 

@@ -11,7 +11,7 @@ internal: n
 snippet: y
 ---
 
-# Implement the Experience Cloud ID Service for Analytics{#implement-the-experience-cloud-id-service-for-analytics}
+# Implement the Experience Cloud ID Service for Analytics {#implement-the-experience-cloud-id-service-for-analytics}
 
 These instructions are for Analytics customers who want to use the Experience Cloud ID service and do not use Dynamic Tag Management (DTM). However, we strongly recommend that you use DTM to implement the ID service. DTM streamlines the implementation workflow and automatically ensures the correct code placement and sequencing.
 
@@ -140,7 +140,7 @@ Add this function to your `AppMeasurement.js` or `s_code.js` file:
 
 Place the code in the same section that contains configurations such as `linkInternalFilters`, `charSet`, `trackDownloads`, etc.
 
-** *(Optional but recommended)* Create a Custom Prop**
+***(Optional but recommended)* Create a Custom Prop**
 
 Set a custom prop in `AppMeasurement.js` or `s_code.js` to measure coverage. Add this custom prop to the `doPlugins` function of your `AppMeasurement.js` or `s_code.js` files:
 
@@ -162,7 +162,7 @@ Move this code into production after testing and verification.
 
 If any of these use cases apply to your situation, ask [Customer Care](https://helpx.adobe.com/marketing-cloud/contact-support.html) to set up a temporary [grace period](../mcvid-reference/mcvid-analytics-reference/mcvid-grace-period.md#concept-e4c0d796412b4985badae11e5aecb2fd). Grace periods can run for up to 180-days. You can renew a grace period if required.
 
-** Partial Implementation**
+**Partial Implementation**
 
 You need a grace period if you have some pages that use the ID service and some pages that do not, and they all report into the same [!DNL Analytics] report suite. This is common if you have a global report suite that reports across domains.
 
@@ -205,4 +205,3 @@ If you enabled a grace period in [Step 7](../mcvid-implementation-guides/mcvid-s
 
 * Ensure the [!DNL Analytics] ID (AID) and MID are in the image request. 
 * Remember to disable the grace period once you meet the criteria for discontinuation.
-

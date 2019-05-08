@@ -9,7 +9,7 @@ internal: n
 snippet: y
 ---
 
-# Configuring Opt-in with Launch{#configuring-opt-in-with-launch}
+# Configuring Opt-in with Launch {#configuring-opt-in-with-launch}
 
 Simplify enabling Experience Cloud solution for Opt-in using Launch, by Adobe.
 

@@ -11,17 +11,9 @@ internal: n
 snippet: y
 ---
 
-# Experience Cloud ID Service Migration Scenarios{#experience-cloud-id-service-migration-scenarios}
+# Experience Cloud ID Service Migration Scenarios {#experience-cloud-id-service-migration-scenarios}
 
 Contains server example configurations and the required migration steps.
-
-Contents: 
-
-<ul class="simplelist">
- <li><a href="../../mcvid-reference/mcvid-analytics-reference/mcvid-migration-scenarios.md#section-6ccfea84628d46c99507cb124e7f5445" format="dita" scope="local"> Single Web Property</a></li>
- <li><a href="../../mcvid-reference/mcvid-analytics-reference/mcvid-migration-scenarios.md#section-a665f6ee202940449198e4e7a5dcac54" format="dita" scope="local"> Multiple JavaScript Files, hard-coded image tags</a></li>
- <li><a href="../../mcvid-reference/mcvid-analytics-reference/mcvid-migration-scenarios.md#section-34647995ff3740b999fdee22d885e515" format="dita" scope="local"> Multiple Web Properties, Multiple JavaScript Files and a Flash-based Video Player</a></li>
-</ul>
 
 ## Single Web Property {#section-6ccfea84628d46c99507cb124e7f5445}
 

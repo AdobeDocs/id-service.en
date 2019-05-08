@@ -11,7 +11,7 @@ internal: n
 snippet: y
 ---
 
-# 2018 Release Notes{#release-notes}
+# 2018 Release Notes {#release-notes}
 
 Feature releases, updates, or changes to the Experience Cloud ID service for 2018.
 

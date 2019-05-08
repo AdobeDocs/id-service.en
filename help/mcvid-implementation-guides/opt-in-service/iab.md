@@ -15,14 +15,6 @@ Connect their Consent Management Platform (CMP) with Opt-in’s IAB plugin.
 
 Audience Manager customers using [IAB Transparency and Consent Framework (TCF)](https://iabtechlab.com/standards/gdpr-transparency-and-consent-framework/) can connect their Consent Management Platform (CMP) with Opt-in’s IAB plugin. Opt-in is a feature embedded within the ECID JavaScript library that can disable individual Adobe solution libraries depending on visitor preferences set within a CMP. When the IAB plugin is implemented with the ECID library, visitor preferences from your IAB compliant CMP are mapped automatically to Opt-in. These preferences will enable Audience Manager based libraries (DIL and ECID) and associated calls when consent is received.
 
-On this page:
-
-<ul class="simplelist"> 
- <li> <a href="../../mcvid-implementation-guides/overview/iab.md#section-9fd2403b548947dbb1921ac6ff9d0c82" format="dita" scope="local"> Implement a CMP that supports IAB </a> </li> 
- <li> <a href="../../mcvid-implementation-guides/overview/iab.md#section-77bf1b9ed67241a59e56c21ab752e82f" format="dita" scope="local"> Enable the IAB plugin within your ECID Javascript Library </a> </li> 
- <li> <a href="../../mcvid-implementation-guides/overview/iab.md#section-55da1110051a4b39b1037803f4a7b264" format="dita" scope="local"> Related Documentation </a> </li> 
-</ul>
-
 ## Implement a CMP that supports IAB {#section-9fd2403b548947dbb1921ac6ff9d0c82}
 
 In order for Opt-In to integrate with the IAB consent, you need to complete the following:

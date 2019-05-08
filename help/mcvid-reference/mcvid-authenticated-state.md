@@ -11,18 +11,9 @@ internal: n
 snippet: y
 ---
 
-# Customer IDs and Authentication States{#customer-ids-and-authentication-states}
+# Customer IDs and Authentication States {#customer-ids-and-authentication-states}
 
 Along with the Experience Cloud visitor ID, you can associate additional customer IDs and an authentication status with each visitor.
-
-## Contents {#section-b1a99703a6854e1a932c931156fe8f9d}
-
-* [Authentication States](../mcvid-reference/mcvid-authenticated-state.md#section-68ad4065dfaa437d9070832d6e2bf85c) 
-* [Use Cases for Authentication States](../mcvid-reference/mcvid-authenticated-state.md#section-fe9560cc490943b29dac2c4fb6efd72c) 
-* [Set Customer IDs and Authenticated States](../mcvid-reference/mcvid-authenticated-state.md#section-ec4b367d16ad4ac1a1baca9b01f4ee98) 
-* [Return Customer IDs and Authenticated States](../mcvid-reference/mcvid-authenticated-state.md#section-71a610546188478fa9a3185a01d6e83b) 
-* [SDK Support](../mcvid-reference/mcvid-authenticated-state.md#section-861c6b3b1ba645dda133dccb22ec7bb0) 
-* [Notice for Analytics and Audience Manager Customers](../mcvid-reference/mcvid-authenticated-state.md#section-3a8e9d51e71c4c6e865184b81ed9d99b)
 
 ## Authentication States {#section-68ad4065dfaa437d9070832d6e2bf85c}
 
