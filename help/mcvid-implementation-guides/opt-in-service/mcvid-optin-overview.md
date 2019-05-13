@@ -42,6 +42,6 @@ The Opt-In service lets you set up consent management practices for Adobe soluti
 
 Using the Opt-in services, you can configure your site to allow some cookies to be loaded with pre-consent prior to user choice. You can set Opt-in services for new customers to allow cookies to be loaded after the user consents or after a choice is made available. You can also store and retrieve opt in consent from your existing Consent Management Platform or simply store opt in permissions in a cookie.
 
-![](assets/Opt-in_approval.png)
+![](assets/Opt-in-approval.png)
 
 Adobe solutions can then check if the tag is approved, subscribe to changes, and then retrieve all Opt-in customers. Opt-in service allows you to get permissions directly through the solution JavaScript libraries or through ECID if implemented. 
