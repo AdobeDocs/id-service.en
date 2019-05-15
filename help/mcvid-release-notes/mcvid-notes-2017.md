@@ -51,7 +51,7 @@ ID service support for Internet Explorer 6, 7, and 8 is deprecated and will be d
 
 * Fixed a Chrome-related bug that caused the ID service to throw an error when clicking the back button in that browser. 
 * The ID service now re-fires ID syncs when the region ID in the event call response changes. 
-* Added new documentation, [Content Security Policies and the Experience Cloud ID Service](../mcvid-reference/mcvid-csp.md#concept-968c423a7392479db0a0d821ae9783e3), that explains how to whitelist calls to Adobe domains used by the ID service.
+* Added new documentation, [Content Security Policies and the Experience Cloud ID Service](/help/mcvid-reference/mcvid-csp.md#concept-968c423a7392479db0a0d821ae9783e3), that explains how to whitelist calls to Adobe domains used by the ID service.
 
 ## Version 2.4 {#section-f4d1608dd8894f558a92b82e83321200}
 
@@ -74,7 +74,7 @@ August, 2017
 
 **Revised Documentation**
 
-Updated and revised the [FAQs](../mcvid-faq-intro/mcvid-faq-intro.md#concept-9683f998e26a411382c2decc664ded78) to include separate FAQs for different [!DNL Experience Cloud] solutions.
+Updated and revised the [FAQs](/help/mcvid-faq-intro/mcvid-faq-intro.md#concept-9683f998e26a411382c2decc664ded78) to include separate FAQs for different [!DNL Experience Cloud] solutions.
 
 ## Version 2.3 {#section-ae7b1cb1e52e4ca5a46b453a3ba1f571}
 
@@ -106,7 +106,7 @@ July, 2017
 
 ## Version 2.2 {#section-b7dee2495c29470e9b3a3132ec1fd951}
 
-June, 2017
+Release date: June, 2017
 
 <table id="table_7E412383E89D46759B00FE7328C9946F"> 
  <thead> 
@@ -163,7 +163,7 @@ June, 2017
 
 ## Version 2.1 {#section-5e666dc47c2f4f92999e92697d75799e}
 
-February, 2017
+Release date: February, 2017
 
 **Features**
 

@@ -1,4 +1,4 @@
----
+ ---
 description: A Content Security Policy (CSP) is an HTTP header and security feature that gives browsers control over what type of resources are loaded on a Web page. Review this section if you use the ID service and have strict CSPs that use whitelists to accept resources from trusted domains. You will need to add the Adobe domains listed here to your CSP whitelists.
 keywords: ID Service
 seo-description: A Content Security Policy (CSP) is an HTTP header and security feature that gives browsers control over what type of resources are loaded on a Web page. Review this section if you use the ID service and have strict CSPs that use whitelists to accept resources from trusted domains. You will need to add the Adobe domains listed here to your CSP whitelists.
@@ -10,7 +10,7 @@ internal: n
 snippet: y
 ---
 
-# Content Security Policies and the Experience Cloud ID Service{#content-security-policies-and-the-experience-cloud-id-service}
+# Content Security Policies and the Experience Cloud ID Service {#content-security-policies-and-the-experience-cloud-id-service}
 
 A Content Security Policy (CSP) is an HTTP header and security feature that gives browsers control over what type of resources are loaded on a Web page. Review this section if you use the ID service and have strict CSPs that use whitelists to accept resources from trusted domains. You will need to add the Adobe domains listed here to your CSP whitelists.
 
