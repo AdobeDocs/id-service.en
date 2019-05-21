@@ -22,7 +22,7 @@ Contents:
  <li> <a href="../mcvid-reference/mcvid-requirements.md#section-a02f537129a64ffbb690d5738d360c26" format="dita" scope="local"> Experience Cloud Requirements: Organization ID </a> </li> 
  <li> <a href="../mcvid-reference/mcvid-requirements.md#section-7d04bb013bc84a25bae3b148bc0ca25f" format="dita" scope="local"> Analytics Requirements: Regional Data Collection (RDC) </a> </li> 
  <li> <a href="../mcvid-reference/mcvid-requirements.md#section-ad7542a4317d430fa79fc6b095beb84d" format="dita" scope="local"> Code Libraries and Version Requirements </a> </li> 
- <li> <a href="../mcvid-reference/mcvid-requirements.md#section-73b2446fba8e463888642c7d7dfd94f1" format="dita" scope="local"> SDK Requirements for Android and iOS </a> </li> 
+ <li> <a href="../mcvid-reference/mcvid-requirements.md#section-73b2446fba8e463888642c7d7dfd94f1" format="dita" scope="local"> SDK Requirements for Android and iOS </a> </li>
 </ul>
 
 ## Requirements Ensure Implementation Success and Support {#section-15e54a9e9ad2443cb9dc950b4a78f1f1}
