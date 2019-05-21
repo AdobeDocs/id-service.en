@@ -76,7 +76,7 @@ To test your ID service implementation:
 * Check for the AMCV cookie in the domain where your page is hosted. 
 * Verify `mboxMCGVID` appears in your [!DNL Target] request and that it contains the [!DNL Experience Cloud] ID (MID).
 
-See [Cookies and the Experience Cloud ID Service](../mcvid-overview/mcvid-cookies.md#concept-37156268512445f287cd4bbb2839ffaa) for information about the AMCV cookie and the MID.
+See [Cookies and the Experience Cloud ID Service](../mcvid-introduction/mcvid-cookies.md#concept-37156268512445f287cd4bbb2839ffaa) for information about the AMCV cookie and the MID.
 
 **Deploy**
 

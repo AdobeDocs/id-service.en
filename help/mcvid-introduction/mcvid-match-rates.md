@@ -33,7 +33,7 @@ The ID service synchronizes IDs in real-time. This process works in the browser 
 
 **Step 1: Load page**
 
-When a visitor comes to your site and loads a page, the `Visitor.getInstance` function makes a [CORS](../mcvid-reference/mcvid-cors.md#concept-6c280446990d46d88ba9da15d2dcc758) or JSON-P call to the ID service. The ID service responds with a cookie that includes the visitor's [!DNL Experience Cloud] ID (MID). The MID is a unique ID assigned to each site visitor. See also, [Cookies and the Experience Cloud ID Service](../mcvid-overview/mcvid-cookies.md#concept-37156268512445f287cd4bbb2839ffaa).
+When a visitor comes to your site and loads a page, the `Visitor.getInstance` function makes a [CORS](../mcvid-reference/mcvid-cors.md#concept-6c280446990d46d88ba9da15d2dcc758) or JSON-P call to the ID service. The ID service responds with a cookie that includes the visitor's [!DNL Experience Cloud] ID (MID). The MID is a unique ID assigned to each site visitor. See also, [Cookies and the Experience Cloud ID Service](../mcvid-introduction/mcvid-cookies.md#concept-37156268512445f287cd4bbb2839ffaa).
 
 **Step 2: Load iFrame**
 
@@ -43,7 +43,7 @@ While the page body is loading, the ID service loads an iFrame called the *`Dest
 * Loads as fast as possible. If this is too fast, you can load the iFrame after the window load event (not recommended). See [idSyncAttachIframeOnWindowLoad](../mcvid-library/mcvid-function-vars/mcvid-idsyncattachiframeonwindowload.md#reference-b86b7112e0814a4c82c4e24c158508f4) for details. 
 * Prevents code in the iFrame from gaining access to or affecting the parent page.
 
-See also, [How the Experience Cloud ID Service Requests and Sets IDs...](../mcvid-overview/mcvid-id-request.md#concept-2caacebb1d244402816760e9b8bcef6a).
+See also, [How the Experience Cloud ID Service Requests and Sets IDs...](../mcvid-introduction/mcvid-id-request.md#concept-2caacebb1d244402816760e9b8bcef6a).
 
 **Step 3: Fire ID syncs**
 

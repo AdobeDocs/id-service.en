@@ -35,7 +35,7 @@ To sum up, the ID service:
 
 * Creates a common key or ID which can be used to link profiles and identities. 
 * Uniquely identifies a device across multiple solutions. 
-* Sets a first-party cookie in customer’s domain to ensure tracking on same domain. See [Experience Cloud](../mcvid-overview/mcvid-cookies.md#concept-37156268512445f287cd4bbb2839ffaa). 
+* Sets a first-party cookie in customer’s domain to ensure tracking on same domain. See [Experience Cloud](../mcvid-introduction/mcvid-cookies.md#concept-37156268512445f287cd4bbb2839ffaa). 
 * Receives aliases and ID mappings from [!DNL Experience Cloud] customers and partners. 
 * Manages ID synchronization within the [!DNL Experience Cloud]. 
 * Supports ID synchronization with different third-parties across the ad tech ecosystem.

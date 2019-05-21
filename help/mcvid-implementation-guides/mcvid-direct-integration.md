@@ -62,7 +62,7 @@ The ID service returns data in a JSON object as shown below. Your response may b
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> d_mid</span> </p> </td> 
-   <td colname="col2"> <p>The Experience Cloud visitor ID. See <a href="../mcvid-overview/mcvid-cookies.md#concept-37156268512445f287cd4bbb2839ffaa" format="dita" scope="local"> Cookies and the Experience Cloud ID Service</a>. </p> </td> 
+   <td colname="col2"> <p>The Experience Cloud visitor ID. See <a href="../mcvid-introduction/mcvid-cookies.md#concept-37156268512445f287cd4bbb2839ffaa" format="dita" scope="local"> Cookies and the Experience Cloud ID Service</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> d_orgid</span> </p> </td> 

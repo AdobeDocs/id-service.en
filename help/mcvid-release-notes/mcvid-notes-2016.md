@@ -49,7 +49,7 @@ October, 2016
 
 * Fixed a bug that passed Audience Manager unique user IDs (AAMUUIDs) as Experience Cloud IDs to the ID service. 
 * If time-to-live (TTL) for an AMCV cookie has expired, the ID service will still return that information to the server as long as the cookie contains a Experience Cloud ID. After this call, the ID service makes an asynchronous call to update the cookie. This helps improve performance because the ID service doesn't have to wait for a server response. It can use existing AMCV cookie values and then request an update. 
-* The ID service automatically synchronizes Experience Cloud IDs (MIDs) with Adobe Media Optimizer and other internal Adobe domains directly on the page. Automatic synchronization is enabled for all existing and new accounts. This helps improve match rates for Media Optimizer. Applies to VisitorAPI.js version 1.8, or higher. See also, [Understanding ID Synchronization and Match Rates](../mcvid-overview/mcvid-match-rates.md#concept-e55cf228b90c457fbee8c3cb06b195ab).
+* The ID service automatically synchronizes Experience Cloud IDs (MIDs) with Adobe Media Optimizer and other internal Adobe domains directly on the page. Automatic synchronization is enabled for all existing and new accounts. This helps improve match rates for Media Optimizer. Applies to VisitorAPI.js version 1.8, or higher. See also, [Understanding ID Synchronization and Match Rates](../mcvid-introduction/mcvid-match-rates.md#concept-e55cf228b90c457fbee8c3cb06b195ab).
 
 **New and Revised Documentation**
 
@@ -149,7 +149,7 @@ June, 2016
   </tr> 
   <tr> 
    <td colname="col1"> <p>Encoding the Experience Cloud ID (MID) </p> </td> 
-   <td colname="col2"> <p>The ID service encodes the MID value returned from the server or when it's set by the <span class="codeph"> visitor.setMarketingCloudVisitorID() </span> function. For more information about the MID, see <a href="../mcvid-overview/mcvid-cookies.md#concept-37156268512445f287cd4bbb2839ffaa" format="dita" scope="local"> Cookies and the Experience Cloud ID </a>. </p> </td> 
+   <td colname="col2"> <p>The ID service encodes the MID value returned from the server or when it's set by the <span class="codeph"> visitor.setMarketingCloudVisitorID() </span> function. For more information about the MID, see <a href="../mcvid-introduction/mcvid-cookies.md#concept-37156268512445f287cd4bbb2839ffaa" format="dita" scope="local"> Cookies and the Experience Cloud ID </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
