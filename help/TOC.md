@@ -9,12 +9,13 @@ user-guide: null
 
 + [Experience Cloud ID Service](mcvid-home.md)
 + Overview {#mcvid-introduction}
-   + [Overview](mcvid-introduction/mcvid-introduction.md)
+   + [Overview](mcvid-introduction/mcvid-overview.md)
    + [About the ID Service](mcvid-introduction/mcvid-about-id-service.md)
    + [Cookies and the Experience Cloud ID Service](mcvid-introduction/mcvid-cookies.md)
    + [How the Experience Cloud ID Service requests and sets IDs](mcvid-introduction/mcvid-id-request.md)
    + [Understanding ID synchronization and match rates](mcvid-introduction/mcvid-match-rates.md)
 + Implementation guides {#implementation-guides}
+   + [Implementation guides](mcvid-implementation-guides/mcvid-implementation-guides.md)
    + [Implementation methods](mcvid-implementation-guides/mcvid-implementation-methods.md)
    + [Implement with Launch](mcvid-implementation-guides/ecid-implement-with-launch.md)
    + [Implementation with Dynamic Tag Management](mcvid-implementation-guides/mcvid-standard.md)
@@ -26,7 +27,7 @@ user-guide: null
    + [Direct Integration with the Experience Cloud ID Service](mcvid-implementation-guides/mcvid-direct-integration.md)
    + [Direct Integration Use Cases](mcvid-implementation-guides/mcvid-direct-integration-examples.md)
    + [Test and verify the Experience Cloud ID Service](mcvid-implementation-guides/mcvid-test-verify.md)
-   + Opt-in Documentation {#opt-in}
+   + Opt-in Documentation {#opt-in-service}
       + [Opt-in Service overview](mcvid-implementation-guides/opt-in-service/mcvid-optin-overview.md)
       + [Setting up Opt-in Service](mcvid-implementation-guides/opt-in-service/getting-started.md)
       + [Validating Opt-in Service](mcvid-implementation-guides/opt-in-service/testing-optin-and-iab-plugin.md)

@@ -17,9 +17,9 @@ The Opt-in service is an extension of the [Experience Cloud ID (ECID)](https://m
 
 Using the Opt-in service, you can specify if a visitor can opt in to Adobe solutions at once, or present solutions in sequence for permissions. Once the approval process is complete and recorded by the customer, you can retrieve the CMP visitor approvals from all Adobe solutions.
 
-The Opt-in service is implemented and configured easily using [Adobe Launch](https://docs.adobelaunch.com/) with the [Opt-in extension](../../mcvid-implementation-guides/overview/launch.md#concept-a6d47f02fd594dcbac56b4434c13f558). It can also be implemented and configured using [DTM](../../mcvid-implementation-guides/overview/optin-dtm.md#concept-ae331b16415e4696b62171c1cc48c808).
+The Opt-in service is implemented and configured easily using [Adobe Launch](https://docs.adobelaunch.com/) with the [Opt-in extension](../../mcvid-implementation-guides/opt-in-service/launch.md#concept-a6d47f02fd594dcbac56b4434c13f558). It can also be implemented and configured using [DTM](../../mcvid-implementation-guides/opt-in-service/optin-dtm.md#concept-ae331b16415e4696b62171c1cc48c808).
 
-See the [Setting up Opt-in Service](../../mcvid-implementation-guides/overview/getting-started.md#concept-4dd4b337866e4f30af374e41e808a878) to get started.
+See the [Setting up Opt-in Service](../../mcvid-implementation-guides/opt-in-service/getting-started.md#concept-4dd4b337866e4f30af374e41e808a878) to get started.
 
 >[!NOTE]
 >

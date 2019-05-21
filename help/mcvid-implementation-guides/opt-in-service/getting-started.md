@@ -41,7 +41,7 @@ The Opt-in service lets you specify if a visitor can opt in to Adobe solutions a
 
 1. Your company's privacy requirements will be specific to how you choose to stay compliant with GDPR. Be aware of which libraries your company privacy teams are okay with using in a pre-consent state.
 
-If using [Adobe Launch](https://docs.adobelaunch.com/), take advantage of the [Opt-in extension](../../mcvid-implementation-guides/overview/launch.md#concept-a6d47f02fd594dcbac56b4434c13f558) to configure Opt-in service.
+If using [Adobe Launch](https://docs.adobelaunch.com/), take advantage of the [Opt-in extension](../../mcvid-implementation-guides/opt-in-service/launch.md#concept-a6d47f02fd594dcbac56b4434c13f558) to configure Opt-in service.
 
 ## Opt-in categories {#section-9ab0492ab4414f0ca16dc08d3a905f47}
 
@@ -62,9 +62,9 @@ adobe.OptInCategories = {
 <a id="section_CF9AB638780141C9B62DC57CF00B7047"></a>
 
 The Opt-in service lets you set visitors' permission preferences per each Adobe solution used on your site. It includes a library to save a visitor's settings by approved category and supports a sequential flow, where the approval process receives "confirm" or "deny" preferences for each category one at a time. You can set solutions/categories to opt in as a whole or as individual solutions. 
-All Adobe solutions' client-side libraries depend on the Opt-in service and will not generate cookies unless the solution has been granted permission. Opt-in supports various approaches for providing and updating the consent settings for the current visitor. This section provides examples to set Opt-in service preferences. See the [Opt-in API Reference](../../mcvid-implementation-guides/overview/api.md#reference-4f30152333dd4990ab10c1b8b82fc867) for complete list of functions and parameters.
+All Adobe solutions' client-side libraries depend on the Opt-in service and will not generate cookies unless the solution has been granted permission. Opt-in supports various approaches for providing and updating the consent settings for the current visitor. This section provides examples to set Opt-in service preferences. See the [Opt-in API Reference](../../mcvid-implementation-guides/opt-in-service/api.md#reference-4f30152333dd4990ab10c1b8b82fc867) for complete list of functions and parameters.
 
-Opt-in service configurations are provided in the Visitor JS `getInstance()` function which instantiates the global `adobe` object. The following lists the Visitor JS [configuration settings](../../mcvid-implementation-guides/overview/api.md#section-d66018342baf401389f248bb381becbf) for Opt-in service.
+Opt-in service configurations are provided in the Visitor JS `getInstance()` function which instantiates the global `adobe` object. The following lists the Visitor JS [configuration settings](../../mcvid-implementation-guides/opt-in-service/api.md#section-d66018342baf401389f248bb381becbf) for Opt-in service.
 
 **Example Opt-in configuration in initialization of the global `Visitor` object**
 
@@ -91,7 +91,7 @@ Visitor.getInstance("YOUR_ORG_ID", {
 
 **Handle changes to consent**
 
-At any time during a visitor's experience on your site, they may set preferences for the first time or may change their preferences using your CMP. Once Visitor JS has been initialized with initial settings, the visitor's permissions can be changed. See [Changes to Consent](../../mcvid-implementation-guides/overview/api.md#section-c3d85403ff0d4394bd775c39f3d001fc)for a list of managing consent functions.
+At any time during a visitor's experience on your site, they may set preferences for the first time or may change their preferences using your CMP. Once Visitor JS has been initialized with initial settings, the visitor's permissions can be changed. See [Changes to Consent](../../mcvid-implementation-guides/opt-in-service/api.md#section-c3d85403ff0d4394bd775c39f3d001fc)for a list of managing consent functions.
 
 <!--
 <p> *** <b>sample code block </b>*** </p>
@@ -107,11 +107,11 @@ adobe.optIn.deny(['ANALYTICS'], true);
 adobe.optIn.complete();
 ```
 
-See [Workflow configuration settings](../../mcvid-implementation-guides/overview/api.md#section-2c5adfa5459c4e72b96d2693123a53c2).  
+See [Workflow configuration settings](../../mcvid-implementation-guides/opt-in-service/api.md#section-2c5adfa5459c4e72b96d2693123a53c2).  
 
 ## Inspect your visitor's Opt-in permissions {#section-f136a9024e054d84881e6667fb7c94eb}
 
-As your visitors make changes to their permissions, you will need insight into the resulting permissions to sync your consent store with changes made in Opt-in service. Inspect your visitor's preferences using the [permissions functions](../../mcvid-implementation-guides/overview/api.md#section-7fe57279b5b44b4f8fe47e336df60155), for example:
+As your visitors make changes to their permissions, you will need insight into the resulting permissions to sync your consent store with changes made in Opt-in service. Inspect your visitor's preferences using the [permissions functions](../../mcvid-implementation-guides/opt-in-service/api.md#section-7fe57279b5b44b4f8fe47e336df60155), for example:
 
 **fetchPermissions sample**
 
@@ -135,7 +135,7 @@ function callback() {
 optIn.fetchPermissions(callback, true);
 ```
 
-See [API documentation](../../mcvid-implementation-guides/overview/api.md#reference-4f30152333dd4990ab10c1b8b82fc867) for more details on these and any functions, properties, or configurations mentioned in this document.
+See [API documentation](../../mcvid-implementation-guides/opt-in-service/api.md#reference-4f30152333dd4990ab10c1b8b82fc867) for more details on these and any functions, properties, or configurations mentioned in this document.
 
 ## Storing visitor preferences {#section-ef2884ae67e34879bf7c7c3372706c9f}
 

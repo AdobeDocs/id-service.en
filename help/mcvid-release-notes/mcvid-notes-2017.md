@@ -155,7 +155,7 @@ Release date: June, 2017
    <td colname="col2"> <p>Added links to <span class="keyword"> Audience Manager</span> documentation that describes calls to the <span class="codeph"> demdex.net</span> domain. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../mcvid-introduction/mcvid-match-rates.md#concept-e55cf228b90c457fbee8c3cb06b195ab" format="dita" scope="local"> Understanding ID Synchronization and Match Rates </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../mcvid-library/mcvid-function-vars/mcvid-subdomain-config.md" format="dita" scope="local"> Understanding ID Synchronization and Match Rates </a> </p> </td> 
    <td colname="col2"> <p>Revised <span class="keyword"> Media Optimizer</span> section to describe the call to <span class="codeph"> cm.eversttech.net</span>. This is the automatic ID sync that the ID service performs with <span class="keyword"> Media Optimizer</span>. This feature was released in January, 2017. See <a href="../mcvid-release-notes/mcvid-notes-2017.md#section-0ceac6007c1241b58ad607e2b76b2b7e" format="dita" scope="local"> Version 2.0</a> below. </p> </td> 
   </tr> 
  </tbody> 

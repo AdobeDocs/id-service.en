@@ -60,7 +60,7 @@ At any time during their experience on your site, a visitor may set preferences 
 
 **`adobe.optIn.approve(categories, shouldWaitForComplete)`**
 
-Function that approves, or opts the visitor in to all categories in a list. For more information on the shouldWaitForComplete parameter, see [Opt-in Workflow](../../mcvid-implementation-guides/overview/getting-started.md#section-70cd243dec834c8ea096488640ae20a5).
+Function that approves, or opts the visitor in to all categories in a list. For more information on the shouldWaitForComplete parameter, see [Opt-in Workflow](../../mcvid-implementation-guides/opt-in-service/getting-started.md#section-70cd243dec834c8ea096488640ae20a5).
 
 **`adobe.optIn.deny(categories, shouldWaitForComplete)`**
 

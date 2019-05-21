@@ -15,7 +15,7 @@ Sample use cases and solutions to manage the Opt-in service.
 
 ## Tips and Troubleshooting {#section-5c566366410f4a8f89eca0d3f556d99f}
 
-* Visitor JS initialize is synchronous and executes during page load. If you are interfacing with a CMP or permissions persistence that has a high latency, it might be preferable to use the asynchronous functions described in [Opt-in Setup](../../mcvid-implementation-guides/overview/getting-started.md#section-cf9ab638780141c9b62dc57cf00b7047). 
+* Visitor JS initialize is synchronous and executes during page load. If you are interfacing with a CMP or permissions persistence that has a high latency, it might be preferable to use the asynchronous functions described in [Opt-in Setup](../../mcvid-implementation-guides/opt-in-service/getting-started.md#section-cf9ab638780141c9b62dc57cf00b7047). 
 * Opt-in is a per-domain implementation. It will not handle cross-domain implementations. 
 * In order to disable third-party calls for a specific library, you will need to configure that preference in each library separately.
 
