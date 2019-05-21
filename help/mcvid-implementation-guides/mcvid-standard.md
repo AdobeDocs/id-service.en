@@ -21,7 +21,7 @@ Older implementations use Dynamic Tag Management (DTM) to set up, deploy, and in
 
 >[!NOTE]
 >
->Currently, [Launch, by Adobe](https://docs.adobelaunch.com/) is the preferred and recommended implementation tool because it helps simplify complex tag management tasks and automates code placement beyond the capabilities of DTM. See [Implement with Launch](../mcvid-implementation-guides/ecid-implement-with-launch.md#concept-1301442909fd48aaa85245351663a5db).
+>Currently, [Launch, by Adobe](https://docs.adobelaunch.com/) is the preferred and recommended implementation tool because it helps simplify complex tag management tasks and automates code placement beyond the capabilities of DTM. See [Implement with Launch](../mcvid-implementation-guides/ecid-implement-with-launch.md).
 
 ## Dynamic Tag Management and the ID Service {#section-4a4c4fac5d0a4cbbaff8e1833f73657c}
 
@@ -123,7 +123,7 @@ This is the ID required by and associated with your provisioned [!DNL Experience
 
 ![](assets/orgID.png)
 
-See also [Cookies and the Experience Cloud ID Service](../mcvid-introduction/mcvid-cookies.md#concept-37156268512445f287cd4bbb2839ffaa).
+See also [Cookies and the Experience Cloud ID Service](../mcvid-introduction/mcvid-cookies.md).
 
 ## General settings {#section-071d358e40f84629a8901b893dd61392}
 
@@ -137,7 +137,7 @@ The following table lists and defines the [!DNL General] settings.
 
 When checked, dynamic tag management to automatically calls the `getMarketingCloudVisitorID()` method before loading any of the Adobe solutions that use the Experience Cloud ID service.
 
-See [getMarketingCloudVisitorID](../mcvid-library/mcvid-get-set/mcvid-getmcvid.md#reference-7bcc9b5fe8e1430988d30657c60dba45).
+See [getMarketingCloudVisitorID](../mcvid-library/mcvid-get-set/mcvid-getmcvid.md).
 
 **Analytics Tracking Server**
 
@@ -169,7 +169,7 @@ Sets the version of the ID service code library ( `VisitorAPI.js`) that you want
 
 **Settings**
 
-These fields let you add [function variables](../mcvid-library/mcvid-function-vars/mcvid-function-vars.md#concept-acda6265e03446708636ad78c5fc4e59) as key-value pairs. Click **[!UICONTROL Add]** to add one or more variables to your ID service implementation.
+These fields let you add [function variables](../mcvid-library/mcvid-function-vars/mcvid-function-vars.md) as key-value pairs. Click **[!UICONTROL Add]** to add one or more variables to your ID service implementation.
 
 ![](assets/dtmVars.png)
 
@@ -193,7 +193,7 @@ The value should be a data element containing the user id. Data elements are sui
 
 **Auth State**
 
-Options that define or identify visitors according to their authentication status (e.g., logged in, logged out). See [Customer IDs and Authentication States](../mcvid-reference/mcvid-authenticated-state.md#concept-3402b7704d534321b7560592098b46fd). 
+Options that define or identify visitors according to their authentication status (e.g., logged in, logged out). See [Customer IDs and Authentication States](../mcvid-reference/mcvid-authenticated-state.md). 
 
 ## Test and verify the Experience Cloud ID Service {#concept-644fdbef433b46ba9c0634ac95eaa680}
 
@@ -219,7 +219,7 @@ The [Adobe debugger](https://marketing.adobe.com/resources/help/en_US/sc/impleme
 
 ## Testing with the Adobe Debugger {#section-861365abc24b498e925b3837ea81d469}
 
-Your service integration is configured properly when you see a [!DNL Experience Cloud ID] (MID) in the [!DNL Adobe] debugger response. See [Cookies and the Experience Cloud ID Service](../mcvid-introduction/mcvid-cookies.md#concept-37156268512445f287cd4bbb2839ffaa) for more information about the MID.
+Your service integration is configured properly when you see a [!DNL Experience Cloud ID] (MID) in the [!DNL Adobe] debugger response. See [Cookies and the Experience Cloud ID Service](../mcvid-introduction/mcvid-cookies.md) for more information about the MID.
 
 To verify the status of the ID service with the [!DNL Adobe] [debugger](https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger.html):
 

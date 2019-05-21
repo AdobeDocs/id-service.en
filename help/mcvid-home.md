@@ -17,8 +17,8 @@ The Experience Cloud ID Service (ID service) provides a universal, persistent ID
   <tr> 
    <td colname="col1"> <p> <b>Getting Started</b> </p> <p> 
      <ul id="ul_D5EC6A54A03F4AB595B588116A7C1296"> 
-      <li id="li_845F6DE25A1241439BCDCBC00459D7EB"> <a href="mcvid-introduction/mcvid-introduction.md#concept-f5a14de0a66f496587c73dc06391b278" format="dita" scope="local"> Overview </a> </li> 
-      <li id="li_47F399E1D4AF4F08BD647DF01A423BA7"> <a href="mcvid-reference/mcvid-requirements.md#concept-b9374b5db89a43ecb6e6ff7ed4b8de8b" format="dita" scope="local"> Requirements for the Experience Cloud ID Service </a> </li> 
+      <li id="li_845F6DE25A1241439BCDCBC00459D7EB"> <a href="mcvid-introduction/mcvid-overview.md" format="dita" scope="local"> Overview </a> </li> 
+      <li id="li_47F399E1D4AF4F08BD647DF01A423BA7"> <a href="mcvid-reference/mcvid-requirements.md" format="dita" scope="local"> Requirements for the Experience Cloud ID Service </a> </li> 
       <li id="li_CBEEE79B45644F28A52B58DDF23DAD4F"> <a href="mcvid-implementation-guides/mcvid-standard.md#concept-89cd0199a9634fc48644f2d61e3d2445" format="dita" scope="local"> Standard Implementation with DTM </a> </li> 
      </ul> </p> <p><b>Experience Cloud ID Javascript Libraries</b> </p> <p>JavaScript for the Experience Cloud ID service is located at: <a href="https://github.com/Adobe-Marketing-Cloud/id-service/releases" format="https" scope="external"> https://github.com/Adobe-Marketing-Cloud/id-service/releases</a> </p> <p> <b>New or Featured Items</b> </p> <p> 
      <ul id="ul_B0A25B6827734D55BB1E20D12334AC21"> 

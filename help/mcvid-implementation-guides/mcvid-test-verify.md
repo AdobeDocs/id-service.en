@@ -31,7 +31,7 @@ The [Adobe debugger](https://marketing.adobe.com/resources/help/en_US/sc/impleme
 
 ## Testing with the Adobe Debugger {#section-861365abc24b498e925b3837ea81d469}
 
-Your service integration is configured properly when you see a [!DNL Experience Cloud ID] (MID) in the [!DNL Adobe] debugger response. See [Cookies and the Experience Cloud ID Service](../mcvid-introduction/mcvid-cookies.md#concept-37156268512445f287cd4bbb2839ffaa) for more information about the MID.
+Your service integration is configured properly when you see a [!DNL Experience Cloud ID] (MID) in the [!DNL Adobe] debugger response. See [Cookies and the Experience Cloud ID Service](../mcvid-introduction/mcvid-cookies.md) for more information about the MID.
 
 To verify the status of the ID service with the [!DNL Adobe] [debugger](https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger.html):
 

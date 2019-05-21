@@ -45,13 +45,13 @@ August, 2015
 Documentation revisions in this release include:
 
 * [API Methods and Code Library](../mcvid-library/mcvid-library.md#concept-ff27497375644a898d47984aefb21c97): Reorganized content and text. In most cases, each method gets its own page. 
-* [Requirements for the Experience Cloud ID Service](../mcvid-reference/mcvid-requirements.md#concept-b9374b5db89a43ecb6e6ff7ed4b8de8b): Revised content and reorganized text.
+* [Requirements for the Experience Cloud ID Service](../mcvid-reference/mcvid-requirements.md): Revised content and reorganized text.
 
 ## Version 1.5 {#section-db5edfa11ae143ada07a96e0ab06dc57}
 
 July, 2015
 
-The [!DNL Experience Cloud] ID service supports multiple IDs and authentication states. This change also removes deprecated support for [!DNL Audience Manager] DPID mappings to user IDs used by the `setCustomerIDs` function. See [Customer IDs and Authentication States](../mcvid-reference/mcvid-authenticated-state.md#concept-3402b7704d534321b7560592098b46fd)
+The [!DNL Experience Cloud] ID service supports multiple IDs and authentication states. This change also removes deprecated support for [!DNL Audience Manager] DPID mappings to user IDs used by the `setCustomerIDs` function. See [Customer IDs and Authentication States](../mcvid-reference/mcvid-authenticated-state.md)
 
 ## Version 1.4 {#section-f5c596f355b14da28f45c798df513572}
 

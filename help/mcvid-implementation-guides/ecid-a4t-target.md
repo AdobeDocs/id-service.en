@@ -36,7 +36,7 @@ The diagram and sections below describe what happens, and what you need to confi
 
 ## Step 1: Request page {#section-c12e82633bc94e8b8a65747115d0dda8}
 
-Server-side activity begins when a visitor makes an HTTP request to load a web page. During this step, your server receives this request and checks for the [AMCV cookie](../mcvid-introduction/mcvid-cookies.md#concept-37156268512445f287cd4bbb2839ffaa). The AMCV cookie contains the visitor's [!DNL Experience Cloud] ID (MID).
+Server-side activity begins when a visitor makes an HTTP request to load a web page. During this step, your server receives this request and checks for the [AMCV cookie](../mcvid-introduction/mcvid-cookies.md). The AMCV cookie contains the visitor's [!DNL Experience Cloud] ID (MID).
 
 ## Step 2: Generate ID Service payload {#section-c86531863db24bd9a5b761c1a2e0d964}
 
@@ -49,7 +49,7 @@ Next, you need make a server-side *`payload request`* to the ID service. A paylo
 >
 >This method requests a single mbox from [!DNL Target]. If you need to request multiple mboxes in a single call, see [generateBatchPayload](https://www.npmjs.com/package/@adobe-mcid/visitor-js-server#generatebatchpayload).
 
-Your payload request should look like following code sample. In the code sample, the `visitor.setCustomerIDs` function is optional. See [Customer IDs and Authentication States](../mcvid-reference/mcvid-authenticated-state.md#concept-3402b7704d534321b7560592098b46fd) for more information.
+Your payload request should look like following code sample. In the code sample, the `visitor.setCustomerIDs` function is optional. See [Customer IDs and Authentication States](../mcvid-reference/mcvid-authenticated-state.md) for more information.
 
 ```js
 //Import the ID service server package 

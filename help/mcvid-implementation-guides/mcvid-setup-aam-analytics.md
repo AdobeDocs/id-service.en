@@ -17,7 +17,7 @@ These instructions are for Analytics and Audience Manager customers who want to 
 
 >[!IMPORTANT]
 >
->* [Read the requirements](../mcvid-reference/mcvid-requirements.md#concept-b9374b5db89a43ecb6e6ff7ed4b8de8b) before you begin. 
+>* [Read the requirements](../mcvid-reference/mcvid-requirements.md) before you begin. 
 >* This procedure requires AppMeasurement. Customers using s_code cannot complete this procedure. 
 >* Configure and test this code in a development environment before implementing it in production. 
 >
@@ -177,7 +177,7 @@ You need a grace period if you require new visitors to have an s_vi cookie after
 
 Discontinue the grace period after your implementation can capture the MID instead of reading the s_vi cookie.
 
-See also, [Cookies and the Experience Cloud ID Service](../mcvid-introduction/mcvid-cookies.md#concept-37156268512445f287cd4bbb2839ffaa).
+See also, [Cookies and the Experience Cloud ID Service](../mcvid-introduction/mcvid-cookies.md).
 
 **Clickstream Data Integration**
 
@@ -195,7 +195,7 @@ You can test and deploy as follows.
 
 To test your ID service implementation, check for the:
 
-* [AMCV cookie](../mcvid-introduction/mcvid-cookies.md#concept-37156268512445f287cd4bbb2839ffaa) in the domain where you pages is hosted. 
+* [AMCV cookie](../mcvid-introduction/mcvid-cookies.md) in the domain where you pages is hosted. 
 * MID value in the Analytics image request with the [Adobe debugger](https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger.html). 
 * See also, [Test and Verify the Experience Cloud ID Service](../mcvid-implementation-guides/mcvid-test-verify.md#concept-644fdbef433b46ba9c0634ac95eaa680).
 

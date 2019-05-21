@@ -17,7 +17,7 @@ These instructions are for Analytics customers who want to use the Experience Cl
 
 >[!IMPORTANT]
 >
->* [Read the requirements](../mcvid-reference/mcvid-requirements.md#concept-b9374b5db89a43ecb6e6ff7ed4b8de8b) before you begin. 
+>* [Read the requirements](../mcvid-reference/mcvid-requirements.md) before you begin. 
 >* Configure and test this code in a development environment before implementing it in production. 
 >
 
@@ -174,7 +174,7 @@ You need a grace period if you require new visitors to have an s_vi cookie after
 
 Discontinue the grace period after your implementation can capture the MID instead of reading the s_vi cookie.
 
-See, [Cookies and the Experience Cloud ID Service](../mcvid-introduction/mcvid-cookies.md#concept-37156268512445f287cd4bbb2839ffaa).
+See, [Cookies and the Experience Cloud ID Service](../mcvid-introduction/mcvid-cookies.md).
 
 You need a grace period if you send data to an internal system from a Clickstream data feed and that processes uses the `visid_high` and `visid_low` columns.
 
@@ -192,7 +192,7 @@ You can test and deploy as follows.
 
 To test your ID service implementation, check for the:
 
-* [AMCV cookie](../mcvid-introduction/mcvid-cookies.md#concept-37156268512445f287cd4bbb2839ffaa) in the domain where your page is hosted. 
+* [AMCV cookie](../mcvid-introduction/mcvid-cookies.md) in the domain where your page is hosted. 
 * MID value in the [!DNL Analytics] image request with the [Adobe debugger tool](https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger.html).
 
 See, [Test and Verify the Experience Cloud ID Service](../mcvid-implementation-guides/mcvid-test-verify.md#concept-644fdbef433b46ba9c0634ac95eaa680).

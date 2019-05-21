@@ -17,7 +17,7 @@ Instructions and code samples for standard and non-standard implementations of t
 
 >[!IMPORTANT]
 >
->Be sure to read and understand the [ID service requirements](../mcvid-reference/mcvid-requirements.md#concept-b9374b5db89a43ecb6e6ff7ed4b8de8b) before getting started with these procedures.
+>Be sure to read and understand the [ID service requirements](../mcvid-reference/mcvid-requirements.md) before getting started with these procedures.
 
 ## Standard implementation {#section-ea1e5270f2184f85a2e85214a6ac60cb}
 

@@ -33,7 +33,7 @@ The ID service synchronizes IDs in real-time. This process works in the browser 
 
 **Step 1: Load page**
 
-When a visitor comes to your site and loads a page, the `Visitor.getInstance` function makes a [CORS](../mcvid-reference/mcvid-cors.md#concept-6c280446990d46d88ba9da15d2dcc758) or JSON-P call to the ID service. The ID service responds with a cookie that includes the visitor's [!DNL Experience Cloud] ID (MID). The MID is a unique ID assigned to each site visitor. See also, [Cookies and the Experience Cloud ID Service](../mcvid-introduction/mcvid-cookies.md#concept-37156268512445f287cd4bbb2839ffaa).
+When a visitor comes to your site and loads a page, the `Visitor.getInstance` function makes a [CORS](../mcvid-reference/mcvid-cors.md#concept-6c280446990d46d88ba9da15d2dcc758) or JSON-P call to the ID service. The ID service responds with a cookie that includes the visitor's [!DNL Experience Cloud] ID (MID). The MID is a unique ID assigned to each site visitor. See also, [Cookies and the Experience Cloud ID Service](../mcvid-introduction/mcvid-cookies.md).
 
 **Step 2: Load iFrame**
 

@@ -17,7 +17,7 @@ setCustomerIDs sets 1 or more key-value pairs that define customer IDs and their
 
  **Syntax:** `visitor.setCustomerIDs()`
 
-You can set single or multiple IDs as shown in the code sample below. See [Customer IDs and Authentication States](../../mcvid-reference/mcvid-authenticated-state.md#concept-3402b7704d534321b7560592098b46fd) for more information and examples.
+You can set single or multiple IDs as shown in the code sample below. See [Customer IDs and Authentication States](../../mcvid-reference/mcvid-authenticated-state.md) for more information and examples.
 
 ```js
 // Single ID with a single authentication state 

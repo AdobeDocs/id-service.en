@@ -69,7 +69,7 @@ August, 2016
 
 **Fixes and Improvements**
 
-* Added `idSyncAttachIframeOnWindowLoad` as an optional boolean flag you can set in the `Visitor.getInstance` function. When `idSyncAttachIframeOnWindowLoad= true`, the ID service loads the ID synchronization iFrame on window load. By default, the ID service loads the iFrame as fast as possible. This flag *replaces* `idSyncAttachIframeASAP`, which is deprecated. See [Visitor.getInstance Function Variables](../mcvid-library/mcvid-function-vars/mcvid-function-vars.md#concept-acda6265e03446708636ad78c5fc4e59). 
+* Added `idSyncAttachIframeOnWindowLoad` as an optional boolean flag you can set in the `Visitor.getInstance` function. When `idSyncAttachIframeOnWindowLoad= true`, the ID service loads the ID synchronization iFrame on window load. By default, the ID service loads the iFrame as fast as possible. This flag *replaces* `idSyncAttachIframeASAP`, which is deprecated. See [Visitor.getInstance Function Variables](../mcvid-library/mcvid-function-vars/mcvid-function-vars.md). 
 
 * Added functionality to support tracking [!DNL Experience Cloud] IDs across domains, native apps and hybrid apps to web transitions. See [Append Visitor ID Helper Function](../mcvid-library/mcvid-get-set/mcvid-appendvisitorid.md#reference-ff167ef19e37433fb08ac2b5a86229ce). 
 
@@ -77,7 +77,7 @@ August, 2016
 
 **New and Revised Documentation**
 
-Revised: [Requirements for the Experience Cloud ID Service](../mcvid-reference/mcvid-requirements.md#concept-b9374b5db89a43ecb6e6ff7ed4b8de8b)
+Revised: [Requirements for the Experience Cloud ID Service](../mcvid-reference/mcvid-requirements.md)
 
 **Known Issues**
 
@@ -114,10 +114,10 @@ July, 2016
 * Added a `d_fieldgroup` parameter to ID synchronization calls to `dpm.demdex.net`. This new parameter is used for internal troubleshooting and debugging purposes. 
 
 * Added a title attribute to the ID service iFrame. An iFrame title helps screen readers provide page information to users who require assistance when interacting with online content. The iFrame title attribute is set to `Adobe ID Syncing iFrame`. 
-* Added `idSyncAttachIframeASAP: true` as an optional flag you can set in the `Visitor.getInstance` function. When `true`, the ID service loads the ID synchronization iFrame as fast as possible. This is designed to help improve ID synchronization match rates. By default, the ID service loads the iFrame on window load. See [Visitor.getInstance Function Variables](../mcvid-library/mcvid-function-vars/mcvid-function-vars.md#concept-acda6265e03446708636ad78c5fc4e59). 
+* Added `idSyncAttachIframeASAP: true` as an optional flag you can set in the `Visitor.getInstance` function. When `true`, the ID service loads the ID synchronization iFrame as fast as possible. This is designed to help improve ID synchronization match rates. By default, the ID service loads the iFrame on window load. See [Visitor.getInstance Function Variables](../mcvid-library/mcvid-function-vars/mcvid-function-vars.md). 
 
 * Fixed a bug with a callback function that caused AppMeasurement to get stuck in an infinite loop. 
-* Changed the default `loadTimeout` interval to 30,000 milliseconds (from 500 milliseconds). See [Visitor.getInstance Function Variables](../mcvid-library/mcvid-function-vars/mcvid-function-vars.md#concept-acda6265e03446708636ad78c5fc4e59).
+* Changed the default `loadTimeout` interval to 30,000 milliseconds (from 500 milliseconds). See [Visitor.getInstance Function Variables](../mcvid-library/mcvid-function-vars/mcvid-function-vars.md).
 
 **New and Revised Documentation**
 
@@ -128,7 +128,7 @@ July, 2016
 
 **Revised**
 
-* [Requirements for the Experience Cloud ID Service](../mcvid-reference/mcvid-requirements.md#concept-b9374b5db89a43ecb6e6ff7ed4b8de8b) 
+* [Requirements for the Experience Cloud ID Service](../mcvid-reference/mcvid-requirements.md) 
 * [Test and Verify the Experience Cloud ID Service](../mcvid-implementation-guides/mcvid-test-verify.md#concept-644fdbef433b46ba9c0634ac95eaa680)
 
 ## Version 1.5.7 {#section-735b4989a5744a42aeb2d97602dbda62}
@@ -149,7 +149,7 @@ June, 2016
   </tr> 
   <tr> 
    <td colname="col1"> <p>Encoding the Experience Cloud ID (MID) </p> </td> 
-   <td colname="col2"> <p>The ID service encodes the MID value returned from the server or when it's set by the <span class="codeph"> visitor.setMarketingCloudVisitorID() </span> function. For more information about the MID, see <a href="../mcvid-introduction/mcvid-cookies.md#concept-37156268512445f287cd4bbb2839ffaa" format="dita" scope="local"> Cookies and the Experience Cloud ID </a>. </p> </td> 
+   <td colname="col2"> <p>The ID service encodes the MID value returned from the server or when it's set by the <span class="codeph"> visitor.setMarketingCloudVisitorID() </span> function. For more information about the MID, see <a href="../mcvid-introduction/mcvid-cookies.md" format="dita" scope="local"> Cookies and the Experience Cloud ID </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -220,7 +220,7 @@ January, 2016
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="../mcvid-reference/mcvid-authenticated-state.md#concept-3402b7704d534321b7560592098b46fd" format="dita" scope="local"> Customer IDs and Authentication States </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../mcvid-reference/mcvid-authenticated-state.md" format="dita" scope="local"> Customer IDs and Authentication States </a> </p> </td> 
    <td colname="col2"> <p>Revised text. Customer IDs must be passed in as un-encoded values only. Encoding IDs will create double-encoded identifiers. </p> </td> 
   </tr> 
  </tbody> 

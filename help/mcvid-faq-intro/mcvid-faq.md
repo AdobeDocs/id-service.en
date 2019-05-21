@@ -19,7 +19,7 @@ Frequently asked questions about features, functionality, and issues related to 
 
 **What sort of functionality or capabilities does the ID service provide?**
 
-See the [Overview](../mcvid-introduction/mcvid-introduction.md#concept-f5a14de0a66f496587c73dc06391b278).
+See the [Overview](../mcvid-introduction/mcvid-overview.md).
 
 **Why is the ID service not making a call to retrieve the Experience Cloud ID?**
 
@@ -43,7 +43,7 @@ For [!DNL Target] customers, placing ID service code in the `<body>` of the page
 
 No, this call will only happen the first time the page renders and once every 7 days thereafter. In the meantime, server calls are not required. The ID service operates in client-side mode and does not need to make a server call to return an ID.
 
-See [Overview](../mcvid-introduction/mcvid-introduction.md#concept-f5a14de0a66f496587c73dc06391b278).
+See [Overview](../mcvid-introduction/mcvid-overview.md).
 
 **When using the ID service, what can cause slow page load times or affect the user experience?**
 

@@ -17,7 +17,7 @@ These instructions are for Analytics, Audience Manager, and Target customers who
 
 >[!IMPORTANT]
 >
->Read the ID service [requirements](../mcvid-reference/mcvid-requirements.md#concept-b9374b5db89a43ecb6e6ff7ed4b8de8b) before you begin and note the following requirements that are specific to this implementation: >
+>Read the ID service [requirements](../mcvid-reference/mcvid-requirements.md) before you begin and note the following requirements that are specific to this implementation: >
 >* Customers using s_code cannot complete this procedure. Upgrade to mbox code v61 to complete this procedure. 
 >* Configure and test this code in a development environment *before* you implement it in production. 
 >
@@ -176,7 +176,7 @@ You need a grace period if you require new visitors to have an s_vi cookie after
 
 Discontinue the grace period after your implementation can capture the MID instead of reading the s_vi cookie.
 
-See also, [Cookies and the Experience Cloud ID Service](../mcvid-introduction/mcvid-cookies.md#concept-37156268512445f287cd4bbb2839ffaa).
+See also, [Cookies and the Experience Cloud ID Service](../mcvid-introduction/mcvid-cookies.md).
 
 **Clickstream Data Integration**
 
@@ -198,7 +198,7 @@ The [!DNL Experience Cloud] solutions in this implementation return IDs in the f
 
 Check for the:
 
-* [AMCV cookie](../mcvid-introduction/mcvid-cookies.md#concept-37156268512445f287cd4bbb2839ffaa) in the domain where you page is hosted. 
+* [AMCV cookie](../mcvid-introduction/mcvid-cookies.md) in the domain where you page is hosted. 
 * [!DNL Experience Cloud] ID (MID) with the [!DNL Adobe] debugger or your preferred debugging tool.
 
 For additional checks that help you determine if the ID service is working properly, see [Test and Verify the Experience Cloud ID Service](../mcvid-implementation-guides/mcvid-test-verify.md#concept-644fdbef433b46ba9c0634ac95eaa680).
