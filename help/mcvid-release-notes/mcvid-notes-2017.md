@@ -134,7 +134,7 @@ Release date: June, 2017
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="../mcvid-faq-intro/mcvid-faq.md#concept-9683f998e26a411382c2decc664ded78" format="dita" scope="local"> FAQ </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../mcvid-faq-intro/mcvid-faq.md" format="dita" scope="local"> FAQ </a> </p> </td> 
    <td colname="col2"> <p>Updated the <span class="keyword"> Analytics</span> section with information on how to find tracking server information. </p> </td> 
   </tr> 
  </tbody> 

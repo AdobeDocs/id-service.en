@@ -131,7 +131,7 @@ To determine which tracking server variables to use:
 * Experience Cloud server URL = tracking server URL 
 * Experience Cloud server secure URL = tracking server secure URL
 
-If you're not sure how to find your tracking server see the [FAQ](../mcvid-faq-intro/mcvid-faq.md#concept-9683f998e26a411382c2decc664ded78) and [Correctly Populate the trackingServer and trackingServerSecure variables](https://helpx.adobe.com/analytics/kb/determining-data-center.html#).
+If you're not sure how to find your tracking server see the [FAQ](../mcvid-faq-intro/mcvid-faq.md) and [Correctly Populate the trackingServer and trackingServerSecure variables](https://helpx.adobe.com/analytics/kb/determining-data-center.html#).
 
 ## Step 6: Update your AppMeasurement.js file {#section-5517e94a09bc44dfb492ebca14b43048}
 
