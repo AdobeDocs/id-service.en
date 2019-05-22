@@ -48,7 +48,7 @@ You will see the `aid` parameter in a query string when:
 
 **Case 2**
 
-You will see the `aid` parameter in a query string when your organization is using a [grace period](../../mcvid-reference/mcvid-analytics-reference/mcvid-grace-period.md#concept-e4c0d796412b4985badae11e5aecb2fd) before fully implementing the ID service. If the user visiting your site is new, and you're not using a grace period, the visitor will get the `mid` ( [!DNL Experience Cloud] ID) parameter. 
+You will see the `aid` parameter in a query string when your organization is using a [grace period](../../mcvid-reference/mcvid-analytics-reference/mcvid-grace-period.md) before fully implementing the ID service. If the user visiting your site is new, and you're not using a grace period, the visitor will get the `mid` ( [!DNL Experience Cloud] ID) parameter. 
 
 >[!MORE_LIKE_THIS]
 >

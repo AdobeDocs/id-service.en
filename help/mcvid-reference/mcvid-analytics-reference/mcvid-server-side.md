@@ -15,7 +15,7 @@ snippet: y
 
 In some implementations, visitor IDs are passed from JavaScript to a server so that additional Analytics events (such as a purchase) can be sent by the server.
 
-The ID service API provides the methods, [getMarketingCloudVisitorID](../../mcvid-library/mcvid-get-set/mcvid-getmcvid.md) and [getAnalyticsVisitorID](../../mcvid-library/mcvid-get-set/mcvid-getanalyticsvisitorid.md#reference-2c1c991ea7764357bfdd04549971fbf9), to retrieve the ID values that can then be passed to the server.
+The ID service API provides the methods, [getMarketingCloudVisitorID](../../mcvid-library/mcvid-get-set/mcvid-getmcvid.md) and [getAnalyticsVisitorID](../../mcvid-library/mcvid-get-set/mcvid-getanalyticsvisitorid.md), to retrieve the ID values that can then be passed to the server.
 
 Make sure you check for both the Experience Cloud visitor ID and the Analytics visitor ID, and send both IDs (if present) to make sure any data sent is associated with the existing Analytics visitor profile.
 

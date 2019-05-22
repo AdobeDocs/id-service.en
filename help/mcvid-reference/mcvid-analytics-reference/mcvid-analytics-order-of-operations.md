@@ -34,7 +34,7 @@ In many scenarios you might see 2 or 3 different IDs on a call, but Analytics wi
   <tr> 
    <td colname="col1"> <p> <b>2<sup>nd</sup></b> </p> </td> 
    <td colname="col2"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visid_analytics" format="http" scope="external"> aid (s_vi cookie)</a> </p> </td> 
-   <td colname="col3"> <p>The visitor had an existing s_vi cookie before you deployed the <span class="keyword"> Experience Cloud</span> ID service, or you have a <a href="../../mcvid-reference/mcvid-analytics-reference/mcvid-grace-period.md#concept-e4c0d796412b4985badae11e5aecb2fd" format="dita" scope="local"> grace period</a> configured. </p> </td> 
+   <td colname="col3"> <p>The visitor had an existing s_vi cookie before you deployed the <span class="keyword"> Experience Cloud</span> ID service, or you have a <a href="../../mcvid-reference/mcvid-analytics-reference/mcvid-grace-period.md" format="dita" scope="local"> grace period</a> configured. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>3<sup>rd</sup></b> </p> </td> 

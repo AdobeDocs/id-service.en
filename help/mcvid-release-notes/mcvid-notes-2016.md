@@ -129,7 +129,7 @@ July, 2016
 **Revised**
 
 * [Requirements for the Experience Cloud ID Service](../mcvid-reference/mcvid-requirements.md) 
-* [Test and Verify the Experience Cloud ID Service](../mcvid-implementation-guides/mcvid-test-verify.md#concept-644fdbef433b46ba9c0634ac95eaa680)
+* [Test and Verify the Experience Cloud ID Service](../mcvid-implementation-guides/mcvid-test-verify.md)
 
 ## Version 1.5.7 {#section-735b4989a5744a42aeb2d97602dbda62}
 
@@ -166,7 +166,7 @@ May, 2016
 
 * [SDK Requirements for Android and iOS](../mcvid-reference/mcvid-requirements.md#section-73b2446fba8e463888642c7d7dfd94f1) 
 * [Data Workbench and the Experience Cloud ID Service](../mcvid-reference/mcvid-dwb.md#task-72df50a051944a47b01b0c0bc3d1e1d8) 
-* [Test and Verify the Experience Cloud ID Service](../mcvid-implementation-guides/mcvid-test-verify.md#concept-644fdbef433b46ba9c0634ac95eaa680)
+* [Test and Verify the Experience Cloud ID Service](../mcvid-implementation-guides/mcvid-test-verify.md)
 
 ## Version 1.5.x {#section-0cfeef085cff4cbc8dff6cbc6fc32920}
 

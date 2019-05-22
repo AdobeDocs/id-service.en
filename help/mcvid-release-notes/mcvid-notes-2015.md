@@ -38,7 +38,7 @@ August, 2015
   This only affected a few clients that met *all* of the following criteria:
 
     * Using the ID service. 
-    * Enabled a [grace period](../mcvid-reference/mcvid-analytics-reference/mcvid-grace-period.md#concept-e4c0d796412b4985badae11e5aecb2fd)*or* are using first-party cookies and users block third-party cookies. 
+    * Enabled a [grace period](../mcvid-reference/mcvid-analytics-reference/mcvid-grace-period.md)*or* are using first-party cookies and users block third-party cookies. 
     
     * Have pages with multi-part, top-level domains.
 

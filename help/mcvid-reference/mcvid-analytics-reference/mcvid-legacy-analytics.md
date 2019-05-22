@@ -41,7 +41,7 @@ If the [!DNL Experience Cloud] (AMCV) cookie is not present, then an ID service 
     <ul id="ul_BE584810280D4874AF802A9247011787"> 
      <li id="li_AA395B09A3174AF78F3EC10053E2E4F5">Writes the <span class="keyword"> Analytics</span> ID stored in the s_vi cookie to the AMCV cookie. This is written as the <span class="keyword"> Analytics</span> ID (AID). This action <i>does not</i> affect your visitor counts. <span class="keyword"> Analytics</span> will continue to identify users with their legacy IDs. </li> 
      <li id="li_8735DE21FEA542BA8024109B8FE1E2ED">Writes the MID to the AMCV cookie. The MID identifies users across different solutions. </li> 
-    </ul> <p> <p>Note: With a <a href="../../mcvid-reference/mcvid-analytics-reference/mcvid-grace-period.md#concept-e4c0d796412b4985badae11e5aecb2fd" format="dita" scope="local"> grace period</a>, the data center response always includes a legacy ID that is stored in the s_vi cookie. During the grace period, the legacy ID is written to the AMCV cookie as the AID value. </p> </p> </td> 
+    </ul> <p> <p>Note: With a <a href="../../mcvid-reference/mcvid-analytics-reference/mcvid-grace-period.md" format="dita" scope="local"> grace period</a>, the data center response always includes a legacy ID that is stored in the s_vi cookie. During the grace period, the legacy ID is written to the AMCV cookie as the AID value. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>

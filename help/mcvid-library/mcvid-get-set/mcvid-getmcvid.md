@@ -31,5 +31,5 @@ var mcID = visitor.getMarketingCloudVisitorID(useMarketingClouidID)
 
 >[!TIP]
 >
->If you're an [!DNL Analytics] customer, also check for and send the [!DNL Analytics] ID to your function. For example, you would want both identifiers when passing the visitor ID in a hidden form element to a server-side application that uses the data insertion API. In this case, you should collect and return the [!DNL Experience Cloud] and [!DNL Analytics] visitor IDs. See [Get Analytics Visitor ID](../../mcvid-library/mcvid-get-set/mcvid-getanalyticsvisitorid.md#reference-2c1c991ea7764357bfdd04549971fbf9).
+>If you're an [!DNL Analytics] customer, also check for and send the [!DNL Analytics] ID to your function. For example, you would want both identifiers when passing the visitor ID in a hidden form element to a server-side application that uses the data insertion API. In this case, you should collect and return the [!DNL Experience Cloud] and [!DNL Analytics] visitor IDs. See [Get Analytics Visitor ID](../../mcvid-library/mcvid-get-set/mcvid-getanalyticsvisitorid.md).
 

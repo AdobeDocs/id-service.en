@@ -163,7 +163,7 @@ Place the ` [!DNL VisitorAPI.js]` file within the `<head>` tags on each page. Wh
 
 ## Step 8: (Optional) Configure a grace period {#section-aceacdb7d5794f25ac6ff46f82e148e1}
 
-If any of these use cases apply to your situation, ask [Customer Care](https://helpx.adobe.com/marketing-cloud/contact-support.html) to set up a temporary [grace period](../mcvid-reference/mcvid-analytics-reference/mcvid-grace-period.md#concept-e4c0d796412b4985badae11e5aecb2fd). Grace periods can run for up to 180-days. You can renew a grace period if required.
+If any of these use cases apply to your situation, ask [Customer Care](https://helpx.adobe.com/marketing-cloud/contact-support.html) to set up a temporary [grace period](../mcvid-reference/mcvid-analytics-reference/mcvid-grace-period.md). Grace periods can run for up to 180-days. You can renew a grace period if required.
 
 **Partial Implementation**
 
@@ -197,7 +197,7 @@ To test your ID service implementation, check for the:
 
 * [AMCV cookie](../mcvid-introduction/mcvid-cookies.md) in the domain where you pages is hosted. 
 * MID value in the Analytics image request with the [Adobe debugger](https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger.html). 
-* See also, [Test and Verify the Experience Cloud ID Service](../mcvid-implementation-guides/mcvid-test-verify.md#concept-644fdbef433b46ba9c0634ac95eaa680).
+* See also, [Test and Verify the Experience Cloud ID Service](../mcvid-implementation-guides/mcvid-test-verify.md).
 
 To verify server-side forwarding, see [How to Verify your Server-Side Forwarding Implementation](https://marketing.adobe.com/resources/help/en_US/reference/ssf-verify.html).
 

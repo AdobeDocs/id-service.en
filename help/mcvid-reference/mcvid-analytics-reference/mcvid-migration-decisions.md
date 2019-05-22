@@ -87,7 +87,7 @@ If you have multiple Analytics JavaScript files or Flash applications or videos 
      <li id="li_4366CC8EB7A54A959568E3761ABBBF23">Multiple Analytics Javascript files </li> 
      <li id="li_B8A8132019EA48088E4F37E36F153D76">Other Data collection methods </li> 
     </ul> </td> 
-   <td colname="col2"> <p>You should configure a visitor ID service grace period so that you can roll out the visitor ID service to each JavaScript file and other data collection libraries. See <a href="../../mcvid-reference/mcvid-analytics-reference/mcvid-grace-period.md#concept-e4c0d796412b4985badae11e5aecb2fd" format="dita" scope="local"> ID Service Grace Period</a>. </p> </td> 
+   <td colname="col2"> <p>You should configure a visitor ID service grace period so that you can roll out the visitor ID service to each JavaScript file and other data collection libraries. See <a href="../../mcvid-reference/mcvid-analytics-reference/mcvid-grace-period.md" format="dita" scope="local"> ID Service Grace Period</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>A single Analytics JavaScript file </p> </td> 

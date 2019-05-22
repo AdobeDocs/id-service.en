@@ -74,7 +74,7 @@ August, 2017
 
 **Revised Documentation**
 
-Updated and revised the [FAQs](/help/mcvid-faq-intro/mcvid-faq-intro.md#concept-9683f998e26a411382c2decc664ded78) to include separate FAQs for different [!DNL Experience Cloud] solutions.
+Updated and revised the [FAQs](/help/mcvid-faq-intro/mcvid-faq-intro.md) to include separate FAQs for different [!DNL Experience Cloud] solutions.
 
 ## Version 2.3 {#section-ae7b1cb1e52e4ca5a46b453a3ba1f571}
 
