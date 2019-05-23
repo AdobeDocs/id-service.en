@@ -91,8 +91,6 @@ Function that triggers the aggregation of the proceeding calls to approve() and 
 
 Collect Opt-in permissions for a visitor at any time using one of the permissions functions:
 
-<a id="section_BFDCAE5663BE4535809D9948C3D87F7C"></a>
-
 `adobe.optIn.permissions`
 
 An object listing all Experience Cloud solutions, as categories, that have been granted or denied by the visitor.
