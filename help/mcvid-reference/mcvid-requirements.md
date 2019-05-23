@@ -126,7 +126,7 @@ The following sections list the minimum code versions that are required to use t
    <td colname="col4"> <p>H.27 </p> <p> <p>Note:  <span class="keyword"> Analytics</span> s_code version H.27 is no longer supported with the release of the ID service version 1.6.0. Upgrade your code to the latest version of AppMeasurement. </p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col3"> <p>Video Heartbeat </p> <p>See <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/js_2.0/" format="https" scope="external"> Video Heartbeat 2.x for JavaScript</a>. </p> </td> 
+   <td colname="col3"> <p>Video Heartbeat </p> <p>See <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/index.html" format="https" scope="external"> Video Heartbeat 2.x for JavaScript</a>. </p> </td> 
    <td colname="col4"> <p>2.0 </p> </td> 
   </tr> 
   <tr> 
