@@ -151,7 +151,7 @@ True or false depending on status value. Opt-in might report a false for this pr
 
 Check if one or more categories is approved by the customer.
 
-** `isPreApproved(categories)`**
+**`isPreApproved(categories)`**
 
 Check if one or more categories were pre approved by the customer. (If they were passed in the `preOptInApprovals` config).
 

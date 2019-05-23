@@ -1,5 +1,5 @@
 ---
-description: Review this section to make sure you're using the right solutions, services, and code versions required by the Experience Cloud ID service.
+description: Review this section to make sure you are using the right solutions, services, and code versions required by the Experience Cloud ID service.
 keywords: ID Service
 seo-description: Review this section to make sure you're using the right solutions, services, and code versions required by the Experience Cloud ID service.
 seo-title: Requirements for the Experience Cloud ID Service
