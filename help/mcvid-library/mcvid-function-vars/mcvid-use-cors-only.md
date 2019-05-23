@@ -3,12 +3,8 @@ description: An optional, Boolean flag that controls how the browser requests re
 keywords: ID Service
 seo-description: An optional, Boolean flag that controls how the browser requests resources from the Experience Cloud ID service.
 seo-title: useCORSOnly
-solution: Marketing Cloud
 title: useCORSOnly
 uuid: 607dc035-dffc-4f4d-be51-08ef6c0a8fad
-index: y
-internal: n
-snippet: y
 ---
 
 # useCORSOnly{#usecorsonly}

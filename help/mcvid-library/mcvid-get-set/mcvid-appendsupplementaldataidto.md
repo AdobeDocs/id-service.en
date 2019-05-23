@@ -3,12 +3,8 @@ description: This helper method lets you append the Supplemental Data ID (SDID) 
 keywords: ID Service
 seo-description: This helper method lets you append the Supplemental Data ID (SDID) as a query string parameter to a redirect URL. This is useful when using A4T and you need to persist the SDID from one page to another and stitch those separate visits together. To use this function, you must have implemented the ID service with the same Organization ID on the source and destination domains.
 seo-title: appendSupplementalDataIDTo
-solution: Marketing Cloud
 title: appendSupplementalDataIDTo
 uuid: f3504d82-8da3-4971-818b-3df57df4ec2d
-index: y
-internal: n
-snippet: y
 ---
 
 # appendSupplementalDataIDTo{#appendsupplementaldataidto}

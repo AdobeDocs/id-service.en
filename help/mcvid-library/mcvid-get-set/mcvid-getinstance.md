@@ -3,12 +3,8 @@ description: getInstance returns a visitor ID object for the specified Experienc
 keywords: ID Service
 seo-description: getInstance returns a visitor ID object for the specified Experience Cloud organization ID. This is required to initialize the visitor ID object provided to AppMeasurement through s.visitor.
 seo-title: getInstance
-solution: Marketing Cloud
 title: getInstance
 uuid: 259b88a6-e3d0-4aab-b935-566099bdab98
-index: y
-internal: n
-snippet: y
 ---
 
 # getInstance{#getinstance}

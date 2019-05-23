@@ -3,12 +3,8 @@ description: These configurations let different instances of ID service code imp
 keywords: ID Service
 seo-description: These configurations let different instances of ID service code implemented in an iFrame and on the parent page communicate with each other. They're designed to help resolve problems with 2 specific use cases where you may or may not control the parent page/domain and you have ID service code loading in the iFrame of a domain that you do control. They are available in VisitorAPI.js code version 2.2, or higher.
 seo-title: whitelistParentDomain and whitelistIframeDomains
-solution: Marketing Cloud
 title: whitelistParentDomain and whitelistIframeDomains
 uuid: 6b66a4d0-fea2-4d98-963e-0c4f4ab1efb6
-index: y
-internal: n
-snippet: y
 ---
 
 # whitelistParentDomain and whitelistIframeDomains{#whitelistparentdomain-and-whitelistiframedomains}

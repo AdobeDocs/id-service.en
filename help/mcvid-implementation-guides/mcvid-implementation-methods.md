@@ -3,12 +3,8 @@ description: Instructions and code samples for standard and non-standard impleme
 keywords: ID Service
 seo-description: Instructions and code samples for standard and non-standard implementations of the Experience Cloud ID service.
 seo-title: Implementation guides
-solution: Marketing Cloud
 title: Implementation guides
 uuid: d41250e2-09f4-4a8b-8ade-54d43e9281c9
-index: y
-internal: n
-snippet: y
 ---
 
 # Implementation methods

@@ -5,9 +5,6 @@ seo-description: This is an asynchronous API that returns identifiers for Analyt
 seo-title: getVisitorValues
 title: getVisitorValues
 uuid: 7fb831b3-cf7e-40e2-a219-07fec28ad49c
-index: y
-internal: n
-snippet: y
 ---
 
 # getVisitorValues{#getvisitorvalues}

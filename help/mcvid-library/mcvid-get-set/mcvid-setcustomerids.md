@@ -3,12 +3,8 @@ description: setCustomerIDs sets 1 or more key-value pairs that define customer 
 keywords: ID Service
 seo-description: setCustomerIDs sets 1 or more key-value pairs that define customer IDs and their authentication state.
 seo-title: setCustomerIDs
-solution: Marketing Cloud
 title: setCustomerIDs
 uuid: 4f960f98-cec2-4db6-84ea-0259e2128ea2
-index: y
-internal: n
-snippet: y
 ---
 
 # setCustomerIDs{#setcustomerids}

@@ -5,9 +5,6 @@ seo-description: Feature releases, updates, or changes to the Experience Cloud I
 seo-title: 2019 Release Notes
 title: 2019 Release Notes
 uuid: a5a59410-7f85-48f9-a30a-fef1c2e2b558
-index: y
-internal: n
-snippet: y
 ---
 
 # 2019 Release Notes {#release-notes}

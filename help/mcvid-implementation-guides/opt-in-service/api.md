@@ -4,9 +4,6 @@ seo-description: API for the Opt-in library and configuration settings reference
 seo-title: Opt-in Reference
 title: Opt-in Reference
 uuid: d5023a34-2f3e-464d-b21f-579b2f416ce6
-index: y
-internal: n
-snippet: y
 ---
 
 # Opt-in Reference{#opt-in-reference}
@@ -160,7 +157,7 @@ Check if one or more categories were pre approved by the customer. (If they were
 
 **`fetchPermissions(callback, shouldAutoSubscribe)`**
 
-Async API to retrieve the list of permissions. The callback is called with the list of permissions, once the permissions granting / denying process is complete. ** `shouldAutoSubscribe`:** A helper utility, will automatically subscribe this callback to all future events. Meaning the callback will get called every time an approval or denial trigger in Opt In. This way you are always updated, without subscribing to the events yourself.
+Async API to retrieve the list of permissions. The callback is called with the list of permissions, once the permissions granting / denying process is complete. **`shouldAutoSubscribe`:** A helper utility, will automatically subscribe this callback to all future events. Meaning the callback will get called every time an approval or denial trigger in Opt In. This way you are always updated, without subscribing to the events yourself.
 
 **Example**
 

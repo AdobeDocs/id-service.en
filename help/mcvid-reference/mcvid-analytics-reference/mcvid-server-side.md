@@ -3,12 +3,8 @@ description: In some implementations, visitor IDs are passed from JavaScript to 
 keywords: ID Service
 seo-description: In some implementations, visitor IDs are passed from JavaScript to a server so that additional Analytics events (such as a purchase) can be sent by the server.
 seo-title: Server-side Implementation Mixed with JavaScript
-solution: Marketing Cloud
 title: Server-side Implementation Mixed with JavaScript
 uuid: 256ea0e7-1eb4-4c92-9a7e-f61cb1ed13c7
-index: y
-internal: n
-snippet: y
 ---
 
 # Server-side Implementation Mixed with JavaScript {#server-side-implementation-mixed-with-javascript}

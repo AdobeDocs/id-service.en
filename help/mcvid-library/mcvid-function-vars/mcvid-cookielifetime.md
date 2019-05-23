@@ -3,12 +3,8 @@ description: This variable lets you override the default lifetime interval for t
 keywords: ID Service
 seo-description: This variable lets you override the default lifetime interval for the AMCV cookie.
 seo-title: cookieLifetime
-solution: Marketing Cloud
 title: cookieLifetime
 uuid: cd945db3-429a-4625-ac3f-69ac259377a3
-index: y
-internal: n
-snippet: y
 ---
 
 # cookieLifetime{#cookielifetime}

@@ -4,9 +4,6 @@ seo-description: Simplify enabling Experience Cloud solution for Opt-in using La
 seo-title: Configuring Opt-in with Launch
 title: Configuring Opt-in with Launch
 uuid: d35ed917-c4bd-4868-9026-1461f1a8f13e
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring Opt-in with Launch {#configuring-opt-in-with-launch}

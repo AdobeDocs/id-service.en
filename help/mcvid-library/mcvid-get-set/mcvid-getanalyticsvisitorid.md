@@ -3,12 +3,8 @@ description: Returns the legacy Analytics ID (if any) that was stored in the s_v
 keywords: ID Service
 seo-description: Returns the legacy Analytics ID (if any) that was stored in the s_vi cookie before the Experience Cloud ID service was implemented. It returns an empty string if a visitor was never assigned an Analytics ID.
 seo-title: getAnalyticsVisitorID
-solution: Marketing Cloud
 title: getAnalyticsVisitorID
 uuid: 6bb8ddfc-9fc1-4105-b377-d9b4d247a0f8
-index: y
-internal: n
-snippet: y
 ---
 
 # getAnalyticsVisitorID{#getanalyticsvisitorid}

@@ -3,12 +3,8 @@ description: Sets a timeout interval in milliseconds. Used to tell other solutio
 keywords: ID Service
 seo-description: Sets a timeout interval in milliseconds. Used to tell other solutions (e.g., Analytics, Audience Manager, Target, etc.) how long to wait for a response from the ID service.
 seo-title: loadTimeout
-solution: Marketing Cloud
 title: loadTimeout
 uuid: f627e044-bd73-49a4-8a90-6d19aa566751
-index: y
-internal: n
-snippet: y
 ---
 
 # loadTimeout{#loadtimeout}

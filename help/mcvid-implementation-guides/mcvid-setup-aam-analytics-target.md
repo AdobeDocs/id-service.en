@@ -3,12 +3,8 @@ description: These instructions are for Analytics, Audience Manager, and Target 
 keywords: ID Service
 seo-description: These instructions are for Analytics, Audience Manager, and Target customers who want to use the Experience Cloud ID service and do not use Dynamic Tag Management (DTM). However, we strongly recommend that you use DTM to implement the ID service. DTM streamlines the implementation workflow and automatically ensures the correct code placement and sequencing.
 seo-title: Implement the Experience Cloud ID Service for Analytics, Audience Manager, and Target
-solution: Marketing Cloud
 title: Implement the Experience Cloud ID Service for Analytics, Audience Manager, and Target
 uuid: 9d446b77-ca62-4325-8bb0-ff43a52313c0
-index: y
-internal: n
-snippet: y
 ---
 
 # Implement the Experience Cloud ID Service for Analytics, Audience Manager, and Target {#implement-the-experience-cloud-id-service-for-analytics-audience-manager-and-target}

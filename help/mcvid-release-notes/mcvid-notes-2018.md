@@ -3,12 +3,8 @@ description: Feature releases, updates, or changes to the Experience Cloud ID se
 keywords: ID Service
 seo-description: Feature releases, updates, or changes to the Experience Cloud ID service for 2018.
 seo-title: 2018 Release Notes
-solution: Marketing Cloud
 title: 2018 Release Notes
 uuid: 771b5b11-a8e3-464c-b65e-b15135584ace
-index: y
-internal: n
-snippet: y
 ---
 
 # 2018 Release Notes {#release-notes}

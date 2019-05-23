@@ -3,12 +3,8 @@ description: Release notes and updates for 2015.
 keywords: ID Service
 seo-description: Release notes and updates for 2015.
 seo-title: 2015 Release Notes
-solution: Marketing Cloud
 title: 2015 Release Notes
 uuid: 49423699-1e0f-49e4-9135-2ae84b4f92df
-index: y
-internal: n
-snippet: y
 ---
 
 # 2015 Release Notes {#release-notes}

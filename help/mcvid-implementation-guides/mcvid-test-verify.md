@@ -3,12 +3,8 @@ description: These instructions, tools, and procedures help you determine if the
 keywords: ID Service
 seo-description: These instructions, tools, and procedures help you determine if the ID service is working properly. These tests apply to the ID service in general and for different ID service and Experience Cloud solution combinations.
 seo-title: Test and verify the Experience Cloud ID Service
-solution: Marketing Cloud
 title: Test and verify the Experience Cloud ID Service
 uuid: 442de9c3-c265-4412-89bd-aeaa286ddad6
-index: y
-internal: n
-snippet: y
 ---
 
 # Test and verify the Experience Cloud ID Service{#test-and-verify-the-experience-cloud-id-service}

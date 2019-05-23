@@ -4,9 +4,6 @@ seo-description: Launch, by Adobe is the primary tool used to set up, deploy, an
 seo-title: Implement with Launch
 title: Implement with Launch
 uuid: b3282f8e-82b8-4635-8c80-1b365e8a9693
-index: y
-internal: n
-snippet: y
 ---
 
 # Implement with Launch{#implement-with-launch}

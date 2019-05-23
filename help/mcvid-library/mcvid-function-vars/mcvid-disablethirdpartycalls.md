@@ -3,12 +3,8 @@ description: An optional, Boolean flag that prevents the ID service from making 
 keywords: cross domain tracking;ID Service
 seo-description: An optional, Boolean flag that prevents the ID service from making calls to other domains.
 seo-title: disableThirdPartyCalls
-solution: Marketing Cloud
 title: disableThirdPartyCalls
 uuid: e92ce1f5-67a4-476c-9d04-41d4e96b1592
-index: y
-internal: n
-snippet: y
 ---
 
 # disableThirdPartyCalls{#disablethirdpartycalls}

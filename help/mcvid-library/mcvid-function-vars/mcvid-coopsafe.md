@@ -3,12 +3,8 @@ description: An optional, Boolean configuration that determines if the ID servic
 keywords: ID Service
 seo-description: An optional, Boolean configuration that determines if the ID service sends (or does not send) data to the Adobe Experience Cloud Device Co-op.
 seo-title: isCoopSafe
-solution: Marketing Cloud
 title: isCoopSafe
 uuid: 4dfa1f35-0a88-48d1-9484-d88cb53ad461
-index: y
-internal: n
-snippet: y
 ---
 
 # isCoopSafe{#iscoopsafe}

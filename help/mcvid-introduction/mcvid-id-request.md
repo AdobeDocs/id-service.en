@@ -3,12 +3,8 @@ description: An overview of the ID request and response process. These examples 
 keywords: ID Service
 seo-description: An overview of the ID request and response process. These examples cover ID assignment on individual sites, across different sites, and for sites managed by different Experience Cloud customers with their own organization IDs.
 seo-title: How the Experience Cloud ID Service requests and sets IDs
-solution: Marketing Cloud
 title: How the Experience Cloud ID Service requests and sets IDs
 uuid: ff7f5b7e-e959-4391-b75c-b7a36286e0ea
-index: y
-internal: n
-snippet: y
 ---
 
 # How the Experience Cloud ID Service requests and sets IDs{#how-the-experience-cloud-id-service-requests-and-sets-ids}

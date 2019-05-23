@@ -3,12 +3,8 @@ description: Along with the Experience Cloud visitor ID, you can associate addit
 keywords: ID Service
 seo-description: Along with the Experience Cloud visitor ID, you can associate additional customer IDs and an authentication status with each visitor.
 seo-title: Customer IDs and Authentication States
-solution: Marketing Cloud
 title: Customer IDs and Authentication States
 uuid: 643df363-224a-463e-a332-be59926b47e7
-index: y
-internal: n
-snippet: y
 ---
 
 # Customer IDs and Authentication States {#customer-ids-and-authentication-states}

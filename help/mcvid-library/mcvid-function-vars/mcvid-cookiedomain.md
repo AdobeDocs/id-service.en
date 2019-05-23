@@ -3,12 +3,8 @@ description: Required for multi-part, top-level domains where either of the last
 keywords: ID Service
 seo-description: Required for multi-part, top-level domains where either of the last two parts of the URL are greater than 2 characters.
 seo-title: cookieDomain
-solution: Marketing Cloud
 title: cookieDomain
 uuid: a57e5477-c07b-4d54-8aea-8e8b152f1423
-index: y
-internal: n
-snippet: y
 ---
 
 # cookieDomain{#cookiedomain}

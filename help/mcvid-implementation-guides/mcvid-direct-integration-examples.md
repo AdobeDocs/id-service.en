@@ -3,12 +3,8 @@ description: These examples cover 2 common use cases related to a direct integra
 keywords: ID Service
 seo-description: These examples cover 2 common use cases related to a direct integration and the Experience Cloud ID (MID). The MID is a unique, persistent ID for your site visitors.
 seo-title: Direct integration use cases
-solution: Marketing Cloud
 title: Direct integration use cases
 uuid: 6de1eb8b-4783-4545-8a64-ab6b9ef93432
-index: y
-internal: n
-snippet: y
 ---
 
 # Direct integration use cases {#direct-integration-use-cases}

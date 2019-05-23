@@ -3,12 +3,8 @@ description: An optional, Boolean flag that controls how the Experience Cloud ID
 keywords: ID Service
 seo-description: An optional, Boolean flag that controls how the Experience Cloud ID service loads the ID synchronization iFrame.
 seo-title: idSyncAttachIframeOnWindowLoad
-solution: Marketing Cloud
 title: idSyncAttachIframeOnWindowLoad
 uuid: aa2c2fa4-2cab-4e08-8d35-729a6c3e459a
-index: y
-internal: n
-snippet: y
 ---
 
 # idSyncAttachIframeOnWindowLoad{#idsyncattachiframeonwindowload}

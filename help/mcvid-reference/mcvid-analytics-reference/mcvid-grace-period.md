@@ -3,12 +3,8 @@ description: If you have multiple JavaScript files that are sending data to the 
 keywords: ID Service
 seo-description: If you have multiple JavaScript files that are sending data to the same report suite, or if you are using other technologies on your site such as Flash video measurement, we recommend configuring a grace period.
 seo-title: The ID Service Grace Period
-solution: Marketing Cloud
 title: The ID Service Grace Period
 uuid: 10a7db7d-de32-4379-914f-edaf929efa32
-index: y
-internal: n
-snippet: y
 ---
 
 # The ID Service Grace Period {#the-id-service-grace-period}

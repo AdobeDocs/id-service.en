@@ -3,12 +3,8 @@ description: This property overwrites a visitor's Experience Cloud and Analytics
 keywords: ID Service
 seo-description: This property overwrites a visitor's Experience Cloud and Analytics IDs as they navigate from one domain to a second domain. To overwrite an ID, you must own and have implemented the ID service on each domain. This code does not let you overwrite IDs on domains you do not control.
 seo-title: overwriteCrossDomainMCIDAndAID
-solution: Marketing Cloud
 title: overwriteCrossDomainMCIDAndAID
 uuid: 8e48127a-ac62-4ea0-9756-2a27b20ecbcf
-index: y
-internal: n
-snippet: y
 ---
 
 # overwriteCrossDomainMCIDAndAID{#overwritecrossdomainmcidandaid}

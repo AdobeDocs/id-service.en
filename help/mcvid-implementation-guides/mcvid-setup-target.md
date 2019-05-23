@@ -3,12 +3,8 @@ description: These instructions are for Target customers who want to use the Exp
 keywords: ID Service
 seo-description: These instructions are for Target customers who want to use the Experience Cloud ID service and do not use Dynamic Tag Management (DTM). However, we strongly recommend that you use DTM to implement the ID service. DTM streamlines the implementation workflow and automatically ensures the correct code placement and sequencing.
 seo-title: Implement the Experience Cloud ID Service for Target
-solution: Marketing Cloud
 title: Implement the Experience Cloud ID Service for Target
 uuid: cb3581fa-4c4b-43aa-bb8e-8db85a6a1ef2
-index: y
-internal: n
-snippet: y
 ---
 
 # Implement the Experience Cloud ID Service for Target{#implement-the-experience-cloud-id-service-for-target}

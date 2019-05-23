@@ -3,12 +3,8 @@ description: Before deploying the Experience Cloud ID service, you should unders
 keywords: ID Service
 seo-description: Before deploying the Experience Cloud ID service, you should understand how this service affects visitor tracking on multiple domains and potential issues if you are collecting data with different methods or through JavaScript files.
 seo-title: Experience Cloud ID Service Migration Decision Points
-solution: Marketing Cloud
 title: Experience Cloud ID Service Migration Decision Points
 uuid: ee56b5de-fcf3-4cfb-9e53-762af7c4d2ff
-index: y
-internal: n
-snippet: y
 ---
 
 # Experience Cloud ID Service Migration Decision Points

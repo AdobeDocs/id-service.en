@@ -3,12 +3,8 @@ description: null
 keywords: order of operations;ID Service
 seo-description: null
 seo-title: Data Collection CNAMEs and Cross-Domain Tracking
-solution: Marketing Cloud
 title: Data Collection CNAMEs and Cross-Domain Tracking
 uuid: ba42c822-b677-4139-b1ed-4d98d3320fd0
-index: y
-internal: n
-snippet: y
 ---
 
 # Data Collection CNAMEs and Cross-Domain Tracking{#data-collection-cnames-and-cross-domain-tracking}

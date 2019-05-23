@@ -3,12 +3,8 @@ description: This implementation lets customers use the ID service on devices th
 keywords: ID Service
 seo-description: This implementation lets customers use the ID service on devices that cannot accept or work with our JavaScript or SDK code. This includes devices such as gaming consoles, smart TVs, or other Internet-enabled appliances. Refer to this section for syntax, code samples, and definitions.
 seo-title: Direct integration with the Experience Cloud ID Service
-solution: Marketing Cloud
 title: Direct integration with the Experience Cloud ID Service
 uuid: de502f7e-cffd-4130-b3ca-7d6b9a9caae9
-index: y
-internal: n
-snippet: y
 ---
 
 # Direct integration with the Experience Cloud ID Service {#direct-integration-with-the-experience-cloud-id-service}

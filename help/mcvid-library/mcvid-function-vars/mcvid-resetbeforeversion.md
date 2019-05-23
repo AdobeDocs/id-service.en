@@ -3,12 +3,8 @@ description: This configuration lets you clear orphaned or stale Experience Clou
 keywords: ID Service
 seo-description: This configuration lets you clear orphaned or stale Experience Cloud IDs (ECIDs) based on the ID Service version being updated.
 seo-title: resetBeforeVersion
-solution: Marketing Cloud
 title: resetBeforeVersion
 uuid: b00d18b8-6720-42f9-9c83-bd306184cc0c
-index: y
-internal: n
-snippet: y
 ---
 
 # resetBeforeVersion{#resetbeforeversion}

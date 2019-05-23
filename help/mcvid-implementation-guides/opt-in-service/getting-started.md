@@ -4,9 +4,6 @@ seo-description: Implement the Opt-in service as the single point of reference u
 seo-title: Setting up Opt-in Service
 title: Setting up Opt-in Service
 uuid: f1c27139-cef2-4122-af12-c839cfc82e6e
-index: y
-internal: n
-snippet: y
 ---
 
 # Setting up Opt-in Service{#setting-up-opt-in-service}

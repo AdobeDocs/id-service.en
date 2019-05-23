@@ -4,9 +4,6 @@ seo-description: Enable Opt-in services using Dynamic Tag Management (DTM).
 seo-title: Configuring Opt-in with DTM
 title: Configuring Opt-in with DTM
 uuid: 7a886bc3-c9e5-4eac-85e8-828a83c847c5
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring Opt-in with DTM{#configuring-opt-in-with-dtm}

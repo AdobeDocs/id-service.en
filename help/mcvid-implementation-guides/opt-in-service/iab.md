@@ -4,9 +4,6 @@ seo-description: Connect their Consent Management Platform (CMP) with Opt-in’s
 seo-title: (beta) Using Opt-in Services with IAB Framework
 title: (beta) Using Opt-in Services with IAB Framework
 uuid: 8df39d9c-c016-490e-b4db-d02e4044b480
-index: y
-internal: n
-snippet: y
 ---
 
 # (beta) Using Opt-in Services with IAB Framework{#beta-using-opt-in-services-with-iab-framework}

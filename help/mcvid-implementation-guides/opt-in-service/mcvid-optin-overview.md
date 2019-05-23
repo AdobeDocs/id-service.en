@@ -4,9 +4,6 @@ seo-description: The Opt-in service lets you set up protocols for the visitor to
 seo-title: Opt-in Service
 title: Opt-in Service
 uuid: aebd72ad-4118-471b-9755-d08a72caa0fd
-index: y
-internal: n
-snippet: y
 ---
 
 # Opt-in Service{#opt-in-service}

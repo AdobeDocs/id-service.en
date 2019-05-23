@@ -3,12 +3,8 @@ description: An optional, Boolean flag that disables ID synchronization.
 keywords: ID Service
 seo-description: An optional, Boolean flag that disables ID synchronization.
 seo-title: disableIdSyncs
-solution: Marketing Cloud
 title: disableIdSyncs
 uuid: 8bea1de8-53c8-4a15-bcf5-f0869763a32e
-index: y
-internal: n
-snippet: y
 ---
 
 # disableIdSyncs{#disableidsyncs}

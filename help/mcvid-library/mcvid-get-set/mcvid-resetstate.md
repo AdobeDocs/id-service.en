@@ -3,12 +3,8 @@ description: This function is designed mainly for A4T customers to help solve is
 keywords: ID Service
 seo-description: This function is designed mainly for A4T customers to help solve issues related to working with IDs on single page sites/screens or apps.
 seo-title: resetState
-solution: Marketing Cloud
 title: resetState
 uuid: ed7be76d-a7ee-4e51-b26c-456ff85fd096
-index: y
-internal: n
-snippet: y
 ---
 
 # resetState{#resetstate}

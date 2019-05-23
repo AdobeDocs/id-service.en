@@ -3,12 +3,8 @@ description: The ID service uses your organization ID, the Experience Cloud AMCV
 keywords: playstation;ID Service
 seo-description: The ID service uses your organization ID, the Experience Cloud AMCV cookie, and a demdex cookie to create and store unique, persistent identifiers for your site visitors. These cookies let the ID service track visitors across your different domains and enable data sharing among different Experience Cloud solutions.
 seo-title: Cookies and the Experience Cloud ID Service
-solution: Marketing Cloud
 title: Cookies and the Experience Cloud ID Service
 uuid: c5cbd235-37ee-4605-8792-b1a991e190ad
-index: y
-internal: n
-snippet: y
 ---
 
 # Cookies and the Experience Cloud ID Service{#cookies-and-the-experience-cloud-id-service}

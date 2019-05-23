@@ -5,9 +5,6 @@ seo-description: A Content Security Policy (CSP) is an HTTP header and security 
 seo-title: Content Security Policies and the Experience Cloud ID Service
 title: Content Security Policies and the Experience Cloud ID Service
 uuid: 7399edf3-01c1-4730-834e-e2dd2c5791ff
-index: y
-internal: n
-snippet: y
 ---
 
 # Content Security Policies and the Experience Cloud ID Service {#content-security-policies-and-the-experience-cloud-id-service}

@@ -4,9 +4,6 @@ seo-description: Sample use cases and solutions to manage the Opt-in service.
 seo-title: Opt-in Use Cases
 title: Opt-in Use Cases
 uuid: d75a44d5-b713-43d1-b5b6-95d1d0d213a7
-index: y
-internal: n
-snippet: y
 ---
 
 # Opt-in Use Cases {#opt-in-use-cases}

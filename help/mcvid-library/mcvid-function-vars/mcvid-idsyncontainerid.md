@@ -3,12 +3,8 @@ description: This property sets the data source container ID that you want to us
 keywords: ID Service
 seo-description: This property sets the data source container ID that you want to use for ID syncs.
 seo-title: idSyncContainerID
-solution: Marketing Cloud
 title: idSyncContainerID
 uuid: e35dc48b-1aa1-41e3-91c1-ef1e9d2d8b90
-index: y
-internal: n
-snippet: y
 ---
 
 # idSyncContainerID{#idsynccontainerid}
