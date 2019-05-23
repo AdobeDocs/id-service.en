@@ -91,10 +91,11 @@ user-guide: null
    + [Video Heartbeat and the Experience Cloud ID Service](mcvid-reference/mcvid-heartbeat.md)
    + [Data Workbench and the Experience Cloud ID Service](mcvid-reference/mcvid-dwb.md)
 + FAQs {#faqs}
+   + [FAQ Overview](mcvid-faq-intro/mcvid-faq-intro.md)
    + [ID Service FAQs](mcvid-faq-intro/mcvid-faq.md)
    + [Analytics and ID Service FAQs](mcvid-faq-intro/mcvid-analytics-faq.md)
    + [FAQs for Other Experience Cloud Solutions](mcvid-faq-intro/mcvid-other-faq.md)
-+ Release notes for ID Service {#release-notes}   
++ Release notes for ID Service {#release-notes}
    + [2019 Release Notes](mcvid-release-notes/mcvid-release-notes.md)
    + [2018 Release Notes](mcvid-release-notes/mcvid-notes-2018.md)
    + [2017 Release Notes](mcvid-release-notes/mcvid-notes-2017.md)

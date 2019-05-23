@@ -56,8 +56,6 @@ adobe.OptInCategories = {
 };
 ```
 
-<a id="section_CF9AB638780141C9B62DC57CF00B7047"></a>
-
 The Opt-in service lets you set visitors' permission preferences per each Adobe solution used on your site. It includes a library to save a visitor's settings by approved category and supports a sequential flow, where the approval process receives "confirm" or "deny" preferences for each category one at a time. You can set solutions/categories to opt in as a whole or as individual solutions. 
 All Adobe solutions' client-side libraries depend on the Opt-in service and will not generate cookies unless the solution has been granted permission. Opt-in supports various approaches for providing and updating the consent settings for the current visitor. This section provides examples to set Opt-in service preferences. See the [Opt-in API Reference](../../mcvid-implementation-guides/opt-in-service/api.md#reference-4f30152333dd4990ab10c1b8b82fc867) for complete list of functions and parameters.
 
@@ -88,7 +86,7 @@ Visitor.getInstance("YOUR_ORG_ID", {
 
 **Handle changes to consent**
 
-At any time during a visitor's experience on your site, they may set preferences for the first time or may change their preferences using your CMP. Once Visitor JS has been initialized with initial settings, the visitor's permissions can be changed. See [Changes to Consent](../../mcvid-implementation-guides/opt-in-service/api.md#section-c3d85403ff0d4394bd775c39f3d001fc)for a list of managing consent functions.
+At any time during a visitor's experience on your site, they may set preferences for the first time or may change their preferences using your CMP. Once Visitor JS has been initialized with initial settings, the visitor's permissions can be changed. See [Changes to Consent](../../mcvid-implementation-guides/opt-in-service/api.md#section-c3d85403ff0d4394bd775c39f3d001fc) for a list of managing consent functions.
 
 <!--
 <p> *** <b>sample code block </b>*** </p>

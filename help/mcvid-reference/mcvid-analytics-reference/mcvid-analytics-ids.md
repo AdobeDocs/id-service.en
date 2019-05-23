@@ -55,27 +55,27 @@ After you deploy the visitor ID service, there are five ways a visitor can be id
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p style="text-align: center;"> <img id="image_9F3E58898A1B4F40BBDEF5ADE362E55C" src="assets/step1_icon.png" /> </p> </td> 
+   <td colname="col1"> <p> <img id="image_9F3E58898A1B4F40BBDEF5ADE362E55C" src="assets/step1_icon.png" /> </p> </td> 
    <td colname="col2"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visid_custom" format="http" scope="external"> vid (s.visitorID)</a> </p> </td> 
    <td colname="col3"> <p>s.visitorID is set </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p style="text-align: center;"> <img id="image_77A06981672745B6AEA8BB4D55911CCA" src="assets/step2_icon.png" /> </p> </td> 
+   <td colname="col1"> <p> <img id="image_77A06981672745B6AEA8BB4D55911CCA" src="assets/step2_icon.png" /> </p> </td> 
    <td colname="col2"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visid_analytics" format="http" scope="external"> aid (s_vi cookie)</a> </p> </td> 
    <td colname="col3"> <p>The visitor had an existing s_vi cookie before you deployed the <span class="keyword"> Experience Cloud</span> ID service, or you have a <a href="../../mcvid-reference/mcvid-analytics-reference/mcvid-grace-period.md" format="dita" scope="local"> grace period</a> configured. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p style="text-align: center;"> <img id="image_0A950B1A6B004387AFEE8EED882739CB" src="assets/step3_icon.png" /> </p> </td> 
+   <td colname="col1"> <p> <img id="image_0A950B1A6B004387AFEE8EED882739CB" src="assets/step3_icon.png" /> </p> </td> 
    <td colname="col2"> <p>mid (AMCV_ cookie set by Experience Cloud visitor ID service) </p> </td> 
    <td colname="col3"> <p>The visitor's browser accepts first-party cookies </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p style="text-align: center;"> <img id="image_6F0ED8FE3EF846CA8E6ECCC3C0070D85" src="assets/step4_icon.png" /> </p> </td> 
+   <td colname="col1"> <p> <img id="image_6F0ED8FE3EF846CA8E6ECCC3C0070D85" src="assets/step4_icon.png" /> </p> </td> 
    <td colname="col2"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visid_fallback" format="http" scope="external"> fid (fallback cookie on H.25.3 or newer, or AppMeasurement for JavaScript)</a> </p> </td> 
    <td colname="col3"> <p>A browser doesn't accept third-party cookies and the Analytics tracking server is set up as a third-party tracking server. </p> <p> <p>Note: The <span class="codeph"> fid</span> is a legacy identifier and is not used if you've implemented the ID service on your site. In this case, the <span class="codeph"> fid</span> is not needed because the first-party, <a href="../../mcvid-introduction/mcvid-cookies.md" format="dita" scope="local"> AMCV cookie</a> makes it obsolete. It has been retained to support legacy code and for historic reasons. </p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p style="text-align: center;"> <img id="image_23D8C0EB69EC4084BC237B5B98C036F4" src="assets/step5_icon.png" /> </p> </td> 
+   <td colname="col1"> <p> <img id="image_23D8C0EB69EC4084BC237B5B98C036F4" src="assets/step5_icon.png" /> </p> </td> 
    <td colname="col2"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visid_fallback" format="http" scope="external"> IP Address, User Agent, Gateway IP Address</a> </p> </td> 
    <td colname="col3"> <p>The visitor's browser does not accept cookies. </p> </td> 
   </tr> 
