@@ -31,19 +31,16 @@ However, there is an additional benefit to using a CNAME for data collection whi
 
 Due to the way first-party cookies can be used in a third-party context in Apple Safari and some other browsers, a CNAME let you track customers between a primary domain and additional domains that used the same tracking server.
 
-For example, you have a primary site at `mymainsite.com`. You configured the following two CNAME records to point to your non-secure and secure data collection servers:
-
-* `metrics.mymainsite.com` 
-* `smetrics.mymainsite.com`
+For example, you have a primary site at `mymainsite.com`. You configured the CNAME record to point to your secure data collection server: `smetrics.mymainsite.com`.
 
 When a user visits `mymainsite.com`, the ID service cookie is set by the data collection server. This is allowed since the domain of the data collection server matches the domain of the website, and is what is known as using a cookie in a "first-party context", or just a "first-party cookie".
 
-If you are also using these same data collection servers on other sites (for example, `myothersiteA.com`, and `myothersiteB.com`), if a visitor later visits these sites, the cookie that was set during the visit to `mymainsite.com` is sent in the HTTP request to the data collection server (remember that browsers send all cookies for a domain with all HTTP requests to that domain, even if the domain doesn't match the domain of the current website). This is what is known as using a cookie in a "third-party context, or just a "third-party cookie", and it enables the same visitor ID to be used on these other domains.
+If you are also using this same data collection server on other sites (for example, `myothersiteA.com`, and `myothersiteB.com`), if a visitor later visits these sites, the cookie that was set during the visit to `mymainsite.com` is sent in the HTTPS request to the data collection server (remember that browsers send all cookies for a domain with all HTTPS requests to that domain, even if the domain doesn't match the domain of the current website). This is what is known as using a cookie in a "third-party context, or just a "third-party cookie", and it enables the same visitor ID to be used on these other domains.
 
 Note that this functionality may be seen in all major browsers, even those such as Safari that block third party cookies by default. If a cookie has been used in a first-party context during the visit to `mymainsite.com`, Safari continues to use it in a third-party context (during the visit to the other domains). Be aware that if a visitor visits `myothersiteA.com` before visiting `mymainsite.com`, Safari will block the `mymainsite.com` cookie because it hasn't ever been used in a first-party context.
 
-As a result, your collection domain should be a domain that people commonly visit in order for a visitor to be identified across domains. If there is no “common” domain to use for the data collection domain, there is no cross-domain benefit to maintaining a CNAME for the data collection domain. If the main entry site is not visited first, visitors are identified differently on the secondary site and main site.
+As a result, your collection domain should be a domain that people commonly visit in order for a visitor to be identified across domains. If there is no *common* domain to use for the data collection domain, there is no cross-domain benefit to maintaining a CNAME for the data collection domain. If the main entry site is not visited first, visitors are identified differently on the secondary site and main site.
 
 ## Enable CNAME support with the Experience Cloud ID Service {#section-25d4feb686d944e3a877d7aad8dbdf9a}
 
-Data collection server CNAME support is enabled by setting the `visitor.marketingCloudServer` and `visitor.marketingCloudServerSecure` variables. 
+Data collection server CNAME support is enabled by setting the `visitor.marketingCloudServerSecure` variables. 
