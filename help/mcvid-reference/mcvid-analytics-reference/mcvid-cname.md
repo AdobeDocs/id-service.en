@@ -33,9 +33,11 @@ Due to the way first-party cookies can be used in a third-party context in Apple
 
 For example, you have a primary site at `mymainsite.com`. You configured the CNAME record to point to your secure data collection server: `smetrics.mymainsite.com`.
 
-When a user visits `mymainsite.com`, the ID service cookie is set by the data collection server. This is allowed since the domain of the data collection server matches the domain of the website, and is what is known as using a cookie in a "first-party context", or just a "first-party cookie".
+When a user visits `mymainsite.com`, the ID service cookie is set by the data collection server. This is allowed since the domain of the data collection server matches the domain of the website, and is what is known as using a cookie in a *first-party context*, or just a *first-party cookie*.
 
 If you are also using this same data collection server on other sites (for example, `myothersiteA.com`, and `myothersiteB.com`), and a visitor later visits these sites, the cookie that was set during the visit to `mymainsite.com` is sent in the HTTPS request to the data collection server (remember that browsers send all cookies for a domain with all HTTPS requests to that domain, even if the domain doesn't match the domain of the current website). This is what is known as using a cookie in a *third-party context*, or just a *third-party cookie*, and it enables the same visitor ID to be used on these other domains. Note that browsers handle cookies in third-party contexts differently than first-party cookies.
+
+*Note: Safari blocks all cookies in the third-party context regardless of how they are set.*
 
 As a result, your collection domain should be a domain that people commonly visit in order for a visitor to be identified across domains. If there is no *common* domain to use for the data collection domain, there is no cross-domain benefit to maintaining a CNAME for the data collection domain. If the main entry site is not visited first, visitors are identified differently on the secondary site and main site.
 
