@@ -11,7 +11,7 @@ uuid: 607dc035-dffc-4f4d-be51-08ef6c0a8fad
 
 An optional, Boolean flag that controls how the browser requests resources from the Experience Cloud ID service.
 
- **Syntax: ** `useCORSOnly: true|false` (default is `false`.)
+ **Syntax:** `useCORSOnly: true|false` (default is `false`.)
 
 **Overview**
 

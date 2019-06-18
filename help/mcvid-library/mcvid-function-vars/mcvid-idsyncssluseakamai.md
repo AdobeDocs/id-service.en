@@ -13,7 +13,7 @@ Specifies if the destination publishing template should use Akamai for HTTPS con
 
  The `idSyncSSLUseAkamai` configuration is enabled on a per-partner basis.
 
-**Syntax: ** `idSyncSSLUseAkamai: true`
+**Syntax:** `idSyncSSLUseAkamai: true`
 
 **Code Sample** 
 
