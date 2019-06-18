@@ -38,6 +38,7 @@ user-guide-url: /content/help/en/id-service/using/mcvid-home.html
       + [Opt-in Reference](mcvid-implementation-guides/opt-in-service/api.md)
       + [(beta) Using Opt-in Services with IAB Framework](mcvid-implementation-guides/opt-in-service/iab.md)
 + ID Service API {#id-service-api}
+   + [ID Service API Overview](mcvid-library/mcvid-library.md)
    + Configuration {#configurations}
       + [Configurations overview](mcvid-library/mcvid-function-vars/mcvid-function-vars.md)
       + [audienceManagerServer and audienceManagerServerSecure](mcvid-library/mcvid-function-vars/mcvid-subdomain-config.md)
@@ -73,6 +74,7 @@ user-guide-url: /content/help/en/id-service/using/mcvid-home.html
       + [isClientSideMarketingCloudVisitorID](mcvid-library/mcvid-get-set/mcvid-client-side-id.md)
       + [resetState](mcvid-library/mcvid-get-set/mcvid-resetstate.md)
 + Reference {#reference}
+   + [Reference Overview](mcvid-reference/mcvid-reference.md)
    + Analytics Reference {#analytics-reference}
       + [Analytics Reference Overview](mcvid-reference/mcvid-analytics-reference/mcvid-analytics-reference.md)
       + [Setting Analytics and Experience Cloud IDs](mcvid-reference/mcvid-analytics-reference/mcvid-analytics-ids.md)
@@ -87,6 +89,7 @@ user-guide-url: /content/help/en/id-service/using/mcvid-home.html
    + [COPPA Support in the Experience Cloud ID Service](mcvid-reference/mcvid-coppa.md)
    + [CORS Support in the Experience Cloud ID Service](mcvid-reference/mcvid-cors.md)
    + [Customer IDs and Authentication States](mcvid-reference/mcvid-authenticated-state.md)
+   + [ECID library methods in a Safari ITP world](mcvid-reference/ecid-library-methods.md)
    + [Get Region and User IDs From the AMCV Cookie or the ID Service](mcvid-reference/mcvid-regions.md)
    + [Requirements for the Experience Cloud ID Service](mcvid-reference/mcvid-requirements.md)
    + [Video Heartbeat and the Experience Cloud ID Service](mcvid-reference/mcvid-heartbeat.md)
