@@ -16,22 +16,22 @@ The Experience Cloud ID Service (ID service) provides a universal, persistent ID
   <tr> 
    <td colname="col1"> <p> <b>Getting Started</b> </p> <p> 
      <ul id="ul_D5EC6A54A03F4AB595B588116A7C1296"> 
-      <li id="li_845F6DE25A1241439BCDCBC00459D7EB"> <a href="mcvid-introduction/mcvid-overview.md" format="dita" scope="local"> Overview </a> </li> 
-      <li id="li_47F399E1D4AF4F08BD647DF01A423BA7"> <a href="mcvid-reference/mcvid-requirements.md" format="dita" scope="local"> Requirements for the Experience Cloud ID Service </a> </li> 
-      <li id="li_CBEEE79B45644F28A52B58DDF23DAD4F"> <a href="mcvid-implementation-guides/mcvid-standard.md#concept-89cd0199a9634fc48644f2d61e3d2445" format="dita" scope="local"> Standard Implementation with DTM </a> </li> 
+      <li id="li_845F6DE25A1241439BCDCBC00459D7EB"> <a href="introduction/mcvid-overview.md" format="dita" scope="local"> Overview </a> </li> 
+      <li id="li_47F399E1D4AF4F08BD647DF01A423BA7"> <a href="reference/mcvid-requirements.md" format="dita" scope="local"> Requirements for the Experience Cloud ID Service </a> </li> 
+      <li id="li_CBEEE79B45644F28A52B58DDF23DAD4F"> <a href="implementation-guides/mcvid-standard.md#concept-89cd0199a9634fc48644f2d61e3d2445" format="dita" scope="local"> Standard Implementation with DTM </a> </li> 
      </ul> </p> <p><b>Experience Cloud ID Javascript Libraries</b> </p> <p>JavaScript for the Experience Cloud ID service is located at: <a href="https://github.com/Adobe-Marketing-Cloud/id-service/releases" format="https" scope="external"> https://github.com/Adobe-Marketing-Cloud/id-service/releases</a> </p> <p> <b>New or Featured Items</b> </p> <p> 
      <ul id="ul_B0A25B6827734D55BB1E20D12334AC21"> 
-      <li id="li_A66924F4948F4A5ABA545A89A28A6F6A"><a href="mcvid-implementation-guides/opt-in-service/mcvid-optin-overview.md#concept-f9b5db0d27a245fbadd3e19162319360" format="dita" scope="local"> Opt-in service</a> </li> 
-      <li id="li_92D49CB788AD478EA74BCF5328CB9A14"> <a href="mcvid-library/mcvid-get-set/mcvid-getvisitorvalues.md#reference-b8c9e17c170c4291829a792df46ce279" format="dita" scope="local"> getVisitorValues </a> </li> 
-      <li id="li_9E512C6DD15C46C3ABD06ACD60D97E4A"> <a href="mcvid-faq-intro/mcvid-faq-intro.md" format="dita" scope="local"> FAQs </a> </li> 
-      <li id="li_B28082F3D075413D89E5AFB718657E17"> <a href="mcvid-library/mcvid-function-vars/mcvid-coopsafe.md#reference-7fbed36f38a048d1a5883c53d430ddf4" format="dita" scope="local"> isCoopSafe </a> </li> 
-      <li id="li_7744A4898EA542B9BF009D2066810050"> <a href="mcvid-library/mcvid-function-vars/mcvid-idsyncontainerid.md#reference-5cfbed2240fa4def90f535f017a36015" format="dita" scope="local"> idSyncContainerID </a> </li> 
+      <li id="li_A66924F4948F4A5ABA545A89A28A6F6A"><a href="implementation-guides/opt-in-service/mcvid-optin-overview.md#concept-f9b5db0d27a245fbadd3e19162319360" format="dita" scope="local"> Opt-in service</a> </li> 
+      <li id="li_92D49CB788AD478EA74BCF5328CB9A14"> <a href="library/get-set/mcvid-getvisitorvalues.md#reference-b8c9e17c170c4291829a792df46ce279" format="dita" scope="local"> getVisitorValues </a> </li> 
+      <li id="li_9E512C6DD15C46C3ABD06ACD60D97E4A"> <a href="faq-intro/mcvid-faq-intro.md" format="dita" scope="local"> FAQs </a> </li> 
+      <li id="li_B28082F3D075413D89E5AFB718657E17"> <a href="library/function-vars/mcvid-coopsafe.md#reference-7fbed36f38a048d1a5883c53d430ddf4" format="dita" scope="local"> isCoopSafe </a> </li> 
+      <li id="li_7744A4898EA542B9BF009D2066810050"> <a href="library/function-vars/mcvid-idsyncontainerid.md#reference-5cfbed2240fa4def90f535f017a36015" format="dita" scope="local"> idSyncContainerID </a> </li> 
      </ul> </p> 
     <draft-comment> 
      <p> <b>Announcements:</b> </p> 
      <p> <p>Important:  ID service support for Internet Explorer 6, 7, and 8 is deprecated and will be discontinued in a future release. </p> </p> 
     </draft-comment> </td> 
-   <td colname="col2"> <p> <b>Release Notes</b> </p> <p><b>Version 4.0</b> February 12, 2019 release includes the <a href="mcvid-implementation-guides/opt-in-service/mcvid-optin-overview.md#concept-f9b5db0d27a245fbadd3e19162319360" format="dita" scope="local"> Opt-in service</a> used to identify if you can place a cookie on a user's device or browser when visiting your site. </p> <p>The January 18, 2018 release includes the 3.0.0 JavaScript update, and updates to API methods. See <a href="mcvid-library/mcvid-function-vars/mcvid-disableidsync.md#reference-589d6b489ac64eddb5a7ff758945e414" format="dita" scope="local"> disableIdSyncs</a> and <a href="mcvid-library/mcvid-function-vars/mcvid-disable-cookies.md#reference-2dd2d60d12f34f0b98bbb5606b3734cc" format="dita" scope="local"> disableThirdPartyCookies</a>. </p> 
+   <td colname="col2"> <p> <b>Release Notes</b> </p> <p><b>Version 4.0</b> February 12, 2019 release includes the <a href="implementation-guides/opt-in-service/mcvid-optin-overview.md#concept-f9b5db0d27a245fbadd3e19162319360" format="dita" scope="local"> Opt-in service</a> used to identify if you can place a cookie on a user's device or browser when visiting your site. </p> <p>The January 18, 2018 release includes the 3.0.0 JavaScript update, and updates to API methods. See <a href="library/function-vars/mcvid-disableidsync.md#reference-589d6b489ac64eddb5a7ff758945e414" format="dita" scope="local"> disableIdSyncs</a> and <a href="library/function-vars/mcvid-disable-cookies.md#reference-2dd2d60d12f34f0b98bbb5606b3734cc" format="dita" scope="local"> disableThirdPartyCookies</a>. </p> 
     <draft-comment> 
      <p>The October 2017 release does not include any code changes or updates for the ID service. ID service code remains unchanged at v2.5. </p> 
     </draft-comment> 
