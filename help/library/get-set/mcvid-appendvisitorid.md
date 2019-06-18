@@ -1,0 +1,83 @@
+---
+description: This function lets you share a visitor's Experience Cloud ID across domains when browsers block third-party cookies. To use this function, you must have implemented the ID service and own the source and destination domains. Available in VisitorAPI.js version 1.7.0 or higher.
+keywords: ID Service
+seo-description: This function lets you share a visitor's Experience Cloud ID across domains when browsers block third-party cookies. To use this function, you must have implemented the ID service and own the source and destination domains. Available in VisitorAPI.js version 1.7.0 or higher.
+seo-title: appendVisitorIDsTo (Cross-Domain Tracking)
+title: appendVisitorIDsTo (Cross-Domain Tracking)
+uuid: 06b453ee-73c5-4625-82d9-877ad2b4f702
+---
+
+# appendVisitorIDsTo (Cross-Domain Tracking){#appendvisitoridsto-cross-domain-tracking}
+
+This function lets you share a visitor's Experience Cloud ID across domains when browsers block third-party cookies. To use this function, you must have implemented the ID service and own the source and destination domains. Available in VisitorAPI.js version 1.7.0 or higher.
+
+Contents:
+
+<ul class="simplelist"> 
+ <li> <a href="../../library/get-set/mcvid-appendvisitorid.md#section-7251d88befd440b4b79520e33c5aa44a" format="dita" scope="local"> Track Visitors Across Domains When Browsers Block Third-Party Cookies </a> </li> 
+ <li> <a href="../../library/get-set/mcvid-appendvisitorid.md#section-62d55f7f986542b0b9238e483d50d7b0" format="dita" scope="local"> Append Visitor ID Code Sample </a> </li> 
+ <li> <a href="../../library/get-set/mcvid-appendvisitorid.md#section-168e313df6054af0a7e27b9fa0d69640" format="dita" scope="local"> Dynamic Tag Management (DTM) and SDK Support </a> </li> 
+</ul>
+
+## Track Visitors Across Domains When Browsers Block Third-Party Cookies {#section-7251d88befd440b4b79520e33c5aa44a}
+
+ID service writes a first- and third-party cookie to the browser when a person visit your site (see [Cookies and the Experience Cloud ID Service](../../introduction/mcvid-cookies.md) ). The first-party cookie contains the MID, a unique ID for that visitor. The third-party cookie contains another ID used by the ID service to generate the MID. When a browser blocks this third-party cookie, the ID service cannot:
+
+* Regenerate the unique ID for that site visitor when they navigate to another domain. 
+* Track visitors across different domains owned by your organization.
+
+To help solve this problem, implement ` Visitor.appendVisitorIDsTo( *`url`*)`. This property lets the ID service track site visitors across multiple domains even when their browsers block third-party cookies. It works like this:
+
+* As a visitor browses to your other domains, the ` Visitor.appendVisitorIDsTo( *`url`*)` appends the MID as a query parameter in the URL redirect from the original domain to the destination domain. 
+* The ID service code on the destination domain extracts the MID from the URL instead of sending a request to Adobe for that visitor's ID. This request includes the third-party cookie ID, which is not available in this case. 
+* The ID service code on the destination page uses the passed-in MID to track the visitor.
+
+See the code sample for details.
+
+## Append Visitor ID Code Sample {#section-62d55f7f986542b0b9238e483d50d7b0}
+
+The following example can help you get started with ` Visitor.appendVisitorIDsTo( *`url`*)`. When implemented properly, your JavaScript code could look similar to the following example.
+
+```js
+//Code on Domain A 
+var destinationURL = "www.destination.com"; 
+ 
+//Call the ID service 
+var visitor = Visitor.getInstance(...); 
+ 
+//Append visitor IDs to the destination URL 
+var destinationURLWithVisitorIDs = visitor.appendVisitorIDsTo(destinationURL); 
+     //Result of appendVisitorIDsTo includes destination URL, Experience Cloud ID (MCMID), and Analytics ID (MCAID) 
+     "www.destination.com?adobe_mc=MCMID=1234|MCAID=5678 
+<draft-comment>
+  |TS=123675879 
+</draft-comment>" 
+ 
+//Redirect to the destination
+```
+
+## Dynamic Tag Management (DTM) and SDK Support {#section-168e313df6054af0a7e27b9fa0d69640}
+
+<table id="table_6E7152B4FD2B4C4D8C9477C68204C4FF"> 
+ <thead> 
+  <tr> 
+   <th colname="col1" class="entry"> Support for </th> 
+   <th colname="col2" class="entry"> See </th> 
+  </tr> 
+ </thead>
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p> <b>DTM</b> </p> </td> 
+   <td colname="col2"> <p> <a href="https://helpx.adobe.com/dtm/kb/how-to-set-marketing-cloud-id-service-helper-function-in-adobe-d.html" format="https" scope="external"> Set the appendVisitorIDTo Function in DTM </a> </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <b>SDK</b> </p> </td> 
+   <td colname="col2"> 
+    <ul id="ul_9D7933FF68EE4C71BAE999B3747F8398"> 
+     <li id="li_9036C76AAECC4E639C23020C0C9F2AF8"> <a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/mc_methods.html" format="https" scope="external"> Android ID Service Methods </a> </li> 
+     <li id="li_E49D357905584674BFDFE348345B3849"> <a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/mc_methods.html" format="https" scope="external"> iOS ID Service Methods </a> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
