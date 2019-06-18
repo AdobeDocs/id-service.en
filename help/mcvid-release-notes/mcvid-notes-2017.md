@@ -70,7 +70,7 @@ August, 2017
 
 **Revised Documentation**
 
-Updated and revised the [FAQs](/help/mcvid-faq-intro/ecid-faq-intro.md) to include separate FAQs for different [!DNL Experience Cloud] solutions.
+Updated and revised the [FAQs](/help/mcvid-faq-intro/mcvid-faq-intro.md) to include separate FAQs for different [!DNL Experience Cloud] solutions.
 
 ## Version 2.3 {#section-ae7b1cb1e52e4ca5a46b453a3ba1f571}
 
@@ -130,7 +130,7 @@ Release date: June, 2017
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="../mcvid-faq-intro/ecid-faq.md" format="dita" scope="local"> FAQ </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../mcvid-faq-intro/mcvid-faq.md" format="dita" scope="local"> FAQ </a> </p> </td> 
    <td colname="col2"> <p>Updated the <span class="keyword"> Analytics</span> section with information on how to find tracking server information. </p> </td> 
   </tr> 
  </tbody> 
