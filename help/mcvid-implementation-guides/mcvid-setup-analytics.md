@@ -126,7 +126,7 @@ To determine which tracking server variables to use:
 >* [!DNL Experience Cloud] server secure URL = tracking server secure URL 
 >
 
-If you're not sure how to find your tracking server see the [FAQ](../mcvid-faq-intro/ecid-faq.md) and [Correctly Populate the trackingServer and trackingServerSecure variables](https://helpx.adobe.com/analytics/kb/determining-data-center.html#).
+If you're not sure how to find your tracking server see the [FAQ](../mcvid-faq-intro/mcvid-faq.md) and [Correctly Populate the trackingServer and trackingServerSecure variables](https://helpx.adobe.com/analytics/kb/determining-data-center.html#).
 
 ## Step 5: Update your AppMeasurement.js or s_code.js file {#section-b53113aea1bd4de896e0e4e9a7edee19}
 
