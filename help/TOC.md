@@ -3,12 +3,12 @@ cloud: experience-cloud
 product: ID Service
 audience: end-user
 user-guide-title: ID Service Help
-user-guide-url: /content/help/en/id-service/using/mcvid-home.html
+user-guide-url: /content/help/en/id-service/using/home.html
 ---
 
 # ID Service Help {#using}
 
-+ [Experience Cloud ID Service](mcvid-home.md)
++ [Experience Cloud ID Service](home.md)
 + Overview {#mcvid-introduction}
    + [Overview](mcvid-introduction/mcvid-overview.md)
    + [About the ID Service](mcvid-introduction/mcvid-about-id-service.md)
@@ -26,7 +26,7 @@ user-guide-url: /content/help/en/id-service/using/mcvid-home.html
    + [Implement the Experience Cloud ID Service for Analytics, Audience Manager, and Target](mcvid-implementation-guides/mcvid-setup-aam-analytics-target.md)
    + [Using the Experience Cloud ID Service with A4T and a Server-side Implementation of Target](mcvid-implementation-guides/ecid-a4t-target.md)
    + [Direct Integration with the Experience Cloud ID Service](mcvid-implementation-guides/mcvid-direct-integration.md)
-   + [Direct Integration Use Cases](mcvid-implementation-guides/mcvid-direct-integration-examples.md)
+   + [Direct Integration Use Cases](mcvid-implementation-guides/ecid-direct-integration-examples.md)
    + [Test and verify the Experience Cloud ID Service](mcvid-implementation-guides/mcvid-test-verify.md)
    + Opt-in Documentation {#opt-in-service}
       + [Opt-in Service overview](mcvid-implementation-guides/opt-in-service/mcvid-optin-overview.md)
@@ -95,10 +95,10 @@ user-guide-url: /content/help/en/id-service/using/mcvid-home.html
    + [Video Heartbeat and the Experience Cloud ID Service](mcvid-reference/mcvid-heartbeat.md)
    + [Data Workbench and the Experience Cloud ID Service](mcvid-reference/mcvid-dwb.md)
 + FAQs {#faqs}
-   + [FAQ Overview](mcvid-faq-intro/mcvid-faq-intro.md)
-   + [ID Service FAQs](mcvid-faq-intro/mcvid-faq.md)
-   + [Analytics and ID Service FAQs](mcvid-faq-intro/mcvid-analytics-faq.md)
-   + [FAQs for Other Experience Cloud Solutions](mcvid-faq-intro/mcvid-other-faq.md)
+   + [FAQ Overview](mcvid-faq-intro/ecid-faq-intro.md)
+   + [ID Service FAQs](mcvid-faq-intro/ecid-faq.md)
+   + [Analytics and ID Service FAQs](mcvid-faq-intro/ecid-analytics-faq.md)
+   + [FAQs for Other Experience Cloud Solutions](mcvid-faq-intro/ecid-other-faq.md)
 + Release notes for ID Service {#release-notes}
    + [2019 Release Notes](mcvid-release-notes/mcvid-release-notes.md)
    + [2018 Release Notes](mcvid-release-notes/mcvid-notes-2018.md)
