@@ -30,6 +30,6 @@ A standard implementation uses [Adobe Exprience Platform Launch](https://docs.ad
 * [Implement the Experience Cloud ID Service for Analytics, Audience Manager, and Target](mcvid-setup-aam-analytics-target.md)
 * [Using the Experience Cloud ID Service with A4T and a Server-side Implementation of Target](ecid-a4t-target.md)
 * [Direct Integration with the Experience Cloud ID Service](mcvid-direct-integration.md)
-* [Direct Integration Use Cases](mcvid-direct-integration-examples.md)
+* [Direct Integration Use Cases](ecid-direct-integration-examples.md)
 * [Test and verify the Experience Cloud ID Service](mcvid-test-verify.md)
 * [Opt-in Service overview](opt-in-service/mcvid-optin-overview.md)
