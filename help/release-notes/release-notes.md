@@ -17,7 +17,7 @@ Feature releases, updates, or changes to the [!DNL Experience Cloud] ID service.
 
 ## Version 4.0 {#section-51a4be943bbe41558f196ef2654513e2}
 
-**Opt-in service**. Opt-in is an extension of Adobe Experience Platform Identity Service that allows you to control whether (and then which) Experience Cloud libraries can create cookies on web pages for visitors. Using [Experience Platform Launch](https://docs.adobelaunch.com/), you can simplify gathering visitor opt-in consents for Experience Cloud solution by enabling Analytics, Target, Audience Manager, and other or all select Experience Cloud solutions to opt-in to your consent management system.
+**Opt-in service**. Opt-in is an extension of the Experience Cloud ID (ECID) that allows you to control whether (and then which) Experience Cloud libraries can create cookies on web pages for visitors. Using [Experience Platform Launch](https://docs.adobelaunch.com/), you can simplify gathering visitor opt-in consents for Experience Cloud solution by enabling Analytics, Target, Audience Manager, and other or all select Experience Cloud solutions to opt-in to your consent management system.
 
 ## Version 3.4 {#section-046ce29b43af47cc849d4091098f5927}
 
