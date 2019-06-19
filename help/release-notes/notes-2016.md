@@ -19,9 +19,8 @@ November, 2016
 
 >[!IMPORTANT]
 >
->* Version 1.10 requires [!DNL AppMeasurement] 1.8.0. 
->* Using Experience Platform Identity Service Library 2.0.0+, ID synching will begin for Adobe Media Optimizer by default. See [Understanding ID Synchronization and Match Rates](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-match-rates.html). 
->
+>* Version 1.10 requires [!DNL AppMeasurement] 1.8.0.
+>* Using Experience Platform Identity Service Library 2.0.0+, ID synching will begin for Adobe Media Optimizer by default. See [Understanding ID Synchronization and Match Rates](/help/introduction/match-rates.md).
 
 **Fixes and Improvements**
 

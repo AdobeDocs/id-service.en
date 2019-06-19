@@ -10,7 +10,7 @@ uuid: aebd72ad-4118-471b-9755-d08a72caa0fd
 
 The Opt-in service lets you set up protocols for the visitor to determine if you can set a cookie on the user's device or browser when visiting your site.
 
-The Opt-in service is an extension of the [Experience Cloud ID (ECID)](https://marketing.adobe.com/resources/help/en_US/mcvid/) service, designed to let you control whether and which Experience Cloud solutions can create cookies on web pages for visitors prior to user consent. The Opt-in service also lets you set protocols to integrate with your Consent Management Platform (CMP) and existing systems as part of your larger design.
+The Opt-in service is an extension of the Adobe Experience Platform Identity Service, designed to let you control whether and which Experience Cloud solutions can create cookies on web pages for visitors prior to user consent. The Opt-in service also lets you set protocols to integrate with your Consent Management Platform (CMP) and existing systems as part of your larger design.
 
 Using the Opt-in service, you can specify if a visitor can opt in to Adobe solutions at once, or present solutions in sequence for permissions. Once the approval process is complete and recorded by the customer, you can retrieve the CMP visitor approvals from all Adobe solutions.
 

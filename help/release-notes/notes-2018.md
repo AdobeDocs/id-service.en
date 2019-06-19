@@ -23,7 +23,7 @@ Feature releases, updates, or changes to the Experience Platform Identity Servic
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Increased security for AMCV cookies </p> </td> 
-   <td colname="col2"> <p>During an internal security scan, it was discovered that when using the DTM library, cookies used for session management fail to specify proper attributes. This could result in cookie information being inadvertently shared. To solve for this, we have introduced a configuration that allows the Customer to set the AMCV cookie as secure. See <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-securecookie.html" format="https" scope="external"> secureCookie</a>. </p> </td> 
+   <td colname="col2"> <p>During an internal security scan, it was discovered that when using the DTM library, cookies used for session management fail to specify proper attributes. This could result in cookie information being inadvertently shared. To solve for this, we have introduced a configuration that allows the Customer to set the AMCV cookie as secure. See <a href="/help/library/function-vars/securecookie.md" format="https" scope="external"> secureCookie</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

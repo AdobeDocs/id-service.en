@@ -17,7 +17,7 @@ Older implementations use Dynamic Tag Management (DTM) to set up, deploy, and in
 
 >[!NOTE]
 >
->Currently, [Launch, by Adobe](https://docs.adobelaunch.com/) is the preferred and recommended implementation tool because it helps simplify complex tag management tasks and automates code placement beyond the capabilities of DTM. See [Implement with Launch](../implementation-guides/ecid-implement-with-launch.md).
+>Currently, [Adobe Experience Platform Launch](https://docs.adobelaunch.com/) is the preferred and recommended implementation tool because it helps simplify complex tag management tasks and automates code placement beyond the capabilities of DTM. See [Implement with Launch](../implementation-guides/ecid-implement-with-launch.md).
 
 ## Dynamic Tag Management and the ID Service {#section-4a4c4fac5d0a4cbbaff8e1833f73657c}
 

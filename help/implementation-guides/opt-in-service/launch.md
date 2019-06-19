@@ -1,6 +1,6 @@
 ---
-description: Simplify enabling Experience Cloud solution for Opt-in using Launch, by Adobe.
-seo-description: Simplify enabling Experience Cloud solution for Opt-in using Launch, by Adobe.
+description: Simplify enabling Experience Cloud solution for Opt-in using Adobe Experience Platform Launch.
+seo-description: Simplify enabling Experience Cloud solution for Opt-in using Adobe Experience Platform Launch.
 seo-title: Configuring Opt-in with Launch
 title: Configuring Opt-in with Launch
 uuid: d35ed917-c4bd-4868-9026-1461f1a8f13e
@@ -8,11 +8,11 @@ uuid: d35ed917-c4bd-4868-9026-1461f1a8f13e
 
 # Configuring Opt-in with Launch {#configuring-opt-in-with-launch}
 
-Simplify enabling Experience Cloud solution for Opt-in using Launch, by Adobe.
+Simplify enabling Experience Cloud solution for Opt-in using Adobe Experience Platform Launch.
 
 ## Configure an Opt-in scenario with Launch {#section-8aa1b58bf8374c938aa8cfdeddbad6ff}
 
-[Launch, by Adobe](https://docs.adobelaunch.com/) makes it easy to configure and set up an opt in scenario with Adobe solutions. You can simplify gathering visitor opt-in consents for Experience Cloud solutions by enabling Analytics, Target, Audience Manager, and other or all select Experience Cloud solutions to opt in to your consent management system.
+[Adobe Experience Platform Launch](https://docs.adobelaunch.com/) makes it easy to configure and set up an opt in scenario with Adobe solutions. You can simplify gathering visitor opt-in consents for Experience Cloud solutions by enabling Analytics, Target, Audience Manager, and other or all select Experience Cloud solutions to opt in to your consent management system.
 
 **Configure the Experience Cloud ID extension**
 

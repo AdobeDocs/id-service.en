@@ -173,7 +173,7 @@ Release date: February, 2017
  <tbody> 
   <tr> 
    <td colname="col1"> <p> ID service API property, <span class="codeph"> idSyncContainerID</span></p> </td> 
-   <td colname="col2"> <p>This property sets the container ID used by <span class="keyword"> Audience Manager</span> for ID syncs. See <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-idsyncontainerid.html" format="https" scope="external"> idSyncContainerID</a>. </p> </td> 
+   <td colname="col2"> <p>This property sets the container ID used by <span class="keyword"> Audience Manager</span> for ID syncs. See <a href="/help/library/function-vars/idsyncontainerid.md" format="https" scope="external"> idSyncContainerID</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID service API method, <span class="codeph">appendSupplementalDataIDTo(<span class="varname"> URL</span>,<span class="varname"> SDID</span>)</span></p> </td> 
