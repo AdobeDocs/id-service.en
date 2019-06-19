@@ -3,7 +3,7 @@ cloud: experience-cloud
 product: Identity Service
 audience: end-user
 user-guide-title: Identity Service Help
-user-guide-url: /content/help/en/id-service/using/mcvid-home.html
+user-guide-url: /content/help/en/id-service/using/home.html
 ---
 
 # Identity Service Help {#using}
@@ -37,8 +37,8 @@ user-guide-url: /content/help/en/id-service/using/mcvid-home.html
       + [Opt-in Use Cases](implementation-guides/opt-in-service/use-cases.md)
       + [Opt-in Reference](implementation-guides/opt-in-service/api.md)
       + [(beta) Using Opt-in Services with IAB Framework](implementation-guides/opt-in-service/iab.md)
-+ ID Service API {#id-service-api}
-   + [ID Service API Overview](library/library.md)
++ Identity Service API {#id-service-api}
+   + [Identity Service API Overview](library/library.md)
    + Configuration {#configurations}
       + [Configurations overview](library/function-vars/function-vars.md)
       + [audienceManagerServer and audienceManagerServerSecure](library/function-vars/subdomain-config.md)
