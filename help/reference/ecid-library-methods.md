@@ -27,7 +27,7 @@ The ECID library, AMCV cookie, and ECID (aka MID) started as the method for inte
 
 **Do CNAMEs help customers enable multi-domain tracking?**
 
-The same rules and caveats that have existed previously with CNAMEs still exist. In some cases, CNAMEs can help in a multi-domain scenario. If you have a main entry site where users can be identified before they visit other domains, then a CNAME can enable multi-domain tracking in browsers that do not accept third-party cookies. However, while CNAMEs can help with multi-domain in some scenarios, the reason for the shift of ECID to CNAME implementations is for persistent visitor identification, not multi-domain tracking. For more on CNAME and multi-domain, see [Data Collection CNAMEs and Cross-Domain Tracking](/help/reference/analytics-reference/mcvid-cname.md).
+The same rules and caveats that have existed previously with CNAMEs still exist. In some cases, CNAMEs can help in a multi-domain scenario. If you have a main entry site where users can be identified before they visit other domains, then a CNAME can enable multi-domain tracking in browsers that do not accept third-party cookies. However, while CNAMEs can help with multi-domain in some scenarios, the reason for the shift of ECID to CNAME implementations is for persistent visitor identification, not multi-domain tracking. For more on CNAME and multi-domain, see [Data Collection CNAMEs and Cross-Domain Tracking](/help/reference/analytics-reference/cname.md).
 
 More FAQs will be added here as additional ITP changes are released. For more inquiries, please visit [Adobe Experience League](https://experienceleague.adobe.com/#recommended/solutions/analytics).
 
@@ -49,7 +49,7 @@ Upgrade to ECID library v. 4.3.0 + to take advantage of this change.
 
 **Design**
 
-Once an ID request is made to demdex.net and an ECID is retrieved, if a tracking server is set in your ECID library, an ID request is made to the customer's domain. This endpoint reads the ecid param from the query string, and sets a new [cookie](/help/introduction/mcvid-cookies.md) that comprises only the ECID and an expiration date two years in the future. Each time this endpoint is called in this manner, the `s_ecid` cookie is rewritten with an expiration date two years from the time of that call. ECID library needs to be updated to v 4.3.0 so that the value of this cookie can be retrieved.
+Once an ID request is made to demdex.net and an ECID is retrieved, if a tracking server is set in your ECID library, an ID request is made to the customer's domain. This endpoint reads the ecid param from the query string, and sets a new [cookie](/help/introduction/cookies.md) that comprises only the ECID and an expiration date two years in the future. Each time this endpoint is called in this manner, the `s_ecid` cookie is rewritten with an expiration date two years from the time of that call. ECID library needs to be updated to v 4.3.0 so that the value of this cookie can be retrieved.
 
 This new `s_ecid` cookie follows the same opt-out status as the AMCV cookie. If the ecid is read from the `s_ecid` cookie, demdex is always immediately called to retrieve the latest opt-out status for that ID and stored in the AMCV cookie.
 
@@ -78,6 +78,6 @@ This function lets you share a visitor's ECID across domains when browsers block
 *   The ID service code on the destination page uses the passed-in ECID to track the visitor.
 
     >[!NOTE]
-    >If the destination page already has a ECID from previous visits, then the decision to over-write the existing cookie is controlled by this config overwriteCrossDomainMCIDAndAID. For details about this config, see [overwriteCrossDomainMCIDAndAID](/help/library/function-vars/mcvid-overwrite-visitor-id.md).
+    >If the destination page already has a ECID from previous visits, then the decision to over-write the existing cookie is controlled by this config overwriteCrossDomainMCIDAndAID. For details about this config, see [overwriteCrossDomainMCIDAndAID](/help/library/function-vars/overwrite-visitor-id.md).
     >
-    >For more details on this method, see the [appendVisitorIDsTo (Cross Domain Tracking)](/help/library/get-set/mcvid-appendvisitorid.md) reference page.
+    >For more details on this method, see the [appendVisitorIDsTo (Cross Domain Tracking)](/help/library/get-set/appendvisitorid.md) reference page.
