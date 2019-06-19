@@ -88,12 +88,12 @@ mcvid-dtm-implement.xml
 
    >[!NOTE]
    >
-   >This action populates the **[!UICONTROL Experience Cloud Organization ID]** box with your Organization ID. If your DTM account is not linked to the [!DNL Experience Cloud], you will have to provide this ID. To link your account, see [Link Accounts in the Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html). See the [requirements](../reference/mcvid-requirements.md#section-a02f537129a64ffbb690d5738d360c26) for information about how to find your Organization ID.
+   >This action populates the **[!UICONTROL Experience Cloud Organization ID]** box with your Organization ID. If your DTM account is not linked to the [!DNL Experience Cloud], you will have to provide this ID. To link your account, see [Link Accounts in the Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html). See the [requirements](../reference/requirements.md#section-a02f537129a64ffbb690d5738d360c26) for information about how to find your Organization ID.
 
-1. Type the name of your tracking server in the **[!UICONTROL Tracking Server]** box. If you're not sure how to find your tracking server see the [FAQ](../faq-intro/mcvid-faq.md) and [Correctly Populate the trackingServer and trackingServerSecure variables](https://helpx.adobe.com/analytics/kb/determining-data-center.html#).
+1. Type the name of your tracking server in the **[!UICONTROL Tracking Server]** box. If you're not sure how to find your tracking server see the [FAQ](../faq-intro/faq.md) and [Correctly Populate the trackingServer and trackingServerSecure variables](https://helpx.adobe.com/analytics/kb/determining-data-center.html#).
 1. Click **[!UICONTROL Create Tool]** and **[!UICONTROL Save Changes]**.
 
-   After saving, the ID service is set up as a tool in DTM. However, it is not ready to use yet. Your DTM tool still has to go through the DTM publishing/approval process and you may want to configure additional parameters. For information about the DTM approval process, see the [User Basics Jump Start](https://marketing.adobe.com/resources/help/en_US/dtm/user-basics-jump-start.html) video. For information about the additional parameters you can add to DTM, see [Experience Cloud ID Service Settings for DTM](../implementation-guides/mcvid-standard.md#concept-fb6cb6a0e6cc4f10b92371f8671f6b59).
+   After saving, the ID service is set up as a tool in DTM. However, it is not ready to use yet. Your DTM tool still has to go through the DTM publishing/approval process and you may want to configure additional parameters. For information about the DTM approval process, see the [User Basics Jump Start](https://marketing.adobe.com/resources/help/en_US/dtm/user-basics-jump-start.html) video. For information about the additional parameters you can add to DTM, see [Experience Cloud ID Service Settings for DTM](../implementation-guides/standard.md#concept-fb6cb6a0e6cc4f10b92371f8671f6b59).
 
 >[!MORE_LIKE_THIS]
 >
@@ -119,7 +119,7 @@ This is the ID required by and associated with your provisioned [!DNL Experience
 
 ![](assets/orgID.png)
 
-See also [Cookies and the Experience Cloud ID Service](../introduction/mcvid-cookies.md).
+See also [Cookies and the Experience Cloud ID Service](../introduction/cookies.md).
 
 ## General settings {#section-071d358e40f84629a8901b893dd61392}
 
@@ -133,7 +133,7 @@ The following table lists and defines the [!DNL General] settings.
 
 When checked, dynamic tag management to automatically calls the `getMarketingCloudVisitorID()` method before loading any of the Adobe solutions that use the Experience Cloud ID service.
 
-See [getMarketingCloudVisitorID](../library/get-set/mcvid-getmcvid.md).
+See [getMarketingCloudVisitorID](../library/get-set/getmcvid.md).
 
 **Analytics Tracking Server**
 
@@ -165,7 +165,7 @@ Sets the version of the ID service code library ( `VisitorAPI.js`) that you want
 
 **Settings**
 
-These fields let you add [function variables](../library/function-vars/mcvid-function-vars.md) as key-value pairs. Click **[!UICONTROL Add]** to add one or more variables to your ID service implementation.
+These fields let you add [function variables](../library/function-vars/function-vars.md) as key-value pairs. Click **[!UICONTROL Add]** to add one or more variables to your ID service implementation.
 
 ![](assets/dtmVars.png)
 
@@ -189,7 +189,7 @@ The value should be a data element containing the user id. Data elements are sui
 
 **Auth State**
 
-Options that define or identify visitors according to their authentication status (e.g., logged in, logged out). See [Customer IDs and Authentication States](../reference/mcvid-authenticated-state.md). 
+Options that define or identify visitors according to their authentication status (e.g., logged in, logged out). See [Customer IDs and Authentication States](../reference/authenticated-state.md). 
 
 ## Test and verify the Experience Cloud ID Service {#concept-644fdbef433b46ba9c0634ac95eaa680}
 
@@ -215,7 +215,7 @@ The [Adobe debugger](https://marketing.adobe.com/resources/help/en_US/sc/impleme
 
 ## Testing with the Adobe Debugger {#section-861365abc24b498e925b3837ea81d469}
 
-Your service integration is configured properly when you see a [!DNL Experience Cloud ID] (MID) in the [!DNL Adobe] debugger response. See [Cookies and the Experience Cloud ID Service](../introduction/mcvid-cookies.md) for more information about the MID.
+Your service integration is configured properly when you see a [!DNL Experience Cloud ID] (MID) in the [!DNL Adobe] debugger response. See [Cookies and the Experience Cloud ID Service](../introduction/cookies.md) for more information about the MID.
 
 To verify the status of the ID service with the [!DNL Adobe] [debugger](https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger.html):
 
@@ -263,7 +263,7 @@ Refer to this section for information about where to look, and what to look for,
 
 **Successful ID Service requests in Charles**
 
-Your ID service code is working properly when the `Visitor.getInstance` function makes a JavaScript call to `dpm.demdex.net`. A successful request includes your [Organization ID](../reference/mcvid-requirements.md#section-a02f537129a64ffbb690d5738d360c26). The Organization ID is passed as a key-value pair that uses this syntax: `d_orgid= *`organization ID`*`. Look for the `dpm.demdex.net` and the JavaScript calls under the [!DNL Structure] tab. Look for your Organization ID under the [!DNL Request] tab.
+Your ID service code is working properly when the `Visitor.getInstance` function makes a JavaScript call to `dpm.demdex.net`. A successful request includes your [Organization ID](../reference/requirements.md#section-a02f537129a64ffbb690d5738d360c26). The Organization ID is passed as a key-value pair that uses this syntax: `d_orgid= *`organization ID`*`. Look for the `dpm.demdex.net` and the JavaScript calls under the [!DNL Structure] tab. Look for your Organization ID under the [!DNL Request] tab.
 
 ![](assets/charles_request.png)
 

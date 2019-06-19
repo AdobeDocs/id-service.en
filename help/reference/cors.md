@@ -56,7 +56,7 @@ Let's take a look at how these headers work. In this example, say we have a fina
  </tbody> 
 </table>
 
-See also [useCORSOnly](../library/function-vars/mcvid-use-cors-only.md#reference-8a9a143d838b48d6b23329b84b13e1fa).
+See also [useCORSOnly](../library/function-vars/use-cors-only.md#reference-8a9a143d838b48d6b23329b84b13e1fa).
 
 ## Other Benefits of Using CORS {#section-6f44f30694c44f95bf9854b8a2af8449}
 

@@ -49,7 +49,7 @@ For more information on how to validate both Opt-in and the IAB plugin, check us
 ## Related Documentation {#section-55da1110051a4b39b1037803f4a7b264}
 
 * [IAB Transparency and Consent Framework (TCF)](https://iabtechlab.com/standards/gdpr-transparency-and-consent-framework/) - For more information on the IAB standard 
-* [Adobe Opt-In](../../implementation-guides/opt-in-service/mcvid-optin-overview.md#concept-f9b5db0d27a245fbadd3e19162319360) - For more information on Opt-In, a required component for consent management in Platform solutions 
+* [Adobe Opt-In](../../implementation-guides/opt-in-service/optin-overview.md#concept-f9b5db0d27a245fbadd3e19162319360) - For more information on Opt-In, a required component for consent management in Platform solutions 
 * IAB Transparency and Consent Framework (TCF) Support [in Audience Manager](https://marketing-beta.adobe.com/resources/help/aam/iab-support/aam-iab-support.html) 
 * [Your Privacy Choices](https://www.adobe.com/privacy/opt-out.html#customeruse) - Another privacy option at your users' disposal is the ability to opt out of all data collection using other global opt-out tools. Global Opt-Out takes precedence over the Opt-In and IAB verification
 

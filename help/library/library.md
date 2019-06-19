@@ -11,8 +11,8 @@ uuid: 9663cf9d-64be-4b68-a0e1-c1a1eb70fbd5
 
 Properties, methods, and configurations that let you work programmatically with the Experience Cloud ID service.
 
-* [Configurations overview](function-vars/mcvid-function-vars.md)
-* [Methods overview](get-set/mcvid-get-set.md)
+* [Configurations overview](function-vars/function-vars.md)
+* [Methods overview](get-set/get-set.md)
 
 >[!NOTE]
 >

@@ -34,7 +34,7 @@ A server-side implementation is for A4T customers with mixed server- and client-
 
 **Non-standard implementation** (with ID)
 
-If you've set up the ID service with a [non-standard implementation](../../implementation-guides/mcvid-implementation-guides.md#section-2c4f2db1f9704315a7cccab6d2e07113), you need to configure a variable object to hold the SDID (or other IDs) you want to pass with `visitor.resetState()`. As shown below, this would include your [organization ID](../../reference/mcvid-requirements.md#section-a02f537129a64ffbb690d5738d360c26) and the ID you want to pass. Your code could look similar to the following example.
+If you've set up the ID service with a [non-standard implementation](../../implementation-guides/implementation-guides.md#section-2c4f2db1f9704315a7cccab6d2e07113), you need to configure a variable object to hold the SDID (or other IDs) you want to pass with `visitor.resetState()`. As shown below, this would include your [organization ID](../../reference/requirements.md#section-a02f537129a64ffbb690d5738d360c26) and the ID you want to pass. Your code could look similar to the following example.
 
 ```js
 //Instantiate server state variable 

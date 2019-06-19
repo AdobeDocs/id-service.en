@@ -14,8 +14,8 @@ The ID service functions idSyncByURL and idSyncByDataSource let you manually imp
 Contents:
 
 <ul class="simplelist"> 
- <li> <a href="../../library/get-set/mcvid-idsync.md#section-90ac61617482463aaf4c57009b830332" format="dita" scope="local"> Syntax, Properties, and Macros </a> </li> 
- <li> <a href="../../library/get-set/mcvid-idsync.md#section-0115615c37584a19a2ab11e917c4e7e9" format="dita" scope="local"> Sample Code and Output </a> </li> 
+ <li> <a href="../../library/get-set/idsync.md#section-90ac61617482463aaf4c57009b830332" format="dita" scope="local"> Syntax, Properties, and Macros </a> </li> 
+ <li> <a href="../../library/get-set/idsync.md#section-0115615c37584a19a2ab11e917c4e7e9" format="dita" scope="local"> Sample Code and Output </a> </li> 
 </ul>
 
 ## Syntax, Properties, and Macros {#section-90ac61617482463aaf4c57009b830332}

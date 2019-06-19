@@ -38,7 +38,7 @@ ID service support for Internet Explorer 6, 7, and 8 is deprecated and will be d
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> getVisitorValues</span> </p> </td> 
-   <td colname="col2"> <p>This is an asynchronous API that returns identifiers for Analytics, the ID service, data collection opt-out, geographic location, and metadata "blob" content by default. Also, you can control which IDs you want to return with the optional <span class="codeph"> visitor.FIELDS</span> enum. See <a href="../library/get-set/mcvid-getvisitorvalues.md#reference-b8c9e17c170c4291829a792df46ce279" format="dita" scope="local"> getVisitorValues</a>. </p> </td> 
+   <td colname="col2"> <p>This is an asynchronous API that returns identifiers for Analytics, the ID service, data collection opt-out, geographic location, and metadata "blob" content by default. Also, you can control which IDs you want to return with the optional <span class="codeph"> visitor.FIELDS</span> enum. See <a href="../library/get-set/getvisitorvalues.md#reference-b8c9e17c170c4291829a792df46ce279" format="dita" scope="local"> getVisitorValues</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -47,7 +47,7 @@ ID service support for Internet Explorer 6, 7, and 8 is deprecated and will be d
 
 * Fixed a Chrome-related bug that caused the ID service to throw an error when clicking the back button in that browser. 
 * The ID service now re-fires ID syncs when the region ID in the event call response changes. 
-* Added new documentation, [Content Security Policies and the Experience Cloud ID Service](/help/reference/mcvid-csp.md#concept-968c423a7392479db0a0d821ae9783e3), that explains how to whitelist calls to Adobe domains used by the ID service.
+* Added new documentation, [Content Security Policies and the Experience Cloud ID Service](/help/reference/csp.md#concept-968c423a7392479db0a0d821ae9783e3), that explains how to whitelist calls to Adobe domains used by the ID service.
 
 ## Version 2.4 {#section-f4d1608dd8894f558a92b82e83321200}
 
@@ -63,14 +63,14 @@ August, 2017
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> isCoopSafe</span> </p> </td> 
-   <td colname="col2"> <p>An optional, Boolean configuration that determines if the ID service sends (or does not send) data to the Adobe Experience Cloud Device Co-op. See <a href="../library/function-vars/mcvid-coopsafe.md#reference-7fbed36f38a048d1a5883c53d430ddf4" format="dita" scope="local"> isCoopSafe</a>. </p> </td> 
+   <td colname="col2"> <p>An optional, Boolean configuration that determines if the ID service sends (or does not send) data to the Adobe Experience Cloud Device Co-op. See <a href="../library/function-vars/coopsafe.md#reference-7fbed36f38a048d1a5883c53d430ddf4" format="dita" scope="local"> isCoopSafe</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **Revised Documentation**
 
-Updated and revised the [FAQs](/help/faq-intro/mcvid-faq-intro.md) to include separate FAQs for different [!DNL Experience Cloud] solutions.
+Updated and revised the [FAQs](/help/faq-intro/faq-intro.md) to include separate FAQs for different [!DNL Experience Cloud] solutions.
 
 ## Version 2.3 {#section-ae7b1cb1e52e4ca5a46b453a3ba1f571}
 
@@ -86,11 +86,11 @@ July, 2017
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> sdidParamExpiry</span> </p> </td> 
-   <td colname="col2"> <p>When added to the <span class="codeph"> Visitor.getInstance</span> function, this configuration lets you override the default Supplemental Data ID (SDID) expiration interval when passing that ID from one page to another. You would use <span class="codeph"> sdidParamExpiry</span> with the <span class="codeph"> appendSupplimentalDataTo</span> helper function. See <a href="../library/function-vars/mcvid-sdidparamexpiry.md#reference-cef3fd03c43b4772b2422e220b40a458" format="dita" scope="local"> sdidParamExpiry</a>. </p> </td> 
+   <td colname="col2"> <p>When added to the <span class="codeph"> Visitor.getInstance</span> function, this configuration lets you override the default Supplemental Data ID (SDID) expiration interval when passing that ID from one page to another. You would use <span class="codeph"> sdidParamExpiry</span> with the <span class="codeph"> appendSupplimentalDataTo</span> helper function. See <a href="../library/function-vars/sdidparamexpiry.md#reference-cef3fd03c43b4772b2422e220b40a458" format="dita" scope="local"> sdidParamExpiry</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> resetState</span> </p> </td> 
-   <td colname="col2"> <p>This function is designed mainly for A4T customers to help solve issues related to working with IDs on single page sites/screens or apps. See <a href="../library/get-set/mcvid-resetstate.md#reference-47fc00ae139042d795d78244d9970139" format="dita" scope="local"> resetState</a>. </p> </td> 
+   <td colname="col2"> <p>This function is designed mainly for A4T customers to help solve issues related to working with IDs on single page sites/screens or apps. See <a href="../library/get-set/resetstate.md#reference-47fc00ae139042d795d78244d9970139" format="dita" scope="local"> resetState</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -113,7 +113,7 @@ Release date: June, 2017
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="../library/function-vars/mcvid-whitelistdomain.md#reference-999899ff7b5b429a8824c9db7a379808" format="dita" scope="local"> whitelistParentDomain and whitelistIframeDomains </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../library/function-vars/whitelistdomain.md#reference-999899ff7b5b429a8824c9db7a379808" format="dita" scope="local"> whitelistParentDomain and whitelistIframeDomains </a> </p> </td> 
    <td colname="col2"> <p>These configurations let different instances of ID service code implemented in an iFrame and on the parent page communicate with each other. They're designed to help resolve problems with 2 specific use cases where you may or may not control the parent page/domain and you have ID service code loading in the iFrame of a domain that you do control. </p> </td> 
   </tr> 
  </tbody> 
@@ -130,7 +130,7 @@ Release date: June, 2017
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="../faq-intro/mcvid-faq.md" format="dita" scope="local"> FAQ </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../faq-intro/faq.md" format="dita" scope="local"> FAQ </a> </p> </td> 
    <td colname="col2"> <p>Updated the <span class="keyword"> Analytics</span> section with information on how to find tracking server information. </p> </td> 
   </tr> 
  </tbody> 
@@ -147,12 +147,12 @@ Release date: June, 2017
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="../library/function-vars/mcvid-subdomain-config.md#reference-8ad017b3e5d24d34b3da25e8f8a56196" format="dita" scope="local"> audienceManagerServer and audienceManagerServerSecure </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../library/function-vars/subdomain-config.md#reference-8ad017b3e5d24d34b3da25e8f8a56196" format="dita" scope="local"> audienceManagerServer and audienceManagerServerSecure </a> </p> </td> 
    <td colname="col2"> <p>Added links to <span class="keyword"> Audience Manager</span> documentation that describes calls to the <span class="codeph"> demdex.net</span> domain. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../library/function-vars/mcvid-subdomain-config.md" format="dita" scope="local"> Understanding ID Synchronization and Match Rates </a> </p> </td> 
-   <td colname="col2"> <p>Revised <span class="keyword"> Media Optimizer</span> section to describe the call to <span class="codeph"> cm.eversttech.net</span>. This is the automatic ID sync that the ID service performs with <span class="keyword"> Media Optimizer</span>. This feature was released in January, 2017. See <a href="../release-notes/mcvid-notes-2017.md#section-0ceac6007c1241b58ad607e2b76b2b7e" format="dita" scope="local"> Version 2.0</a> below. </p> </td> 
+   <td colname="col1"> <p> <a href="../library/function-vars/subdomain-config.md" format="dita" scope="local"> Understanding ID Synchronization and Match Rates </a> </p> </td> 
+   <td colname="col2"> <p>Revised <span class="keyword"> Media Optimizer</span> section to describe the call to <span class="codeph"> cm.eversttech.net</span>. This is the automatic ID sync that the ID service performs with <span class="keyword"> Media Optimizer</span>. This feature was released in January, 2017. See <a href="../release-notes/notes-2017.md#section-0ceac6007c1241b58ad607e2b76b2b7e" format="dita" scope="local"> Version 2.0</a> below. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -177,7 +177,7 @@ Release date: February, 2017
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID service API method, <span class="codeph">appendSupplementalDataIDTo(<span class="varname"> URL</span>,<span class="varname"> SDID</span>)</span></p> </td> 
-   <td colname="col2"> <p>This public method appends the <span class="wintitle"> Supplemental Data ID</span> (SDID) as a query string parameter to a redirect URL. See <a href="../library/get-set/mcvid-appendsupplementaldataidto.md#reference-65d09de6fde0418f8c62fa79304a755d" format="dita" scope="local"> appendSupplementalDataIDTo</a>. (MCID-285) </p> </td> 
+   <td colname="col2"> <p>This public method appends the <span class="wintitle"> Supplemental Data ID</span> (SDID) as a query string parameter to a redirect URL. See <a href="../library/get-set/appendsupplementaldataidto.md#reference-65d09de6fde0418f8c62fa79304a755d" format="dita" scope="local"> appendSupplementalDataIDTo</a>. (MCID-285) </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -196,7 +196,7 @@ January, 2017
 
 >[!IMPORTANT]
 >
->The ID service code v2.0 automatically synchronizes IDs with Adobe Media Optimizer by default. This means you'll see a call from the page to `cm.eversttech.net`, which is a legacy [!DNL Media Optimizer] domain controlled by [!DNL Adobe]. See also, [Understanding ID Synchronization and Match Rates](../introduction/mcvid-match-rates.md#concept-e55cf228b90c457fbee8c3cb06b195ab).
+>The ID service code v2.0 automatically synchronizes IDs with Adobe Media Optimizer by default. This means you'll see a call from the page to `cm.eversttech.net`, which is a legacy [!DNL Media Optimizer] domain controlled by [!DNL Adobe]. See also, [Understanding ID Synchronization and Match Rates](../introduction/match-rates.md#concept-e55cf228b90c457fbee8c3cb06b195ab).
 
 **Fixes and Improvements**
 

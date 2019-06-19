@@ -33,7 +33,7 @@ To avoid this, many customers have implemented CNAME records for their data coll
 
 JavaScript can read and write cookies set in the first-party domain (the domain of the current website). The [!DNL Experience Cloud] ID service uses this method to set the `AMCV_###@AdobeOrg` cookie that contains all of the visitor IDs, so the domain of the tracking server no longer needs to match the domain of the website in order for the visitor ID cookie to be stored. In most circumstances this is the preferred way to set the ID service cookie because it eliminates the overhead of CNAME records and SSL certificates.
 
-However, there are a few situations where setting the cookie in the HTTP header is beneficial for cross-domain tracking, which is described in [Data Collection CNAMEs and Cross-Domain Tracking](../../reference/analytics-reference/mcvid-cname.md#concept-4df91f8a30ad4ec7a01eb943d579cc9d).
+However, there are a few situations where setting the cookie in the HTTP header is beneficial for cross-domain tracking, which is described in [Data Collection CNAMEs and Cross-Domain Tracking](../../reference/analytics-reference/cname.md#concept-4df91f8a30ad4ec7a01eb943d579cc9d).
 
 ## Custom Analytics IDs {#section-b6a7bd19e9ff432390010062450808f6}
 
@@ -62,7 +62,7 @@ After you deploy the visitor ID service, there are five ways a visitor can be id
   <tr> 
    <td colname="col1"> <p> <img id="image_77A06981672745B6AEA8BB4D55911CCA" src="assets/step2_icon.png" /> </p> </td> 
    <td colname="col2"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visid_analytics" format="http" scope="external"> aid (s_vi cookie)</a> </p> </td> 
-   <td colname="col3"> <p>The visitor had an existing s_vi cookie before you deployed the <span class="keyword"> Experience Cloud</span> ID service, or you have a <a href="../../reference/analytics-reference/mcvid-grace-period.md" format="dita" scope="local"> grace period</a> configured. </p> </td> 
+   <td colname="col3"> <p>The visitor had an existing s_vi cookie before you deployed the <span class="keyword"> Experience Cloud</span> ID service, or you have a <a href="../../reference/analytics-reference/grace-period.md" format="dita" scope="local"> grace period</a> configured. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <img id="image_0A950B1A6B004387AFEE8EED882739CB" src="assets/step3_icon.png" /> </p> </td> 
@@ -72,7 +72,7 @@ After you deploy the visitor ID service, there are five ways a visitor can be id
   <tr> 
    <td colname="col1"> <p> <img id="image_6F0ED8FE3EF846CA8E6ECCC3C0070D85" src="assets/step4_icon.png" /> </p> </td> 
    <td colname="col2"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visid_fallback" format="http" scope="external"> fid (fallback cookie on H.25.3 or newer, or AppMeasurement for JavaScript)</a> </p> </td> 
-   <td colname="col3"> <p>A browser doesn't accept third-party cookies and the Analytics tracking server is set up as a third-party tracking server. </p> <p> <p>Note: The <span class="codeph"> fid</span> is a legacy identifier and is not used if you've implemented the ID service on your site. In this case, the <span class="codeph"> fid</span> is not needed because the first-party, <a href="../../introduction/mcvid-cookies.md" format="dita" scope="local"> AMCV cookie</a> makes it obsolete. It has been retained to support legacy code and for historic reasons. </p> </p> </td> 
+   <td colname="col3"> <p>A browser doesn't accept third-party cookies and the Analytics tracking server is set up as a third-party tracking server. </p> <p> <p>Note: The <span class="codeph"> fid</span> is a legacy identifier and is not used if you've implemented the ID service on your site. In this case, the <span class="codeph"> fid</span> is not needed because the first-party, <a href="../../introduction/cookies.md" format="dita" scope="local"> AMCV cookie</a> makes it obsolete. It has been retained to support legacy code and for historic reasons. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <img id="image_23D8C0EB69EC4084BC237B5B98C036F4" src="assets/step5_icon.png" /> </p> </td> 
@@ -86,4 +86,4 @@ In many scenarios you might see 2 or 3 different IDs on a call, but Analytics wi
 
 >[!MORE_LIKE_THIS]
 >
->* [Order of Operations for Analytics IDs](../../reference/analytics-reference/mcvid-analytics-order-of-operations.md#concept-b92935b4fff545adb4773f3728bc15ef)
+>* [Order of Operations for Analytics IDs](../../reference/analytics-reference/analytics-order-of-operations.md#concept-b92935b4fff545adb4773f3728bc15ef)

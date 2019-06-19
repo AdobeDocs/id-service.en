@@ -15,7 +15,7 @@ Release notes and updates for 2015.
 
 November, 2015
 
-The Children's Online Privacy Protection Act (COPPA) prohibits online collection of personal information from children under 13 years old without verifiable parental consent. Customers concerned about COPPA can add an optional variable to their [!DNL Experience Cloud] ID service code that prevents it from setting cookies in the third-party domain of a browser. See [COPPA Support in the Experience Cloud ID Service](../reference/mcvid-coppa.md#concept-d7ddf81bebd74f129661fcec1ca19413). For version 1.5.3 or greater.
+The Children's Online Privacy Protection Act (COPPA) prohibits online collection of personal information from children under 13 years old without verifiable parental consent. Customers concerned about COPPA can add an optional variable to their [!DNL Experience Cloud] ID service code that prevents it from setting cookies in the third-party domain of a browser. See [COPPA Support in the Experience Cloud ID Service](../reference/coppa.md#concept-d7ddf81bebd74f129661fcec1ca19413). For version 1.5.3 or greater.
 
 ## Version 1.5.2 {#section-e3c73e47539942a89b02d33061128148}
 
@@ -34,20 +34,20 @@ August, 2015
   This only affected a few clients that met *all* of the following criteria:
 
     * Using the ID service. 
-    * Enabled a [grace period](../reference/analytics-reference/mcvid-grace-period.md)*or* are using first-party cookies and users block third-party cookies. 
+    * Enabled a [grace period](../reference/analytics-reference/grace-period.md)*or* are using first-party cookies and users block third-party cookies. 
     
     * Have pages with multi-part, top-level domains.
 
 Documentation revisions in this release include:
 
-* [API Methods and Code Library](../library/mcvid-library.md#concept-ff27497375644a898d47984aefb21c97): Reorganized content and text. In most cases, each method gets its own page. 
-* [Requirements for the Experience Cloud ID Service](../reference/mcvid-requirements.md): Revised content and reorganized text.
+* [API Methods and Code Library](../library/library.md#concept-ff27497375644a898d47984aefb21c97): Reorganized content and text. In most cases, each method gets its own page. 
+* [Requirements for the Experience Cloud ID Service](../reference/requirements.md): Revised content and reorganized text.
 
 ## Version 1.5 {#section-db5edfa11ae143ada07a96e0ab06dc57}
 
 July, 2015
 
-The [!DNL Experience Cloud] ID service supports multiple IDs and authentication states. This change also removes deprecated support for [!DNL Audience Manager] DPID mappings to user IDs used by the `setCustomerIDs` function. See [Customer IDs and Authentication States](../reference/mcvid-authenticated-state.md)
+The [!DNL Experience Cloud] ID service supports multiple IDs and authentication states. This change also removes deprecated support for [!DNL Audience Manager] DPID mappings to user IDs used by the `setCustomerIDs` function. See [Customer IDs and Authentication States](../reference/authenticated-state.md)
 
 ## Version 1.4 {#section-f5c596f355b14da28f45c798df513572}
 
@@ -63,7 +63,7 @@ var visitor = Visitor.getInstance("016D5C175213CCA80A490D05@AdobeOrg",{
 });
 ```
 
-See [Experience Cloud](../implementation-guides/mcvid-setup-analytics.md#concept-9ebbea85cb844a15b557be572cd142fd).
+See [Experience Cloud](../implementation-guides/setup-analytics.md#concept-9ebbea85cb844a15b557be572cd142fd).
 
 ## Version 1.3.5 {#section-eed4567f058f446d9a819e4682621aed}
 

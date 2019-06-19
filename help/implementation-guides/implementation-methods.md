@@ -13,11 +13,11 @@ Instructions and code samples for standard and non-standard implementations of t
 
 >[!IMPORTANT]
 >
->Be sure to read and understand the [ID service requirements](../reference/mcvid-requirements.md) before getting started with these procedures.
+>Be sure to read and understand the [ID service requirements](../reference/requirements.md) before getting started with these procedures.
 
 ## Standard implementation {#section-ea1e5270f2184f85a2e85214a6ac60cb}
 
-A standard implementation uses [!DNL Dyanamic Tag Manager] (DTM) to help you get started with the ID service and integrate it with other [!DNL Experience Cloud] solutions. We strongly recommend that you use DTM when implementing the ID service. To get started, see [Standard Implementation with DTM](../implementation-guides/mcvid-standard.md#concept-89cd0199a9634fc48644f2d61e3d2445).
+A standard implementation uses [!DNL Dyanamic Tag Manager] (DTM) to help you get started with the ID service and integrate it with other [!DNL Experience Cloud] solutions. We strongly recommend that you use DTM when implementing the ID service. To get started, see [Standard Implementation with DTM](../implementation-guides/standard.md#concept-89cd0199a9634fc48644f2d61e3d2445).
 
 ## Non-standard implementations {#section-2c4f2db1f9704315a7cccab6d2e07113}
 

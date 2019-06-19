@@ -14,11 +14,11 @@ An optional, Boolean configuration that determines if the ID service sends (or d
 Contents:
 
 <ul class="simplelist"> 
- <li> <a href="../../library/function-vars/mcvid-coopsafe.md#section-4883eda6beb8437182bcc82bb58fae41" format="dita" scope="local"> Requirements </a> </li> 
- <li> <a href="../../library/function-vars/mcvid-coopsafe.md#section-d18af2b903f248e18ae8108aaf0a8ebb" format="dita" scope="local"> Use Cases </a> </li> 
- <li> <a href="../../library/function-vars/mcvid-coopsafe.md#section-952f56724a2b4d349340e26fbaf33ddd" format="dita" scope="local"> Syntax and Code Sample </a> </li> 
- <li> <a href="../../library/function-vars/mcvid-coopsafe.md#section-fcd441933506493faefaa6b51f194a17" format="dita" scope="local"> Event Call POST Parameters </a> </li> 
- <li> <a href="../../library/function-vars/mcvid-coopsafe.md#section-9281c39c8b6249d7864100b5cbca7dc6" format="dita" scope="local"> Post-Instantiation APIs </a> </li> 
+ <li> <a href="../../library/function-vars/coopsafe.md#section-4883eda6beb8437182bcc82bb58fae41" format="dita" scope="local"> Requirements </a> </li> 
+ <li> <a href="../../library/function-vars/coopsafe.md#section-d18af2b903f248e18ae8108aaf0a8ebb" format="dita" scope="local"> Use Cases </a> </li> 
+ <li> <a href="../../library/function-vars/coopsafe.md#section-952f56724a2b4d349340e26fbaf33ddd" format="dita" scope="local"> Syntax and Code Sample </a> </li> 
+ <li> <a href="../../library/function-vars/coopsafe.md#section-fcd441933506493faefaa6b51f194a17" format="dita" scope="local"> Event Call POST Parameters </a> </li> 
+ <li> <a href="../../library/function-vars/coopsafe.md#section-9281c39c8b6249d7864100b5cbca7dc6" format="dita" scope="local"> Post-Instantiation APIs </a> </li> 
 </ul>
 
 ## Requirements {#section-4883eda6beb8437182bcc82bb58fae41}

@@ -24,7 +24,7 @@ A successful, supported implementation meets (or exceeds) the code requirements 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="../implementation-guides/mcvid-standard.md#concept-89cd0199a9634fc48644f2d61e3d2445" format="dita" scope="local"> Standard</a> </p> </td> 
+   <td colname="col1"> <p> <a href="../implementation-guides/standard.md#concept-89cd0199a9634fc48644f2d61e3d2445" format="dita" scope="local"> Standard</a> </p> </td> 
    <td colname="col2"> <p>For a standard implementation with Dynamic Tag Management (DTM), you must: </p> 
     <ul id="ul_59CDE179566844B494F3068FF6333809"> 
      <li id="li_CCCB6AFC08EE405F94C42216D3CE50AC"> Place the embed head code in the <span class="codeph"> &lt;head&gt;</span> section of your page. </li> 
@@ -37,7 +37,7 @@ A successful, supported implementation meets (or exceeds) the code requirements 
     </ul> <p>See also, <a href="https://marketing.adobe.com/resources/help/en_US/dtm/?f=deployment.html" format="https" scope="external"> Embed Code and Hosting Options</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../implementation-guides/mcvid-implementation-guides.md#section-2c4f2db1f9704315a7cccab6d2e07113" format="dita" scope="local"> Non-Standard Implementations </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../implementation-guides/implementation-guides.md#section-2c4f2db1f9704315a7cccab6d2e07113" format="dita" scope="local"> Non-Standard Implementations </a> </p> </td> 
    <td colname="col2"> <p>For non-standard, or manual implementations, you must set up the ID service as described by the procedures this guide. As with the DTM guidelines above, improper code placement and loading will create an unsupported implementation. </p> </td> 
   </tr> 
  </tbody> 
@@ -154,4 +154,4 @@ Your SDK code must be enabled for the ID service. Enable and download the latest
 
 >[!MORE_LIKE_THIS]
 >
->* [Code Library](../library/mcvid-library.md#concept-ff27497375644a898d47984aefb21c97)
+>* [Code Library](../library/library.md#concept-ff27497375644a898d47984aefb21c97)

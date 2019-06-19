@@ -31,7 +31,7 @@ Many customers can migrate away from a data collection CNAME as part of the ID s
   </tr> 
   <tr> 
    <td colname="col1"> <p>Without a CNAME </p> </td> 
-   <td colname="col2"> <p>Skip to <a href="../../reference/analytics-reference/mcvid-migration-decisions.md#section-34dabde7780e4a339f134c0ca7768961" format="dita" scope="local"> If you do not have a data collection CNAME, is your data collection server *.2o7.net or *.sc.omtrdc.net?</a>. </p> </td> 
+   <td colname="col2"> <p>Skip to <a href="../../reference/analytics-reference/migration-decisions.md#section-34dabde7780e4a339f134c0ca7768961" format="dita" scope="local"> If you do not have a data collection CNAME, is your data collection server *.2o7.net or *.sc.omtrdc.net?</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -50,7 +50,7 @@ If you have multiple domains that send data to the *same report suite*, then we 
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Multiple domains </p> </td> 
-   <td colname="col2"> <p>If you are tracking visitors across multiple domains, and you also have a main entry site where customers can be identified before they visit other domains, then you should continue to use your data collection CNAME. See <a href="../../reference/analytics-reference/mcvid-cname.md#concept-4df91f8a30ad4ec7a01eb943d579cc9d" format="dita" scope="local"> Data Collection CNAMES and Cross Domain Tracking</a> for a detailed explanation. </p> <p>Note that you need to specify two additional tracking-server parameters, <span class="codeph"> visitor.marketingCloudServer</span> and <span class="codeph"> visitor.marketingCloudServerSecure</span>, to configure a CNAME with the ID service. </p> </td> 
+   <td colname="col2"> <p>If you are tracking visitors across multiple domains, and you also have a main entry site where customers can be identified before they visit other domains, then you should continue to use your data collection CNAME. See <a href="../../reference/analytics-reference/cname.md#concept-4df91f8a30ad4ec7a01eb943d579cc9d" format="dita" scope="local"> Data Collection CNAMES and Cross Domain Tracking</a> for a detailed explanation. </p> <p>Note that you need to specify two additional tracking-server parameters, <span class="codeph"> visitor.marketingCloudServer</span> and <span class="codeph"> visitor.marketingCloudServerSecure</span>, to configure a CNAME with the ID service. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>A single domain </p> </td> 
@@ -83,7 +83,7 @@ If you have multiple Analytics JavaScript files or Flash applications or videos 
      <li id="li_4366CC8EB7A54A959568E3761ABBBF23">Multiple Analytics Javascript files </li> 
      <li id="li_B8A8132019EA48088E4F37E36F153D76">Other Data collection methods </li> 
     </ul> </td> 
-   <td colname="col2"> <p>You should configure a visitor ID service grace period so that you can roll out the visitor ID service to each JavaScript file and other data collection libraries. See <a href="../../reference/analytics-reference/mcvid-grace-period.md" format="dita" scope="local"> ID Service Grace Period</a>. </p> </td> 
+   <td colname="col2"> <p>You should configure a visitor ID service grace period so that you can roll out the visitor ID service to each JavaScript file and other data collection libraries. See <a href="../../reference/analytics-reference/grace-period.md" format="dita" scope="local"> ID Service Grace Period</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>A single Analytics JavaScript file </p> </td> 

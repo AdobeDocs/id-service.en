@@ -13,8 +13,8 @@ These examples cover 2 common use cases related to a direct integration and the 
 
 >[!TIP]
 >
->* Review and understand the [code syntax and variables](../implementation-guides/mcvid-direct-integration.md#concept-4cd3206a84bb4687af0b312ae09648b9) before diving into the use cases. 
->* For more information about the MID, see [Cookies and the Experience Cloud ID Service](../introduction/mcvid-cookies.md). 
+>* Review and understand the [code syntax and variables](../implementation-guides/direct-integration.md#concept-4cd3206a84bb4687af0b312ae09648b9) before diving into the use cases. 
+>* For more information about the MID, see [Cookies and the Experience Cloud ID Service](../introduction/cookies.md). 
 >
 
 ## Use case 1: I have a MID but want to pass my Visitor IDs and set an authentication state {#section-a67d89a343754d1286d03cf08d34b806}
@@ -45,7 +45,7 @@ These examples cover 2 common use cases related to a direct integration and the 
      <li id="li_4869572B40E54C54B88A2474DAC475A8">Your data provider ID. This is a unique ID assigned to your company. Let's call this ID 4444. </li> 
      <li id="li_05C8ED47488C4E289D84093127EC7B19">Your ID for the visitor (9876). </li> 
      <li id="li_3D1556AD18C843828A362CC604A9F76B"> <i>(Optional)</i> A status ID to define the authentication state for this visitor. </li> 
-    </ul> <p>And, if you happen to have any of the other parameters listed in the <a href="../implementation-guides/mcvid-direct-integration.md#concept-4cd3206a84bb4687af0b312ae09648b9" format="dita" scope="local"> direct integration guide</a> (e.g.,<span class="codeph"> d_blob</span> or <span class="codeph"> dcs_region</span>, etc.) it's ok to pass those in as well. </p> </td> 
+    </ul> <p>And, if you happen to have any of the other parameters listed in the <a href="../implementation-guides/direct-integration.md#concept-4cd3206a84bb4687af0b312ae09648b9" format="dita" scope="local"> direct integration guide</a> (e.g.,<span class="codeph"> d_blob</span> or <span class="codeph"> dcs_region</span>, etc.) it's ok to pass those in as well. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Solution and code sample</b> </p> </td> 
@@ -75,12 +75,12 @@ These examples cover 2 common use cases related to a direct integration and the 
     <ul id="ul_BF3BD821907B46A4B2EFA63146D35722"> 
      <li id="li_E658AE0671D14558B65FDD8992F25996">Do not have a MID for the site visitor. </li> 
      <li id="li_28A48BB3F71C4E4297F95A2D3E10AD7B">Need to request a MID from the ID service. </li> 
-     <li id="li_E2C306B9308D41E5BFE2F23EF48F5A41">Know your <a href="../reference/mcvid-requirements.md#section-a02f537129a64ffbb690d5738d360c26" format="dita" scope="local"> organization ID</a>. Let's call this 5555. </li> 
+     <li id="li_E2C306B9308D41E5BFE2F23EF48F5A41">Know your <a href="../reference/requirements.md#section-a02f537129a64ffbb690d5738d360c26" format="dita" scope="local"> organization ID</a>. Let's call this 5555. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Actions</b> </p> </td> 
-   <td colname="col2"> <p>Given these conditions, make a call to the ID service that includes your Organization ID. </p> <p>And, if you happen to have any of the other parameters listed in the <a href="../implementation-guides/mcvid-direct-integration.md#concept-4cd3206a84bb4687af0b312ae09648b9" format="dita" scope="local"> direct integration guide</a> (e.g.,<span class="codeph"> d_blob</span> or <span class="codeph"> dcs_region</span>, etc.) it's ok to pass those in as well. </p> </td> 
+   <td colname="col2"> <p>Given these conditions, make a call to the ID service that includes your Organization ID. </p> <p>And, if you happen to have any of the other parameters listed in the <a href="../implementation-guides/direct-integration.md#concept-4cd3206a84bb4687af0b312ae09648b9" format="dita" scope="local"> direct integration guide</a> (e.g.,<span class="codeph"> d_blob</span> or <span class="codeph"> dcs_region</span>, etc.) it's ok to pass those in as well. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Solution and code sample</b> </p> </td> 

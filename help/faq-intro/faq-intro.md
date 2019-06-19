@@ -11,6 +11,6 @@ uuid: b075957b-165f-4087-99ad-bf608b4d4967
 
 Frequently asked questions about the Experience Cloud ID service itself along with sections about the ID service and other Experience Cloud solution combinations.
 
-* [ID Service FAQs](mcvid-faq.md)
-* [Analytics and ID Service FAQs](mcvid-analytics-faq.md)
-* [FAQs for Other Experience Cloud Solutions](mcvid-other-faq.md)
+* [ID Service FAQs](faq.md)
+* [Analytics and ID Service FAQs](analytics-faq.md)
+* [FAQs for Other Experience Cloud Solutions](other-faq.md)

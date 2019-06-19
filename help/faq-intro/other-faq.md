@@ -17,7 +17,7 @@ Frequently asked questions about features, functionality, and issues related to 
 
 Yes, this is the preferred and recommended deployment option.
 
-See [Standard Implementation with DTM](../implementation-guides/mcvid-standard.md#concept-89cd0199a9634fc48644f2d61e3d2445).
+See [Standard Implementation with DTM](../implementation-guides/standard.md#concept-89cd0199a9634fc48644f2d61e3d2445).
 
 ## Analytics and Audience Manager {#section-b3dd206d497041acb04554c6fb1c912a}
 

@@ -32,7 +32,7 @@ The diagram and sections below describe what happens, and what you need to confi
 
 ## Step 1: Request page {#section-c12e82633bc94e8b8a65747115d0dda8}
 
-Server-side activity begins when a visitor makes an HTTP request to load a web page. During this step, your server receives this request and checks for the [AMCV cookie](../introduction/mcvid-cookies.md). The AMCV cookie contains the visitor's [!DNL Experience Cloud] ID (MID).
+Server-side activity begins when a visitor makes an HTTP request to load a web page. During this step, your server receives this request and checks for the [AMCV cookie](../introduction/cookies.md). The AMCV cookie contains the visitor's [!DNL Experience Cloud] ID (MID).
 
 ## Step 2: Generate ID Service payload {#section-c86531863db24bd9a5b761c1a2e0d964}
 
@@ -45,7 +45,7 @@ Next, you need make a server-side *`payload request`* to the ID service. A paylo
 >
 >This method requests a single mbox from [!DNL Target]. If you need to request multiple mboxes in a single call, see [generateBatchPayload](https://www.npmjs.com/package/@adobe-mcid/visitor-js-server#generatebatchpayload).
 
-Your payload request should look like following code sample. In the code sample, the `visitor.setCustomerIDs` function is optional. See [Customer IDs and Authentication States](../reference/mcvid-authenticated-state.md) for more information.
+Your payload request should look like following code sample. In the code sample, the `visitor.setCustomerIDs` function is optional. See [Customer IDs and Authentication States](../reference/authenticated-state.md) for more information.
 
 ```js
 //Import the ID service server package 
@@ -163,7 +163,7 @@ Your configured settings should look like this:
 
 ![](assets/server_side_dtm.png)
 
-See also, [Experience Cloud ID Service Settings for DTM](../implementation-guides/mcvid-standard.md#concept-fb6cb6a0e6cc4f10b92371f8671f6b59).
+See also, [Experience Cloud ID Service Settings for DTM](../implementation-guides/standard.md#concept-fb6cb6a0e6cc4f10b92371f8671f6b59).
 
 **Get server state without DTM**
 

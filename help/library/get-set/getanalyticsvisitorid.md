@@ -29,7 +29,7 @@ var analyticsID = visitor.getAnalyticsVisitorID(useAnalyticsVisitorID)
 
 >[!TIP]
 >
->If you're an [!DNL Analytics] customer, also check for and send the [!DNL Analytics] ID to your function. For example, you would want both identifiers when passing the visitor ID in a hidden form element to a server-side application that uses the data insertion API. In this case, you should collect and return the [!DNL Experience Cloud] and [!DNL Analytics] visitor IDs. See [getMarketingCloudVisitorID](../../library/get-set/mcvid-getmcvid.md).
+>If you're an [!DNL Analytics] customer, also check for and send the [!DNL Analytics] ID to your function. For example, you would want both identifiers when passing the visitor ID in a hidden form element to a server-side application that uses the data insertion API. In this case, you should collect and return the [!DNL Experience Cloud] and [!DNL Analytics] visitor IDs. See [getMarketingCloudVisitorID](../../library/get-set/getmcvid.md).
 
 **The "aid" Parameter is a Legacy Value**
 
@@ -44,7 +44,7 @@ You will see the `aid` parameter in a query string when:
 
 **Case 2**
 
-You will see the `aid` parameter in a query string when your organization is using a [grace period](../../reference/analytics-reference/mcvid-grace-period.md) before fully implementing the ID service. If the user visiting your site is new, and you're not using a grace period, the visitor will get the `mid` ( [!DNL Experience Cloud] ID) parameter. 
+You will see the `aid` parameter in a query string when your organization is using a [grace period](../../reference/analytics-reference/grace-period.md) before fully implementing the ID service. If the user visiting your site is new, and you're not using a grace period, the visitor will get the `mid` ( [!DNL Experience Cloud] ID) parameter. 
 
 >[!MORE_LIKE_THIS]
 >

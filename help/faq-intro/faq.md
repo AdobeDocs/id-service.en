@@ -15,11 +15,11 @@ Frequently asked questions about features, functionality, and issues related to 
 
 **What sort of functionality or capabilities does the ID service provide?**
 
-See the [Overview](../introduction/mcvid-overview.md).
+See the [Overview](../introduction/overview.md).
 
 **Why is the ID service not making a call to retrieve the Experience Cloud ID?**
 
-This can be difficult to diagnose. One thing you can check are the content security policy headers on your site. If you have a strict security policy, those settings can block the third-party calls made by the ID service. See [Content Security Policies and the Experience Cloud ID Service](../reference/mcvid-csp.md#concept-968c423a7392479db0a0d821ae9783e3).
+This can be difficult to diagnose. One thing you can check are the content security policy headers on your site. If you have a strict security policy, those settings can block the third-party calls made by the ID service. See [Content Security Policies and the Experience Cloud ID Service](../reference/csp.md#concept-968c423a7392479db0a0d821ae9783e3).
 
 **VisitorAPI.js file storage**
 
@@ -39,7 +39,7 @@ For [!DNL Target] customers, placing ID service code in the `<body>` of the page
 
 No, this call will only happen the first time the page renders and once every 7 days thereafter. In the meantime, server calls are not required. The ID service operates in client-side mode and does not need to make a server call to return an ID.
 
-See [Overview](../introduction/mcvid-overview.md).
+See [Overview](../introduction/overview.md).
 
 **When using the ID service, what can cause slow page load times or affect the user experience?**
 
@@ -63,23 +63,23 @@ This change improves performance for customers using Visitor 2.3.0+ and DIL 6.10
 
 Resource requests with CORS are generally more preferable than with JSONP. With JSONP, some browsers queue and de-prioritize requests relative to other synchronous and asynchronous calls on the page. CORS helps ensure that these requests are treated with a higher priority in the browser call stack.
 
-See [CORS Support in the Experience Cloud ID Service](../reference/mcvid-cors.md#concept-6c280446990d46d88ba9da15d2dcc758).
+See [CORS Support in the Experience Cloud ID Service](../reference/cors.md#concept-6c280446990d46d88ba9da15d2dcc758).
 
 ## Security {#section-b176b8492fbe4acfb79ebb30ec902f98}
 
 **Does the ID service support CORS?**
 
-Yes. See [CORS Support in the Experience Cloud ID Service](../reference/mcvid-cors.md#concept-6c280446990d46d88ba9da15d2dcc758).
+Yes. See [CORS Support in the Experience Cloud ID Service](../reference/cors.md#concept-6c280446990d46d88ba9da15d2dcc758).
 
 **What is CORS?**
 
-*`Cross-Origin Resource Sharing`* or CORS, is a method that browsers use to request resources. The ID service always requests resources using CORS in browsers that support it. The ID service requests resources with JSON-P in older browsers that do not support CORS. See [Experience Cloud](../reference/mcvid-cors.md#concept-6c280446990d46d88ba9da15d2dcc758).
+*`Cross-Origin Resource Sharing`* or CORS, is a method that browsers use to request resources. The ID service always requests resources using CORS in browsers that support it. The ID service requests resources with JSON-P in older browsers that do not support CORS. See [Experience Cloud](../reference/cors.md#concept-6c280446990d46d88ba9da15d2dcc758).
 
 **What if my security requirements are so strict that I never want to use JSONP?**
 
 If you have strict security requirements, set the ID service API config `useCORSOnly: true`. You should only enable this mode if you’re confident that your site visitors use browsers that support CORS.
 
-See [Experience Cloud](../reference/mcvid-cors.md#concept-6c280446990d46d88ba9da15d2dcc758) and [useCORSOnly](../library/function-vars/mcvid-use-cors-only.md#reference-8a9a143d838b48d6b23329b84b13e1fa). 
+See [Experience Cloud](../reference/cors.md#concept-6c280446990d46d88ba9da15d2dcc758) and [useCORSOnly](../library/function-vars/use-cors-only.md#reference-8a9a143d838b48d6b23329b84b13e1fa). 
 
 >[!MORE_LIKE_THIS]
 >

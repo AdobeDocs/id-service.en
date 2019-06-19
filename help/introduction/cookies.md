@@ -120,4 +120,4 @@ The ID service starts to create a MID as your page loads. During this process, c
 
 ## Next steps {#section-8db1727a63bc4ff68b495f270315d453}
 
-See [How the Experience Cloud ID Service Requests and Sets IDs...](../introduction/mcvid-id-request.md#concept-2caacebb1d244402816760e9b8bcef6a). 
+See [How the Experience Cloud ID Service Requests and Sets IDs...](../introduction/id-request.md#concept-2caacebb1d244402816760e9b8bcef6a). 

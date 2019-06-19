@@ -14,10 +14,10 @@ This helper method lets you append the Supplemental Data ID (SDID) as a query st
  Contents:
 
 <ul class="simplelist"> 
- <li> <a href="../../library/get-set/mcvid-appendsupplementaldataidto.md#section-cbb0b2f73bcc418386796c24c01b2365" format="dita" scope="local"> Syntax and Code Sample </a> </li> 
- <li> <a href="../../library/get-set/mcvid-appendsupplementaldataidto.md#section-dbe02d7ff6bd4ad1a2a26bf9cff54fa4" format="dita" scope="local"> Sample Output </a> </li> 
- <li> <a href="../../library/get-set/mcvid-appendsupplementaldataidto.md#section-cbb0b2f73bcc418386796c24c01b2365" format="dita" scope="local"> Syntax and Code Sample </a> </li> 
- <li> <a href="../../library/get-set/mcvid-appendsupplementaldataidto.md#section-99946715cefa4acc95200b093db5297e" format="dita" scope="local"> Changing the SDID Timeout with sdidParamExpiry </a> </li> 
+ <li> <a href="../../library/get-set/appendsupplementaldataidto.md#section-cbb0b2f73bcc418386796c24c01b2365" format="dita" scope="local"> Syntax and Code Sample </a> </li> 
+ <li> <a href="../../library/get-set/appendsupplementaldataidto.md#section-dbe02d7ff6bd4ad1a2a26bf9cff54fa4" format="dita" scope="local"> Sample Output </a> </li> 
+ <li> <a href="../../library/get-set/appendsupplementaldataidto.md#section-cbb0b2f73bcc418386796c24c01b2365" format="dita" scope="local"> Syntax and Code Sample </a> </li> 
+ <li> <a href="../../library/get-set/appendsupplementaldataidto.md#section-99946715cefa4acc95200b093db5297e" format="dita" scope="local"> Changing the SDID Timeout with sdidParamExpiry </a> </li> 
 </ul>
 
 ## Syntax and Code Sample {#section-cbb0b2f73bcc418386796c24c01b2365}
@@ -47,7 +47,7 @@ As shown below, the URL redirect contains the visitor's SDID, your Organization 
 
 ## Changing the SDID Timeout with sdidParamExpiry {#section-99946715cefa4acc95200b093db5297e}
 
-The [sdidParamExpiry](../../library/function-vars/mcvid-sdidparamexpiry.md#reference-cef3fd03c43b4772b2422e220b40a458) configuration lets you change the default SDID expiration interval when passing that ID from one page to another using the `appendSupplementalDataIDTo` helper function. By default, the ID service code on the receiving page has 30 seconds to get the SDID from the URL sent by the referring page. If the ID service code on the receiving page can't retrieve the SDID in less than 30 seconds it requests a new SDID. This functionality is mainly for A4T customers who need to pass the SDID from one page to another and want control over this timeout interval.
+The [sdidParamExpiry](../../library/function-vars/sdidparamexpiry.md#reference-cef3fd03c43b4772b2422e220b40a458) configuration lets you change the default SDID expiration interval when passing that ID from one page to another using the `appendSupplementalDataIDTo` helper function. By default, the ID service code on the receiving page has 30 seconds to get the SDID from the URL sent by the referring page. If the ID service code on the receiving page can't retrieve the SDID in less than 30 seconds it requests a new SDID. This functionality is mainly for A4T customers who need to pass the SDID from one page to another and want control over this timeout interval.
 
 If you need to change the default SDID timeout, add `sdidParamExpiry` to the `Visitor.getInstance` function with the following syntax:
 

@@ -58,15 +58,15 @@ The ID service returns data in a JSON object as shown below. Your response may b
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> d_mid</span> </p> </td> 
-   <td colname="col2"> <p>The Experience Cloud visitor ID. See <a href="../introduction/mcvid-cookies.md" format="dita" scope="local"> Cookies and the Experience Cloud ID Service</a>. </p> </td> 
+   <td colname="col2"> <p>The Experience Cloud visitor ID. See <a href="../introduction/cookies.md" format="dita" scope="local"> Cookies and the Experience Cloud ID Service</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> d_orgid</span> </p> </td> 
-   <td colname="col2"> <p>Your Experience Cloud Organization ID. For help with finding this ID see, <a href="../reference/mcvid-requirements.md" format="dita" scope="local"> Requirements for the Experience Cloud ID Service</a>. </p> </td> 
+   <td colname="col2"> <p>Your Experience Cloud Organization ID. For help with finding this ID see, <a href="../reference/requirements.md" format="dita" scope="local"> Requirements for the Experience Cloud ID Service</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> d_cid</span> </p> </td> 
-   <td colname="col2"> <p>An optional parameter that passes the Data Provider ID (DPID), the Unique User ID (DPUUID), and an <a href="../reference/mcvid-authenticated-state.md" format="dita" scope="local"> authenticated state ID</a> to the ID service. As shown in the code sample, separate the DPID and DPUUID with the non-printing control character, <span class="codeph"> %01</span>. </p> <p> <b>DPID and DPUUID</b> </p> <p>In the <span class="codeph"> d_cid</span> parameter, assign each related DPID and DPUUID combination to the same <span class="codeph"> d_cid</span> parameter. This lets you return multiple ID sets in a single request. Also, separate the DPID, DPUUID, and optional authentication flag with the non-printing control character, <span class="codeph"> %01</span>. In the examples below, the provider and user IDs are highlighted in <b>bold</b> text. </p> 
+   <td colname="col2"> <p>An optional parameter that passes the Data Provider ID (DPID), the Unique User ID (DPUUID), and an <a href="../reference/authenticated-state.md" format="dita" scope="local"> authenticated state ID</a> to the ID service. As shown in the code sample, separate the DPID and DPUUID with the non-printing control character, <span class="codeph"> %01</span>. </p> <p> <b>DPID and DPUUID</b> </p> <p>In the <span class="codeph"> d_cid</span> parameter, assign each related DPID and DPUUID combination to the same <span class="codeph"> d_cid</span> parameter. This lets you return multiple ID sets in a single request. Also, separate the DPID, DPUUID, and optional authentication flag with the non-printing control character, <span class="codeph"> %01</span>. In the examples below, the provider and user IDs are highlighted in <b>bold</b> text. </p> 
     <ul id="ul_2E19D837296B40E9ACD096495CF711C5"> 
      <li id="li_5B94B057654440B99B989BA60E4ED053">Syntax: <span class="codeph">...d_cid=DPID%01DPUUID%01authentication state...</span> </li> 
      <li id="li_B07833EF51D54F088574B7B7F9FB841A">Example: <span class="codeph">...d_cid=123%01456%011...</span> </li> 

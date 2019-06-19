@@ -14,11 +14,11 @@ These configurations let different instances of ID service code implemented in a
 Contents:
 
 <ul class="simplelist"> 
- <li> <a href="../../library/function-vars/mcvid-whitelistdomain.md#section-f645198bbaba4fba8961acb6e88d1470" format="dita" scope="local"> Syntax </a> </li> 
- <li> <a href="../../library/function-vars/mcvid-whitelistdomain.md#section-09d0049fe88a473baa69d404c50bf8ae" format="dita" scope="local"> Code Sample </a> </li> 
- <li> <a href="../../library/function-vars/mcvid-whitelistdomain.md#section-fc2eeb93546b406fae3b102dbcd11de7" format="dita" scope="local"> Use Cases </a> </li> 
- <li> <a href="../../library/function-vars/mcvid-whitelistdomain.md#section-2b1ce31fab034e1ca0f6b1c3cc57a6e2" format="dita" scope="local"> Configuration Safety and Security </a> </li> 
- <li> <a href="../../library/function-vars/mcvid-whitelistdomain.md#section-30c6a9f4dcdc4265a1149260b97cc057" format="dita" scope="local"> Supported Visitor API Methods </a> </li> 
+ <li> <a href="../../library/function-vars/whitelistdomain.md#section-f645198bbaba4fba8961acb6e88d1470" format="dita" scope="local"> Syntax </a> </li> 
+ <li> <a href="../../library/function-vars/whitelistdomain.md#section-09d0049fe88a473baa69d404c50bf8ae" format="dita" scope="local"> Code Sample </a> </li> 
+ <li> <a href="../../library/function-vars/whitelistdomain.md#section-fc2eeb93546b406fae3b102dbcd11de7" format="dita" scope="local"> Use Cases </a> </li> 
+ <li> <a href="../../library/function-vars/whitelistdomain.md#section-2b1ce31fab034e1ca0f6b1c3cc57a6e2" format="dita" scope="local"> Configuration Safety and Security </a> </li> 
+ <li> <a href="../../library/function-vars/whitelistdomain.md#section-30c6a9f4dcdc4265a1149260b97cc057" format="dita" scope="local"> Supported Visitor API Methods </a> </li> 
 </ul>
 
 ## Syntax {#section-f645198bbaba4fba8961acb6e88d1470}

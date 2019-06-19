@@ -13,7 +13,7 @@ These instructions are for Target customers who want to use the Experience Cloud
 
 >[!IMPORTANT]
 >
->* [Read the requirements](../reference/mcvid-requirements.md) before you begin. 
+>* [Read the requirements](../reference/requirements.md) before you begin. 
 >* Configure and test this code in a development environment before implementing it in production. 
 >
 
@@ -72,7 +72,7 @@ To test your ID service implementation:
 * Check for the AMCV cookie in the domain where your page is hosted. 
 * Verify `mboxMCGVID` appears in your [!DNL Target] request and that it contains the [!DNL Experience Cloud] ID (MID).
 
-See [Cookies and the Experience Cloud ID Service](../introduction/mcvid-cookies.md) for information about the AMCV cookie and the MID.
+See [Cookies and the Experience Cloud ID Service](../introduction/cookies.md) for information about the AMCV cookie and the MID.
 
 **Deploy**
 

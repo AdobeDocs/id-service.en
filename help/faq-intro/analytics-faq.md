@@ -47,11 +47,11 @@ However, H code is not supported with the visitorAPI.js code version 1.6 or high
 
 **What is a grace period and how do I configure it?**
 
-See [The ID Service Grace Period](../reference/analytics-reference/mcvid-grace-period.md) and contact [Customer Care](https://helpx.adobe.com/marketing-cloud/contact-support.html).
+See [The ID Service Grace Period](../reference/analytics-reference/grace-period.md) and contact [Customer Care](https://helpx.adobe.com/marketing-cloud/contact-support.html).
 
 **Why do I need to migrate to Real-time Data Collection (RDC) to use the ID service?**
 
-RDC adds global performance benefits and is required to make sure your implementation is ready for upcoming features that leverage Adobe's global network of edge notes. See [Analytics Requirements: Regional Data Collection (RDC)](../reference/mcvid-requirements.md#section-7d04bb013bc84a25bae3b148bc0ca25f).
+RDC adds global performance benefits and is required to make sure your implementation is ready for upcoming features that leverage Adobe's global network of edge notes. See [Analytics Requirements: Regional Data Collection (RDC)](../reference/requirements.md#section-7d04bb013bc84a25bae3b148bc0ca25f).
 
 ## Reporting {#section-123cd55a32e54a45a23beb140becfa8f}
 

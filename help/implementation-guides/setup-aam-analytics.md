@@ -13,7 +13,7 @@ These instructions are for Analytics and Audience Manager customers who want to 
 
 >[!IMPORTANT]
 >
->* [Read the requirements](../reference/mcvid-requirements.md) before you begin. 
+>* [Read the requirements](../reference/requirements.md) before you begin. 
 >* This procedure requires AppMeasurement. Customers using s_code cannot complete this procedure. 
 >* Configure and test this code in a development environment before implementing it in production. 
 >
@@ -44,7 +44,7 @@ The ID Service requires the `VisitorAPI.js` code library. To download this code 
 
 >[!IMPORTANT]
 >
->* Previous versions of the ID service API placed this function in a different location and required a different syntax. If you are migrating from a version prior to [version 1.4](../release-notes/mcvid-notes-2015.md#section-f5c596f355b14da28f45c798df513572), note the new placement and syntax documented here. 
+>* Previous versions of the ID service API placed this function in a different location and required a different syntax. If you are migrating from a version prior to [version 1.4](../release-notes/notes-2015.md#section-f5c596f355b14da28f45c798df513572), note the new placement and syntax documented here. 
 >* Code in ALL CAPS is a placeholder for actual values. Replace this text with your Organization ID, tracking server URL, or other named value. 
 >
 
@@ -127,7 +127,7 @@ To determine which tracking server variables to use:
 * Experience Cloud server URL = tracking server URL 
 * Experience Cloud server secure URL = tracking server secure URL
 
-If you're not sure how to find your tracking server see the [FAQ](../faq-intro/mcvid-faq.md) and [Correctly Populate the trackingServer and trackingServerSecure variables](https://helpx.adobe.com/analytics/kb/determining-data-center.html#).
+If you're not sure how to find your tracking server see the [FAQ](../faq-intro/faq.md) and [Correctly Populate the trackingServer and trackingServerSecure variables](https://helpx.adobe.com/analytics/kb/determining-data-center.html#).
 
 ## Step 6: Update your AppMeasurement.js file {#section-5517e94a09bc44dfb492ebca14b43048}
 
@@ -159,7 +159,7 @@ Place the ` [!DNL VisitorAPI.js]` file within the `<head>` tags on each page. Wh
 
 ## Step 8: (Optional) Configure a grace period {#section-aceacdb7d5794f25ac6ff46f82e148e1}
 
-If any of these use cases apply to your situation, ask [Customer Care](https://helpx.adobe.com/marketing-cloud/contact-support.html) to set up a temporary [grace period](../reference/analytics-reference/mcvid-grace-period.md). Grace periods can run for up to 180-days. You can renew a grace period if required.
+If any of these use cases apply to your situation, ask [Customer Care](https://helpx.adobe.com/marketing-cloud/contact-support.html) to set up a temporary [grace period](../reference/analytics-reference/grace-period.md). Grace periods can run for up to 180-days. You can renew a grace period if required.
 
 **Partial Implementation**
 
@@ -173,7 +173,7 @@ You need a grace period if you require new visitors to have an s_vi cookie after
 
 Discontinue the grace period after your implementation can capture the MID instead of reading the s_vi cookie.
 
-See also, [Cookies and the Experience Cloud ID Service](../introduction/mcvid-cookies.md).
+See also, [Cookies and the Experience Cloud ID Service](../introduction/cookies.md).
 
 **Clickstream Data Integration**
 
@@ -191,9 +191,9 @@ You can test and deploy as follows.
 
 To test your ID service implementation, check for the:
 
-* [AMCV cookie](../introduction/mcvid-cookies.md) in the domain where you pages is hosted. 
+* [AMCV cookie](../introduction/cookies.md) in the domain where you pages is hosted. 
 * MID value in the Analytics image request with the [Adobe debugger](https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger.html). 
-* See also, [Test and Verify the Experience Cloud ID Service](../implementation-guides/mcvid-test-verify.md).
+* See also, [Test and Verify the Experience Cloud ID Service](../implementation-guides/test-verify.md).
 
 To verify server-side forwarding, see [How to Verify your Server-Side Forwarding Implementation](https://marketing.adobe.com/resources/help/en_US/reference/ssf-verify.html).
 

@@ -14,9 +14,9 @@ This property sets the data source container ID that you want to use for ID sync
 Contents:
 
 <ul class="simplelist"> 
- <li> <a href="../../library/function-vars/mcvid-idsyncontainerid.md#section-b0c50732b1c84bed8616e82e8e83d58c" format="dita" scope="local"> Syntax and Code Sample </a> </li> 
- <li> <a href="../../library/function-vars/mcvid-idsyncontainerid.md#section-6aed44fbe9d6401a8f912cb0d98339a7" format="dita" scope="local"> What are Containers and When Would I Use This? </a> </li> 
- <li> <a href="../../library/function-vars/mcvid-idsyncontainerid.md#section-f283cb69c8de4348b5316cc4e02a3e9e" format="dita" scope="local"> Setting Container IDs When You Use DIL and VisitorAPI.js </a> </li> 
+ <li> <a href="../../library/function-vars/idsyncontainerid.md#section-b0c50732b1c84bed8616e82e8e83d58c" format="dita" scope="local"> Syntax and Code Sample </a> </li> 
+ <li> <a href="../../library/function-vars/idsyncontainerid.md#section-6aed44fbe9d6401a8f912cb0d98339a7" format="dita" scope="local"> What are Containers and When Would I Use This? </a> </li> 
+ <li> <a href="../../library/function-vars/idsyncontainerid.md#section-f283cb69c8de4348b5316cc4e02a3e9e" format="dita" scope="local"> Setting Container IDs When You Use DIL and VisitorAPI.js </a> </li> 
 </ul>
 
 ## Syntax and Code Sample {#section-b0c50732b1c84bed8616e82e8e83d58c}

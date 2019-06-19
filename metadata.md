@@ -1,8 +1,8 @@
 ---
 cloud: experience-cloud
-product: ID Service
+product: Identity Service
 audience: end-user
-solution-title: ID Service
+solution-title: Identity Service
 solution-hub-url: https://helpx.adobe.com/support/experience-cloud/core-services.html
 solution-image: assets/experience-cloud-logo-24.png
 getting-started-title: Getting Started

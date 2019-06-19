@@ -14,10 +14,10 @@ This is an asynchronous API that returns identifiers for Analytics, the ID servi
 Contents:
 
 <ul class="simplelist"> 
- <li> <a href="../../library/get-set/mcvid-getvisitorvalues.md#section-5aebe3907b2b46e997f45a1d1ed35c09" format="dita" scope="local"> Syntax </a> </li> 
- <li> <a href="../../library/get-set/mcvid-getvisitorvalues.md#section-36a31683558742a5915db3a391e09f7b" format="dita" scope="local"> Use Case 1: Request the Default Data Set </a> </li> 
- <li> <a href="../../library/get-set/mcvid-getvisitorvalues.md#section-467b2f4e513344c89b7332b05f6f59f3" format="dita" scope="local"> Use Case 2: Request a Custom Data Set </a> </li> 
- <li> <a href="../../library/get-set/mcvid-getvisitorvalues.md#section-4c4c300167694c6fbff1d6c612f372b5" format="dita" scope="local"> Response Parameters Defined </a> </li> 
+ <li> <a href="../../library/get-set/getvisitorvalues.md#section-5aebe3907b2b46e997f45a1d1ed35c09" format="dita" scope="local"> Syntax </a> </li> 
+ <li> <a href="../../library/get-set/getvisitorvalues.md#section-36a31683558742a5915db3a391e09f7b" format="dita" scope="local"> Use Case 1: Request the Default Data Set </a> </li> 
+ <li> <a href="../../library/get-set/getvisitorvalues.md#section-467b2f4e513344c89b7332b05f6f59f3" format="dita" scope="local"> Use Case 2: Request a Custom Data Set </a> </li> 
+ <li> <a href="../../library/get-set/getvisitorvalues.md#section-4c4c300167694c6fbff1d6c612f372b5" format="dita" scope="local"> Response Parameters Defined </a> </li> 
 </ul>
 
 ## Syntax {#section-5aebe3907b2b46e997f45a1d1ed35c09}
@@ -27,7 +27,7 @@ This function uses the following syntax (italics represents a placeholder for a 
 In the function parameters:
 
 * ` *`callback`*` represents your own callback code that receives the returned IDs. 
-* *(Optional)* ` visitor.FIELDS. *`ID type`*` is an enum that lets you specify which [ID values](../../library/get-set/mcvid-getvisitorvalues.md#section-4c4c300167694c6fbff1d6c612f372b5) you want this function to return.
+* *(Optional)* ` visitor.FIELDS. *`ID type`*` is an enum that lets you specify which [ID values](../../library/get-set/getvisitorvalues.md#section-4c4c300167694c6fbff1d6c612f372b5) you want this function to return.
 
 See the following use cases and definitions for more information.
 
@@ -96,7 +96,7 @@ The following table lists and defines the response parameters. These are also al
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MCAAMLH </span> </p> </td> 
-   <td colname="col2"> <p>The data collection region ID. This is a numeric identifier for the geographic location of a particular ID service data center. </p> <p>See <a href="https://marketing.adobe.com/resources/help/en_US/aam/dcs-regions.html" format="https" scope="external"> DCS Region IDs, Locations, and Host Names </a> and <a href="../../library/get-set/mcvid-getlocationhint.md#reference-a761030ff06c4439946bb56febf42d4c" format="dita" scope="local"> getLocationHint </a>. </p> </td> 
+   <td colname="col2"> <p>The data collection region ID. This is a numeric identifier for the geographic location of a particular ID service data center. </p> <p>See <a href="https://marketing.adobe.com/resources/help/en_US/aam/dcs-regions.html" format="https" scope="external"> DCS Region IDs, Locations, and Host Names </a> and <a href="../../library/get-set/getlocationhint.md#reference-a761030ff06c4439946bb56febf42d4c" format="dita" scope="local"> getLocationHint </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MCAID </span> </p> </td> 
@@ -104,7 +104,7 @@ The following table lists and defines the response parameters. These are also al
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MCMID </span> </p> </td> 
-   <td colname="col2"> <p>The visitor's Experience Cloud ID. </p> <p>See <a href="../../introduction/mcvid-cookies.md" format="dita" scope="local"> Cookies and the Experience Cloud ID Service </a>. </p> </td> 
+   <td colname="col2"> <p>The visitor's Experience Cloud ID. </p> <p>See <a href="../../introduction/cookies.md" format="dita" scope="local"> Cookies and the Experience Cloud ID Service </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MCOPTOUT </span> </p> </td> 

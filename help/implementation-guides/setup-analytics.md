@@ -13,20 +13,20 @@ These instructions are for Analytics customers who want to use the Experience Cl
 
 >[!IMPORTANT]
 >
->* [Read the requirements](../reference/mcvid-requirements.md) before you begin. 
+>* [Read the requirements](../reference/requirements.md) before you begin. 
 >* Configure and test this code in a development environment before implementing it in production. 
 >
 
 Follow these steps to implement the ID Service for Adobe Analytics:
 
-1. [Download the ID Service code](../implementation-guides/mcvid-setup-analytics.md#section-ead9403a6b7e45b887f9ac959ef89f7f) 
-1. [Add the Visitor.getInstance function to the ID Service Code](../implementation-guides/mcvid-setup-analytics.md#section-6053a6b7c16c466a9f9fdbf9cb9db3df) 
-1. [Add your Experience Cloud Organization ID to Visitor.getInstance](../implementation-guides/mcvid-setup-analytics.md#section-7b8a6e76dc124d0e9ab1ce96ab2ffb0e) 
-1. [Add your tracking servers to Visitor.getInstance](../implementation-guides/mcvid-setup-analytics.md#section-70ec9ebff47940d8ab520be5ec4728c5) 
-1. [Update your AppMeasurement.js or s_code.js file](../implementation-guides/mcvid-setup-analytics.md#section-b53113aea1bd4de896e0e4e9a7edee19) 
-1. [Add Visitor API code to the page](../implementation-guides/mcvid-setup-analytics.md#section-d46d6aa324c842f2931d901e38d6db1d) 
-1. [(Optional) Configure a grace period](../implementation-guides/mcvid-setup-analytics.md#section-7bbb2f72c26e4abeb8881e18366797a3) 
-1. [Test and deploy ID Service code](../implementation-guides/mcvid-setup-analytics.md#section-e9c1764ac21a4ec5be1ff338c0e2e01b)
+1. [Download the ID Service code](../implementation-guides/setup-analytics.md#section-ead9403a6b7e45b887f9ac959ef89f7f) 
+1. [Add the Visitor.getInstance function to the ID Service Code](../implementation-guides/setup-analytics.md#section-6053a6b7c16c466a9f9fdbf9cb9db3df) 
+1. [Add your Experience Cloud Organization ID to Visitor.getInstance](../implementation-guides/setup-analytics.md#section-7b8a6e76dc124d0e9ab1ce96ab2ffb0e) 
+1. [Add your tracking servers to Visitor.getInstance](../implementation-guides/setup-analytics.md#section-70ec9ebff47940d8ab520be5ec4728c5) 
+1. [Update your AppMeasurement.js or s_code.js file](../implementation-guides/setup-analytics.md#section-b53113aea1bd4de896e0e4e9a7edee19) 
+1. [Add Visitor API code to the page](../implementation-guides/setup-analytics.md#section-d46d6aa324c842f2931d901e38d6db1d) 
+1. [(Optional) Configure a grace period](../implementation-guides/setup-analytics.md#section-7bbb2f72c26e4abeb8881e18366797a3) 
+1. [Test and deploy ID Service code](../implementation-guides/setup-analytics.md#section-e9c1764ac21a4ec5be1ff338c0e2e01b)
 
 ## Step 1: Download the ID Service code {#section-ead9403a6b7e45b887f9ac959ef89f7f}
 
@@ -43,7 +43,7 @@ The [!DNL ID Service] requires the `VisitorAPI.js` code library. To download thi
 
 >[!IMPORTANT]
 >
->* Previous versions of the ID service API placed this function in a different location and required a different syntax. If you are migrating from a version prior to [version 1.4](../release-notes/mcvid-notes-2015.md#section-f5c596f355b14da28f45c798df513572), note the new placement and syntax documented here. 
+>* Previous versions of the ID service API placed this function in a different location and required a different syntax. If you are migrating from a version prior to [version 1.4](../release-notes/notes-2015.md#section-f5c596f355b14da28f45c798df513572), note the new placement and syntax documented here. 
 >* Code in ALL CAPS is a placeholder for actual values. Replace this text with your Organization ID, tracking server URL, or other named value. 
 >
 
@@ -126,7 +126,7 @@ To determine which tracking server variables to use:
 >* [!DNL Experience Cloud] server secure URL = tracking server secure URL 
 >
 
-If you're not sure how to find your tracking server see the [FAQ](../faq-intro/mcvid-faq.md) and [Correctly Populate the trackingServer and trackingServerSecure variables](https://helpx.adobe.com/analytics/kb/determining-data-center.html#).
+If you're not sure how to find your tracking server see the [FAQ](../faq-intro/faq.md) and [Correctly Populate the trackingServer and trackingServerSecure variables](https://helpx.adobe.com/analytics/kb/determining-data-center.html#).
 
 ## Step 5: Update your AppMeasurement.js or s_code.js file {#section-b53113aea1bd4de896e0e4e9a7edee19}
 
@@ -156,7 +156,7 @@ Move this code into production after testing and verification.
 
 ## Step 7: (Optional) Configure a grace period {#section-7bbb2f72c26e4abeb8881e18366797a3}
 
-If any of these use cases apply to your situation, ask [Customer Care](https://helpx.adobe.com/marketing-cloud/contact-support.html) to set up a temporary [grace period](../reference/analytics-reference/mcvid-grace-period.md). Grace periods can run for up to 180-days. You can renew a grace period if required.
+If any of these use cases apply to your situation, ask [Customer Care](https://helpx.adobe.com/marketing-cloud/contact-support.html) to set up a temporary [grace period](../reference/analytics-reference/grace-period.md). Grace periods can run for up to 180-days. You can renew a grace period if required.
 
 **Partial Implementation**
 
@@ -170,7 +170,7 @@ You need a grace period if you require new visitors to have an s_vi cookie after
 
 Discontinue the grace period after your implementation can capture the MID instead of reading the s_vi cookie.
 
-See, [Cookies and the Experience Cloud ID Service](../introduction/mcvid-cookies.md).
+See, [Cookies and the Experience Cloud ID Service](../introduction/cookies.md).
 
 You need a grace period if you send data to an internal system from a Clickstream data feed and that processes uses the `visid_high` and `visid_low` columns.
 
@@ -188,16 +188,16 @@ You can test and deploy as follows.
 
 To test your ID service implementation, check for the:
 
-* [AMCV cookie](../introduction/mcvid-cookies.md) in the domain where your page is hosted. 
+* [AMCV cookie](../introduction/cookies.md) in the domain where your page is hosted. 
 * MID value in the [!DNL Analytics] image request with the [Adobe debugger tool](https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger.html).
 
-See, [Test and Verify the Experience Cloud ID Service](../implementation-guides/mcvid-test-verify.md).
+See, [Test and Verify the Experience Cloud ID Service](../implementation-guides/test-verify.md).
 
 **Deploy code**
 
 Deploy your code after it passes testing.
 
-If you enabled a grace period in [Step 7](../implementation-guides/mcvid-setup-analytics.md#section-7bbb2f72c26e4abeb8881e18366797a3):
+If you enabled a grace period in [Step 7](../implementation-guides/setup-analytics.md#section-7bbb2f72c26e4abeb8881e18366797a3):
 
 * Ensure the [!DNL Analytics] ID (AID) and MID are in the image request. 
 * Remember to disable the grace period once you meet the criteria for discontinuation.

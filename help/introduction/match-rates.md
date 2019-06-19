@@ -21,7 +21,7 @@ Match rates measure and validate the effectiveness of the ID synchronization pro
 
 **Ensuring high match rates**
 
-To generate high match rates, it is important to set up the ID service properly (see the [standard implementation guide](../implementation-guides/mcvid-standard.md#concept-89cd0199a9634fc48644f2d61e3d2445)). A proper implementation helps ensure high match rates because lets the ID service set the cookies it requires to function and synchronize IDs with enabled data partners. However, factors such as slow Internet connections, data collection from mobile devices or wireless networks can affect how well the ID service collects, synchronizes, and matches IDs. These client-side variables are beyond the control of the ID service or [!DNL Adobe].
+To generate high match rates, it is important to set up the ID service properly (see the [standard implementation guide](../implementation-guides/standard.md#concept-89cd0199a9634fc48644f2d61e3d2445)). A proper implementation helps ensure high match rates because lets the ID service set the cookies it requires to function and synchronize IDs with enabled data partners. However, factors such as slow Internet connections, data collection from mobile devices or wireless networks can affect how well the ID service collects, synchronizes, and matches IDs. These client-side variables are beyond the control of the ID service or [!DNL Adobe].
 
 ## ID synchronization process described {#section-a541a85cbbc74f5682824b1a2ee2a657}
 
@@ -29,17 +29,17 @@ The ID service synchronizes IDs in real-time. This process works in the browser 
 
 **Step 1: Load page**
 
-When a visitor comes to your site and loads a page, the `Visitor.getInstance` function makes a [CORS](../reference/mcvid-cors.md#concept-6c280446990d46d88ba9da15d2dcc758) or JSON-P call to the ID service. The ID service responds with a cookie that includes the visitor's [!DNL Experience Cloud] ID (MID). The MID is a unique ID assigned to each site visitor. See also, [Cookies and the Experience Cloud ID Service](../introduction/mcvid-cookies.md).
+When a visitor comes to your site and loads a page, the `Visitor.getInstance` function makes a [CORS](../reference/cors.md#concept-6c280446990d46d88ba9da15d2dcc758) or JSON-P call to the ID service. The ID service responds with a cookie that includes the visitor's [!DNL Experience Cloud] ID (MID). The MID is a unique ID assigned to each site visitor. See also, [Cookies and the Experience Cloud ID Service](../introduction/cookies.md).
 
 **Step 2: Load iFrame**
 
 While the page body is loading, the ID service loads an iFrame called the *`Destination Publishing iFrame`*. The [!DNL Destination Publishing iFrame] loads in a domain separate from the parent page. This design helps ensure page performance and improves security because the iFrame:
 
 * Loads asynchronously in relation to parent page. This means the parent page can load independently from the [!DNL Destination Publishing iFrame]. Loading the iFrame and loading ID sync pixels from within the iFrame won't affect the parent page or the user experience. 
-* Loads as fast as possible. If this is too fast, you can load the iFrame after the window load event (not recommended). See [idSyncAttachIframeOnWindowLoad](../library/function-vars/mcvid-idsyncattachiframeonwindowload.md#reference-b86b7112e0814a4c82c4e24c158508f4) for details. 
+* Loads as fast as possible. If this is too fast, you can load the iFrame after the window load event (not recommended). See [idSyncAttachIframeOnWindowLoad](../library/function-vars/idsyncattachiframeonwindowload.md#reference-b86b7112e0814a4c82c4e24c158508f4) for details. 
 * Prevents code in the iFrame from gaining access to or affecting the parent page.
 
-See also, [How the Experience Cloud ID Service Requests and Sets IDs...](../introduction/mcvid-id-request.md#concept-2caacebb1d244402816760e9b8bcef6a).
+See also, [How the Experience Cloud ID Service Requests and Sets IDs...](../introduction/id-request.md#concept-2caacebb1d244402816760e9b8bcef6a).
 
 **Step 3: Fire ID syncs**
 
@@ -63,7 +63,7 @@ Synchronized IDs are stored on the [edge and core data servers](https://marketin
 
 ## Sync services manages ID synchronization {#section-cd5784d7ad404a24aa28ad4816a0119a}
 
-The term *`Sync Services`* refers to internal [!DNL Experience Cloud] technologies responsible for ID synchronization. This service is enabled by default. To disable it, add an [optional variable](../library/function-vars/mcvid-disableidsync.md#reference-589d6b489ac64eddb5a7ff758945e414) to the ID service `Visitor.getInstance` function. Sync Services matches different [!DNL Experience Cloud] IDs such as:
+The term *`Sync Services`* refers to internal [!DNL Experience Cloud] technologies responsible for ID synchronization. This service is enabled by default. To disable it, add an [optional variable](../library/function-vars/disableidsync.md#reference-589d6b489ac64eddb5a7ff758945e414) to the ID service `Visitor.getInstance` function. Sync Services matches different [!DNL Experience Cloud] IDs such as:
 
 * Third-party [!DNL Experience Cloud] cookie IDs to first-party [!DNL Experience Cloud] IDs. 
 
