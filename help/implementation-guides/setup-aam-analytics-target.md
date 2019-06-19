@@ -1,15 +1,15 @@
 ---
-description: These instructions are for Analytics, Audience Manager, and Target customers who want to use the Experience Cloud ID service and do not use Dynamic Tag Management (DTM). However, we strongly recommend that you use DTM to implement the ID service. DTM streamlines the implementation workflow and automatically ensures the correct code placement and sequencing.
+description: These instructions are for Analytics, Audience Manager, and Target customers who want to use the Experience Platform Identity Service and do not use Dynamic Tag Management (DTM). However, we strongly recommend that you use DTM to implement the ID service. DTM streamlines the implementation workflow and automatically ensures the correct code placement and sequencing.
 keywords: ID Service
-seo-description: These instructions are for Analytics, Audience Manager, and Target customers who want to use the Experience Cloud ID service and do not use Dynamic Tag Management (DTM). However, we strongly recommend that you use DTM to implement the ID service. DTM streamlines the implementation workflow and automatically ensures the correct code placement and sequencing.
-seo-title: Implement the Experience Cloud ID Service for Analytics, Audience Manager, and Target
-title: Implement the Experience Cloud ID Service for Analytics, Audience Manager, and Target
+seo-description: These instructions are for Analytics, Audience Manager, and Target customers who want to use the Experience Platform Identity Service and do not use Dynamic Tag Management (DTM). However, we strongly recommend that you use DTM to implement the ID service. DTM streamlines the implementation workflow and automatically ensures the correct code placement and sequencing.
+seo-title: Implement the Experience Platform Identity Service for Analytics, Audience Manager, and Target
+title: Implement the Experience Platform Identity Service for Analytics, Audience Manager, and Target
 uuid: 9d446b77-ca62-4325-8bb0-ff43a52313c0
 ---
 
-# Implement the Experience Cloud ID Service for Analytics, Audience Manager, and Target {#implement-the-experience-cloud-id-service-for-analytics-audience-manager-and-target}
+# Implement the Experience Platform Identity Service for Analytics, Audience Manager, and Target {#implement-the-experience-cloud-id-service-for-analytics-audience-manager-and-target}
 
-These instructions are for Analytics, Audience Manager, and Target customers who want to use the Experience Cloud ID service and do not use Dynamic Tag Management (DTM). However, we strongly recommend that you use DTM to implement the ID service. DTM streamlines the implementation workflow and automatically ensures the correct code placement and sequencing.
+These instructions are for Analytics, Audience Manager, and Target customers who want to use the Experience Platform Identity Service and do not use Dynamic Tag Management (DTM). However, we strongly recommend that you use DTM to implement the ID service. DTM streamlines the implementation workflow and automatically ensures the correct code placement and sequencing.
 
 >[!IMPORTANT]
 >
@@ -172,7 +172,7 @@ You need a grace period if you require new visitors to have an s_vi cookie after
 
 Discontinue the grace period after your implementation can capture the MID instead of reading the s_vi cookie.
 
-See also, [Cookies and the Experience Cloud ID Service](../introduction/cookies.md).
+See also, [Cookies and the Experience Platform Identity Service](../introduction/cookies.md).
 
 **Clickstream Data Integration**
 
@@ -197,7 +197,7 @@ Check for the:
 * [AMCV cookie](../introduction/cookies.md) in the domain where you page is hosted. 
 * [!DNL Experience Cloud] ID (MID) with the [!DNL Adobe] debugger or your preferred debugging tool.
 
-For additional checks that help you determine if the ID service is working properly, see [Test and Verify the Experience Cloud ID Service](../implementation-guides/test-verify.md).
+For additional checks that help you determine if the ID service is working properly, see [Test and Verify the Experience Platform Identity Service](../implementation-guides/test-verify.md).
 
 **Analytics**
 

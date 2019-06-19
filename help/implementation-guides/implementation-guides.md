@@ -1,7 +1,7 @@
 ---
-description: Instructions and code samples for standard and non-standard implementations of the Experience Cloud ID service.
+description: Instructions and code samples for standard and non-standard implementations of the Experience Platform Identity Service.
 keywords: ID Service
-seo-description: Instructions and code samples for standard and non-standard implementations of the Experience Cloud ID service.
+seo-description: Instructions and code samples for standard and non-standard implementations of the Experience Platform Identity Service.
 seo-title: Implementation guides for the ID Service
 solution: Experience Cloud
 title: Implementation guides
@@ -10,7 +10,7 @@ uuid:
 
 # Implementation guides
 
-Instructions and code samples for standard and non-standard implementations of the Experience Cloud ID service.
+Instructions and code samples for standard and non-standard implementations of the Experience Platform Identity Service.
 
 Important: Be sure to read and understand the ID service requirements before getting started with these procedures.
 
@@ -24,12 +24,12 @@ A standard implementation uses [Adobe Exprience Platform Launch](https://docs.ad
 * [Implementation methods](implementation-methods.md)
 * [Implement with Launch](ecid-implement-with-launch.md)
 * [Implementation with Dynamic Tag Management](standard.md)
-* [Implement the Experience Cloud ID Service for Analytics](setup-analytics.md)
-* [Implement the Experience Cloud ID Service for Target](setup-target.md)
-* [Implement the Experience Cloud ID Service for Analytics and Audience Manager](setup-aam-analytics.md)
-* [Implement the Experience Cloud ID Service for Analytics, Audience Manager, and Target](setup-aam-analytics-target.md)
-* [Using the Experience Cloud ID Service with A4T and a Server-side Implementation of Target](ecid-a4t-target.md)
-* [Direct Integration with the Experience Cloud ID Service](direct-integration.md)
+* [Implement the Experience Platform Identity Service for Analytics](setup-analytics.md)
+* [Implement the Experience Platform Identity Service for Target](setup-target.md)
+* [Implement the Experience Platform Identity Service for Analytics and Audience Manager](setup-aam-analytics.md)
+* [Implement the Experience Platform Identity Service for Analytics, Audience Manager, and Target](setup-aam-analytics-target.md)
+* [Using the Experience Platform Identity Service with A4T and a Server-side Implementation of Target](ecid-a4t-target.md)
+* [Direct Integration with the Experience Platform Identity Service](direct-integration.md)
 * [Direct Integration Use Cases](direct-integration-examples.md)
-* [Test and verify the Experience Cloud ID Service](test-verify.md)
+* [Test and verify the Experience Platform Identity Service](test-verify.md)
 * [Opt-in Service overview](opt-in-service/optin-overview.md)

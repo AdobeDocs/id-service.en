@@ -1,7 +1,7 @@
 ---
-description: Instructions and code samples for standard and non-standard implementations of the Experience Cloud ID service.
+description: Instructions and code samples for standard and non-standard implementations of the Experience Platform Identity Service.
 keywords: ID Service
-seo-description: Instructions and code samples for standard and non-standard implementations of the Experience Cloud ID service.
+seo-description: Instructions and code samples for standard and non-standard implementations of the Experience Platform Identity Service.
 seo-title: Implementation guides
 title: Implementation guides
 uuid: d41250e2-09f4-4a8b-8ade-54d43e9281c9
@@ -9,7 +9,7 @@ uuid: d41250e2-09f4-4a8b-8ade-54d43e9281c9
 
 # Implementation methods
 
-Instructions and code samples for standard and non-standard implementations of the Experience Cloud ID service.
+Instructions and code samples for standard and non-standard implementations of the Experience Platform Identity Service.
 
 >[!IMPORTANT]
 >

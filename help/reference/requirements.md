@@ -1,15 +1,15 @@
 ---
-description: Review this section to make sure you are using the right solutions, services, and code versions required by the Experience Cloud ID service.
+description: Review this section to make sure you are using the right solutions, services, and code versions required by the Experience Platform Identity Service.
 keywords: ID Service
-seo-description: Review this section to make sure you're using the right solutions, services, and code versions required by the Experience Cloud ID service.
-seo-title: Requirements for the Experience Cloud ID Service
-title: Requirements for the Experience Cloud ID Service
+seo-description: Review this section to make sure you're using the right solutions, services, and code versions required by the Experience Platform Identity Service.
+seo-title: Requirements for the Experience Platform Identity Service
+title: Requirements for the Experience Platform Identity Service
 uuid: 608b1082-6e9e-4101-b6cb-60027950109b
 ---
 
-# Requirements for the Experience Cloud ID Service {#requirements-for-the-experience-cloud-id-service}
+# Requirements for the Experience Platform Identity Service {#requirements-for-the-experience-cloud-id-service}
 
-Review this section to make sure you're using the right solutions, services, and code versions required by the Experience Cloud ID service.
+Review this section to make sure you're using the right solutions, services, and code versions required by the Experience Platform Identity Service.
 
 ## Requirements Ensure Implementation Success and Support {#section-15e54a9e9ad2443cb9dc950b4a78f1f1}
 

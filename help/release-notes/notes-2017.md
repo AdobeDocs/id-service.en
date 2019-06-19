@@ -1,7 +1,7 @@
 ---
-description: Feature releases, updates, or changes to the Experience Cloud ID service for 2017.
+description: Feature releases, updates, or changes to the Experience Platform Identity Service for 2017.
 keywords: ID Service
-seo-description: Feature releases, updates, or changes to the Experience Cloud ID service for 2017.
+seo-description: Feature releases, updates, or changes to the Experience Platform Identity Service for 2017.
 seo-title: 2017 Release Notes
 title: 2017 Release Notes
 uuid: 79452df0-49db-42b8-96fe-01aa7629fbb5
@@ -9,7 +9,7 @@ uuid: 79452df0-49db-42b8-96fe-01aa7629fbb5
 
 # 2017 Release Notes {#release-notes}
 
-Feature releases, updates, or changes to the Experience Cloud ID service for 2017.
+Feature releases, updates, or changes to the Experience Platform Identity Service for 2017.
 
 These changes are also captured in the [Experience Cloud Release notes](https://marketing.adobe.com/resources/help/en_US/whatsnew/). For older ID service release notes, see the [previous release notes](https://marketing.adobe.com/resources/help/en_US/whatsnew/?f=c_legacy_releases.html) or the links at the bottom of this page.
 
@@ -47,7 +47,7 @@ ID service support for Internet Explorer 6, 7, and 8 is deprecated and will be d
 
 * Fixed a Chrome-related bug that caused the ID service to throw an error when clicking the back button in that browser. 
 * The ID service now re-fires ID syncs when the region ID in the event call response changes. 
-* Added new documentation, [Content Security Policies and the Experience Cloud ID Service](/help/reference/csp.md#concept-968c423a7392479db0a0d821ae9783e3), that explains how to whitelist calls to Adobe domains used by the ID service.
+* Added new documentation, [Content Security Policies and the Experience Platform Identity Service](/help/reference/csp.md#concept-968c423a7392479db0a0d821ae9783e3), that explains how to whitelist calls to Adobe domains used by the ID service.
 
 ## Version 2.4 {#section-f4d1608dd8894f558a92b82e83321200}
 

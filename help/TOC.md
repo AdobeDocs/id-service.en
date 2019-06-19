@@ -2,7 +2,7 @@
 cloud: platform-cloud
 product: Identity Service
 audience: end-user
-user-guide-title: Identity Service Help
+user-guide-title: Experience Platform Identity Service Help
 user-guide-url: /content/help/en/id-service/using/home.html
 ---
 
@@ -11,19 +11,34 @@ user-guide-url: /content/help/en/id-service/using/home.html
 + [Identity Service Help](home.md)
 + Overview {#intro}
    + [Overview](introduction/overview.md)
+<<<<<<< Updated upstream
    + [About the ID Service](introduction/about-id-service.md)
    + [Cookies and the Identity Service](introduction/cookies.md)
    + [How the Identity Service requests and sets IDs](introduction/id-request.md)
    + [Understanding ID synchronization and match rates](introduction/match-rates.md)
+=======
+   + [About the Identity Service](introduction/about-id-service.md)
+   + [Cookies and the Identity Service](introduction/cookies.md)
+   + [How the Identity Service requests and sets IDs](introduction/id-request.md)
+   + [Understanding synchronization and match rates](introduction/match-rates.md)
+>>>>>>> Stashed changes
 + Implementation guides {#implementation-guides}
    + [Implementation guides](implementation-guides/implementation-guides.md)
    + [Implementation methods](implementation-guides/implementation-methods.md)
    + [Implement with Launch](implementation-guides/ecid-implement-with-launch.md)
+<<<<<<< Updated upstream
    + [Implementation with Dynamic Tag Management](implementation-guides/standard.md)
    + [Implement the Identity Service for Analytics](implementation-guides/setup-analytics.md)
    + [Implement the Identity Service for Target](implementation-guides/setup-target.md)
    + [Implement the Identity Service for Analytics and Audience Manager](implementation-guides/setup-aam-analytics.md)
    + [Implement the Identity Service for Analytics, Audience Manager, and Target](implementation-guides/setup-aam-analytics-target.md)
+=======
+   + [Implementation with DTM](implementation-guides/standard.md)
+   + [Implement for Analytics](implementation-guides/setup-analytics.md)
+   + [Implement for Target](implementation-guides/setup-target.md)
+   + [Implement for Analytics and Audience Manager](implementation-guides/setup-aam-analytics.md)
+   + [Implement for Analytics, Audience Manager, and Target](implementation-guides/setup-aam-analytics-target.md)
+>>>>>>> Stashed changes
    + [Using the Identity Service with A4T and a Server-side Implementation of Target](implementation-guides/ecid-a4t-target.md)
    + [Direct Integration with the Identity Service](implementation-guides/direct-integration.md)
    + [Direct Integration Use Cases](implementation-guides/direct-integration-examples.md)
@@ -77,29 +92,40 @@ user-guide-url: /content/help/en/id-service/using/home.html
    + [Reference Overview](reference/reference.md)
    + Analytics Reference {#analytics-reference}
       + [Analytics Reference Overview](reference/analytics-reference/analytics-reference.md)
-      + [Setting Analytics and Experience Cloud IDs](reference/analytics-reference/analytics-ids.md)
+      + [Setting Analytics and Identitys](reference/analytics-reference/analytics-ids.md)
       + [Order of Operations for Analytics IDs](reference/analytics-reference/analytics-order-of-operations.md)
       + [Identity Service Migration Decision Points](reference/analytics-reference/migration-decisions.md)
       + [Identity Service Migration Scenarios](reference/analytics-reference/migration-scenarios.md)
+<<<<<<< Updated upstream
       + [Analytics and Experience Cloud ID Requests](reference/analytics-reference/legacy-analytics.md)
       + [Data Collection CNAMEs and Cross-Domain Tracking](reference/analytics-reference/cname.md)
       + [Server-side Implementation Mixed with JavaScript](reference/analytics-reference/server-side.md)
       + [The ID Service Grace Period](reference/analytics-reference/grace-period.md)
+=======
+      + [Analytics and Identity Requests](reference/analytics-reference/legacy-analytics.md)
+      + [Data Collection CNAMEs and Cross-Domain Tracking](reference/analytics-reference/cname.md)
+      + [Server-side Implementation Mixed with JavaScript](reference/analytics-reference/server-side.md)
+      + [The Identity Service Grace Period](reference/analytics-reference/grace-period.md)
+>>>>>>> Stashed changes
    + [Content Security Policies and the Identity Service](reference/csp.md)
    + [COPPA Support in the Identity Service](reference/coppa.md)
    + [CORS Support in the Identity Service](reference/cors.md)
    + [Customer IDs and Authentication States](reference/authenticated-state.md)
    + [ECID library methods in a Safari ITP world](reference/ecid-library-methods.md)
+<<<<<<< Updated upstream
    + [Get Region and User IDs From the AMCV Cookie or the ID Service](reference/regions.md)
+=======
+   + [Get Region and User IDs From the AMCV Cookie or the Identity Service](reference/regions.md)
+>>>>>>> Stashed changes
    + [Requirements for the Identity Service](reference/requirements.md)
    + [Video Heartbeat and the Identity Service](reference/heartbeat.md)
    + [Data Workbench and the Identity Service](reference/dwb.md)
 + FAQs {#faqs}
    + [FAQ Overview](faq-intro/faq-intro.md)
-   + [ID Service FAQs](faq-intro/faq.md)
-   + [Analytics and ID Service FAQs](faq-intro/analytics-faq.md)
+   + [Identity Service FAQs](faq-intro/faq.md)
+   + [Analytics and Identity Service FAQs](faq-intro/analytics-faq.md)
    + [FAQs for Other Experience Cloud Solutions](faq-intro/other-faq.md)
-+ Release notes for ID Service {#release-notes}
++ Release notes for Identity Service {#release-notes}
    + [2019 Release Notes](release-notes/release-notes.md)
    + [2018 Release Notes](release-notes/notes-2018.md)
    + [2017 Release Notes](release-notes/notes-2017.md)

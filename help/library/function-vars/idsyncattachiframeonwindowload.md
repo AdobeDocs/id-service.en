@@ -1,7 +1,7 @@
 ---
-description: An optional, Boolean flag that controls how the Experience Cloud ID service loads the ID synchronization iFrame.
+description: An optional, Boolean flag that controls how the Experience Platform Identity Service loads the ID synchronization iFrame.
 keywords: ID Service
-seo-description: An optional, Boolean flag that controls how the Experience Cloud ID service loads the ID synchronization iFrame.
+seo-description: An optional, Boolean flag that controls how the Experience Platform Identity Service loads the ID synchronization iFrame.
 seo-title: idSyncAttachIframeOnWindowLoad
 title: idSyncAttachIframeOnWindowLoad
 uuid: aa2c2fa4-2cab-4e08-8d35-729a6c3e459a
@@ -9,7 +9,7 @@ uuid: aa2c2fa4-2cab-4e08-8d35-729a6c3e459a
 
 # idSyncAttachIframeOnWindowLoad{#idsyncattachiframeonwindowload}
 
-An optional, Boolean flag that controls how the Experience Cloud ID service loads the ID synchronization iFrame.
+An optional, Boolean flag that controls how the Experience Platform Identity Service loads the ID synchronization iFrame.
 
  **Syntax:** ` `idSyncAttachIframeOnWindowLoad= true|false`` (default is `false`.)
 

@@ -1,15 +1,15 @@
 ---
-description: These instructions are for Analytics customers who want to use the Experience Cloud ID service and do not use Dynamic Tag Management (DTM). However, we strongly recommend that you use DTM to implement the ID service. DTM streamlines the implementation workflow and automatically ensures the correct code placement and sequencing.
+description: These instructions are for Analytics customers who want to use the Experience Platform Identity Service and do not use Dynamic Tag Management (DTM). However, we strongly recommend that you use DTM to implement the ID service. DTM streamlines the implementation workflow and automatically ensures the correct code placement and sequencing.
 keywords: ID Service
-seo-description: These instructions are for Analytics customers who want to use the Experience Cloud ID service and do not use Dynamic Tag Management (DTM). However, we strongly recommend that you use DTM to implement the ID service. DTM streamlines the implementation workflow and automatically ensures the correct code placement and sequencing.
-seo-title: Implement the Experience Cloud ID Service for Analytics
-title: Implement the Experience Cloud ID Service for Analytics
+seo-description: These instructions are for Analytics customers who want to use the Experience Platform Identity Service and do not use Dynamic Tag Management (DTM). However, we strongly recommend that you use DTM to implement the ID service. DTM streamlines the implementation workflow and automatically ensures the correct code placement and sequencing.
+seo-title: Implement the Experience Platform Identity Service for Analytics
+title: Implement the Experience Platform Identity Service for Analytics
 uuid: 7fbd6fa0-1713-4232-8680-500ed62709d5
 ---
 
-# Implement the Experience Cloud ID Service for Analytics {#implement-the-experience-cloud-id-service-for-analytics}
+# Implement the Experience Platform Identity Service for Analytics {#implement-the-experience-cloud-id-service-for-analytics}
 
-These instructions are for Analytics customers who want to use the Experience Cloud ID service and do not use Dynamic Tag Management (DTM). However, we strongly recommend that you use DTM to implement the ID service. DTM streamlines the implementation workflow and automatically ensures the correct code placement and sequencing.
+These instructions are for Analytics customers who want to use the Experience Platform Identity Service and do not use Dynamic Tag Management (DTM). However, we strongly recommend that you use DTM to implement the ID service. DTM streamlines the implementation workflow and automatically ensures the correct code placement and sequencing.
 
 >[!IMPORTANT]
 >
@@ -170,7 +170,7 @@ You need a grace period if you require new visitors to have an s_vi cookie after
 
 Discontinue the grace period after your implementation can capture the MID instead of reading the s_vi cookie.
 
-See, [Cookies and the Experience Cloud ID Service](../introduction/cookies.md).
+See, [Cookies and the Experience Platform Identity Service](../introduction/cookies.md).
 
 You need a grace period if you send data to an internal system from a Clickstream data feed and that processes uses the `visid_high` and `visid_low` columns.
 
@@ -191,7 +191,7 @@ To test your ID service implementation, check for the:
 * [AMCV cookie](../introduction/cookies.md) in the domain where your page is hosted. 
 * MID value in the [!DNL Analytics] image request with the [Adobe debugger tool](https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger.html).
 
-See, [Test and Verify the Experience Cloud ID Service](../implementation-guides/test-verify.md).
+See, [Test and Verify the Experience Platform Identity Service](../implementation-guides/test-verify.md).
 
 **Deploy code**
 

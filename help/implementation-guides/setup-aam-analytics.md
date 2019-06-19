@@ -1,15 +1,15 @@
 ---
-description: These instructions are for Analytics and Audience Manager customers who want to use the Experience Cloud ID service and do not use Dynamic Tag Management (DTM). However, we strongly recommend that you use DTM to implement the ID service. DTM streamlines the implementation workflow and automatically ensures the correct code placement and sequencing.
+description: These instructions are for Analytics and Audience Manager customers who want to use the Experience Platform Identity Service and do not use Dynamic Tag Management (DTM). However, we strongly recommend that you use DTM to implement the ID service. DTM streamlines the implementation workflow and automatically ensures the correct code placement and sequencing.
 keywords: ID Service
-seo-description: These instructions are for Analytics and Audience Manager customers who want to use the Experience Cloud ID service and do not use Dynamic Tag Management (DTM). However, we strongly recommend that you use DTM to implement the ID service. DTM streamlines the implementation workflow and automatically ensures the correct code placement and sequencing.
-seo-title: Implement the Experience Cloud ID Service for Analytics and Audience Manager
-title: Implement the Experience Cloud ID Service for Analytics and Audience Manager
+seo-description: These instructions are for Analytics and Audience Manager customers who want to use the Experience Platform Identity Service and do not use Dynamic Tag Management (DTM). However, we strongly recommend that you use DTM to implement the ID service. DTM streamlines the implementation workflow and automatically ensures the correct code placement and sequencing.
+seo-title: Implement the Experience Platform Identity Service for Analytics and Audience Manager
+title: Implement the Experience Platform Identity Service for Analytics and Audience Manager
 uuid: d46050ae-87de-46cc-911b-d6346c7fd511
 ---
 
-# Implement the Experience Cloud ID Service for Analytics and Audience Manager{#implement-the-experience-cloud-id-service-for-analytics-and-audience-manager}
+# Implement the Experience Platform Identity Service for Analytics and Audience Manager{#implement-the-experience-cloud-id-service-for-analytics-and-audience-manager}
 
-These instructions are for Analytics and Audience Manager customers who want to use the Experience Cloud ID service and do not use Dynamic Tag Management (DTM). However, we strongly recommend that you use DTM to implement the ID service. DTM streamlines the implementation workflow and automatically ensures the correct code placement and sequencing.
+These instructions are for Analytics and Audience Manager customers who want to use the Experience Platform Identity Service and do not use Dynamic Tag Management (DTM). However, we strongly recommend that you use DTM to implement the ID service. DTM streamlines the implementation workflow and automatically ensures the correct code placement and sequencing.
 
 >[!IMPORTANT]
 >
@@ -173,7 +173,7 @@ You need a grace period if you require new visitors to have an s_vi cookie after
 
 Discontinue the grace period after your implementation can capture the MID instead of reading the s_vi cookie.
 
-See also, [Cookies and the Experience Cloud ID Service](../introduction/cookies.md).
+See also, [Cookies and the Experience Platform Identity Service](../introduction/cookies.md).
 
 **Clickstream Data Integration**
 
@@ -193,7 +193,7 @@ To test your ID service implementation, check for the:
 
 * [AMCV cookie](../introduction/cookies.md) in the domain where you pages is hosted. 
 * MID value in the Analytics image request with the [Adobe debugger](https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger.html). 
-* See also, [Test and Verify the Experience Cloud ID Service](../implementation-guides/test-verify.md).
+* See also, [Test and Verify the Experience Platform Identity Service](../implementation-guides/test-verify.md).
 
 To verify server-side forwarding, see [How to Verify your Server-Side Forwarding Implementation](https://marketing.adobe.com/resources/help/en_US/reference/ssf-verify.html).
 
