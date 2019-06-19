@@ -10,7 +10,7 @@ uuid: f1c27139-cef2-4122-af12-c839cfc82e6e
 
 Implement the Opt-in service as the single point of reference used by Experience Cloud solutions (referred to as Categories in Opt-in) to determine whether or not to create cookies on a visitor's device.
 
-The Opt-in service is a JavaScript library bundled with Adobe Experience Platform Identity Service and exists in Visitor JS in the global `adobe` object as the `adobe.optIn` object. The installed Opt-in service lets you specify if a visitor can opt-in to Adobe solutions at once, or to present solutions in sequence for permission for each. The Opt-in service consent management feature lets you implement with various configurations for your specific privacy requirements.
+The Opt-in service is a JavaScript library bundled with Experience Cloud ID (ECID) and exists in Visitor JS in the global `adobe` object as the `adobe.optIn` object. The installed Opt-in service lets you specify if a visitor can opt-in to Adobe solutions at once, or to present solutions in sequence for permission for each. The Opt-in service consent management feature lets you implement with various configurations for your specific privacy requirements.
 
 The Opt-in service lets you specify if a visitor can opt in to Adobe solutions at once, or to present solutions in sequence for permission for each. Once the approval process is complete and recorded by the customer, CMP visitor approvals can be retrieved by all Adobe solutions to respond with related consent calls.
 
