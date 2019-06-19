@@ -16,6 +16,6 @@ Required:
 
 * Upgrade to ECID 4.0.0 or later. See [ECID Download](https://github.com/Adobe-Marketing-Cloud/id-service/releases).
 
-Enter [configuration fields](https://marketing.adobe.com/resources/help/en_US/mcvid/api.html ) in the General DTM page.
+Enter [configuration fields](/help/implementation-guides/opt-in-service/api.md) in the General DTM page.
 
 ![](assets/DTM-example.png)

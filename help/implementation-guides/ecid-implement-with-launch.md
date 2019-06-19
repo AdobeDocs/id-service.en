@@ -1,6 +1,6 @@
 ---
-description: Launch, by Adobe is the primary tool used to set up, deploy, and integrate the Experience Platform Identity Service with your other Experience Cloud solutions.
-seo-description: Launch, by Adobe is the primary tool used to set up, deploy, and integrate the Experience Platform Identity Service with your other Experience Cloud solutions.
+description: Adobe Experience Platform Launch is the primary tool used to set up, deploy, and integrate the Experience Platform Identity Service with your other Experience Cloud solutions.
+seo-description: Adobe Experience Platform Launch is the primary tool used to set up, deploy, and integrate the Experience Platform Identity Service with your other Experience Cloud solutions.
 seo-title: Implement with Launch
 title: Implement with Launch
 uuid: b3282f8e-82b8-4635-8c80-1b365e8a9693
@@ -8,11 +8,11 @@ uuid: b3282f8e-82b8-4635-8c80-1b365e8a9693
 
 # Implement with Launch{#implement-with-launch}
 
-Launch, by Adobe is the primary tool used to set up, deploy, and integrate the Experience Platform Identity Service with your other Experience Cloud solutions.
+Adobe Experience Platform Launch is the primary tool used to set up, deploy, and integrate the Experience Platform Identity Service with your other Experience Cloud solutions.
 
 ## About Launch {#section-611711602854464ea351a4af80a8dafe}
 
-[Launch, by Adobe](https://docs.adobelaunch.com/) is the next-generation of the Adobe tag-management capability that is built into the Adobe Experience Cloud. Launch enables clients to:
+[Adobe Experience Platform Launch](https://docs.adobelaunch.com/) is the next-generation of the Adobe tag-management capability that is built into the Adobe Experience Cloud. Launch enables clients to:
 
 * Deploy client-side web products using integrations called extensions 
 * Consistently capture, define, manage, and share data between marketing and advertising products from other vendors and from Adobe 
