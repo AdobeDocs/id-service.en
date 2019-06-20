@@ -1,15 +1,15 @@
 ---
-description: Before deploying the Experience Platform Identity Service, you should understand how this service affects visitor tracking on multiple domains and potential issues if you are collecting data with different methods or through JavaScript files.
+description: Before deploying the Experience Cloud ID Service, you should understand how this service affects visitor tracking on multiple domains and potential issues if you are collecting data with different methods or through JavaScript files.
 keywords: ID Service
-seo-description: Before deploying the Experience Platform Identity Service, you should understand how this service affects visitor tracking on multiple domains and potential issues if you are collecting data with different methods or through JavaScript files.
-seo-title: Experience Platform Identity Service Migration Decision Points
-title: Experience Platform Identity Service Migration Decision Points
+seo-description: Before deploying the Experience Cloud ID Service, you should understand how this service affects visitor tracking on multiple domains and potential issues if you are collecting data with different methods or through JavaScript files.
+seo-title: Experience Cloud ID Service Migration Decision Points
+title: Experience Cloud ID Service Migration Decision Points
 uuid: ee56b5de-fcf3-4cfb-9e53-762af7c4d2ff
 ---
 
-# Experience Platform Identity Service Migration Decision Points
+# Experience Cloud ID Service Migration Decision Points
 
-Before deploying the Experience Platform Identity Service, you should understand how this service affects visitor tracking on multiple domains and potential issues if you are collecting data with different methods or through JavaScript files.
+Before deploying the Experience Cloud ID Service, you should understand how this service affects visitor tracking on multiple domains and potential issues if you are collecting data with different methods or through JavaScript files.
 
 Answers to the questions in this section help determine any additional migration steps you should take.
 

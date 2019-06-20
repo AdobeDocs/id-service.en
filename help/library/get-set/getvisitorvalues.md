@@ -104,7 +104,7 @@ The following table lists and defines the response parameters. These are also al
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MCMID </span> </p> </td> 
-   <td colname="col2"> <p>The visitor's Experience Cloud ID. </p> <p>See <a href="../../introduction/cookies.md" format="dita" scope="local"> Cookies and the Experience Platform Identity Service </a>. </p> </td> 
+   <td colname="col2"> <p>The visitor's Experience Cloud ID. </p> <p>See <a href="../../introduction/cookies.md" format="dita" scope="local"> Cookies and the Experience Cloud ID Service </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MCOPTOUT </span> </p> </td> 

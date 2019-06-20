@@ -1,7 +1,7 @@
 ---
-description: Change the default domain name used by calls to the Experience Platform Identity Service to your own subdomain name with these configurations.
+description: Change the default domain name used by calls to the Experience Cloud ID Service to your own subdomain name with these configurations.
 keywords: ID Service
-seo-description: Change the default domain name used by calls to the Experience Platform Identity Service to your own subdomain name with these configurations.
+seo-description: Change the default domain name used by calls to the Experience Cloud ID Service to your own subdomain name with these configurations.
 seo-title: audienceManagerServer and audienceManagerServerSecure
 title: audienceManagerServer and audienceManagerServerSecure
 uuid: e21cacbf-5151-4d34-b0f7-9e90275f4c7c
@@ -9,7 +9,7 @@ uuid: e21cacbf-5151-4d34-b0f7-9e90275f4c7c
 
 # audienceManagerServer and audienceManagerServerSecure{#audiencemanagerserver-and-audiencemanagerserversecure}
 
-Change the default domain name used by calls to the Experience Platform Identity Service to your own subdomain name with these configurations.
+Change the default domain name used by calls to the Experience Cloud ID Service to your own subdomain name with these configurations.
 
  **Syntax:**
 

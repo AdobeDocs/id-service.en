@@ -1,7 +1,7 @@
 ---
-description: Returns the legacy Analytics ID (if any) that was stored in the s_vi cookie before the Experience Platform Identity Service was implemented. It returns an empty string if a visitor was never assigned an Analytics ID.
+description: Returns the legacy Analytics ID (if any) that was stored in the s_vi cookie before the Experience Cloud ID Service was implemented. It returns an empty string if a visitor was never assigned an Analytics ID.
 keywords: ID Service
-seo-description: Returns the legacy Analytics ID (if any) that was stored in the s_vi cookie before the Experience Platform Identity Service was implemented. It returns an empty string if a visitor was never assigned an Analytics ID.
+seo-description: Returns the legacy Analytics ID (if any) that was stored in the s_vi cookie before the Experience Cloud ID Service was implemented. It returns an empty string if a visitor was never assigned an Analytics ID.
 seo-title: getAnalyticsVisitorID
 title: getAnalyticsVisitorID
 uuid: 6bb8ddfc-9fc1-4105-b377-d9b4d247a0f8
@@ -9,7 +9,7 @@ uuid: 6bb8ddfc-9fc1-4105-b377-d9b4d247a0f8
 
 # getAnalyticsVisitorID{#getanalyticsvisitorid}
 
-Returns the legacy Analytics ID (if any) that was stored in the s_vi cookie before the Experience Platform Identity Service was implemented. It returns an empty string if a visitor was never assigned an Analytics ID.
+Returns the legacy Analytics ID (if any) that was stored in the s_vi cookie before the Experience Cloud ID Service was implemented. It returns an empty string if a visitor was never assigned an Analytics ID.
 
  **Syntax** `var analyticsID = visitor.getAnalyticsVisitorID()`
 

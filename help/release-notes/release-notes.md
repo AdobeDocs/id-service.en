@@ -1,7 +1,7 @@
 ---
-description: Feature releases, updates, or changes to the Experience Platform Identity Service.
+description: Feature releases, updates, or changes to the Experience Cloud ID Service.
 keywords: ID Service
-seo-description: Feature releases, updates, or changes to the Experience Platform Identity Service.
+seo-description: Feature releases, updates, or changes to the Experience Cloud ID Service.
 seo-title: 2019 Release Notes
 title: 2019 Release Notes
 uuid: a5a59410-7f85-48f9-a30a-fef1c2e2b558
@@ -9,7 +9,7 @@ uuid: a5a59410-7f85-48f9-a30a-fef1c2e2b558
 
 # 2019 Release Notes {#release-notes}
 
-Feature releases, updates, or changes to the Experience Platform Identity Service.
+Feature releases, updates, or changes to the Experience Cloud ID Service.
 
 ## 2019 Release Notes {#topic-1b9a1c3ec5044e1c987785950f697e25}
 

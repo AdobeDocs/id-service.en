@@ -1,7 +1,7 @@
 ---
-description: An optional, Boolean flag that prevents the Experience Platform Identity Service from returning the third-party, demdex.net cookie.
+description: An optional, Boolean flag that prevents the Experience Cloud ID Service from returning the third-party, demdex.net cookie.
 keywords: ID Service
-seo-description: An optional, Boolean flag that prevents the Experience Platform Identity Service from returning the third-party, demdex.net cookie.
+seo-description: An optional, Boolean flag that prevents the Experience Cloud ID Service from returning the third-party, demdex.net cookie.
 seo-title: disableThirdPartyCookies
 title: disableThirdPartyCookies
 uuid: 7ed5aa16-44ca-4702-878a-1a208ca95270
@@ -9,7 +9,7 @@ uuid: 7ed5aa16-44ca-4702-878a-1a208ca95270
 
 # disableThirdPartyCookies{#disablethirdpartycookies}
 
-An optional, Boolean flag that prevents the Experience Platform Identity Service from returning the third-party, demdex.net cookie.
+An optional, Boolean flag that prevents the Experience Cloud ID Service from returning the third-party, demdex.net cookie.
 
 >[!NOTE]
 >
@@ -17,7 +17,7 @@ An optional, Boolean flag that prevents the Experience Platform Identity Service
 
 **Syntax:** `disableThirdPartyCookies: true|false` (default is `false`.) For `VisitorAPI.js` v1.5.3, or greater.
 
-When `disableThirdPartyCookies: true`, the ID service does not return the third-party, demdex.net cookie (see [Cookies and the Experience Platform Identity Service](../../introduction/cookies.md) ). If a site visitor already has this cookie in their browser, the ID service won't use it to create a new Experience Cloud ID (MID) or return an existing ID. Instead, the ID service creates a new, random MID in the first-party cookie. Once enabled, you can collect data with the ID service and share it across different Experience Cloud solutions.
+When `disableThirdPartyCookies: true`, the ID service does not return the third-party, demdex.net cookie (see [Cookies and the Experience Cloud ID Service](../../introduction/cookies.md) ). If a site visitor already has this cookie in their browser, the ID service won't use it to create a new Experience Cloud ID (MID) or return an existing ID. Instead, the ID service creates a new, random MID in the first-party cookie. Once enabled, you can collect data with the ID service and share it across different Experience Cloud solutions.
 
 **Code Sample**
 

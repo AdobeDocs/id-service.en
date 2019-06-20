@@ -1,15 +1,15 @@
 ---
-description: These instructions are for Target customers who want to use the Experience Platform Identity Service and do not use Dynamic Tag Management (DTM). However, we strongly recommend that you use DTM to implement the ID service. DTM streamlines the implementation workflow and automatically ensures the correct code placement and sequencing.
+description: These instructions are for Target customers who want to use the Experience Cloud ID Service and do not use Dynamic Tag Management (DTM). However, we strongly recommend that you use DTM to implement the ID service. DTM streamlines the implementation workflow and automatically ensures the correct code placement and sequencing.
 keywords: ID Service
-seo-description: These instructions are for Target customers who want to use the Experience Platform Identity Service and do not use Dynamic Tag Management (DTM). However, we strongly recommend that you use DTM to implement the ID service. DTM streamlines the implementation workflow and automatically ensures the correct code placement and sequencing.
-seo-title: Implement the Experience Platform Identity Service for Target
-title: Implement the Experience Platform Identity Service for Target
+seo-description: These instructions are for Target customers who want to use the Experience Cloud ID Service and do not use Dynamic Tag Management (DTM). However, we strongly recommend that you use DTM to implement the ID service. DTM streamlines the implementation workflow and automatically ensures the correct code placement and sequencing.
+seo-title: Implement the Experience Cloud ID Service for Target
+title: Implement the Experience Cloud ID Service for Target
 uuid: cb3581fa-4c4b-43aa-bb8e-8db85a6a1ef2
 ---
 
-# Implement the Experience Platform Identity Service for Target{#implement-the-experience-cloud-id-service-for-target}
+# Implement the Experience Cloud ID Service for Target{#implement-the-experience-cloud-id-service-for-target}
 
-These instructions are for Target customers who want to use the Experience Platform Identity Service and do not use Dynamic Tag Management (DTM). However, we strongly recommend that you use DTM to implement the ID service. DTM streamlines the implementation workflow and automatically ensures the correct code placement and sequencing.
+These instructions are for Target customers who want to use the Experience Cloud ID Service and do not use Dynamic Tag Management (DTM). However, we strongly recommend that you use DTM to implement the ID service. DTM streamlines the implementation workflow and automatically ensures the correct code placement and sequencing.
 
 >[!IMPORTANT]
 >
@@ -72,7 +72,7 @@ To test your ID service implementation:
 * Check for the AMCV cookie in the domain where your page is hosted. 
 * Verify `mboxMCGVID` appears in your [!DNL Target] request and that it contains the [!DNL Experience Cloud] ID (MID).
 
-See [Cookies and the Experience Platform Identity Service](../introduction/cookies.md) for information about the AMCV cookie and the MID.
+See [Cookies and the Experience Cloud ID Service](../introduction/cookies.md) for information about the AMCV cookie and the MID.
 
 **Deploy**
 

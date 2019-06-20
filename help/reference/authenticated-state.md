@@ -19,7 +19,7 @@ The `setCustomerIDs` method accepts multiple customer IDs for the same visitor. 
 >
 >`setCustomerIDs` (customer ID synchronization) is required by customer attributes and core services functionality. Synching customer IDs is an optional identification method for [!DNL Analytics]. [!DNL Target] requires `Visitor.AuthState.AUTHENTICATED` for Customer Attributes to work. See [Core Services - How to Enable Your Solutions](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=core_services) for examples.
 
-Beginning with Experience Platform Identity Service v1.5+, `setCustomerIDs` includes the optional `AuthState` object. `AuthState` identifies visitors according to their authentication status (e.g., logged in, logged out). You set the authentication state with a status value listed in the table. Authentication status is returned as an integer.
+Beginning with Experience Cloud ID Service v1.5+, `setCustomerIDs` includes the optional `AuthState` object. `AuthState` identifies visitors according to their authentication status (e.g., logged in, logged out). You set the authentication state with a status value listed in the table. Authentication status is returned as an integer.
 
 <table id="table_8547671CC97145529981FBF6C302BEC5"> 
  <thead> 

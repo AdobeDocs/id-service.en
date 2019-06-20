@@ -15,7 +15,7 @@ Release notes and updates for 2015.
 
 November, 2015
 
-The Children's Online Privacy Protection Act (COPPA) prohibits online collection of personal information from children under 13 years old without verifiable parental consent. Customers concerned about COPPA can add an optional variable to their [!DNL Experience Cloud] ID service code that prevents it from setting cookies in the third-party domain of a browser. See [COPPA Support in the Experience Platform Identity Service](../reference/coppa.md#concept-d7ddf81bebd74f129661fcec1ca19413). For version 1.5.3 or greater.
+The Children's Online Privacy Protection Act (COPPA) prohibits online collection of personal information from children under 13 years old without verifiable parental consent. Customers concerned about COPPA can add an optional variable to their [!DNL Experience Cloud] ID service code that prevents it from setting cookies in the third-party domain of a browser. See [COPPA Support in the Experience Cloud ID Service](../reference/coppa.md#concept-d7ddf81bebd74f129661fcec1ca19413). For version 1.5.3 or greater.
 
 ## Version 1.5.2 {#section-e3c73e47539942a89b02d33061128148}
 
@@ -41,7 +41,7 @@ August, 2015
 Documentation revisions in this release include:
 
 * [API Methods and Code Library](../library/library.md#concept-ff27497375644a898d47984aefb21c97): Reorganized content and text. In most cases, each method gets its own page. 
-* [Requirements for the Experience Platform Identity Service](../reference/requirements.md): Revised content and reorganized text.
+* [Requirements for the Experience Cloud ID Service](../reference/requirements.md): Revised content and reorganized text.
 
 ## Version 1.5 {#section-db5edfa11ae143ada07a96e0ab06dc57}
 

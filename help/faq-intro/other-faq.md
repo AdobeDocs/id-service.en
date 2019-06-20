@@ -21,7 +21,7 @@ See [Standard Implementation with DTM](../implementation-guides/standard.md#conc
 
 ## Analytics and Audience Manager {#section-b3dd206d497041acb04554c6fb1c912a}
 
-**Will the visiting history of a user be exported from [!DNL Adobe Analytics] to [!DNL Audience Manager] after I implement the Experience Platform Identity Service?**
+**Will the visiting history of a user be exported from [!DNL Adobe Analytics] to [!DNL Audience Manager] after I implement the Experience Cloud ID Service?**
 
 There are two options here:
 
