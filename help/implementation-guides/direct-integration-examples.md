@@ -14,7 +14,7 @@ These examples cover 2 common use cases related to a direct integration and the 
 >[!TIP]
 >
 >* Review and understand the [code syntax and variables](../implementation-guides/direct-integration.md#concept-4cd3206a84bb4687af0b312ae09648b9) before diving into the use cases. 
->* For more information about the MID, see [Cookies and the Experience Platform Identity Service](../introduction/cookies.md). 
+>* For more information about the MID, see [Cookies and the Experience Cloud ID Service](../introduction/cookies.md). 
 >
 
 ## Use case 1: I have a MID but want to pass my Visitor IDs and set an authentication state {#section-a67d89a343754d1286d03cf08d34b806}

@@ -163,7 +163,7 @@ Your configured settings should look like this:
 
 ![](assets/server_side_dtm.png)
 
-See also, [Experience Platform Identity Service Settings for DTM](../implementation-guides/standard.md#concept-fb6cb6a0e6cc4f10b92371f8671f6b59).
+See also, [Experience Cloud ID Service Settings for DTM](../implementation-guides/standard.md#concept-fb6cb6a0e6cc4f10b92371f8671f6b59).
 
 **Get server state without DTM**
 
