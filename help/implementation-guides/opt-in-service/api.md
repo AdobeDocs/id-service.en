@@ -23,7 +23,7 @@ adobe.OptInCategories = {
 
 ## Opt-in Configuration parameters {#section-d66018342baf401389f248bb381becbf}
 
-This section discusses using the API to configure Opt-in. Much of the configuration and implementation can be done using the Launch extension.
+This section discusses using the API to configure Opt-in. Much of the configuration and implementation can be done using the Experience Platform Launch extension.
 
 Opt-in configurations are provided in the Visitor JavaScript `getInstance()` function, which instantiates the global `adobe` object. The following lists the Visitor JS configurations related to Opt-in service.
 

@@ -27,7 +27,7 @@ For more details, please read the  [Interactive Advertising Bureau docs](https
 >
 >Opt-in is only available in ECID 4.0+
 
-Use Adobe Launch to implement both Opt-in and the IAB plugin for your site. Read the [documentation for the ECID Opt-in extension](https://marketing-beta.adobe.com/resources/help/launch/ecid-optin/) to learn how to set up the Launch extension.
+Use Adobe Experience Platform Launch to implement both Opt-in and the IAB plugin for your site. Read the [documentation for the ECID Opt-in extension](https://marketing-beta.adobe.com/resources/help/launch/ecid-optin/) to learn how to set up the Experience Platform Launch extension.
 
 When enabling IAB for Opt-in manually, check to make sure the following settings are set to true within the Visitor object:
 

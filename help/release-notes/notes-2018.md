@@ -74,7 +74,7 @@ Feature releases, updates, or changes to the Experience Cloud ID Service for 201
 
 >[!NOTE]
 >
->It is recommended that you upgrade from version 3.1.0 to the latest version at the earliest convenient time. See the version 3.1.2 description. The latest bundle is available within Adobe Launch, DTM, and AppMeasurement.
+>It is recommended that you upgrade from version 3.1.0 to the latest version at the earliest convenient time. See the version 3.1.2 description. The latest bundle is available within Adobe Experience Platform Launch, DTM, and AppMeasurement.
 
 <table id="table_512039AFC4D34038B8F116B71EEEE7F6"> 
  <thead> 

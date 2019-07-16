@@ -18,7 +18,7 @@ user-guide-url: /content/help/en/id-service/using/home.html
 + Implementation guides {#implementation-guides}
    + [Implementation guides](implementation-guides/implementation-guides.md)
    + [Implementation methods](implementation-guides/implementation-methods.md)
-   + [Implement with Launch](implementation-guides/ecid-implement-with-launch.md)
+   + [Implement with Experience Platform Launch](implementation-guides/ecid-implement-with-launch.md)
    + [Implementation with DTM](implementation-guides/standard.md)
    + [Implement for Analytics](implementation-guides/setup-analytics.md)
    + [Implement for Target](implementation-guides/setup-target.md)
@@ -32,7 +32,7 @@ user-guide-url: /content/help/en/id-service/using/home.html
       + [Opt-in Service overview](implementation-guides/opt-in-service/optin-overview.md)
       + [Setting up Opt-in Service](implementation-guides/opt-in-service/getting-started.md)
       + [Validating Opt-in Service](implementation-guides/opt-in-service/testing-optin-and-iab-plugin.md)
-      + [Configuring Opt-in with Launch](implementation-guides/opt-in-service/launch.md)
+      + [Configuring Opt-in with Experience Platform Launch](implementation-guides/opt-in-service/launch.md)
       + [Configuring Opt-in with DTM](implementation-guides/opt-in-service/optin-dtm.md)
       + [Opt-in Use Cases](implementation-guides/opt-in-service/use-cases.md)
       + [Opt-in Reference](implementation-guides/opt-in-service/api.md)

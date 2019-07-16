@@ -22,7 +22,7 @@ A standard implementation uses [Adobe Exprience Platform Launch](https://docs.ad
 
 * [Implementation guides](implementation-guides.md)
 * [Implementation methods](implementation-methods.md)
-* [Implement with Launch](ecid-implement-with-launch.md)
+* [Implement with Experience Platform Launch](ecid-implement-with-launch.md)
 * [Implementation with Dynamic Tag Management](standard.md)
 * [Implement the Experience Cloud ID Service for Analytics](setup-analytics.md)
 * [Implement the Experience Cloud ID Service for Target](setup-target.md)
