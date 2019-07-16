@@ -1,7 +1,7 @@
 ---
-description: Call these ID service functions to determine the timeout status for a Experience Cloud ID Service, Analytics, or Audience Manager ID request. Available in VisitorAPI.js version 1.7.0 or higher.
+description: Call these ID service functions to determine the timeout status for a Experience Platform Identity Service, Analytics, or Audience Manager ID request. Available in VisitorAPI.js version 1.7.0 or higher.
 keywords: ID Service
-seo-description: Call these ID service functions to determine the timeout status for a Experience Cloud ID Service, Analytics, or Audience Manager ID request. Available in VisitorAPI.js version 1.7.0 or higher.
+seo-description: Call these ID service functions to determine the timeout status for a Experience Platform Identity Service, Analytics, or Audience Manager ID request. Available in VisitorAPI.js version 1.7.0 or higher.
 seo-title: callTimeOut Methods
 title: callTimeOut Methods
 uuid: e5047498-11db-4945-b356-c92b7d447573
@@ -9,7 +9,7 @@ uuid: e5047498-11db-4945-b356-c92b7d447573
 
 # callTimeOut Methods{#calltimeout-methods}
 
-Call these ID service functions to determine the timeout status for a Experience Cloud ID Service, Analytics, or Audience Manager ID request. Available in VisitorAPI.js version 1.7.0 or higher.
+Call these ID service functions to determine the timeout status for a Experience Platform Identity Service, Analytics, or Audience Manager ID request. Available in VisitorAPI.js version 1.7.0 or higher.
 
 ## Timeout Functions {#section-e08228ef5f9b45c9a84139bbb763164a}
 
@@ -22,7 +22,7 @@ Call these ID service functions to determine the timeout status for a Experience
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Experience Cloud ID Service </p> </td> 
+   <td colname="col1"> <p>Experience Platform Identity Service </p> </td> 
    <td colname="col2"> <p> <span class="codeph">var <span class="varname"> variableName</span> = visitor.MCIDCallTimedOut()</span> </p> </td> 
   </tr> 
   <tr> 

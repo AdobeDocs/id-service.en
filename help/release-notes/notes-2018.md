@@ -1,7 +1,7 @@
 ---
-description: Feature releases, updates, or changes to the Experience Cloud ID Service for 2018.
+description: Feature releases, updates, or changes to the Experience Platform Identity Service for 2018.
 keywords: ID Service
-seo-description: Feature releases, updates, or changes to the Experience Cloud ID Service for 2018.
+seo-description: Feature releases, updates, or changes to the Experience Platform Identity Service for 2018.
 seo-title: 2018 Release Notes
 title: 2018 Release Notes
 uuid: 771b5b11-a8e3-464c-b65e-b15135584ace
@@ -9,7 +9,7 @@ uuid: 771b5b11-a8e3-464c-b65e-b15135584ace
 
 # 2018 Release Notes {#release-notes}
 
-Feature releases, updates, or changes to the Experience Cloud ID Service for 2018.
+Feature releases, updates, or changes to the Experience Platform Identity Service for 2018.
 
 ## Version 3.3 {#section-3202c8d5457a45a5b5f4b4c838d44de3}
 
@@ -65,7 +65,7 @@ Feature releases, updates, or changes to the Experience Cloud ID Service for 201
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Unrealistic spike in the unique visitor count </p> </td> 
-   <td colname="col2"> <p>With the release of Experience Cloud ID Service 3.1.0, we found an issue that created an unrealistic spike in the unique visitor count when this version was implemented. This behavior is exhibited only with the latest version of ECID, v3.1.0, and if a user has selected the "Allow from current website only" option in the privacy settings of a Safari browser. Version 3.1.2 fixes this issue. </p> </td> 
+   <td colname="col2"> <p>With the release of Experience Platform Identity Service 3.1.0, we found an issue that created an unrealistic spike in the unique visitor count when this version was implemented. This behavior is exhibited only with the latest version of ECID, v3.1.0, and if a user has selected the "Allow from current website only" option in the privacy settings of a Safari browser. Version 3.1.2 fixes this issue. </p> </td> 
   </tr> 
  </tbody> 
 </table>

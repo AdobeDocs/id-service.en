@@ -2,18 +2,18 @@
 description: An overview of the ID request and response process. These examples cover ID assignment on individual sites, across different sites, and for sites managed by different Experience Cloud customers with their own organization IDs.
 keywords: ID Service
 seo-description: An overview of the ID request and response process. These examples cover ID assignment on individual sites, across different sites, and for sites managed by different Experience Cloud customers with their own organization IDs.
-seo-title: How the Experience Cloud ID Service requests and sets IDs
-title: How the Experience Cloud ID Service requests and sets IDs
+seo-title: How the Experience Platform Identity Service requests and sets IDs
+title: How the Experience Platform Identity Service requests and sets IDs
 uuid: ff7f5b7e-e959-4391-b75c-b7a36286e0ea
 ---
 
-# How the Experience Cloud ID Service requests and sets IDs{#how-the-experience-cloud-id-service-requests-and-sets-ids}
+# How the Experience Platform Identity Service requests and sets IDs{#how-the-experience-cloud-id-service-requests-and-sets-ids}
 
 An overview of the ID request and response process. These examples cover ID assignment on individual sites, across different sites, and for sites managed by different Experience Cloud customers with their own organization IDs.
 
 >[!NOTE]
 >
->If you're not familiar with how the Experience Cloud ID Service creates the visitor ID, take a moment to review [Experience Cloud](../introduction/cookies.md).
+>If you're not familiar with how the Experience Platform Identity Service creates the visitor ID, take a moment to review [Experience Cloud](../introduction/cookies.md).
 
 **Tip:** See also our [ID service video on cross-domain tracking](https://helpx.adobe.com/marketing-cloud-core/kb/MCID/CrossDomain.html).
 

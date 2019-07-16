@@ -13,8 +13,8 @@ ID service features or functionality unique to Adobe Analytics.
 
 + [Setting Analytics and Experience Cloud IDs](analytics-ids.md)
 + [Order of Operations for Analytics IDs](analytics-order-of-operations.md)
-+ [Experience Cloud ID Service Migration Decision Points](migration-decisions.md)
-+ [Experience Cloud ID Service Migration Scenarios](migration-scenarios.md)
++ [Experience Platform Identity Service Migration Decision Points](migration-decisions.md)
++ [Experience Platform Identity Service Migration Scenarios](migration-scenarios.md)
 + [Analytics and Experience Cloud ID Requests](legacy-analytics.md)
 + [Data Collection CNAMEs and Cross-Domain Tracking](cname.md)
 + [Server-side Implementation Mixed with JavaScript](server-side.md)

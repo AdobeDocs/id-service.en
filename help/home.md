@@ -1,15 +1,15 @@
 ---
-description: The Experience Cloud ID Service provides a universal, persistent ID that identifies your visitors across all the solutions in the Experience Cloud. 
+description: The Experience Platform Identity Service provides a universal, persistent ID that identifies your visitors across all the solutions in the Experience Cloud. 
 keywords: ID Service
-seo-description: The Adobe Experience Cloud ID Service (ID service) provides a universal, persistent ID that identifies your visitors across all the solutions in the Experience Cloud. It can replace ID generation code for services such as Analytics, Audience Manager, Target, and other Experience Cloud solutions or features.
-seo-title: Experience Cloud ID Service
-title: Experience Cloud ID Service
+seo-description: The Adobe Experience Platform Identity Service (ID service) provides a universal, persistent ID that identifies your visitors across all the solutions in the Experience Cloud. It can replace ID generation code for services such as Analytics, Audience Manager, Target, and other Experience Cloud solutions or features.
+seo-title: Experience Platform Identity Service
+title: Experience Platform Identity Service
 uuid: b68194b5-e549-4f6f-bfaf-7744926aeaac
 ---
 
-# Adobe Experience Cloud ID Service {#experience-cloud-id-service}
+# Adobe Experience Platform Identity Service {#experience-cloud-id-service}
 
-The Adobe Experience Cloud ID Service (ID service) provides a universal, persistent ID that identifies your visitors across all the solutions in the Experience Cloud. It can replace ID generation code for services such as Analytics, Audience Manager, Target, and other Experience Cloud solutions or features.
+The Adobe Experience Platform Identity Service (ID service) provides a universal, persistent ID that identifies your visitors across all the solutions in the Experience Cloud. It can replace ID generation code for services such as Analytics, Audience Manager, Target, and other Experience Cloud solutions or features.
 
 <table id="table_5E612F746A704FE095B809A013EE977F" class="simpletable"> 
  <tbody> 
@@ -17,9 +17,9 @@ The Adobe Experience Cloud ID Service (ID service) provides a universal, persist
    <td colname="col1"> <p> <b>Getting Started</b> </p> <p> 
      <ul id="ul_D5EC6A54A03F4AB595B588116A7C1296"> 
       <li id="li_845F6DE25A1241439BCDCBC00459D7EB"> <a href="introduction/overview.md" format="dita" scope="local"> Overview </a> </li> 
-      <li id="li_47F399E1D4AF4F08BD647DF01A423BA7"> <a href="reference/requirements.md" format="dita" scope="local"> Requirements for the Experience Cloud ID Service </a> </li> 
+      <li id="li_47F399E1D4AF4F08BD647DF01A423BA7"> <a href="reference/requirements.md" format="dita" scope="local"> Requirements for the Experience Platform Identity Service </a> </li> 
       <li id="li_CBEEE79B45644F28A52B58DDF23DAD4F"> <a href="implementation-guides/standard.md#concept-89cd0199a9634fc48644f2d61e3d2445" format="dita" scope="local"> Standard Implementation with DTM </a> </li> 
-     </ul> </p> <p><b>Experience Cloud ID Javascript Libraries</b> </p> <p>JavaScript for the Experience Cloud ID Service is located at: <a href="https://github.com/Adobe-Marketing-Cloud/id-service/releases" format="https" scope="external"> https://github.com/Adobe-Marketing-Cloud/id-service/releases</a> </p> <p> <b>New or Featured Items</b> </p> <p> 
+     </ul> </p> <p><b>Experience Cloud ID Javascript Libraries</b> </p> <p>JavaScript for the Experience Platform Identity Service is located at: <a href="https://github.com/Adobe-Marketing-Cloud/id-service/releases" format="https" scope="external"> https://github.com/Adobe-Marketing-Cloud/id-service/releases</a> </p> <p> <b>New or Featured Items</b> </p> <p> 
      <ul id="ul_B0A25B6827734D55BB1E20D12334AC21"> 
       <li id="li_A66924F4948F4A5ABA545A89A28A6F6A"><a href="implementation-guides/opt-in-service/optin-overview.md#concept-f9b5db0d27a245fbadd3e19162319360" format="dita" scope="local"> Opt-in service</a> </li> 
       <li id="li_92D49CB788AD478EA74BCF5328CB9A14"> <a href="library/get-set/getvisitorvalues.md#reference-b8c9e17c170c4291829a792df46ce279" format="dita" scope="local"> getVisitorValues </a> </li> 

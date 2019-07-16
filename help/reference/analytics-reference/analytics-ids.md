@@ -1,7 +1,7 @@
 ---
-description: The Experience Cloud ID Service replaces the legacy Analytics visitor ID methods.
+description: The Experience Platform Identity Service replaces the legacy Analytics visitor ID methods.
 keywords: ID Service
-seo-description: The Experience Cloud ID Service replaces the legacy Analytics visitor ID methods.
+seo-description: The Experience Platform Identity Service replaces the legacy Analytics visitor ID methods.
 seo-title: Setting Analytics and Experience Cloud IDs
 title: Setting Analytics and Experience Cloud IDs
 uuid: 421cf597-a3e0-4ca3-8ce8-d0c80cbb6aca
@@ -9,7 +9,7 @@ uuid: 421cf597-a3e0-4ca3-8ce8-d0c80cbb6aca
 
 # Setting Analytics and Experience Cloud IDs{#setting-analytics-and-experience-cloud-ids}
 
-The Experience Cloud ID Service replaces the legacy Analytics visitor ID methods.
+The Experience Platform Identity Service replaces the legacy Analytics visitor ID methods.
 
 After the ID service is implemented, this code executes before AppMeasurement. The ID service retrieves the Experience Cloud and Analytics IDs so these values are ready when AppMeasurement loads.
 

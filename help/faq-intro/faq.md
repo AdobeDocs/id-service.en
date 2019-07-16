@@ -19,7 +19,7 @@ See the [Overview](../introduction/overview.md).
 
 **Why is the ID service not making a call to retrieve the Experience Cloud ID?**
 
-This can be difficult to diagnose. One thing you can check are the content security policy headers on your site. If you have a strict security policy, those settings can block the third-party calls made by the ID service. See [Content Security Policies and the Experience Cloud ID Service](../reference/csp.md#concept-968c423a7392479db0a0d821ae9783e3).
+This can be difficult to diagnose. One thing you can check are the content security policy headers on your site. If you have a strict security policy, those settings can block the third-party calls made by the ID service. See [Content Security Policies and the Experience Platform Identity Service](../reference/csp.md#concept-968c423a7392479db0a0d821ae9783e3).
 
 **VisitorAPI.js file storage**
 
@@ -63,13 +63,13 @@ This change improves performance for customers using Visitor 2.3.0+ and DIL 6.10
 
 Resource requests with CORS are generally more preferable than with JSONP. With JSONP, some browsers queue and de-prioritize requests relative to other synchronous and asynchronous calls on the page. CORS helps ensure that these requests are treated with a higher priority in the browser call stack.
 
-See [CORS Support in the Experience Cloud ID Service](../reference/cors.md#concept-6c280446990d46d88ba9da15d2dcc758).
+See [CORS Support in the Experience Platform Identity Service](../reference/cors.md#concept-6c280446990d46d88ba9da15d2dcc758).
 
 ## Security {#section-b176b8492fbe4acfb79ebb30ec902f98}
 
 **Does the ID service support CORS?**
 
-Yes. See [CORS Support in the Experience Cloud ID Service](../reference/cors.md#concept-6c280446990d46d88ba9da15d2dcc758).
+Yes. See [CORS Support in the Experience Platform Identity Service](../reference/cors.md#concept-6c280446990d46d88ba9da15d2dcc758).
 
 **What is CORS?**
 

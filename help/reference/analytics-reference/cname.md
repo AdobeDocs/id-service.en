@@ -41,6 +41,6 @@ If you are also using this same data collection server on other sites (for examp
 
 As a result, your collection domain should be a domain that people commonly visit in order for a visitor to be identified across domains. If there is no *common* domain to use for the data collection domain, there is no cross-domain benefit to maintaining a CNAME for the data collection domain. If the main entry site is not visited first, visitors are identified differently on the secondary site and main site.
 
-## Enable CNAME support with the Experience Cloud ID Service {#section-25d4feb686d944e3a877d7aad8dbdf9a}
+## Enable CNAME support with the Experience Platform Identity Service {#section-25d4feb686d944e3a877d7aad8dbdf9a}
 
 Data collection server CNAME support is enabled by setting the `visitor.marketingCloudServerSecure` variables. 

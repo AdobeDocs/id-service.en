@@ -17,7 +17,7 @@ Make sure you check for both the Experience Cloud visitor ID and the Analytics v
 
 >[!IMPORTANT]
 >
->AppMeasurement for Java does not currently support the Experience Cloud ID Service.
+>AppMeasurement for Java does not currently support the Experience Platform Identity Service.
 
 ## Data Insertion API {#section-955ce7664a4646d38b3005cb2df40baf}
 
@@ -29,4 +29,4 @@ See [Supported XML Tags](https://marketing.adobe.com/developer/en_US/documentati
 
 ## AppMeasurement for Java {#section-d664b94934924d048300d9c2b6560085}
 
-The Experience Cloud ID Service is not currently supported by AppMeasurement for Java. 
+The Experience Platform Identity Service is not currently supported by AppMeasurement for Java. 
