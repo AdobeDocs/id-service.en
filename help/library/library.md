@@ -1,7 +1,7 @@
 ---
-description: Properties, methods, and configurations that let you work programmatically with the Experience Platform Identity Service.
+description: Properties, methods, and configurations that let you work programmatically with the Experience Cloud Identity Service.
 keywords: ID Service
-seo-description: Properties, methods, and configurations that let you work programmatically with the Experience Platform Identity Service.
+seo-description: Properties, methods, and configurations that let you work programmatically with the Experience Cloud Identity Service.
 seo-title: ID Service API
 title: ID Service API
 uuid: 9663cf9d-64be-4b68-a0e1-c1a1eb70fbd5
@@ -9,7 +9,7 @@ uuid: 9663cf9d-64be-4b68-a0e1-c1a1eb70fbd5
 
 # ID Service API{#id-service-api}
 
-Properties, methods, and configurations that let you work programmatically with the Experience Platform Identity Service.
+Properties, methods, and configurations that let you work programmatically with the Experience Cloud Identity Service.
 
 * [Configurations overview](function-vars/function-vars.md)
 * [Methods overview](get-set/get-set.md)

@@ -11,7 +11,7 @@ uuid: bdd9d001-f29f-4ff0-800b-8182243da218
 
 The AMCV cookie contains the Experience Cloud ID (MID) and a region ID for your site visitors. These IDs are stored as key-value pairs. The mid:user ID holds the visitor's Experience Cloud ID. The aamlh:region ID holds the region ID for your site visitors. You can recover this information by parsing the AMCV cookie.
 
- For more information, see [Get User IDs and Regions Through the Experience Platform Identity Service](https://marketing.adobe.com/resources/help/en_US/aam/dcs-mcid-ids.html).
+ For more information, see [Get User IDs and Regions Through the Experience Cloud Identity Service](https://marketing.adobe.com/resources/help/en_US/aam/dcs-mcid-ids.html).
 
 If you're an [!DNL Audience Manager] customer, you can get the region ID from the response sent by the Data Collection Server (DCS). See [Get User IDs and Regions from a DCS Response](https://marketing.adobe.com/resources/help/en_US/aam/dcs-aam-ids.html).
 

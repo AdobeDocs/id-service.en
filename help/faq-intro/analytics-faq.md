@@ -1,6 +1,6 @@
 ---
-description: Frequently asked questions about features, functionality, and issues related to using Analytics with the Experience Platform Identity Service.
-keywords: Experience Platform Identity Service
+description: Frequently asked questions about features, functionality, and issues related to using Analytics with the Experience Cloud Identity Service.
+keywords: Experience Cloud Identity Service
 seo-description: Frequently asked questions about features, functionality, and issues related to using Analytics with the Identity Service.
 seo-title: Analytics and Identity Service FAQs
 title: Analytics and Identity Service FAQs

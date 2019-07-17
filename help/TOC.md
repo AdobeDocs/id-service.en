@@ -2,11 +2,11 @@
 cloud: platform-cloud
 product: ID Service
 audience: end-user
-user-guide-title: Experience Platform Identity Service Help
+user-guide-title: Experience Cloud Identity Service Help
 user-guide-url: /content/help/en/id-service/using/home.html
 ---
 
-# Experience Platform Identity Service Help {#using}
+# Experience Cloud Identity Service Help {#using}
 
 + [ID Service Help](home.md)
 + Overview {#intro}

@@ -1,7 +1,7 @@
 ---
-description: An overview of ID synchronization processes and match rates in the Experience Platform Identity Service, including Adobe Media Optimizer and the ID service.
+description: An overview of ID synchronization processes and match rates in the Experience Cloud Identity Service, including Adobe Media Optimizer and the ID service.
 keywords: ID Service
-seo-description: An overview of ID synchronization processes and match rates in the Experience Platform Identity Service, including Adobe Media Optimizer and the ID service.
+seo-description: An overview of ID synchronization processes and match rates in the Experience Cloud Identity Service, including Adobe Media Optimizer and the ID service.
 seo-title: Understanding ID synchronization and match rates
 title: Understanding ID synchronization and match rates
 uuid: 31bd655f-2b9e-4f8d-9a1f-e81a6110eda8
@@ -9,7 +9,7 @@ uuid: 31bd655f-2b9e-4f8d-9a1f-e81a6110eda8
 
 # Understanding ID synchronization and match rates{#understanding-id-synchronization-and-match-rates}
 
-An overview of ID synchronization processes and match rates in the Experience Platform Identity Service, including Adobe Media Optimizer and the ID service.
+An overview of ID synchronization processes and match rates in the Experience Cloud Identity Service, including Adobe Media Optimizer and the ID service.
 
 ## ID synchronization and match rates {#section-f652aae7234945e89d26dd833c5215fb}
 
@@ -29,7 +29,7 @@ The ID service synchronizes IDs in real-time. This process works in the browser 
 
 **Step 1: Load page**
 
-When a visitor comes to your site and loads a page, the `Visitor.getInstance` function makes a [CORS](../reference/cors.md#concept-6c280446990d46d88ba9da15d2dcc758) or JSON-P call to the ID service. The ID service responds with a cookie that includes the visitor's [!DNL Experience Cloud] ID (MID). The MID is a unique ID assigned to each site visitor. See also, [Cookies and the Experience Platform Identity Service](../introduction/cookies.md).
+When a visitor comes to your site and loads a page, the `Visitor.getInstance` function makes a [CORS](../reference/cors.md#concept-6c280446990d46d88ba9da15d2dcc758) or JSON-P call to the ID service. The ID service responds with a cookie that includes the visitor's [!DNL Experience Cloud] ID (MID). The MID is a unique ID assigned to each site visitor. See also, [Cookies and the Experience Cloud Identity Service](../introduction/cookies.md).
 
 **Step 2: Load iFrame**
 
@@ -39,7 +39,7 @@ While the page body is loading, the ID service loads an iFrame called the *`Dest
 * Loads as fast as possible. If this is too fast, you can load the iFrame after the window load event (not recommended). See [idSyncAttachIframeOnWindowLoad](../library/function-vars/idsyncattachiframeonwindowload.md#reference-b86b7112e0814a4c82c4e24c158508f4) for details. 
 * Prevents code in the iFrame from gaining access to or affecting the parent page.
 
-See also, [How the Experience Platform Identity Service Requests and Sets IDs...](../introduction/id-request.md#concept-2caacebb1d244402816760e9b8bcef6a).
+See also, [How the Experience Cloud Identity Service Requests and Sets IDs...](../introduction/id-request.md#concept-2caacebb1d244402816760e9b8bcef6a).
 
 **Step 3: Fire ID syncs**
 
