@@ -15,7 +15,7 @@ Feature releases, updates, or changes to the Experience Cloud Identity Service.
 
 Feature releases, updates, or changes to the [!DNL Experience Cloud] ID service.
 
-## Version 4.4 {version-4point4}
+## Version 4.4 {#version-4point4}
 
 **New Feature**
 
