@@ -16,7 +16,7 @@ There are two ways to implement hashing support with setCustomerIDs, as describe
 
 ## Use the `setCustomerIDs` method in ECID {#use-setcustomerids-method}
 
-The first method leverages using the [`setCustomerIDs`](/help/library/get-set/setcustomerids.md)` (`customerIDs<object>`, `hashType<string>) method.
+The first method leverages using the [`setCustomerIDs`](/help/library/get-set/setcustomerids.md)` (`customerIDs<object>`, `hashType<string>) method. 
 
 Before hashing, the ECID library performs data normalization on the customerIDs. This process trims the whitespaces of the customerIDs on both ends, and converts all characters to lowercase. For example, in case of email addresses: " ecid@adobe.com " becomes "ecid@adobe.com"
 
