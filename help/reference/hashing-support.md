@@ -11,8 +11,8 @@ title: SHA256 Hashing Support for setCustomerIDs
 Experience Cloud ID Service (ECID) supports the SHA-256 hashing algorithm that allows you to pass in customer IDs or email addresses, and pass out hashed IDs. This is an optional Javascript method for sending hashed identifiers to Experience Cloud. You can continue to use your own methods of hashing prior to sending customer IDs.
 There are two ways to implement hashing support with setCustomerIDs, as described in the sections below:
 
-* Use the setCustomerIDs method in ECID
-* Add an Action in Adobe Experience Platform Launch
+* [Use the setCustomerIDs method in ECID](/help/reference/hashing-support.md#use-setcustomerids-method)
+* [Add an Action in Adobe Experience Platform Launch](/help/reference/hashing-support.md#add-action-launch)
 
 ## Use the `setCustomerIDs` method in ECID {#use-setcustomerids-method}
 
