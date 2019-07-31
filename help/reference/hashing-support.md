@@ -54,7 +54,7 @@ See the table below for a description of the `d_cid_ic` parameter and authentica
 
 | Parameter | Description |
 |------------|----------|
-| `d_cid_ic` | <p>Passes the Integration Code, the Unique User ID (DPUUID), and an authenticated state ID to the ID service.</p><p>Separate the Integration Code and DPUUID with the non-printing control character, %01:</p><p>Example: d_cid_ic=Ingeration_code%01DPUUID%01Authentication_state</p>|
+| `d_cid_ic` |Passes the Integration Code, the Unique User ID (DPUUID), and an authenticated state ID to the ID service. Separate the Integration Code and DPUUID with the non-printing control character, %01: <p>Example: d_cid_ic=Ingeration_code%01DPUUID%01Authentication_state</p>|
 
 ## Add an Action in Adobe Experience Platform Launch {#add-action-launch}
 
