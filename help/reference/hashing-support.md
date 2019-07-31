@@ -27,11 +27,13 @@ See below a code example of how you set a single customer ID (the email address 
 visitor.setCustomerIDs({email: {id: "ecid@adobe.com", authState: 1}}, "SHA-256");
 ```
 
+<br>&nbsp;
+
 Along with the Experience Cloud visitor ID, you can associate additional customer IDs, authentication status and hash type (SHA-256) with each visitor. If you don't provide any hash type, it will be considered as no hashing.
 
 The `setCustomerIDs` method accepts multiple customer IDs for the same visitor. This helps you identify or target an individual user across different devices. For example, you can upload these IDs as [customer attributes](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html) to the Experience Cloud and access this data across the different solutions.
 
-Customer IDs, authenticated states and hash type *are not* stored in a cookie to be used later. Instead, Customer IDs, authenticated states and hash type should be stored in an instance variable, to be retrieved using [`getCustomerIDs](/help/library/get-set/getcustomerids.md), as shown below:
+Customer IDs, authenticated states and hash type *are not* stored in a cookie to be used later. Instead, Customer IDs, authenticated states and hash type should be stored in an instance variable, to be retrieved using [`getCustomerIDs`](/help/library/get-set/getcustomerids.md), as shown below:
 
 ```
 > visitor.getCustomerIDs();
@@ -39,6 +41,8 @@ Customer IDs, authenticated states and hash type *are not* stored in a cookie to
     email: {id: "a6ea4cde5da5ae7cc68baae894d1d6544fca26254433b0fff7c2cb4843b4a097", authState: 1, hashType: "SHA-256"}
     __proto__: Object
 ```
+
+<br>&nbsp;
 
 Using the `setCustomerIDs` method results in a call to the Experience Cloud ID Service, to `dpm.demdex.net`, with the addition of the `d_cid_ic` query parameter, which contains the hashed customer ID. A sample call could look like the one below. Line breaks were added for clarity.
 
@@ -49,6 +53,8 @@ d_blob=6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y&
 d_cid_ic=email%a6ea4cde5da5ae7cc68baae894d1d6544fca26254433b0fff7c2cb4843b4a097%011&
 ts=1563299964843
 ```
+
+<br>&nbsp;
 
 See the table below for a description of the `d_cid_ic` parameter and authentication state.
 
@@ -63,6 +69,8 @@ Experience Platform Launch is the next-generation of tag management capabilities
 To add an action in Launch, read the [rules documentation](https://docs.adobe.com/help/en/launch/using/reference/manage-resources/rules.html) in Adobe Launch and see the screen capture below:
 
 ![](/help/reference/assets/hashing-support.png)
+
+<br>&nbsp;
 
 After confirming your configuration, Launch wraps up the data into an object, like below:
 
