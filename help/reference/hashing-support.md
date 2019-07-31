@@ -54,7 +54,7 @@ See the table below for a description of the `d_cid_ic` parameter and authentica
 
 | Parameter | Description |
 |------------|----------|
-| `d_cid_ic` |Passes the Integration Code, the Unique User ID (DPUUID), and an authenticated state ID to the ID service. Separate the Integration Code and DPUUID with the non-printing control character, %01: <br> Example: d_cid_ic=Ingeration_code%01DPUUID%01Authentication_state|
+| `d_cid_ic` |Passes the Integration Code, the Unique User ID (DPUUID), and an authenticated state ID to the ID service. Separate the Integration Code and DPUUID with the non-printing control character, %01: <br> Example: <code>d_cid_ic=Ingeration_code%01DPUUID%01Authentication_state</code> <br> <b>Authentication State</b> <br> This is an optional ID in the d_cid_ic parameter. Expressed as an integer, it identifies users according to their authentication status as shown below: <br> <ul><li>0 (Unknown or never authenticated)</li><li>1 (Currently authenticated for this instance / page / app context)</li><li>2 (Logged out)</li></ul>|
 
 ## Add an Action in Adobe Experience Platform Launch {#add-action-launch}
 
