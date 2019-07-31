@@ -31,13 +31,7 @@ The Adobe Experience Cloud Identity Service (ID service) provides a universal, p
      <p> <b>Announcements:</b> </p> 
      <p> <p>Important:  ID service support for Internet Explorer 6, 7, and 8 is deprecated and will be discontinued in a future release. </p> </p> 
     </draft-comment> </td> 
-   <td colname="col2"> <p> <b>Release Notes</b> </p> <p><b>Version 4.0</b> February 12, 2019 release includes the <a href="implementation-guides/opt-in-service/optin-overview.md#concept-f9b5db0d27a245fbadd3e19162319360" format="dita" scope="local"> Opt-in service</a> used to identify if you can place a cookie on a user's device or browser when visiting your site. </p> <p>The January 18, 2018 release includes the 3.0.0 JavaScript update, and updates to API methods. See <a href="library/function-vars/disableidsync.md#reference-589d6b489ac64eddb5a7ff758945e414" format="dita" scope="local"> disableIdSyncs</a> and <a href="library/function-vars/disable-cookies.md#reference-2dd2d60d12f34f0b98bbb5606b3734cc" format="dita" scope="local"> disableThirdPartyCookies</a>. </p> 
-    <draft-comment> 
-     <p>The October 2017 release does not include any code changes or updates for the ID service. ID service code remains unchanged at v2.5. </p> 
-    </draft-comment> 
-    <draft-comment> 
-     <p> The September 2017 release increments the ID service code to v2.5. </p> 
-    </draft-comment> <p> 
+   <td colname="col2"> <p> <b>Release Notes</b> </p> <p><b>Version 4.4</b> July 17, 2019 release includes support for the <a href="reference/hashing-support.md" format="dita" scope="local"> SHA-256 hashing algorithm</a> that allows you to pass in customer IDs or email addresses, and pass out hashed IDs.</p><p><b>Version 4.0</b> February 12, 2019 release includes the <a href="implementation-guides/opt-in-service/optin-overview.md#concept-f9b5db0d27a245fbadd3e19162319360" format="dita" scope="local"> Opt-in service</a> used to identify if you can place a cookie on a user's device or browser when visiting your site. </p> <p> 
      <ul id="ul_4F06F170F214492780C7D25A069F799F"> 
       <li id="li_45A7CD556FE44F4DAB035C736A058F36"> See the latest <a href="https://marketing.adobe.com/resources/help/en_US/whatsnew/" format="https" scope="external"> Experience Cloud Release Notes</a> for new features and fixes. </li> 
       <li id="li_10CC4FBFEFC947CA9AD15F52D9715257">See the <a href="https://marketing-stage.adobe.com/resources/help/en_US/whatsnew/c_legacy_releases.html" format="html" scope="external"> previous release notes</a> for older releases. </li> 

@@ -94,6 +94,7 @@ user-guide-url: /content/help/en/id-service/using/home.html
    + [Requirements for the ID Service](reference/requirements.md)
    + [Video Heartbeat and the ID Service](reference/heartbeat.md)
    + [Data Workbench and the ID Service](reference/dwb.md)
+   + [SHA256 Hashing Support for setCustomerIDs](reference/hashing-support.md)
 + FAQs {#faqs}
    + [FAQ Overview](faq-intro/faq-intro.md)
    + [ID Service FAQs](faq-intro/faq.md)
