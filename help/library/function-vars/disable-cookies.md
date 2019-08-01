@@ -15,7 +15,7 @@ An optional, Boolean flag that prevents the Experience Cloud Identity Service fr
 >
 >This configuration was `idSyncDisable3rdPartySyncing` and renamed to `disableThirdPartyCookies` in the January 18, 2018 release of v3.0.
 
-**Syntax:** `disableThirdPartyCookies: true|false` (default is `false`.) For `VisitorAPI.js` v1.5.3, or greater.
+**Syntax:** `disableThirdPartyCookies: true|false` (default is `false`.) For `VisitorAPI.js` v3.0.0 or greater.
 
 When `disableThirdPartyCookies: true`, the ID service does not return the third-party, demdex.net cookie (see [Cookies and the Experience Cloud Identity Service](../../introduction/cookies.md) ). If a site visitor already has this cookie in their browser, the ID service won't use it to create a new Experience Cloud ID (MID) or return an existing ID. Instead, the ID service creates a new, random MID in the first-party cookie. Once enabled, you can collect data with the ID service and share it across different Experience Cloud solutions.
 
