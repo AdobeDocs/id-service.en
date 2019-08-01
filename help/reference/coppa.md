@@ -13,7 +13,7 @@ The Children’s Online Privacy Protection Act (COPPA) prohibits the online coll
 
 >[!NOTE]
 >
->For version 1.5.3 or greater.
+>For version 3.0.0 or greater.
 
 **Cookies and Tracking**
 
