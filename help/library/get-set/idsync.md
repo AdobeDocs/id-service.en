@@ -87,9 +87,9 @@ The following table lists and defines the properties available to both functions
 
 Both functions accept the following macros:
 
-* ** `%TIMESTAMP%`: **Generates a timestamp (in milliseconds). Used for cache busting. 
-* ** `%DID%`: **Inserts the Audience Manager ID for the user. 
-* ** `%HTTP_PROTO%`: **Sets the communication protocol ( `http` or `https`).
+* `%TIMESTAMP%`: Generates a timestamp (in milliseconds). Used for cache busting. 
+* `%DID%`: Inserts the Audience Manager ID for the user. 
+* `%HTTP_PROTO%`: Sets the communication protocol ( `http` or `https`).
 
 ## Sample Code and Output {#section-0115615c37584a19a2ab11e917c4e7e9}
 

@@ -215,4 +215,4 @@ The [!DNL Experience Cloud] ID service supports customer IDs and authentication 
 
 ## Notice for Analytics and Audience Manager Customers {#section-3a8e9d51e71c4c6e865184b81ed9d99b}
 
-If you're passing declared IDs to [!DNL Audience Manager], the `userid` object needs to match the integration code associated with a data source. For more information, see the [!DNL Visitor ID Service] section in the [Configure Merge Rules Code](https://marketing.adobe.com/resources/help/en_US/aam/?f=merge-rules-configure-code.html) documentation. 
+If you're passing declared IDs to [!DNL Audience Manager], the `userid` object needs to match the integration code associated with a data source. For more information, see the [!UICONTROL Visitor ID Service] section in the [Configure Merge Rules Code](https://marketing.adobe.com/resources/help/en_US/aam/?f=merge-rules-configure-code.html) documentation. 

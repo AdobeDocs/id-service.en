@@ -42,9 +42,9 @@ Once settings are configured properly, ECID and DIL libraries will be enabled/di
 
 >[!IMPORTANT]
 >
->Audience Manager needs consent for *purposes 1,2, and 5, plus vendor consent* in order to deploy cookies and initiate or honor ID syncs. Read more about the IAB plugin in Audience Manager documentation ** [here](https://marketing-beta.adobe.com/resources/help/aam/iab-support/aam-iab-support.html)**.
+>Audience Manager needs consent for *purposes 1,2, and 5, plus vendor consent* in order to deploy cookies and initiate or honor ID syncs. Read more about the IAB plugin in Audience Manager documentation [here](https://marketing-beta.adobe.com/resources/help/aam/iab-support/aam-iab-support.html).
 
-For more information on how to validate both Opt-in and the IAB plugin, check use case #4 in the validation guide [ **here** ](../../implementation-guides/opt-in-service/testing-optin-and-iab-plugin.md#section-ca5c6f92fbdf4fd29b4acb6b644efbd0).
+For more information on how to validate both Opt-in and the IAB plugin, check use case #4 in the validation guide [here](../../implementation-guides/opt-in-service/testing-optin-and-iab-plugin.md#section-ca5c6f92fbdf4fd29b4acb6b644efbd0).
 
 ## Related Documentation {#section-55da1110051a4b39b1037803f4a7b264}
 

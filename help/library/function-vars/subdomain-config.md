@@ -25,7 +25,7 @@ Normally, the [!DNL Experience Cloud] ID service makes calls to [!DNL Adobe] at 
 These configurations require that you use:
 
 * The [!DNL Audience Manager] subdomain name of record for your company. Verify or get this name from your consultant. 
-* The subdomain name associated with your [!DNL Organization ID]. 
+* The subdomain name associated with your [!UICONTROL Organization ID]. 
 * *Both* configuration parameters with the same subdomain name.
 
 **Code Sample**

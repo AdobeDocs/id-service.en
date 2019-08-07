@@ -17,7 +17,7 @@ These examples cover 2 common use cases related to a direct integration and the 
 >* For more information about the MID, see [Cookies and the Experience Cloud Identity Service](../introduction/cookies.md). 
 >
 
-## Use case 1: I have a MID but want to pass my Visitor IDs and set an authentication state {#section-a67d89a343754d1286d03cf08d34b806}
+## Use case 1: I have an Experience Cloud ID (MID) but want to pass my visitor IDs and set an authentication state {#section-a67d89a343754d1286d03cf08d34b806}
 
 <table id="table_DA8840FCB51541109FE6DF20430E8924"> 
  <thead> 
