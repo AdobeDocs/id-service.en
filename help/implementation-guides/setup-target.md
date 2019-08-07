@@ -19,7 +19,7 @@ These instructions are for Target customers who want to use the Experience Cloud
 
 ## Step 1: Get the ID Service code {#section-b32ba0548aa546a79dd38be59832a53e}
 
-The [!DNL ID Service] requires the `VisitorAPI.js` code library. Contact [Customer Care](https://helpx.adobe.com/marketing-cloud/contact-support.html) to get this code.
+The [!UICONTROL ID Service] requires the `VisitorAPI.js` code library. Contact [Customer Care](https://helpx.adobe.com/marketing-cloud/contact-support.html) to get this code.
 
 ## Step 2: Add the Visitor.getInstance function to the ID Service code {#section-287ef2958e9f43858fe9d630ae519e22}
 

@@ -26,7 +26,7 @@ Migrating to server-side forwarding requires planning and coordination. This pro
 
 1. Work with your [!DNL Analytics] and [!DNL Audience Manager] contacts to plan your ID service and server-side forwarding migration. Make selecting a tracking server an important part of this plan. 
 
-1. Get provisioned for [!DNL Profiles & Audiences]. Complete the form on the [integrations and provisioning site](https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES) to get started. 
+1. Complete the form on the [integrations and provisioning site](https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES) to get started. 
 
 1. Implement the ID service and the [!DNL Audience Management Module] simultaneously. To work properly, the [!DNL Audience Management Module] (server-side forwarding) and the ID service must be released for the same set of pages and at the same time.
 
@@ -131,7 +131,7 @@ If you're not sure how to find your tracking server see the [FAQ](../faq-intro/f
 
 ## Step 6: Update your AppMeasurement.js file {#section-5517e94a09bc44dfb492ebca14b43048}
 
-This step requires [!DNL AppMeasurement]. You cannot continue if you're still using s_code.
+This step requires [!UICONTROL AppMeasurement]. You cannot continue if you're still using s_code.
 
 Add the `Visitor.getInstance` function shown below to your `AppMeasurement.js` file. Place it in the section that contains configurations such as `linkInternalFilters`, `charSet`, `trackDownloads`, etc. :
 
@@ -152,7 +152,7 @@ s.prop1 = (typeof(Visitor) != "undefined" ? "VisitorAPI Present" : "VisitorAPI M
 
 ## Step 7: Add visitor API code to the page {#section-c2bd096a3e484872a72967b6468d3673}
 
-Place the ` [!DNL VisitorAPI.js]` file within the `<head>` tags on each page. When you the `VisitorAPI.js` file to your page:
+Place the ` [!UICONTROL VisitorAPI.js]` file within the `<head>` tags on each page. When you the `VisitorAPI.js` file to your page:
 
 * Put it at the beginning of the `<head>` section to it appears before other solution tags. 
 * It must execute before AppMeasurement and the code for other [!DNL Experience Cloud] solutions.

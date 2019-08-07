@@ -30,10 +30,10 @@ Follow these steps to implement the ID Service for Adobe Analytics:
 
 ## Step 1: Download the ID Service code {#section-ead9403a6b7e45b887f9ac959ef89f7f}
 
-The [!DNL ID Service] requires the `VisitorAPI.js` code library. To download this code library:
+The [!UICONTROL ID Service] requires the `VisitorAPI.js` code library. To download this code library:
 
 1. Go to **[!UICONTROL Admin]** > **[!UICONTROL Code Manager]**. 
-1. In [!DNL Code Manager], click either **[!UICONTROL JavaScript (New)]** or **[!UICONTROL JavaScript (Legacy)]**.
+1. In [!UICONTROL Code Manager], click either **[!UICONTROL JavaScript (New)]** or **[!UICONTROL JavaScript (Legacy)]**.
 
    This downloads compressed code libraries. 
 

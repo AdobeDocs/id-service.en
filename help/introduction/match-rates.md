@@ -33,9 +33,9 @@ When a visitor comes to your site and loads a page, the `Visitor.getInstance` fu
 
 **Step 2: Load iFrame**
 
-While the page body is loading, the ID service loads an iFrame called the *`Destination Publishing iFrame`*. The [!DNL Destination Publishing iFrame] loads in a domain separate from the parent page. This design helps ensure page performance and improves security because the iFrame:
+While the page body is loading, the ID service loads an iFrame called the *`Destination Publishing iFrame`*. The [!UICONTROL Destination Publishing iFrame] loads in a domain separate from the parent page. This design helps ensure page performance and improves security because the iFrame:
 
-* Loads asynchronously in relation to parent page. This means the parent page can load independently from the [!DNL Destination Publishing iFrame]. Loading the iFrame and loading ID sync pixels from within the iFrame won't affect the parent page or the user experience. 
+* Loads asynchronously in relation to parent page. This means the parent page can load independently from the [!UICONTROL Destination Publishing iFrame]. Loading the iFrame and loading ID sync pixels from within the iFrame won't affect the parent page or the user experience. 
 * Loads as fast as possible. If this is too fast, you can load the iFrame after the window load event (not recommended). See [idSyncAttachIframeOnWindowLoad](../library/function-vars/idsyncattachiframeonwindowload.md#reference-b86b7112e0814a4c82c4e24c158508f4) for details. 
 * Prevents code in the iFrame from gaining access to or affecting the parent page.
 
@@ -45,15 +45,7 @@ See also, [How the Experience Cloud Identity Service Requests and Sets IDs...](.
 
 The ID sync is a URL that is fired in the Destination Publishing iFrame. As shown in this generic example, an ID sync URL contains a partner's ID synchronization endpoint and a redirect URL, which is a redirect back to [!DNL Adobe] that includes their ID.
 
-```
-http://abc.com?partner_id=abc&sync_id=123&redir=http://dpm.demdex.net/ibs:dpid=<
-<varname>
-  ADOBE_PARTNER_ID
-</varname>>&dpuuid=<
-<varname>
-  PARTNER_UUID
-</varname>>
-```
+`http://abc.com?partner_id=abc&sync_id=123&redir=http://dpm.demdex.net/ibs:dpid=<ADOBE_PARTNER_ID>&dpuuid=<PARTNER_UUID>`
 
 See also, [ID Synchronization for Inbound Data Transfers](https://marketing.adobe.com/resources/help/en_US/aam/c_id_sync_in.html).
 
@@ -74,7 +66,7 @@ The term *`Sync Services`* refers to internal [!DNL Experience Cloud] technologi
 
 ## ID synchronization with Adobe Media Optimizer {#section-642c885ea65d45ffb761f78838735016}
 
-[!DNL Adobe Media Optimizer] is an exception to the iFrame-based ID synchronization process. Because [!DNL Media Optimizer] is a trusted domain, ID syncs take place from the parent page rather than in the [!DNL Destination Publishing iFrame]. During synchronization, the ID service calls [!DNL Media Optimizer] at `cm.eversttech.net`, which is a legacy domain name used by [!DNL Media Optimizer] prior to its acquisition by Adobe. Sending data to [!DNL Media Optimizer] helps improve match rates and is automatic for ID service customers using version 2.0 (or higher). See also, [Media Optimizer Cookies](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_media_optimizer.html). 
+[!DNL Adobe Media Optimizer] is an exception to the iFrame-based ID synchronization process. Because [!DNL Media Optimizer] is a trusted domain, ID syncs take place from the parent page rather than in the [!UICONTROL Destination Publishing iFrame]. During synchronization, the ID service calls [!DNL Media Optimizer] at `cm.eversttech.net`, which is a legacy domain name used by [!DNL Media Optimizer] prior to its acquisition by Adobe. Sending data to [!DNL Media Optimizer] helps improve match rates and is automatic for ID service customers using version 2.0 (or higher). See also, [Media Optimizer Cookies](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_media_optimizer.html). 
 
 >[!MORE_LIKE_THIS]
 >

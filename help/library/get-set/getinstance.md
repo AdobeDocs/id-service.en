@@ -29,7 +29,7 @@ var visitor = Visitor.getInstance("INSERT-MARKETING-CLOUD-ORGANIZATION-ID-HERE",
 
 >[!CAUTION]
 >
->*Do not* instantiate the Visitor function with `var visitor = new Visitor`. You must use the proper function call noted here. Applies to [!DNL VisitorAPI.js] code library v3.0 or higher.
+>*Do not* instantiate the Visitor function with `var visitor = new Visitor`. You must use the proper function call noted here. Applies to [!UICONTROL VisitorAPI.js] code library v3.0 or higher.
 
 **ActionScript / Flash**
 

@@ -78,7 +78,7 @@ Depending on your situation, you may or may not need to add this configuration t
 
 ## Setting Container IDs When You Use DIL and VisitorAPI.js {#section-f283cb69c8de4348b5316cc4e02a3e9e}
 
-If you have deployed [!DNL DIL]*and* VisitorAPI.js on the same page:
+If you have deployed [!UICONTROL DIL]*and* VisitorAPI.js on the same page:
 
 * Visitor ID service code takes precedence over DIL for ID syncs. 
 * Set the `idSyncContainerID` configuration in the ID service code only.

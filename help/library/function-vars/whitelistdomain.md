@@ -46,7 +46,7 @@ Both configuration elements are required when you use this code.
 
 ## Code Sample {#section-09d0049fe88a473baa69d404c50bf8ae}
 
-Your configured [!DNL ID service] code could look similar to this example.
+Your configured [!UICONTROL ID service] code could look similar to this example.
 
 ```js
 //Instantiate Visitor 

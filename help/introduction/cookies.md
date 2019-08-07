@@ -15,13 +15,13 @@ The ID service uses your organization ID, the Experience Cloud AMCV cookie, and 
 
 The ID service relies on the AMCV, AMCVS, and demdex cookies to function properly. These cookies are just files that store data used by the ID service. These ID service cookies are not dangerous, malicious, or different from other first- or third-party cookies stored by a website or service in a browser, following the same rules that govern other first- and third-party cookies. Refer to the following sections below for more information about cookies used by the ID service.
 
-**What the ID Service cookies can do**
+### What the ID Service cookies can do
 
 * Set and store a unique ID for your site visitors (the MID). 
 * Persist this unique ID so the ID service can collect and share data with other Experience Cloud solutions. 
 * Track users across your domains. However, this requires that you own those other domains and have ID service code deployed on them.
 
-**What the ID Service ookies cannot do **
+### What the ID Service ookies cannot do
 
 * Store, transmit, or execute computer viruses. 
 * Access or store personally identifiable information (PII) like your email address. 

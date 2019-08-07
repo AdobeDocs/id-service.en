@@ -7,7 +7,7 @@ title: Implementation with Dynamic Tag Management
 uuid: c4f752c4-392e-4909-b178-911706857064
 ---
 
-# Implementation with Dynamic Tag Management{#implementation-with-dynamic-tag-management}
+# Implementation with Dynamic Tag Management {#implementation-with-dynamic-tag-management}
 
 Older implementations use Dynamic Tag Management (DTM) to set up, deploy, and integrate the Experience Cloud Identity Service with your other Experience Cloud solutions.
 
@@ -60,7 +60,7 @@ As long as you maintain all of your [!DNL Adobe] solutions and code libraries in
 
 **Validate regional data collection**
 
-Customers must provide a CNAME or use [!DNL *.sc.omtrdc] for [regional data collection](https://marketing.adobe.com/resources/help/en_US/whitepapers/rdc/) (RDC). Obtain the specific, RDC settings from your [!DNL Adobe] consultant.
+Customers must provide a CNAME or use `*.sc.omtrdc` for [regional data collection](https://marketing.adobe.com/resources/help/en_US/whitepapers/rdc/) (RDC). Obtain the specific, RDC settings from your [!DNL Adobe] consultant.
 
 **Configure Analytics report suites**
 
@@ -82,7 +82,7 @@ mcvid-dtm-implement.xml
 
 **Implementation steps** To implement the ID service with DTM: 
 
-1. In the DTM [!DNL Dashboard], click the web property you want to work with.
+1. In the DTM [!UICONTROL Dashboard], click the web property you want to work with.
 1. In the **[!UICONTROL Overview]** tab of your selected web property, click **[!UICONTROL Add a Tool]**.
 1. In the **[!UICONTROL Tool Type]** list, click **[!UICONTROL Experience Cloud Identity Service]**.
 
@@ -101,7 +101,7 @@ mcvid-dtm-implement.xml
 
 ## Experience Cloud Identity Service Settings for DTM {#concept-fb6cb6a0e6cc4f10b92371f8671f6b59}
 
-Describes the [!DNL Organization ID], [!DNL General] and [!DNL Customer Settings] fields and how they're used by the [!DNL Experience Cloud] ID service.
+Describes the [!UICONTROL Organization ID], [!UICONTROL General] and [!UICONTROL Customer Settings] fields and how they're used by the [!DNL Experience Cloud] ID service.
 
 <!--
 mcvid-dtm-settings.xml
@@ -109,7 +109,7 @@ mcvid-dtm-settings.xml
 
 ## How do I find these settings? {#section-c5b2d1c928944ae2b8565c1b182fe575}
 
-The settings are available after you add and save the ID service as a tool in Dynamic Tag Management (DTM). You can also access these settings by clicking the gear icon from the [!DNL Installed Tools] section of your DTM web property.
+The settings are available after you add and save the ID service as a tool in Dynamic Tag Management (DTM). You can also access these settings by clicking the gear icon from the [!UICONTROL Installed Tools] section of your DTM web property.
 
 ![](assets/installedTools.png)
 
@@ -127,17 +127,17 @@ These settings let you specify tracking servers, code versions, and add other va
 
 ![](assets/generalSettings.png)
 
-The following table lists and defines the [!DNL General] settings.
+The following table lists and defines the [!UICONTROL General] settings.
 
 **Automatically request Visitor ID**
 
-When checked, dynamic tag management to automatically calls the `getMarketingCloudVisitorID()` method before loading any of the Adobe solutions that use the Experience Cloud Identity Service.
+When checked, Dynamic Tag Management automatically calls the `getMarketingCloudVisitorID()` method before loading any of the Adobe solutions that use the Experience Cloud Identity Service.
 
 See [getMarketingCloudVisitorID](../library/get-set/getmcvid.md).
 
 **Analytics Tracking Server**
 
-The name of the tracking server used for Analytics data collection. This is the domain at which the image request and cookie is written (e.g., [!DNL http://site.omtrdc.net]).
+The name of the tracking server used for Analytics data collection. This is the domain at which the image request and cookie is written (e.g., `http://site.omtrdc.net`).
 
 If you don't know your tracking server URLs, check your `s_code.js` or `AppMeasurement.js` files. You'll want the URL set by the `s.trackingServer` variable.
 
@@ -145,7 +145,7 @@ See [trackingServer](https://marketing.adobe.com/resources/help/en_US/sc/impleme
 
 **Tracking Server Secure**
 
-The name of the secure tracking server used for Analytics data collection. This is the domain at which the image request and cookie is written (e.g., [!DNL https://site.omtrdc.net]).
+The name of the secure tracking server used for Analytics data collection. This is the domain at which the image request and cookie is written (e.g., `https://site.omtrdc.net`).
 
 If you don't know your tracking server URLs, check your `s_code.js` or `AppMeasurement.js` files. You'll want the URL set by the `s.trackingServerSecure` variable.
 
@@ -153,11 +153,11 @@ See [trackingServer](https://marketing.adobe.com/resources/help/en_US/sc/impleme
 
 **Experience Cloud Server**
 
-If your company uses first-party data collection (CNAME) to utilize first-party cookies in a third-party context, enter the tracking server here (e.g., [!DNL http://metrics.company.com].)
+If your company uses first-party data collection (CNAME) to utilize first-party cookies in a third-party context, enter the tracking server here (e.g., `http://metrics.company.com`.)
 
 **Experience Cloud Server Secure**
 
-If your company uses first-party data collection (CNAME) to utilize first-party cookies in a third-party context, enter the tracking server here (e.g., [!DNL https://metrics.company.com].)
+If your company uses first-party data collection (CNAME) to utilize first-party cookies in a third-party context, enter the tracking server here (e.g., `https://metrics.company.com`.)
 
 **Library Version**
 
@@ -261,22 +261,22 @@ To verify the status of the ID service with Charles:
 
 Refer to this section for information about where to look, and what to look for, when you use Charles to monitor HTTP calls.
 
-**Successful ID Service requests in Charles**
+### Successful ID Service requests in Charles
 
-Your ID service code is working properly when the `Visitor.getInstance` function makes a JavaScript call to `dpm.demdex.net`. A successful request includes your [Organization ID](../reference/requirements.md#section-a02f537129a64ffbb690d5738d360c26). The Organization ID is passed as a key-value pair that uses this syntax: `d_orgid= *`organization ID`*`. Look for the `dpm.demdex.net` and the JavaScript calls under the [!DNL Structure] tab. Look for your Organization ID under the [!DNL Request] tab.
+Your ID service code is working properly when the `Visitor.getInstance` function makes a JavaScript call to `dpm.demdex.net`. A successful request includes your [Organization ID](../reference/requirements.md#section-a02f537129a64ffbb690d5738d360c26). The Organization ID is passed as a key-value pair that uses this syntax: `d_orgid= *`organization ID`*`. Look for the `dpm.demdex.net` and the JavaScript calls under the [!UICONTROL Structure] tab. Look for your Organization ID under the [!UICONTROL Request] tab.
 
-![](assets/charles_request.png)
+![](assets/charles_request.png) 
 
-**Successful ID Service responses in Charles**
+### Successful ID Service responses in Charles
 
-Your account has been provisioned correctly for the ID service when the response from the [Data Collection Servers](https://marketing.adobe.com/resources/help/en_US/aam/c_compcollect.html) (DCS) return a MID. The MID is returned as a key-value pair that uses this syntax: `d_mid: *`visitor Experience Cloud ID`*`. Look for the MID in the [!DNL Response] tab as shown below.
+Your account has been provisioned correctly for the ID service when the response from the [Data Collection Servers](https://marketing.adobe.com/resources/help/en_US/aam/c_compcollect.html) (DCS) return a MID. The MID is returned as a key-value pair that uses this syntax: `d_mid: visitor Experience Cloud ID`. Look for the MID in the [!UICONTROL Response] tab as shown below.
 
 ![](assets/charles_response_success.png)
 
-**Failed ID Service responses in Charles**
+### Failed ID Service responses in Charles
 
-Your account has not been provisioned correctly if the MID is missing from the DCS response. An unsuccessful response returns an error code and message in the [!DNL Response] tab as shown below. Contact customer care if you see this error message in the DCS response.
+Your account has not been provisioned correctly if the MID is missing from the DCS response. An unsuccessful response returns an error code and message in the [!UICONTROL Response] tab as shown below. Contact customer care if you see this error message in the DCS response.
 
 ![](assets/charles_response_unsuccessful.png)
 
-For more information about error codes, see [DCS Error Codes, Messages, and Examples](https://marketing.adobe.com/resources/help/en_US/aam/dcs_error_codes.html). 
+For more information about error codes, see [DCS Error Codes, Messages, and Examples](https://marketing.adobe.com/resources/help/en_US/aam/dcs_error_codes.html).

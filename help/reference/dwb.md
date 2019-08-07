@@ -15,7 +15,7 @@ To update [Data Workbench](https://marketing.adobe.com/resources/help/en_US/insi
 
 1. Locate the current [Decoder Group](https://marketing.adobe.com/resources/help/en_US/insight/dataset/c_text_file_dec_groups.html) configuration file.
 
-   Typically, the [!DNL Decoder Group] is located in a [!DNL Profile Manager] on this path: `Dataset\Log Processing\Decoding Instructions.cfg`. 1. Copy the current decoder format from the configuration file.
+   Typically, the [!DNL Decoder Group] is located in a [!UICONTROL Profile Manager] on this path: `Dataset\Log Processing\Decoding Instructions.cfg`. 1. Copy the current decoder format from the configuration file.
 1. Paste the decoder format below the original.
 1. Open the decoder format and add these new field positions to end of the list:
 
