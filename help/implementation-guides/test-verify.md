@@ -75,19 +75,19 @@ Refer to this section for information about where to look, and what to look for,
 
 **Successful ID Service requests in Charles**
 
-Your ID service code is working properly when the `Visitor.getInstance` function makes a JavaScript call to `dpm.demdex.net`. A successful request includes your [Organization ID](../reference/requirements.md#section-a02f537129a64ffbb690d5738d360c26). The Organization ID is passed as a key-value pair that uses this syntax: `d_orgid= *`organization ID`*`. Look for the `dpm.demdex.net` and the JavaScript calls under the [!UICONTROLStructure] tab. Look for your Organization ID under the [!UICONTROLRequest] tab.
+Your ID service code is working properly when the `Visitor.getInstance` function makes a JavaScript call to `dpm.demdex.net`. A successful request includes your [Organization ID](../reference/requirements.md#section-a02f537129a64ffbb690d5738d360c26). The Organization ID is passed as a key-value pair that uses this syntax: `d_orgid= *`organization ID`*`. Look for the `dpm.demdex.net` and the JavaScript calls under the [!UICONTROL Structure] tab. Look for your Organization ID under the [!UICONTROL Request] tab.
 
 ![](assets/charles_request.png)
 
 **Successful ID Service responses in Charles**
 
-Your account has been provisioned correctly for the ID service when the response from the [Data Collection Servers](https://marketing.adobe.com/resources/help/en_US/aam/c_compcollect.html) (DCS) return a MID. The MID is returned as a key-value pair that uses this syntax: `d_mid: *`visitor Experience Cloud ID`*`. Look for the MID in the [!UICONTROLResponse] tab as shown below.
+Your account has been provisioned correctly for the ID service when the response from the [Data Collection Servers](https://marketing.adobe.com/resources/help/en_US/aam/c_compcollect.html) (DCS) return a MID. The MID is returned as a key-value pair that uses this syntax: `d_mid: *`visitor Experience Cloud ID`*`. Look for the MID in the [!UICONTROL Response] tab as shown below.
 
 ![](assets/charles_response_success.png)
 
 **Failed ID Service responses in Charles**
 
-Your account has not been provisioned correctly if the MID is missing from the DCS response. An unsuccessful response returns an error code and message in the [!UICONTROLResponse] tab as shown below. Contact customer care if you see this error message in the DCS response.
+Your account has not been provisioned correctly if the MID is missing from the DCS response. An unsuccessful response returns an error code and message in the [!UICONTROL Response] tab as shown below. Contact customer care if you see this error message in the DCS response.
 
 ![](assets/charles_response_unsuccessful.png)
 
