@@ -109,12 +109,14 @@ Both functions return `Successfully queued` if successful. They return an error 
    <td colname="col1"> <p> <code class="syntax javascript"> //Instatiate&nbsp;Visitor 
       var&nbsp;visitor&nbsp;=&nbsp;Visitor.getInstance("MARKETING-CLOUD-ORG-ID-HERE",{}); 
        
-      //&nbsp;Fires&nbsp;url&nbsp;with&nbsp;macros&nbsp;replaced 
+    // Fires url with macros replaced 
       visitor.idSyncByURL({ 
-      &nbsp;dpid:&nbsp;'24',&nbsp;//&nbsp;must&nbsp;be&nbsp;a&nbsp;string 
-      &nbsp;url:&nbsp;'//su.addthis.com/red/usync?pid=16&amp;puid=%DID%&amp;url=%HTTP_PROTO%%3A%2F%2Fdpm.demdex.net%2Fibs%3Adpid%3D420%26dpuuid%3D%7B%7Buid%7D%7D', 
-      &nbsp;minutesToLive:&nbsp;20160&nbsp;//&nbsp;optional,&nbsp;defaults&nbsp;to&nbsp;20160&nbsp;minutes&nbsp;(14&nbsp;days)&nbsp; 
-      }); </code> </p> </td> 
+       dpid: '24', // must be a string 
+       url: '//su.addthis.com/red/usync?pid=16&puid=%DID%&url=%HTTP_PROTO%://dpm.demdex.net/ibs:dpid=420&dpuuid={{uid}}', 
+       minutesToLive: 20160 // optional, defaults to 20160 minutes (14 days)  
+      }); 
+      
+       </code> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> http://su.addthis.com/red/usync?pid=16&amp;puid=28777806459181003670799219185178493848&amp;url=http%3A%2F%2Fdpm.demdex.net%2Fibs%3Adpid%3D420%26dpuuid%3D%7B%7Buid%7D%7D </span> </p> </td> 
   </tr> 
  </tbody> 
@@ -134,12 +136,13 @@ Both functions return `Successfully queued` if successful. They return an error 
    <td colname="col1"> <p> <code class="syntax javascript"> //Instantiate&nbsp;Visitor 
       var&nbsp;visitor&nbsp;=&nbsp;Visitor.getInstance("MARKETING-CLOUD-ORG-ID-HERE",{});
 
-      //&nbsp;Fires&nbsp;'http:/https:'&nbsp;+&nbsp;'//dpm.demdex.net/ibs:dpid=&lt;dpid&gt;&amp;dpuuid=&lt;dpuuid&gt;' 
+       // Fires 'http:/https:' + '//dpm.demdex.net/ibs:dpid=<dpid>&dpuuid=<dpuuid>' 
       visitor.idSyncByDataSource({ 
-      &nbsp;dpid:&nbsp;'24',&nbsp;//&nbsp;must&nbsp;be&nbsp;a&nbsp;string 
-      &nbsp;dpuuid:&nbsp;'98765',&nbsp;//&nbsp;must&nbsp;be&nbsp;a&nbsp;string 
-      &nbsp;minutesToLive:&nbsp;20160&nbsp;//&nbsp;optional,&nbsp;defaults&nbsp;to&nbsp;20160&nbsp;minutes&nbsp;(14&nbsp;days)&nbsp; 
-      }); </code> </p> </td> 
+       dpid: '24', // must be a string 
+       dpuuid: '98765', // must be a string 
+       minutesToLive: 20160 // optional, defaults to 20160 minutes (14 days)  
+      });
+       </code> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> http://dpm.demdex.net/ibs:dpid=24&amp;dpuuid=98765 </span> </p> </td> 
   </tr> 
  </tbody> 
