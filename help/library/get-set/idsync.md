@@ -11,13 +11,6 @@ uuid: ff83d910-8375-4295-9f2a-e14c15eee09a
 
 The ID service functions idSyncByURL and idSyncByDataSource let you manually implement an ID sync in the Destination Publishing iFrame. These are available in VisitorAPI.js versions 1.10, or higher.
 
-Contents:
-
-<ul class="simplelist"> 
- <li> <a href="../../library/get-set/idsync.md#section-90ac61617482463aaf4c57009b830332" format="dita" scope="local"> Syntax, Properties, and Macros </a> </li> 
- <li> <a href="../../library/get-set/idsync.md#section-0115615c37584a19a2ab11e917c4e7e9" format="dita" scope="local"> Sample Code and Output </a> </li> 
-</ul>
-
 ## Syntax, Properties, and Macros {#section-90ac61617482463aaf4c57009b830332}
 
 **Syntax**
@@ -108,15 +101,12 @@ Both functions return `Successfully queued` if successful. They return an error 
   <tr> 
    <td colname="col1"> <p> <code class="syntax javascript"> //Instatiate&nbsp;Visitor 
       var&nbsp;visitor&nbsp;=&nbsp;Visitor.getInstance("MARKETING-CLOUD-ORG-ID-HERE",{}); 
-       
     // Fires url with macros replaced 
       visitor.idSyncByURL({ 
        dpid: '24', // must be a string 
        url: '//su.addthis.com/red/usync?pid=16&puid=%DID%&url=%HTTP_PROTO%://dpm.demdex.net/ibs:dpid=420&dpuuid={{uid}}', 
        minutesToLive: 20160 // optional, defaults to 20160 minutes (14 days)  
-      }); 
-      
-       </code> </p> </td> 
+      });</code> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> http://su.addthis.com/red/usync?pid=16&amp;puid=28777806459181003670799219185178493848&amp;url=http%3A%2F%2Fdpm.demdex.net%2Fibs%3Adpid%3D420%26dpuuid%3D%7B%7Buid%7D%7D </span> </p> </td> 
   </tr> 
  </tbody> 
@@ -135,14 +125,12 @@ Both functions return `Successfully queued` if successful. They return an error 
   <tr> 
    <td colname="col1"> <p> <code class="syntax javascript"> //Instantiate&nbsp;Visitor 
       var&nbsp;visitor&nbsp;=&nbsp;Visitor.getInstance("MARKETING-CLOUD-ORG-ID-HERE",{});
-
        // Fires 'http:/https:' + '//dpm.demdex.net/ibs:dpid=<dpid>&dpuuid=<dpuuid>' 
       visitor.idSyncByDataSource({ 
        dpid: '24', // must be a string 
        dpuuid: '98765', // must be a string 
        minutesToLive: 20160 // optional, defaults to 20160 minutes (14 days)  
-      });
-       </code> </p> </td> 
+      }); </code> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> http://dpm.demdex.net/ibs:dpid=24&amp;dpuuid=98765 </span> </p> </td> 
   </tr> 
  </tbody> 
