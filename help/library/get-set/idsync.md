@@ -82,60 +82,51 @@ Both functions accept the following macros:
 
 * `%TIMESTAMP%`: Generates a timestamp (in milliseconds). Used for cache busting. 
 * `%DID%`: Inserts the Audience Manager ID for the user. 
-* `%HTTP_PROTO%`: Sets the communication protocol ( `http` or `https`).
+* `%HTTP_PROTO%`: Sets the communication protocol (`http` or `https`).
 
 ## Sample Code and Output {#section-0115615c37584a19a2ab11e917c4e7e9}
 
 Both functions return `Successfully queued` if successful. They return an error message string if not.
 
-**visitor.idSyncByURL**
+### visitor.idSyncByURL
 
-<table id="table_56AD8291DF9445C69CC2BF50435E1626"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Sample Code </th> 
-   <th colname="col2" class="entry"> Sample Output </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <code class="syntax javascript"> //Instatiate&nbsp;Visitor 
-      var&nbsp;visitor&nbsp;=&nbsp;Visitor.getInstance("MARKETING-CLOUD-ORG-ID-HERE",{}); 
-    // Fires url with macros replaced 
-      visitor.idSyncByURL({ 
-       dpid: '24', // must be a string 
-       url: '//su.addthis.com/red/usync?pid=16&puid=%DID%&url=%HTTP_PROTO%://dpm.demdex.net/ibs:dpid=420&dpuuid={{uid}}', 
-       minutesToLive: 20160 // optional, defaults to 20160 minutes (14 days)  
-      });</code> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> http://su.addthis.com/red/usync?pid=16&amp;puid=28777806459181003670799219185178493848&amp;url=http%3A%2F%2Fdpm.demdex.net%2Fibs%3Adpid%3D420%26dpuuid%3D%7B%7Buid%7D%7D </span> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+**Sample Code**
 
-**visitor.idSyncByDataSource**
+```javascript
+   //Instatiate Visitor
+    var visitor = Visitor.getInstance
+    ("MARKETING-CLOUD-ORG-ID-HERE",{}); 
+   // Fires url with macros replaced 
+    visitor.idSyncByURL({ 
+    dpid: '24', // must be a string 
+    url: '//su.addthis.com/red/usync?pid=16&puid=%DID%&url=%HTTP_PROTO%://
+    dpm.demdex.net/ibs:dpid=420&dpuuid={{uid}}', 
+    minutesToLive: 20160 // optional, defaults to 20160 minutes (14 days) });
+```
 
-<table id="table_90D61A7E715D47238AAFF2808B33C2F0"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Sample Code </th> 
-   <th colname="col2" class="entry"> Sample Output </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <code class="syntax javascript"> //Instantiate&nbsp;Visitor 
-      var&nbsp;visitor&nbsp;=&nbsp;Visitor.getInstance("MARKETING-CLOUD-ORG-ID-HERE",{});
-       // Fires 'http:/https:' + '//dpm.demdex.net/ibs:dpid=<dpid>&dpuuid=<dpuuid>' 
-      visitor.idSyncByDataSource({ 
-       dpid: '24', // must be a string 
-       dpuuid: '98765', // must be a string 
-       minutesToLive: 20160 // optional, defaults to 20160 minutes (14 days)  
-      }); </code> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> http://dpm.demdex.net/ibs:dpid=24&amp;dpuuid=98765 </span> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+**Sample Output**
+
+`http://su.addthis.com/red/usync?pid=16&puid=28777806459181003670799219185178493848&url=http%3A%2F%2Fdpm.demdex.net%2Fibs%3Adpid%3D420%26dpuuid%3D%7B%7Buid%7D%7D`
+
+### visitor.idSyncByDataSource
+
+**Sample Code**
+
+```javascript
+  //Instantiate Visitor
+   var visitor = Visitor.getInstance
+   ("MARKETING-CLOUD-ORG-ID-HERE",{}); 
+  // Fires 'http:/https:' + '//dpm.demdex.net/ibs:dpid=&dpuuid='
+   visitor.idSyncByDataSource({ 
+     dpid: '24', // must be a string
+     dpuuid: '98765', // must be a string 
+     minutesToLive: 20160 // optional, defaults to 20160 minutes (14 days) });
+```
+
+**Sample Output**
+
+`http://dpm.demdex.net/ibs:dpid=24&dpuuid=98765`
 
 >[!MORE_LIKE_THIS]
 >
->* [DIL idSync](https://marketing.adobe.com/resources/help/en_US/aam/r_dil_idsync.html)
+>* [DIL idSync](https://docs.adobe.com/content/help/en/audience-manager/user-guide/dil-api/dil-instance-methods.html#idsync)
