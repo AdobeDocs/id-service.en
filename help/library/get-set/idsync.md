@@ -25,10 +25,7 @@ The ID service functions idSyncByURL and idSyncByDataSource let you manually imp
  <tbody> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> visitor.idSyncByURL(); </span> </p> </td> 
-   <td colname="col2"> <p>Between different data partners and <span class="keyword"> Audience Manager </span> by using a custom ID sync URL. </p> <p> 
-     <draft-comment>
-       Between different data partners and Audience Manager. For example, partner x would use this to synchronize a user ID with partner y and then send that to Audience Manager. 
-     </draft-comment> </p> </td> 
+   <td colname="col2"> <p>Between different data partners and <span class="keyword"> Audience Manager </span> by using a custom ID sync URL. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> visitor.idSyncByDataSource(); </span> </p> </td> 
