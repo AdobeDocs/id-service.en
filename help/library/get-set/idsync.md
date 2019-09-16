@@ -103,7 +103,9 @@ Both functions return `Successfully queued` if successful. They return an error 
 
 **Sample Output**
 
-`http://su.addthis.com/red/usync?pid=16&puid=28777806459181003670799219185178493848&url=http%3A%2F%2Fdpm.demdex.net%2Fibs%3Adpid%3D420%26dpuuid%3D%7B%7Buid%7D%7D`
+```
+http://su.addthis.com/red/usync?pid=16&puid=28777806459181003670799219185178493848&url=http%3A%2F%2Fdpm.demdex.net%2Fibs%3Adpid%3D420%26dpuuid%3D%7B%7Buid%7D%7D
+```
 
 ### visitor.idSyncByDataSource
 
@@ -122,7 +124,9 @@ Both functions return `Successfully queued` if successful. They return an error 
 
 **Sample Output**
 
-`http://dpm.demdex.net/ibs:dpid=24&dpuuid=98765`
+```
+http://dpm.demdex.net/ibs:dpid=24&dpuuid=98765
+```
 
 >[!MORE_LIKE_THIS]
 >
