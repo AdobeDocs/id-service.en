@@ -22,7 +22,7 @@ var useMarketingCloudID = function(id){
 }; 
  
 //get the Experience Cloud ID and pass it to the function 
-var mcID = visitor.getMarketingCloudVisitorID(useMarketingClouidID)
+var mcID = visitor.getMarketingCloudVisitorID(useMarketingCloudID)
 ```
 
 >[!TIP]
