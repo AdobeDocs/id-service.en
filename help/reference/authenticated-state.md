@@ -13,11 +13,11 @@ Along with the Experience Cloud visitor ID, you can associate additional custome
 
 ## Authentication States {#section-68ad4065dfaa437d9070832d6e2bf85c}
 
-The `setCustomerIDs` method accepts multiple customer IDs for the same visitor. This helps you identify or target an individual user across different devices. For example, you can upload these IDs as [customer attributes](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=attributes.html) to the [!DNL Experience Cloud] and access this data across the different solutions.
+The `setCustomerIDs` method accepts multiple customer IDs for the same visitor. This helps you identify or target an individual user across different devices. For example, you can upload these IDs as [customer attributes](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html) to the [!DNL Experience Cloud] and access this data across the different solutions.
 
 >[!IMPORTANT]
 >
->`setCustomerIDs` (customer ID synchronization) is required by customer attributes and core services functionality. Synching customer IDs is an optional identification method for [!DNL Analytics]. [!DNL Target] requires `Visitor.AuthState.AUTHENTICATED` for Customer Attributes to work. See [Core Services - How to Enable Your Solutions](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=core_services) for examples.
+>`setCustomerIDs` (customer ID synchronization) is required by customer attributes and core services functionality. Synching customer IDs is an optional identification method for [!DNL Analytics]. [!DNL Target] requires `Visitor.AuthState.AUTHENTICATED` for Customer Attributes to work. See [Core Services - How to Enable Your Solutions](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/core-services.html) for examples.
 
 Beginning with Experience Cloud Identity Service v1.5+, `setCustomerIDs` includes the optional `AuthState` object. `AuthState` identifies visitors according to their authentication status (e.g., logged in, logged out). You set the authentication state with a status value listed in the table. Authentication status is returned as an integer.
 
@@ -86,7 +86,7 @@ Customer IDs can include combinations of IDs and authenticated states as shown i
 >[!IMPORTANT]
 >
 >* IDs are case-sensitive. 
->* Only use un-encoded values for your IDs. 
+>* Only use unencoded values for your IDs. 
 >* Customer IDs and authentication states are not stored in the visitor ID cookie. They must be set for every page or application context. 
 >* You should not include any Personally Identifiable Information (PII) in the customer IDs. If you are using PII to identify a visitor (such as an email address), we recommend storing a hashed or encrypted version of the information instead. The ECID library provides support for hashing user identifiers. See [SHA256 Hashing Support for setCustomerIDs](/help/reference/hashing-support.md).
 >
@@ -210,9 +210,9 @@ Object customerIDs = visitor.getCustomerIDs();
 
 The [!DNL Experience Cloud] ID service supports customer IDs and authentication states in our Android and iOS SDK code. See the following code libraries:
 
-* [Android SDK methods](https://marketing.adobe.com/resources/help/en_US/mobile/android/?f=c_marketing_cloud.html) 
-* [iOS SDK methods](https://marketing.adobe.com/resources/help/en_US/mobile/ios/?f=marketing_cloud.html)
+* [Android SDK methods](https://docs.adobe.com/content/help/en/mobile-services/android/overview.html) 
+* [iOS SDK methods](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html)
 
 ## Notice for Analytics and Audience Manager Customers {#section-3a8e9d51e71c4c6e865184b81ed9d99b}
 
-If you're passing declared IDs to [!DNL Audience Manager], the `userid` object needs to match the integration code associated with a data source. For more information, see the [!UICONTROL Visitor ID Service] section in the [Configure Merge Rules Code](https://marketing.adobe.com/resources/help/en_US/aam/?f=merge-rules-configure-code.html) documentation. 
+If you're passing declared IDs to [!DNL Audience Manager], the `userid` object needs to match the integration code associated with a data source. For more information, see the [!UICONTROL Visitor ID Service] section in the [Configure Merge Rules Code](https://docs.adobe.com/help/en/audience-manager/user-guide/features/profile-merge-rules/merge-rules-start.html#configure-merge-rule-code) documentation. 
