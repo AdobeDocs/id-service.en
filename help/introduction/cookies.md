@@ -118,6 +118,18 @@ The Experience Cloud ID (MID) is derived mathematically from your organization I
 
 The ID service starts to create a MID as your page loads. During this process, code provided by the `visitorAPI.js` code library sends your organization ID in an event call to the ID service. The ID service creates and returns the MID and a demdex ID in the AMCV and demdex cookies respectively.
 
+## Security flags for cookies
+
+The following tables describes how Experience Cloud Cookies operate with security flags:
+
+| Cookie (set by) | httpOnly | Secure | SameSite |
+|--- |--- |--- |--- |
+| demdex (http response) | No | Yes | "None"|
+| AMCV (Javascript) | No | Configurable | Unset (default to Lax) |
+| AMCVS (Javascript) | No | Configurable | Unset (default to Lax) |
+
+*Note: For information on configuring the AMCV and AMCVS cookie with secure attributes, see the topic for [secureCookie](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/securecookie.html).*
+
 ## Next steps {#section-8db1727a63bc4ff68b495f270315d453}
 
 See [How the Experience Cloud Identity Service Requests and Sets IDs...](../introduction/id-request.md#concept-2caacebb1d244402816760e9b8bcef6a). 
