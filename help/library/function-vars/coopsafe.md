@@ -133,6 +133,6 @@ These APIs allow you to override the `isCoopSafe` status. These are necessary be
 Wiki page https://wiki.corp.adobe.com/x/RCfFTg
 -->
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [DIL isCoopSafe](https://marketing.adobe.com/resources/help/en_US/aam/dil-coopsafe.html)

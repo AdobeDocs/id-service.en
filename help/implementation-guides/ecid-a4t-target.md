@@ -194,6 +194,6 @@ At this point, the web server sends page content to the visitor's browser. From 
 * AppMeasurement sends data about the page hit to [!DNL Analytics], including the SDID. 
 * [!DNL Analytics] and [!DNL Target] compare SDIDs for this visitor. With an identical SDID, [!DNL Target] and [!DNL Analytics] stitch the server-side call and the client-side call together. At this point, both solutions now recognize this visitor as the same person.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Server-Side ID Service Package from Node Package Manager](https://www.npmjs.com/package/@adobe-mcid/visitor-js-server)

@@ -39,7 +39,7 @@ var visitor = Visitor.getInstance("insert marketing cloud ID here", {
 
 When set to `true`, the `disableThirdPartyCookies` object stops the DCS from returning the third-party demdex.net cookie. If a site visitor already has this cookie in their browser, the ID service won't use it to create a new [!DNL Experience Cloud] ID or return an existing ID. Instead, the [!DNL Experience Cloud] ID service creates a new, random ID in the first-party cookie. Once enabled, you can collect data with the ID service and share it across different [!DNL Experience Cloud] solutions, including other internal operations allowed by COPPA. 
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Adobe Privacy Center](http://www.adobe.com/privacy.html)
 >* [What is COPPA?](http://www.consumer.ftc.gov/articles/0031-protecting-your-childs-privacy-online#whatis)

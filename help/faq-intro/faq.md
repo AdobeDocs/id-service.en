@@ -81,6 +81,6 @@ If you have strict security requirements, set the ID service API config `useCORS
 
 See [Experience Cloud](../reference/cors.md#concept-6c280446990d46d88ba9da15d2dcc758) and [useCORSOnly](../library/function-vars/use-cors-only.md#reference-8a9a143d838b48d6b23329b84b13e1fa). 
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Customer Care](https://helpx.adobe.com/marketing-cloud/contact-support.html)

@@ -84,6 +84,6 @@ There are three potential scenarios where this affects Analytics data for new vi
 >
 >Using the latest updates to VisitorAPI.js and AppMeasurement.js with the default settings should avoid any serious or noticeable impact from the three unlikely scenarios above.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Customer Care](https://helpx.adobe.com/marketing-cloud/contact-support.html)
