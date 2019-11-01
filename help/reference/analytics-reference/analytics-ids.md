@@ -84,6 +84,6 @@ After you deploy the visitor ID service, there are five ways a visitor can be id
 
 In many scenarios you might see 2 or 3 different IDs on a call, but Analytics will use the first ID present from that list as the official [!DNL Experience Cloud] ID. For example, if you are setting a custom visitor ID (included in the "vid" query parameter), that ID will be used before other IDs that might be present on that same hit. 
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Order of Operations for Analytics IDs](../../reference/analytics-reference/analytics-order-of-operations.md#concept-b92935b4fff545adb4773f3728bc15ef)

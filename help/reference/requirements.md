@@ -152,6 +152,6 @@ Your SDK code must be enabled for the ID service. Enable and download the latest
 * [Android SDK methods](https://marketing.adobe.com/resources/help/en_US/mobile/android/c_marketing_cloud.html) 
 * [iOS SKD methods](https://marketing.adobe.com/resources/help/en_US/mobile/ios/marketing_cloud.html)
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Code Library](../library/library.md#concept-ff27497375644a898d47984aefb21c97)

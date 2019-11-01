@@ -95,10 +95,6 @@ mcvid-dtm-implement.xml
 
    After saving, the ID service is set up as a tool in DTM. However, it is not ready to use yet. Your DTM tool still has to go through the DTM publishing/approval process and you may want to configure additional parameters. For information about the DTM approval process, see the [User Basics Jump Start](https://marketing.adobe.com/resources/help/en_US/dtm/user-basics-jump-start.html) video. For information about the additional parameters you can add to DTM, see [Experience Cloud Identity Service Settings for DTM](../implementation-guides/standard.md#concept-fb6cb6a0e6cc4f10b92371f8671f6b59).
 
->[!MORE_LIKE_THIS]
->
->* [Web Properties](https://marketing.adobe.com/resources/help/en_US/dtm/web_property.html)
-
 ## Experience Cloud Identity Service Settings for DTM {#concept-fb6cb6a0e6cc4f10b92371f8671f6b59}
 
 Describes the [!UICONTROL Organization ID], [!UICONTROL General] and [!UICONTROL Customer Settings] fields and how they're used by the [!DNL Experience Cloud] ID service.
@@ -280,3 +276,7 @@ Your account has not been provisioned correctly if the MID is missing from the D
 ![](assets/charles_response_unsuccessful.png)
 
 For more information about error codes, see [DCS Error Codes, Messages, and Examples](https://marketing.adobe.com/resources/help/en_US/aam/dcs_error_codes.html).
+
+>[!MORELIKETHIS]
+>
+>* [Web Properties](https://marketing.adobe.com/resources/help/en_US/dtm/web_property.html)

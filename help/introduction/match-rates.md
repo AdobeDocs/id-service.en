@@ -68,6 +68,6 @@ The term *`Sync Services`* refers to internal [!DNL Experience Cloud] technologi
 
 [!DNL Adobe Media Optimizer] is an exception to the iFrame-based ID synchronization process. Because [!DNL Media Optimizer] is a trusted domain, ID syncs take place from the parent page rather than in the [!UICONTROL Destination Publishing iFrame]. During synchronization, the ID service calls [!DNL Media Optimizer] at `cm.eversttech.net`, which is a legacy domain name used by [!DNL Media Optimizer] prior to its acquisition by Adobe. Sending data to [!DNL Media Optimizer] helps improve match rates and is automatic for ID service customers using version 2.0 (or higher). See also, [Media Optimizer Cookies](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_media_optimizer.html). 
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Understanding Calls to the Demdex Domain](https://marketing.adobe.com/resources/help/en_US/aam/demdex-calls.html)

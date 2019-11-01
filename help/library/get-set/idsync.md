@@ -128,6 +128,6 @@ http://su.addthis.com/red/usync?pid=16&puid=287778064591810036707992191851784938
 http://dpm.demdex.net/ibs:dpid=24&dpuuid=98765
 ```
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [DIL idSync](https://docs.adobe.com/content/help/en/audience-manager/user-guide/dil-api/dil-instance-methods.html#idsync)
