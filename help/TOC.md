@@ -15,9 +15,9 @@ user-guide-url: /content/help/en/id-service/using/home.html
    + [Cookies and the ID Service](introduction/cookies.md)
    + [How the ID Service requests and sets IDs](introduction/id-request.md)
    + [Understanding synchronization and match rates](introduction/match-rates.md)
-+ Implementation guides {#implementation-guides}
-   + [Implementation guides](implementation-guides/implementation-guides.md)
++ Implementation {#implementation}
    + [Implementation methods](implementation-guides/implementation-methods.md)
+   + [Implementation guides](implementation-guides/implementation-guides.md)
    + [Implement with Experience Platform Launch](implementation-guides/ecid-implement-with-launch.md)
    + [Implementation with DTM](implementation-guides/standard.md)
    + [Implement for Analytics](implementation-guides/setup-analytics.md)
