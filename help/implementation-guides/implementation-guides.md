@@ -12,7 +12,9 @@ uuid:
 
 Instructions and code samples for standard and non-standard implementations of the Experience Cloud Identity Service.
 
-Important: Be sure to read and understand the ID service requirements before getting started with these procedures.
+>[!IMPORTANT]
+>
+>Be sure to read and understand the [ID service requirements](../reference/requirements.md) before getting started with these procedures.
 
 ## Standard implementation
 
@@ -20,7 +22,6 @@ A standard implementation uses [Adobe Exprience Platform Launch](https://docs.ad
 
 ## Implementation resources
 
-* [Implementation guides](implementation-guides.md)
 * [Implementation methods](implementation-methods.md)
 * [Implement with Experience Platform Launch](ecid-implement-with-launch.md)
 * [Implementation with Dynamic Tag Management](standard.md)
