@@ -1,6 +1,6 @@
 ---
-description: Connect their Consent Management Platform (CMP) with Opt-in’s IAB plugin.
-seo-description: Connect their Consent Management Platform (CMP) with Opt-in’s IAB plugin.
+description: Connect their Consent Management Platform (CMP) with Opt-in’s Audience Manager plugin for IAB Transparency and Consent Framework (TCF).
+seo-description: Connect their Consent Management Platform (CMP) with Audience Manager plugin for IAB Transparency and Consent Framework (TCF).
 seo-title: (beta) Using Opt-in Services with IAB Framework
 title: (beta) Using Opt-in Services with IAB Framework
 uuid: 8df39d9c-c016-490e-b4db-d02e4044b480
@@ -8,9 +8,9 @@ uuid: 8df39d9c-c016-490e-b4db-d02e4044b480
 
 # (beta) Using Opt-in Services with IAB Framework{#beta-using-opt-in-services-with-iab-framework}
 
-Connect their Consent Management Platform (CMP) with Opt-in’s IAB plugin.
+Connect their Consent Management Platform (CMP) with Opt-in’s IAB plugin for Audience Manager.
 
-Audience Manager customers using [IAB Transparency and Consent Framework (TCF)](https://iabtechlab.com/standards/gdpr-transparency-and-consent-framework/) can connect their Consent Management Platform (CMP) with Opt-in’s IAB plugin. Opt-in is a feature embedded within the ECID JavaScript library that can disable individual Adobe solution libraries depending on visitor preferences set within a CMP. When the IAB plugin is implemented with the ECID library, visitor preferences from your IAB compliant CMP are mapped automatically to Opt-in. These preferences will enable Audience Manager based libraries (DIL and ECID) and associated calls when consent is received.
+Audience Manager customers using [IAB Transparency and Consent Framework (TCF)](https://iabtechlab.com/standards/gdpr-transparency-and-consent-framework/) can connect their Consent Management Platform (CMP) with Opt-in’s Audience Manager Plugin for IAB TCF. Opt-in is a feature embedded within the ECID JavaScript library that can disable individual Adobe solution libraries depending on visitor preferences set within a CMP. When the IAB plugin is implemented with the ECID library, visitor preferences from your IAB compliant CMP are mapped automatically to Opt-in. These preferences will enable Audience Manager based libraries (DIL and ECID) and associated calls when consent is received.
 
 ## Implement a CMP that supports IAB {#section-9fd2403b548947dbb1921ac6ff9d0c82}
 

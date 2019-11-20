@@ -28,7 +28,7 @@ user-guide-url: /content/help/en/id-service/using/home.html
    + [Direct Integration with the ID Service](implementation-guides/direct-integration.md)
    + [Direct Integration Use Cases](implementation-guides/direct-integration-examples.md)
    + [Test and verify the ID Service](implementation-guides/test-verify.md)
-   + Opt-in Documentation {#opt-in-service}
+   + Opt-in Service {#opt-in-service}
       + [Opt-in Service overview](implementation-guides/opt-in-service/optin-overview.md)
       + [Setting up Opt-in Service](implementation-guides/opt-in-service/getting-started.md)
       + [Validating Opt-in Service](implementation-guides/opt-in-service/testing-optin-and-iab-plugin.md)
