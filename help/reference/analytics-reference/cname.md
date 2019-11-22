@@ -22,7 +22,7 @@ The visitor ID service is the recommended way to identify visitors. It is based 
 - 1st Party ID - A first party ID that can be used for measureing visitors to your own website. This ID is stored in the first partry id is stored in both a client side cookie and a server side cookie (with a CNAME).
 - 3rd Party ID (optional)-  A seperate 3rd party ID stored on demdex.net that can be used for measureing visitors across multiple domains (e.g. example.com and example.net)
 
-Analytics will always use the first party ID and if the 3rd party ID is enabled and present then the 1st party ID on each site will be the same. However, if the 3rd party ID is disabled, either by your seetings or because the browser blocks 3rd party cookies, then there is no way to tie traffic on the two sites together.
+Analytics will always use the first party ID and if the 3rd party ID is enabled and present then the 1st party ID on each site will be the same. However, if the 3rd party ID is disabled, either by your settings or because the browser blocks 3rd party cookies, then there is no way to tie traffic on the two sites together.
 
 ## Legacy Analytics Domains
 
