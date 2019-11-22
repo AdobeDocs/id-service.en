@@ -38,11 +38,11 @@ If a customer chooses they can by-pass Adobe's identification system altogether 
 
 ## Data Collection CNAMES
 
-Adobe still recommends the use of a CNAME in conjunction with the visitor ID service. This allows the first party visitor ID to persisted using HTTP cookies which makes the cookies more durable. If a CNAME is not used a javascript (or clientside) cookies is used which has a shorter lifespace in Safari due to restrictions ITP has placed client side first party cookies.
+Adobe still recommends the use of a CNAME in conjunction with the visitor ID service. This allows the first party visitor ID to persisted using HTTP cookies which makes the cookies more durable. 
 
 ## Opt-outs
 
-We offer the APIs to share opt-out signals with our systems so you can provide ways for users to optout of tracking. We provide detailed instructions can be found on [opt-out](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/data-collection/opt-out.md) and [opt-in](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/opt-in-service/optin-overview.md)
+Adobe offers the APIs to share opt-out signals with our systems so you can provide ways for users to optout of tracking. We provide detailed instructions can be found on [opt-out](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/data-collection/opt-out.md) and [opt-in](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/opt-in-service/optin-overview.md)
 
 ## Enable CNAME support with the Experience Cloud Identity Service {#section-25d4feb686d944e3a877d7aad8dbdf9a}
 
