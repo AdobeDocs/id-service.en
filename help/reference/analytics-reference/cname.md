@@ -11,8 +11,8 @@ uuid: ba42c822-b677-4139-b1ed-4d98d3320fd0
 
 In analytics there are three ways you can use to ID visitors.
 
-- Use the [visitor ID service](/help/en/id-service/using/home.md)
-- Use the [legacy Analytics visitor ID](/help/en/analytics/implementation/javascript-implementation/unique-visitors/visid-overview.md)
+- Use the [visitor ID service](https://docs.adobe.com/content/help/en/id-service/using/home.md)
+- Use the [legacy Analytics visitor ID](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/unique-visitors/visid-overview.md)
 - Provide their own identity
 
 ## Using the Visitor ID Service{#using-the-visitor-id-service}
@@ -30,7 +30,7 @@ Before the visitor ID service luanched, several years ago, many customers used t
 
 ## Provide your Own Identity
 
-If a customer chooses they can by-pass Adobe's identification system altogether and implement a their own by providing a [custom visitor ID](help/en/analytics/implementation/javascript-implementation/unique-visitors/visid-custom.md). There are a few things to be aware of if you choose this route. 
+If a customer chooses they can by-pass Adobe's identification system altogether and implement a their own by providing a [custom visitor ID](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/unique-visitors/visid-custom.md). There are a few things to be aware of if you choose this route. 
 
 - You will need to implement opt-out and appropriate privacy controls
 - That ID will only apply to Analytics
@@ -42,8 +42,8 @@ Adobe still recommends the use of a CNAME in conjunction with the visitor ID ser
 
 ## Opt-outs
 
-We offer the APIs to share opt-out signals with our systems so you can provide ways for users to optout of tracking. We provide detailed instructions can be found on [opt-out](t/help/en/analytics/implementation/javascript-implementation/data-collection/opt-out.md) and [opt-in](/help/en/id-service/using/implementation-guides/opt-in-service/optin-overview.md)
+We offer the APIs to share opt-out signals with our systems so you can provide ways for users to optout of tracking. We provide detailed instructions can be found on [opt-out](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/data-collection/opt-out.md) and [opt-in](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/opt-in-service/optin-overview.md)
 
 ## Enable CNAME support with the Experience Cloud Identity Service {#section-25d4feb686d944e3a877d7aad8dbdf9a}
 
-Data collection server CNAME support is [enabled setting up a CNAME](/help/en/core-services/interface/ec-cookies/cookies-first-party.md) and by setting the `visitor.marketingCloudServerSecure` variable in the Experience Cloud Identity Service and by setting `s.trackingServerSecure` in AppMeasurement.
+Data collection server CNAME support is [enabled setting up a CNAME](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-first-party.md) and by setting the `visitor.marketingCloudServerSecure` variable in the Experience Cloud Identity Service and by setting `s.trackingServerSecure` in AppMeasurement.
