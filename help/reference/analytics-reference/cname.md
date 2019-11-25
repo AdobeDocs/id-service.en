@@ -22,11 +22,11 @@ The visitor ID service is the recommended way to identify visitors. It is based 
 - 1st Party ID - A first party ID that can be used for measureing visitors to your own website. This ID is stored in the first partry id is stored in both a client side cookie and a server side cookie (with a CNAME).
 - 3rd Party ID (optional)-  A seperate 3rd party ID stored on demdex.net that can be used for measureing visitors across multiple domains (e.g. example.com and example.net)
 
-Analytics will always use the first party ID and if the 3rd party ID is enabled and present then the 1st party ID on each site will be the same. However, if the 3rd party ID is disabled, either by your settings or because the browser blocks 3rd party cookies, then there is no way to tie traffic on the two sites together.
+Analytics will use the 1st party ID unless 3rd party ids are enabled then where browsers permit we will use that. The 3rd party ID is namespaced pre customer so that a customer cannot combine data with another customer in Analytics.
 
 ## Legacy Analytics Domains
 
-Before the visitor ID service luanched, several years ago, many customers used the native analytics domains to set the ID cookies. These include `omtrdc.net`, `2o7.net` or a CNAME'd domain. `omtrdc.net`, `2o7.net` and in some cases a CNAME'd domain are used to store 3rd party cookies. The cookies set this way hae always been restricted to a single customer so that customers couldn't combine their data across companies. 3rd party CNAMED'd domains, sometimes called friendly 3rd party domains are only used when customers want to track users across sites that they own (e.g. example.com, example.co.jp). This method is being deprecated to allow for the more robust and privacy aware visitor ID service. Customers should move to the visitor ID service with a CNAME per domain as soon as is feasible.
+Prior to launch of the Adobe Visitor ID service many customers used the native analytics domains to set the ID cookies. These include `omtrdc.net`, `2o7.net` or a CNAME'd domain. `omtrdc.net`, `2o7.net`, in some cases a CNAME'd domain was used to store 3rd party cookies. The cookies set this way were been restricted to a single customer so that customers couldn't combine their data with data from other customers. 3rd party CNAMED'd domains, sometimes called friendly 3rd party domains were used when customers want to track users across sites that they own (e.g. example.com, example.co.jp). This method or using CNAME to support friendly 3rd party domains is deprecated to allow for the more robust and privacy aware visitor ID service. Customers should move to the visitor ID service with a CNAME per domain as soon as is feasible.
 
 ## Provide your Own Identity
 
@@ -40,9 +40,9 @@ If a customer chooses they can by-pass Adobe's identification system altogether 
 
 Adobe still recommends the use of a CNAME in conjunction with the visitor ID service. This allows the first party visitor ID to persisted using HTTP cookies which makes the cookies more durable. 
 
-## Opt-outs
+## OPTOUT
 
-Adobe offers the APIs to share opt-out signals with our systems so you can provide ways for users to optout of tracking. We provide detailed instructions can be found on [opt-out](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/data-collection/opt-out.md) and [opt-in](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/opt-in-service/optin-overview.md)
+Adobe provides customers with the APIs to share opt-out signals with our systems so customers in turn can enable users to optout of tracking. We provide detailed instructions on how customer can implement the proper controls to support user choice; either the [opt-out API](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/data-collection/opt-out.md) or options to [prevent cookie from firing](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/opt-in-service/optin-overview.md) until consent is obtained
 
 ## Enable CNAME support with the Experience Cloud Identity Service {#section-25d4feb686d944e3a877d7aad8dbdf9a}
 
