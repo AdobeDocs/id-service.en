@@ -25,6 +25,10 @@ The rules of ITP focus on giving control back to the developers. Implementations
 
 The ECID library, AMCV cookie, and ECID (aka MID) started as the method for integrating all Adobe solutions under one ID. This ID will continue to be the priority cookie-level ID in the Adobe product roadmap and is the default cookie ID for the Adobe Experience Platform.
 
+**Do CNAMEs help customers enable multi-domain tracking?**
+
+The same rules and caveats that have existed previously with CNAMEs still exist. In some cases, CNAMEs can help in a multi-domain scenario. If you have a main entry site where users can be identified before they visit other domains, then a CNAME can enable multi-domain tracking in browsers that do not accept third-party cookies. However, while CNAMEs can help with multi-domain in some scenarios, the reason for the shift of ECID to CNAME implementations is for persistent visitor identification, not multi-domain tracking. For more on CNAME and multi-domain, see [Data Collection CNAMEs and Cross-Domain Tracking](/help/reference/analytics-reference/cname.md).
+
 More FAQs will be added here as additional ITP changes are released. For more inquiries, please visit [Adobe Experience League](https://experienceleague.adobe.com/#recommended/solutions/analytics).
 
 ## ITP related changes, methods and configurations
