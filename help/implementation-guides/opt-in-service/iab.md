@@ -8,7 +8,7 @@ uuid: 8df39d9c-c016-490e-b4db-d02e4044b480
 
 # (beta) Using Opt-in Services with IAB Framework{#beta-using-opt-in-services-with-iab-framework}
 
-Connect their Consent Management Platform (CMP) with Opt-in’s Audience Manager IAB plugin for Audience Manager.
+Connect the Consent Management Platform (CMP) with Opt-in’s Opt-in’s Audience Manager Plugin for IAB TCF.
 
 Audience Manager customers using [IAB Transparency and Consent Framework (TCF)](https://iabtechlab.com/standards/gdpr-transparency-and-consent-framework/) can connect their Consent Management Platform (CMP) with Opt-in’s Audience Manager Plugin for IAB TCF. Opt-in is a feature embedded within the ECID JavaScript library that can disable individual Adobe solution libraries depending on visitor preferences set within a CMP. When the Audience Manager plug-in for IAB TCF is implemented with the ECID library, visitor preferences from your IAB compliant CMP are mapped automatically to Opt-in. These preferences will enable Audience Manager based libraries (DIL and ECID) and associated calls when consent is received.
 
@@ -40,7 +40,7 @@ Once settings are configured properly, ECID and DIL libraries will be enabled/di
 
 >[!IMPORTANT]
 >
->Audience Manager needs consent for *purposes 1,2, and 5, plus vendor consent* in order to deploy cookies and initiate or honor ID syncs. Read more about the IAB plugin in Audience Manager documentation [here](https://docs.adobe.com/help/en/audience-manager/user-guide/overview/gdpr/aam-iab-plugin.html).
+>Audience Manager needs consent for *purposes 1,2, and 5, plus vendor consent* in order to deploy cookies and initiate or honor ID syncs. Read more about the Audience Manager Plug-in for IAB TCF in Audience Manager documentation [here](https://docs.adobe.com/help/en/audience-manager/user-guide/overview/gdpr/aam-iab-plugin.html).
 
 For more information on how to validate both Opt-in and the Audience Manager plug-in for IAB, check use case #4 in the validation guide [here](../../implementation-guides/opt-in-service/testing-optin-and-iab-plugin.md#section-ca5c6f92fbdf4fd29b4acb6b644efbd0).
 
