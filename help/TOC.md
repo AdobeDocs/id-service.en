@@ -90,6 +90,7 @@ user-guide-url: /content/help/en/id-service/using/home.html
    + [CORS Support in the ID Service](reference/cors.md)
    + [Customer IDs and Authentication States](reference/authenticated-state.md)
    + [ECID library methods in a Safari ITP world](reference/ecid-library-methods.md)
+   + [Identifying Unique Visitors](reference/unique-vis-method.md)
    + [Get Region and User IDs From the AMCV Cookie or the ID Service](reference/regions.md)
    + [Requirements for the ID Service](reference/requirements.md)
    + [Video Heartbeat and the ID Service](reference/heartbeat.md)
