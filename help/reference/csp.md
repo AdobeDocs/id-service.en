@@ -58,7 +58,6 @@ Add these domain names or URLs to your CSP for each list Experience Cloud soluti
 </table>
 
 >[!MORELIKETHIS]
->
 >* [Content Security Policy Reference](https://content-security-policy.com/)
 >* [MDN: Content Security Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP)
 >* [Wikipedia: Content Security Policy](https://en.wikipedia.org/wiki/Content_Security_Policy)
