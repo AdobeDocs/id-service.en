@@ -52,7 +52,7 @@ Add these domain names or URLs to your CSP for each list Experience Cloud soluti
    <td colname="col2"> <p>Modify your CSP to include <span class="codeph"> *.demdex.net</span>. </p> <p>Calls to the <span class="codeph"> demdex.net</span> domain are used to generate the <a href="../introduction/cookies.md" format="dita" scope="local"> Cookies and the Experience Cloud Identity Service</a> and for ID syncs. See also, <a href="https://marketing.adobe.com/resources/help/en_US/aam/demdex-calls.html" format="https" scope="external"> Understanding Calls to the Demdex Domain</a>. </p> </td> </tr> 
  <tr>
  <td colname="col1"> <p> <b>Activity Map plugin</b> </p> </td> 
- <td colname="col2"> <p>Modify your CSP to include *omniture.com </p></td> 
+ <td colname="col2"> <p>Modify your CSP to include *.adobe.com. **Note**: If you already had Activity Map installed prior to January, 2020, your browser will still see an initial request to *.omniture.com, but will be redirected to *.adobe.com. </p></td> 
  </tr>
  </tbody> 
 </table>
