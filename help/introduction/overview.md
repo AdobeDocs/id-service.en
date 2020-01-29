@@ -22,7 +22,7 @@ To sum up, the ID service:
 
 * Creates a common key or ID which can be used to link profiles and identities.
 * Uniquely identifies a device across multiple solutions.
-* Sets a first-party cookie in customer’s domain to ensure tracking on same domain. See the [Cookies and Experience Cloud Identity Service documentation](https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html) for more information.
+* Sets a first-party cookie in customer’s domain to ensure tracking on same domain. See the [Cookies and Experience Cloud Identity Service document](https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html) for more information.
 * Receives aliases and ID mappings from Experience Cloud customers and partners.
 * Manages ID synchronization within the Experience Cloud.
 * Supports ID synchronization with different third-parties across the ad tech ecosystem.
