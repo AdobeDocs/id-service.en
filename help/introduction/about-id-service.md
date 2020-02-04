@@ -1,7 +1,7 @@
 ---
-description: The role of the Experience Platform Identity Service in the Adobe Experience Cloud.
+description: The role of the Experience Cloud Identity Service in the Adobe Experience Cloud.
 keywords: ID Service
-seo-description: The role of the Experience Platform Identity Service in the Adobe Experience Cloud.
+seo-description: The role of the Experience Cloud Identity Service in the Adobe Experience Cloud.
 seo-title: About the ID Service
 title: Overview
 uuid: c52d6155-00a0-4fc5-9d8e-5ce00b8d01e6
