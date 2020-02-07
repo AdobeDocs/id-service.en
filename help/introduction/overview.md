@@ -11,7 +11,7 @@ The [!UICONTROL Experience Cloud Identity Service] enables the common identifica
 
 >[!NOTE]
 >
-> You might see references to former names or acronymns, such as ECID, Marketing Cloud ID Service (MID), and Visitor ID Service. These refer to the [!UICONTROL Experience Cloud Identity Service]. You might also see [!UICONTROL Experience Platform Identity Service]. To clarify:
+> You might see references to the ID service as acronyms or or former names, such as ECID, Marketing Cloud ID Service (MID), and Visitor ID Service. These refer to the [!UICONTROL Experience Cloud Identity Service]. You might also see [!UICONTROL Experience Platform Identity Service]. To clarify:
 
 * [!UICONTROL Experience Platform Identity Service]: The service that links identities. It is the device-linking service for people-based experience management.
 * [!UICONTROL Experience Cloud ID Service] (ECID): The unique, persistent ID assigned to a site visitor. It is a specific entity that can be used by the Platform Identity Service.
