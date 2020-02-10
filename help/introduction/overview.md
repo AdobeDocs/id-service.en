@@ -18,7 +18,7 @@ The [!UICONTROL Experience Cloud Identity Service] enables the common identifica
 
 When your organization implements the ID service, this ID lets you identify the same site visitor and their data in different Experience Cloud solutions.
 
-![](assets/ecid.png)
+![](assets/ecid-new.png)
 
 Also, the ID service can replace the different solution-specific IDs (e.g., Analytics AID). And, through the [Customer IDs and Authentication States](/help/reference/authenticated-state.md) functionality, the ID service lets you pass in your own customer IDs to the Experience Cloud. Keep in mind, however, that the ID service only works with the solutions you're already subscribed to. It won't provide access to other products if you're not signed up for them.
 
