@@ -35,6 +35,20 @@ Feature releases, updates, or changes to the [!DNL Experience Cloud] ID service.
 
 **Bug fix for secureCookie config.**
 
+## Version 4.1
+
+Update `publishDestinations` per new API change. With this update the referrer information of the page can be exposed during ID - sync if desired. (CORE-23693)
+ 
+## Version 4.2
+
+Support for the Audience Manager Plug-in for IAB TCF, available via the ECID Opt-in object.
+
+**Fixes**
+
+* IAB + OptIn fails to get MID for revisiting customers (CORE-26022)
+* Fixed bug on opt-in doesOptInApply configuration in DTM (DTM-12958)
+* ECID opt-out disables ID syncs (CORE-23814)
+
 ## Version 4.0 {#section-51a4be943bbe41558f196ef2654513e2}
 
 **Opt-in service**. Opt-in is an extension of the Experience Cloud ID (ECID) that allows you to control whether (and then which) Experience Cloud libraries can create cookies on web pages for visitors. Using [Experience Platform Launch](https://docs.adobelaunch.com/), you can simplify gathering visitor opt-in consents for Experience Cloud solution by enabling Analytics, Target, Audience Manager, and other or all select Experience Cloud solutions to opt-in to your consent management system.
