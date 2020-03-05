@@ -36,7 +36,7 @@ user-guide-url: /content/help/en/id-service/using/home.html
       + [Configuring Opt-in with DTM](implementation-guides/opt-in-service/optin-dtm.md)
       + [Opt-in Use Cases](implementation-guides/opt-in-service/use-cases.md)
       + [Opt-in Reference](implementation-guides/opt-in-service/api.md)
-      + [(beta) Using Opt-in Services with IAB Framework](implementation-guides/opt-in-service/iab.md)
+      + [Using Opt-in Services with IAB Framework](implementation-guides/opt-in-service/iab.md)
 + ID Service API {#id-service-api}
    + [ID Service API Overview](library/library.md)
    + Configuration {#configurations}

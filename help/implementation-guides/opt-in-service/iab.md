@@ -1,12 +1,12 @@
 ---
 description: Connect their Consent Management Platform (CMP) with Opt-in’s Audience Manager plugin for IAB Transparency and Consent Framework (TCF).
 seo-description: Connect their Consent Management Platform (CMP) with Audience Manager plugin for IAB Transparency and Consent Framework (TCF).
-seo-title: (beta) Using Opt-in Services with IAB Framework
-title: (beta) Using Opt-in Services with IAB Framework
+seo-title: Using Opt-in Services with IAB Framework
+title: Using Opt-in Services with IAB Framework
 uuid: 8df39d9c-c016-490e-b4db-d02e4044b480
 ---
 
-# (beta) Using Opt-in Services with IAB Framework{#beta-using-opt-in-services-with-iab-framework}
+# Using Opt-in Services with IAB Framework{#using-opt-in-services-with-iab-framework}
 
 Connect the Consent Management Platform (CMP) with Opt-in’s Audience Manager Plugin for IAB TCF.
 
@@ -48,6 +48,6 @@ For more information on how to validate both Opt-in and the Audience Manager plu
 
 * [IAB Transparency and Consent Framework (TCF)](https://iabtechlab.com/standards/gdpr-transparency-and-consent-framework/) - For more information on the IAB standard 
 * [Adobe Opt-In](../../implementation-guides/opt-in-service/optin-overview.md#concept-f9b5db0d27a245fbadd3e19162319360) - For more information on Opt-In, a required component for consent management in Platform solutions 
-* IAB Transparency and Consent Framework (TCF) Support [in Audience Manager](https://marketing-beta.adobe.com/resources/help/aam/iab-support/aam-iab-support.html) 
+* IAB Transparency and Consent Framework (TCF) Support [in Audience Manager](https://docs.adobe.com/content/help/en/audience-manager/user-guide/overview/data-privacy/consent-management/aam-iab-plugin.html) 
 * [Your Privacy Choices](https://www.adobe.com/privacy/opt-out.html#customeruse) - Another privacy option at your users' disposal is the ability to opt out of all data collection using other global opt-out tools. Global Opt-Out takes precedence over the Opt-In and IAB verification
 
