@@ -13,4 +13,4 @@ Feature releases, updates, or changes to the Experience Cloud Identity Service (
 ## Version 4.5
 
 * Beginning with version 4.5,  ECID will reject any empty IDs sent to `setCustomerIDs` method. (CORE-38828)
-* Fixed an issue occurring when opt-in mis configured as `doesOptInApply=false` and `isIabContext=true.` (CORE-38351)
+* Fixed an issue occurring when opt-in is configured as `doesOptInApply=false` and `isIabContext=true.` (CORE-38351)
