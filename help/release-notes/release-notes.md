@@ -6,7 +6,7 @@ seo-title: 2020 Release Notes
 title: 2020 Release Notes
 ---
 
-# Experience Cloue release notes - 2020 {#release-notes}
+# Experience Cloud release notes - 2020 {#release-notes}
 
 Feature releases, updates, or changes to the Experience Cloud Identity Service (ECID).
 
