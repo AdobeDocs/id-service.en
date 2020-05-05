@@ -40,7 +40,7 @@ The `aid` parameter appears in a query string under 2 different sets of conditio
 You will see the `aid` parameter in a query string when:
 
 * The [!DNL Experience Cloud] ID service is deployed correctly. 
-* The user visiting a site has a pre-existing [!DNL Analytics] ID stored in their [s_vi cookie](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/?f=cookies_analytics.html).
+* The user visiting a site has a pre-existing [!DNL Analytics] ID stored in their [s_vi cookie](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-analytics.html#section-5d50a078de444d12b7d927d68ff3b679).
 
 **Case 2**
 
@@ -48,4 +48,4 @@ You will see the `aid` parameter in a query string when your organization is usi
 
 >[!MORELIKETHIS]
 >
->* [Analytics Cookies](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_analytics.html)
+>* [Analytics Cookies](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-privacy.html)

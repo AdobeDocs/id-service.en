@@ -110,7 +110,7 @@ The following table lists and defines some important attributes of the demdex co
  </tbody> 
 </table>
 
-For related information, see [Understanding Calls to the Demdex Domain](https://marketing.adobe.com/resources/help/en_US/aam/demdex-calls.html).
+For related information, see [Understanding Calls to the Demdex Domain](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/demdex-calls.html).
 
 ## Generating the Experience Cloud ID {#section-15f69c0bac394b4b9966a23fbc586d17}
 

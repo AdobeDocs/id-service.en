@@ -25,7 +25,7 @@ Include the Analytics visitor ID (if set) in the `<visitorID>` element.
 
 Include the Experience Cloud visitor ID in the `<marketingCloudVisitorID>` element.
 
-See [Supported XML Tags](https://marketing.adobe.com/developer/en_US/documentation/data-insertion/r-supported-tags).
+See [Supported XML Tags](https://www.adobe.io).
 
 ## AppMeasurement for Java {#section-d664b94934924d048300d9c2b6560085}
 

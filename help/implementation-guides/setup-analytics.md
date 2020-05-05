@@ -90,7 +90,7 @@ var visitor = Visitor.getInstance("INSERT-MARKETING-CLOUD-ORGANIZATION-ID-HERE",
 
 ## Step 3: Add your Experience Cloud Organization ID to Visitor.getInstance {#section-7b8a6e76dc124d0e9ab1ce96ab2ffb0e}
 
-In the `Visitor.getInstance` function, replace `INSERT-MARKETING-CLOUD-ORGANIZATION ID-HERE` with your [!DNL Experience Cloud] organization ID. If you do not know your organization ID, you can find it on the [!DNL Experience Cloud] administration page. See also, [Administration - Core Services](https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html). Your edited function could look similar to the example below.
+In the `Visitor.getInstance` function, replace `INSERT-MARKETING-CLOUD-ORGANIZATION ID-HERE` with your [!DNL Experience Cloud] organization ID. If you do not know your organization ID, you can find it on the [!DNL Experience Cloud] administration page. See also, [Administration - Core Services](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html). Your edited function could look similar to the example below.
 
 `var visitor = Visitor.getInstance("1234567ABC@AdobeOrg", { ...`
 
@@ -176,7 +176,7 @@ You need a grace period if you send data to an internal system from a Clickstrea
 
 Discontinue the grace period after your data ingestion process can use the `post_visid_high` and `post_visid_low` columns.
 
-See, [Clickstream Data Column Reference](https://marketing.adobe.com/resources/help/en_US/sc/clickstream/datafeeds_reference.html).
+See, [Clickstream Data Column Reference](https://docs.adobe.com/content/help/en/analytics/export/analytics-data-feed/data-feed-overview.html).
 
 **Clickstream Data Ingestion**
 
@@ -189,7 +189,7 @@ You can test and deploy as follows.
 To test your ID service implementation, check for the:
 
 * [AMCV cookie](../introduction/cookies.md) in the domain where your page is hosted. 
-* MID value in the [!DNL Analytics] image request with the [Adobe debugger tool](https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger.html).
+* MID value in the [!DNL Analytics] image request with the [Adobe debugger tool](https://docs.adobe.com/content/help/en/analytics/implementation/validate/debugger.html).
 
 See, [Test and Verify the Experience Cloud Identity Service](../implementation-guides/test-verify.md).
 
