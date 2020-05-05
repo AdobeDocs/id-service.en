@@ -56,7 +56,7 @@ If you have multiple domains that send data to the *same report suite*, then we 
    <td colname="col1"> <p>A single domain </p> </td> 
    <td colname="col2"> <p>Working with a single domain means you can migrate away from a data collection CNAME if you no longer wish to manage it. However, there's no requirement to change if your CNAME is working. </p> <p>If you do remove the CNAME: </p> 
     <ul id="ul_12CDECEFC7BB41A18895B507CAA42315"> 
-     <li id="li_32E2CD3E58454E20A642BADE507AE86E">Make sure your new tracking server is <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/rdc/" format="https" scope="external"> RDC compliant</a>. </li> 
+     <li id="li_32E2CD3E58454E20A642BADE507AE86E">Make sure your new tracking server is <a href="https://docs.adobe.com/content/help/en/analytics/technotes/rdc/regional-data-collection.html" format="https" scope="external"> RDC compliant</a>. </li> 
      <li id="li_865BB6DAA3594EBBAB688E73C8343762">Move from the CNAME to an RDC tracking server a few months in advance of your migration to the <span class="keyword"> Experience Cloud</span> ID service. </li> 
      <li id="li_284A015177554C848C8648DC5BBAA365"> <i>Do not</i> use a <span class="codeph"> *.2o7.net</span> tracking server. </li> 
      <li id="li_B1ABF03DC46C42059F61542CDE0FE5A1">Contact <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html" format="https" scope="external"> Customer Care</a> to set up a visitor migration. This helps ensure consistent visitor counts. </li> 

@@ -13,4 +13,4 @@ Video heartbeat requires the Experience Cloud Identity Service. When measuring v
 
 >[!MORELIKETHIS]
 >
->* [Measuring Video in Analytics using Video Heartbeat](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/)
+>* [Measuring audio and video in Adobe Analytics](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)

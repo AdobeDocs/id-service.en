@@ -17,7 +17,7 @@ Historically, the Experience Cloud Identity Service has been integrated tightly 
 
 ## The AMCV Cookie is Not Set in the Browser {#section-cccf10cd775e4a95a7e98d3c3c0ff9a9}
 
-If the [!DNL Experience Cloud] (AMCV) cookie is not present, then an ID service call to [!DNL Adobe] generates a response that varies depending on the presence or absence of a legacy Analytics ID. The legacy [!DNL Analytics] ID is stored in the [s_vi cookie](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/?f=cookies_analytics.html). The table below describes how IDs are written to the AMCV cookie based on the state of the s_vi cookie.
+If the [!DNL Experience Cloud] (AMCV) cookie is not present, then an ID service call to [!DNL Adobe] generates a response that varies depending on the presence or absence of a legacy Analytics ID. The legacy [!DNL Analytics] ID is stored in the [s_vi cookie](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-analytics.html). The table below describes how IDs are written to the AMCV cookie based on the state of the s_vi cookie.
 
 <table id="table_DC85FECE26DD424E841BA1059AF1E57F"> 
  <thead> 
@@ -44,7 +44,7 @@ If the [!DNL Experience Cloud] (AMCV) cookie is not present, then an ID service 
 
 >[!NOTE]
 >
->Users identified by the s_fid cookie will not have their legacy FID value migrated to the AMCV cookie. With an s_fid cookie, users will be migrated as if no s_vi cookie was present (see above) and appear as new visitors to your site. See [Analytics Cookies](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/?f=cookies_analytics.html) for more information.
+>Users identified by the s_fid cookie will not have their legacy FID value migrated to the AMCV cookie. With an s_fid cookie, users will be migrated as if no s_vi cookie was present (see above) and appear as new visitors to your site. See [Analytics Cookies](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-analytics.html) for more information.
 
 ## The AMCV Cookie is Set in the Browser {#section-01c088fc565c4b24ba1722c7cc240310}
 

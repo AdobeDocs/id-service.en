@@ -11,7 +11,7 @@ uuid: 79452df0-49db-42b8-96fe-01aa7629fbb5
 
 Feature releases, updates, or changes to the Experience Cloud Identity Service for 2017.
 
-These changes are also captured in the [Experience Cloud Release notes](https://marketing.adobe.com/resources/help/en_US/whatsnew/). For older ID service release notes, see the [previous release notes](https://marketing.adobe.com/resources/help/en_US/whatsnew/?f=c_legacy_releases.html) or the links at the bottom of this page.
+These changes are also captured in the [Experience Cloud Release notes](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html).
 
 >[!NOTE]
 >
@@ -188,7 +188,7 @@ Fixed a bug that caused the ID service to make redundant server calls for an ID 
 
 **New Documentation**
 
-[Using DNS Prefetch with Different Experience Cloud Solutions and Services `Learn how to use DNS prefetch to help reduce page load times.`](https://marketing.adobe.com/resources/help/en_US/mcloud/dns-prefetch.html)
+[Using DNS Prefetch with Different Experience Cloud Solutions and Services](https://docs.adobe.com/content/help/en/core-services/interface/more-resources/dns-prefetch.html)
 
 ## Version 2.0 {#section-0ceac6007c1241b58ad607e2b76b2b7e}
 

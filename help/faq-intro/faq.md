@@ -31,7 +31,7 @@ You might experience issues if you host the VisitorAPI.js as a local file in mob
 
 Place the VisitorAPI.js library at the top of the page in the `<head>` section of your code. This helps ensure that the call for an ID goes out before the page body starts loading and maximizes the chances that an ID will return successfully.
 
-The ID service call is asynchronous and is the only call to the [demdex.net domain](https://marketing.adobe.com/resources/help/en_US/aam/demdex-calls.html). The ID service call does not block other elements from loading on the page.
+The ID service call is asynchronous and is the only call to the [demdex.net domain](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/demdex-calls.html). The ID service call does not block other elements from loading on the page.
 
 For [!DNL Target] customers, placing ID service code in the `<body>` of the page may increase the odds that it could block a [!DNL Target] call. If you must place ID service code in the body of your page, it should be placed after the open `<body>` tag.
 

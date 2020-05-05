@@ -19,7 +19,7 @@ The demdex.net cookie enables the visitor ID service to provide the same level o
 
 ## Data Collection CNAMEs {#section-48fd186d376a48079769d12c4bd9f317}
 
-When the Analytics cookie was set by the data collection server, many customers have configured data collection server CNAME records as part of a [first-party cookie implementation](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/) to avoid issues with browsers that reject third-party cookies. This process configures your data collection server domain to match your website domain so the visitor ID cookie is set as a first-party cookie.
+When the Analytics cookie was set by the data collection server, many customers have configured data collection server CNAME records as part of a [first-party cookie implementation](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-first-party.html) to avoid issues with browsers that reject third-party cookies. This process configures your data collection server domain to match your website domain so the visitor ID cookie is set as a first-party cookie.
 
 Since the visitor ID service sets the visitor cookie directly on the domain of the current website using JavaScript, this configuration is no longer needed to set first-party cookies.
 

@@ -47,11 +47,11 @@ The ID sync is a URL that is fired in the Destination Publishing iFrame. As show
 
 `http://abc.com?partner_id=abc&sync_id=123&redir=http://dpm.demdex.net/ibs:dpid=<ADOBE_PARTNER_ID>&dpuuid=<PARTNER_UUID>`
 
-See also, [ID Synchronization for Inbound Data Transfers](https://marketing.adobe.com/resources/help/en_US/aam/c_id_sync_in.html).
+See also, [ID Synchronization for Inbound Data Transfers](https://docs.adobe.com/content/help/en/audience-manager/user-guide/implementation-integration-guides/sending-audience-data/batch-data-transfer-process/id-sync-http.html).
 
 **Step 4: Store IDs**
 
-Synchronized IDs are stored on the [edge and core data servers](https://marketing.adobe.com/resources/help/en_US/aam/c_compedge.html).
+Synchronized IDs are stored on the [edge and core data servers](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/system-components/components-edge.html).
 
 ## Sync services manages ID synchronization {#section-cd5784d7ad404a24aa28ad4816a0119a}
 
@@ -64,10 +64,10 @@ The term *`Sync Services`* refers to internal [!DNL Experience Cloud] technologi
 * Third-party [!DNL Experience Cloud] cookie IDs to third-party data provider and targeting platform IDs. This includes services and platforms such as data providers, demand and/or supply-side platforms, ad networks, exchanges, etc. 
 * First-party [!DNL Experience Cloud] cookie IDs to cross-device partner IDs.
 
-## ID synchronization with Adobe Media Optimizer {#section-642c885ea65d45ffb761f78838735016}
+## ID synchronization with Adobe Advertising Cloud {#section-642c885ea65d45ffb761f78838735016}
 
-[!DNL Adobe Media Optimizer] is an exception to the iFrame-based ID synchronization process. Because [!DNL Media Optimizer] is a trusted domain, ID syncs take place from the parent page rather than in the [!UICONTROL Destination Publishing iFrame]. During synchronization, the ID service calls [!DNL Media Optimizer] at `cm.eversttech.net`, which is a legacy domain name used by [!DNL Media Optimizer] prior to its acquisition by Adobe. Sending data to [!DNL Media Optimizer] helps improve match rates and is automatic for ID service customers using version 2.0 (or higher). See also, [Media Optimizer Cookies](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_media_optimizer.html). 
+[!DNL Adobe Advertising Cloud] (previously called [!DNL Adobe Media Optimizer])is an exception to the iFrame-based ID synchronization process. Because [!DNL Advertising Cloud] is a trusted domain, ID syncs take place from the parent page rather than in the [!UICONTROL Destination Publishing iFrame]. During synchronization, the ID service calls [!DNL Advertising Cloud] at `cm.eversttech.net`, which is a legacy domain name used by [!DNL Advertising Cloud] prior to its acquisition by Adobe. Sending data to [!DNL Advertising Cloud] helps improve match rates and is automatic for ID service customers using version 2.0 (or higher). See also, [Advertising Cloud Cookies](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-advertising-cloud.html). 
 
 >[!MORELIKETHIS]
 >
->* [Understanding Calls to the Demdex Domain](https://marketing.adobe.com/resources/help/en_US/aam/demdex-calls.html)
+>* [Understanding Calls to the Demdex Domain](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/demdex-calls.html)

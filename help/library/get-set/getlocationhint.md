@@ -13,7 +13,7 @@ Returns the Experience Cloud Identity Service region ID. A region ID (or locatio
 
  **Syntax:** ` var *`variable name`* = visitor.getLocationHint()`
 
-For a list of region IDs and corresponding locations, see [DCS Region IDs, Locations, and Host Names](https://marketing.adobe.com/resources/help/en_US/aam/dcs-regions.html).
+For a list of region IDs and corresponding locations, see [DCS Region IDs, Locations, and Host Names](https://docs.adobe.com/content/help/en/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-regions.html).
 
 **Code Sample**
 
