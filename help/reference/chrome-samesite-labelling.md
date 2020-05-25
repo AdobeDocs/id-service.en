@@ -7,9 +7,11 @@ seo-description: Documentation for Adobe ECID (ID Service) library.
 
 # Google Chrome SameSite labelling changes {#samesite}
 
-The SameSite attribute is part of the cookie standard. The SameSite attribute can have one of 3 values: strict, lax, or none. The first two values have been supported by Chrome, Firefox, Edge, Safari, and Opera starting in November 2017. In 2018, the standard was updated to include an additional setting, none. However, some older browsers do not support this setting. In May 2019, Google announced they would be changing the default from none to lax when a cookie does not specify a SameSite value.
+The SameSite attribute provides information to browsers on when and how to fire cookies in first and third-party scenarios. The SameSite attribute can have one of three values: `strict`, `lax`, or `none`. The first two values have been supported by Chrome, Firefox, Edge, Safari, and Opera since November 2017. The value `none` was introduced in 2018. However, some older browsers do not support this setting. In May 2019, Google announced they would be changing the default from `none` to `lax` when a cookie does not specify a SameSite value.
 
 SameSite attribute is part of the [cookie standard](https://tools.ietf.org/html/draft-ietf-httpbis-rfc6265bis-03#section-4.1).
+
+## SameSite attribute values
 
 | Values | Descriptions |
 | ------ | ------------ |
