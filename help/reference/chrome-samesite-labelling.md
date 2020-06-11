@@ -23,39 +23,37 @@ SameSite attribute is part of the [cookie standard](https://tools.ietf.org/html/
 
 **No JavaScript updates required**
 
-Most Adobe products have already released server-side updates to set their third-party cookies with the appropriate attributes. Analytics and Ad Cloud will release their final changes the first week of January.
+Adobe products have already released server-side updates to set third-party cookies with the appropriate attributes.
 
 **Ensure third-party endpoints are using HTTPS**
 
-All customers should confirm that their JavaScript configuration is using HTTPS for their calls to Adobe services. Adobe Target, Adobe Audience Manager, and the Experience Cloud Identity Service (ECID) are redirecting third-party HTTP calls to their HTTPS endpoint, which can increase latency. This means you are not required to change your configuration. Analytics customers should update their implementations to exclusively use HTTPS as redirects specific to Analytics can cause data loss.
+All customers should confirm that their JavaScript configuration is using HTTPS for their calls to Adobe services. Adobe Target, Adobe Audience Manager, and the Experience Cloud Identity Service (ECID) are redirecting third-party HTTP calls to their HTTPS endpoint, which can increase latency. This means you are not required to change your configuration. Analytics customers should update their implementations to exclusively use HTTPS, as redirects specific to Analytics can cause data loss.
 
 **Correctly labeled cookies should collect data as intended**
 
-As long as cookies are correctly labeled, the browser should not take any action to block these cookies. Consumers will have the option to block certain types of cookies but at this time, this appears to be an opt-in setting only.
+The browser should not take any action to block cookies as long as they are correctly labeled. Consumers will have the option to block certain types of cookies, but currently, this appears to be an opt-in setting only.
 
 **Existing third-party cookies without the updated labels will be ignored**
 
-Third-party cookies that are created before Chrome 80 starts enforcing the SameSite=none and secure flags will be ignored by Chrome 80 if these flags are not present.
+Third-party cookies that are created before Chrome 80 starts enforcing the SameSite=`none` and secure flags settings will be ignored by Chrome 80 if these flags are not present.
 
-Since many of the existing Adobe third-party cookies have not had those flags, these cookies will need to be updated by Adobe’s Edge servers before users upgrade to Chrome 80 or those cookies will be lost.
+Since many of the existing Adobe third-party cookies do not have these flags, these cookies will need to be updated by Adobe’s Edge servers before users upgrade to Chrome 80 or those cookies will be lost. The Edge servers update happens automatically as users visit any website where the cookie is used.
 
-The Edge servers update will happen automatically as users visit any website where the cookie is used.
+Most Adobe products already have the appropriate flags assigned to cookies. The exception are Analytics implementations that use third-party data collection and do not use ECID. Customers may experience a small, temporary increase in new visitors that otherwise would have been returning visitors.
 
-For most Adobe products, cookies will have the appropriate flags by the time Chrome 80 is released.
+**Possible cookie match decrease for destination and marketplace partners (Audience Manager only)**
 
-The exception is Analytics implementations that use third-party data collection and do not use ECID. These customers may experience a small, temporary increase in new visitors that otherwise would have been returning visitors.
-
-**Possible cookie match decrease for Destination and Marketplace partners (Audience Manager only)**
-
-While Adobe has control over updating their cookies, Adobe can’t force partners to make necessary changes. Cookie matching may decrease for Audience Manager customers using destination partners or marketplace partners that have not made these updates.
+While Adobe has control over updating its cookies, Adobe can’t force partners to make necessary changes. Cookie matching may decrease for Audience Manager customers using destination partners or marketplace partners that have not made these updates.
 
 **Analytics Friendly third-party Cookies (Analytics `s_vi` cookies only)**
 
-Some Analytics implementations use an Analytics CNAME alias to enable creating the `s_vi` cookie in the domain of that CNAME. If the CNAME is in the same domain as your website, this will be a first-party cookie.
+Some Analytics implementations use an Analytics CNAME alias to enable creating the `s_vi` cookie in the domain of that CNAME. If the CNAME is in the same domain as your website, this will be designated as a first-party cookie. However, if you own multiple domains and use the same CNAME for data collection across all your domains, then it will be designated as a third-party cookie on those other domains.
 
-However, if you own multiple domains and use the same CNAME for data collection across all your domains, then it will be a third-party cookie on those other domains.
+With `Lax` becoming the new default SameSite setting in Chrome, the CNAME is no longer visible on other domains.
 
-When Chrome starts defaulting cookies without a SameSite setting to `Lax`, this cookie will no longer be visible on these other domains. To make the behavior more similar across all browsers, in February, after the Chrome 80 release, Analytics will start explicitly setting the SameSite value of this cookie to Lax. If you use this cookie in a friendly third-party context, you will need to have the cookie set with SameSite = none, which also means you must always use HTTPS. Contact Adobe Customer Care to have the SameSite value changed for your secure CNAMEs. Note, this action is NOT required for Analytics customers using the Experience Cloud Identity Service (ECID), for those using a separate CNAME for each of their domains or those using only third-party Analytics data collection.
+To accommodate the change, Analytics is now explicitly setting the SameSite value of `s_vi` cookie to `Lax`. To use this cookie in a friendly, third-party context, you will need to set the SameSite value to `None`, which also means you must always use HTTPS. Please contact Customer Care to have the SameSite value changed for your secure CNAMEs.
+
+> [!NOTE] This action is not required for Analytics customers using ECID, customers using a separate CNAME for each of their domains, or customers using only third-party Analytics data collection.
 
 ## Adobe Standard Visitor Cookies
 
