@@ -7,7 +7,7 @@ seo-description: Documentation for Adobe ECID (ID Service) library.
 
 # Google Chrome SameSite labelling changes {#samesite}
 
-The SameSite attribute tells browsers when and how to fire cookies in first and third-party scenarios. The SameSite attribute can have one of three values: `strict`, `lax`, or `none`. The first two values have been supported by Chrome, Firefox, Edge, Safari, and Opera since November 2017. The value `none` was introduced in 2018. However, some older browsers do not support this setting. In May 2019, Google announced they would be changing the default from `none` to `lax` when a cookie does not specify a SameSite value.
+The SameSite attribute tells browsers when and how to fire cookies in first and third-party scenarios. The SameSite attribute can have one of three values: `strict`, `lax`, or `none`. The first two values have been supported by Chrome, Firefox, Edge, Safari, and Opera since November 2017. The value `none` was introduced in 2018. However, some older browsers do not support this setting. In May 2019, Google announced they would be changing the default setting from `none` to `lax` when a cookie does not specify a SameSite value.
 
 SameSite attribute is part of the [cookie standard](https://tools.ietf.org/html/draft-ietf-httpbis-rfc6265bis-03#section-4.1).
 
@@ -15,9 +15,9 @@ SameSite attribute is part of the [cookie standard](https://tools.ietf.org/html/
 
 | Values | Descriptions |
 | ------ | ------------ |
-| Strict | Cookies with this setting are only sent when both the referring page and the landing page are part of the same domain as the cookie. |
-| Lax | Cookies with this setting are only sent when the domain displayed in the URL of the browser matches the domain of the cookie. This is the new default for cookies in Chrome. |
-| None | Cookies with this setting are available for external or third-party access, such as “cross-site.” Prior to this change, *None* was the default SameSite setting for cookies, so using this setting makes a cookie behave most similarly to how it has traditionally worked. However, Google is requiring that any cookie with this setting now specify the secure flag, which means the cookie will only be created and sent with requests over HTTPS. All cross-site cookies without the secure flag will be rejected by Google. |
+| `strict` | Cookies with this setting are only sent when both the referring page and the landing page are part of the same domain as the cookie. |
+| `lax` | Cookies with this setting are only sent when the domain displayed in the URL of the browser matches the domain of the cookie. This is the new default for cookies in Chrome. |
+| `none` | Cookies with this setting are available for external or third-party access, such as “cross-site.” Prior to this change, `none` was the default SameSite setting for cookies, so using this setting makes a cookie behave most similarly to how it has traditionally worked. However, Google is requiring that any cookie with this setting now specify the secure flag, which means the cookie will only be created and sent with requests over HTTPS. All cross-site cookies without the secure flag will be rejected by Google. |
 
 ## What you need to know as an Adobe Experience Cloud customer
 
@@ -27,15 +27,15 @@ Adobe products have already released server-side updates to set third-party cook
 
 **Ensure third-party endpoints are using HTTPS**
 
-All customers should confirm that their JavaScript configuration is using HTTPS for their calls to Adobe services. Adobe Target, Adobe Audience Manager, and the Experience Cloud Identity Service (ECID) are redirecting third-party HTTP calls to their HTTPS endpoint, which can increase latency. This means you are not required to change your configuration. Analytics customers should update their implementations to exclusively use HTTPS, as redirects specific to Analytics can cause data loss.
+All customers should confirm that their JavaScript configuration is using HTTPS for their calls to Adobe services. Target, Audience Manager, and the Experience Cloud Identity Service (ECID) are redirecting third-party HTTP calls to their HTTPS endpoint, which can increase latency. This means you are not required to change your configuration. Analytics customers should update their implementations to exclusively use HTTPS, as redirects specific to Analytics can cause data loss.
 
 **Correctly labeled cookies should collect data as intended**
 
-The browser should not take any action to block cookies as long as they are correctly labeled. Consumers will have the option to block certain types of cookies, but currently, this appears to be an opt-in setting only.
+As long as cookies are correctly labelled, browsers will not take any action to block them. Consumers will have the option to block certain types of cookies, but currently, this appears to be an opt-in setting only.
 
 **Existing third-party cookies without the updated labels will be ignored**
 
-Third-party cookies that are created before Chrome 80 starts enforcing the SameSite=`none` and secure flags settings will be ignored by Chrome 80 if these flags are not present.
+Third-party cookies that were created before Chrome 80 started enforcing the SameSite=`none` and secure flags settings will be ignored by Chrome 80 if these flags are not present.
 
 Since many of the existing Adobe third-party cookies do not have these flags, these cookies will need to be updated by Adobe’s Edge servers before users upgrade to Chrome 80 or those cookies will be lost. The Edge servers update happens automatically as users visit any website where the cookie is used.
 
