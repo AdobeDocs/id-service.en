@@ -7,7 +7,7 @@ seo-description: Documentation for Adobe ECID (ID Service) library.
 
 # Google Chrome SameSite labelling changes {#samesite}
 
-The SameSite attribute tells browsers when and how to fire cookies in first and third-party scenarios. The SameSite attribute can have one of three values: `strict`, `lax`, or `none`. The first two values have been supported by Chrome, Firefox, Edge, Safari, and Opera since November 2017. The value `none` was introduced in 2018. However, some older browsers do not support this setting. In May 2019, Google announced they would be changing the default setting from `none` to `lax` when a cookie does not specify a SameSite value.
+The SameSite attribute tells browsers when and how to fire cookies in first and third-party scenarios. The SameSite attribute can have one of three values: `strict`, `lax`, or `none`. Chrome, Firefox, Edge, Safari, and Opera have supported `strict` and `lax` since November 2017, while `none` was introduced in 2018. However, some older browsers do not support this setting. In May 2019, Google announced they would be changing the default setting from `none` to `lax` when a cookie does not have a specified SameSite attribute value.
 
 SameSite attribute is part of the [cookie standard](https://tools.ietf.org/html/draft-ietf-httpbis-rfc6265bis-03#section-4.1).
 
@@ -23,7 +23,7 @@ SameSite attribute is part of the [cookie standard](https://tools.ietf.org/html/
 
 **No JavaScript updates required**
 
-Adobe products have already released server-side updates to set third-party cookies with the appropriate attributes.
+Adobe products have already released server-side updates to set third-party cookies with the appropriate attributes. No JavaScript library updates are needed by our customers.
 
 **Ensure third-party endpoints are using HTTPS**
 
@@ -37,7 +37,7 @@ As long as cookies are correctly labelled, browsers will not take any action to 
 
 Third-party cookies that were created before Chrome 80 started enforcing the SameSite=`none` and secure flags settings will be ignored by Chrome 80 if these flags are not present.
 
-Since many of the existing Adobe third-party cookies do not have these flags, these cookies will need to be updated by Adobe’s Edge servers before users upgrade to Chrome 80 or those cookies will be lost. The Edge servers update happens automatically as users visit any website where the cookie is used.
+Many of the existing Adobe third-party cookies do not have these flags and will need to be updated by Edge servers before users upgrade to Chrome 80 or those cookies will be lost. The Edge servers update happens automatically as users visit any website where the cookie is used.
 
 Most Adobe products already have the appropriate flags assigned to cookies. The exception are Analytics implementations that use third-party data collection and do not use ECID. Customers may experience a small, temporary increase in new visitors that otherwise would have been returning visitors.
 
@@ -49,11 +49,11 @@ While Adobe has control over updating its cookies, Adobe can’t force partners 
 
 Some Analytics implementations use an Analytics CNAME alias to enable creating the `s_vi` cookie in the domain of that CNAME. If the CNAME is in the same domain as your website, this will be designated as a first-party cookie. However, if you own multiple domains and use the same CNAME for data collection across all your domains, then it will be designated as a third-party cookie on those other domains.
 
-With `Lax` becoming the new default SameSite setting in Chrome, the CNAME is no longer visible on other domains.
+With `lax` becoming the new default SameSite setting in Chrome, the CNAME is no longer visible on other domains.
 
-To accommodate the change, Analytics is now explicitly setting the SameSite value of `s_vi` cookie to `Lax`. To use this cookie in a friendly, third-party context, you will need to set the SameSite value to `None`, which also means you must always use HTTPS. Please contact Customer Care to have the SameSite value changed for your secure CNAMEs.
+To accommodate the change, Analytics is now explicitly setting the SameSite value of `s_vi` cookie to `lax`. To use this cookie in a friendly, third-party context, set the SameSite value to `none`, which also means you must always use HTTPS. Please contact Customer Care to have the SameSite value changed for your secure CNAMEs.
 
-> [!NOTE] This action is not required for Analytics customers using ECID, customers using a separate CNAME for each of their domains, or customers using only third-party Analytics data collection.
+> [!IMPORTANT] This action is not required for Analytics customers using ECID, customers using a separate CNAME for each of their domains, or customers using only third-party Analytics data collection.
 
 ## Adobe Standard Visitor Cookies
 
@@ -63,49 +63,49 @@ Only the common visitor standard cookies are listed in the table below. For addi
 
 | Cookie | Type | SameSite attribute | Secure attribute |
 | ------ | ---- | ------------------ | ---------------- |
-| AMCV_###@AdobeOrg | Client-side first-party | No-value added *Chrome defaults to `Lax` setting | Configurable |
-| AMCVS_###@AdobeOrg | Client-side first-party | No-value added *Chrome defaults to `Lax` setting | Configurable |
-| s_ecid | Server-side first-party | SameSite==`Lax` | Not set |
+| AMCV_###@AdobeOrg | Client-side first-party | No-value added *Chrome defaults to `lax` setting | Configurable |
+| AMCVS_###@AdobeOrg | Client-side first-party | No-value added *Chrome defaults to `lax` setting | Configurable |
+| s_ecid | Server-side first-party | SameSite==`lax` | Not set |
 
 ### Audience Manager
 
 | Cookie | Type | SameSite attribute | Secure attribute |
 | ------ | ---- | ------------------ | ---------------- |
-| Demdex | Third-party | `None` | Set to secure |
-| Dextp | Third-party | `None` | Set to secure |
+| Demdex | Third-party | `none` | Set to secure |
+| Dextp | Third-party | `none` | Set to secure |
 
 ### Analytics
 
 | Cookie | Type | SameSite attribute | Secure attribute |
 | ------ | ---- | ------------------ | ---------------- |
-| s_vi | <li> Server-side first-party if using `CNAME` </li> <li>Third-party if using 2o7.net or omtrdc.net</li> | <li>`Lax` if first-party</li> <li>`None` if third party</li> *Customers can edit setting via Customer Care ticket for first-party domains* | Set, if using `None` and HTTPS request |
-| s_fid | Client-side first-party | No value added *Chrome defaults to `Lax` setting | Not set |
+| s_vi | <li> Server-side first-party if using `CNAME` </li> <li>Third-party if using 2o7.net or omtrdc.net</li> | <li>`lax` if first-party</li> <li>`none` if third party</li> *Customers can edit setting via Customer Care ticket for first-party domains* | Set, if using `none` and HTTPS request |
+| s_fid | Client-side first-party | No value added *Chrome defaults to `lax` setting | Not set |
 
 ### Target
 
 | Cookie | Type | SameSite attribute | Secure attribute |
 | ------ | ---- | ------------------ | ---------------- |
-| mbox | First-party | No-value added *Chrome defaults to `Lax` setting | Not set |
+| mbox | First-party | No-value added *Chrome defaults to `lax` setting | Not set |
 
 ### Ad Cloud
 
 | Cookie | Type | SameSite attribute | Secure attribute |
 | ------ | ---- | ------------------ | ---------------- |
-| everest_g_v2 | Third-party | `None` *Only on Google Chrome and Chromium-based browsers* | Set, if using `None` and HTTPS request |
-| data_adcloud | First-party | No-value added *Chrome defaults to `Lax` setting | Not set |
-| ev_tm | Third-party | `None` *Only on Google Chrome and Chromium-based browsers* | Set, if using `None` and HTTPS request |
+| everest_g_v2 | Third-party | `none` *Only on Google Chrome and Chromium-based browsers* | Set, if using `none` and HTTPS request |
+| data_adcloud | First-party | No-value added *Chrome defaults to `lax` setting | Not set |
+| ev_tm | Third-party | `none` *Only on Google Chrome and Chromium-based browsers* | Set, if using `none` and HTTPS request |
 
 ### Bizible
 
 | Cookie | Type | SameSite attribute | Secure attribute |
 | ------ | ---- | ------------------ | ---------------- |
-| _buid | Third-party | `None` | Secure |
+| _buid | Third-party | `none` | Secure |
 
 ### Marketo Munchkin
 
 | Cookie | Type | SameSite attribute | Secure attribute |
 | ------ | ---- | ------------------ | ---------------- |
-| _mkto_trk | Client-side first-party | No-value added *Chrome defaults to `Lax` setting | Configurable for external pages |
+| _mkto_trk | Client-side first-party | No-value added *Chrome defaults to `lax` setting | Configurable for external pages |
 
 > ![IMPORTANT] Adobe third-party cookies are set server-side
 
