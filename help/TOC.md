@@ -86,7 +86,7 @@ user-guide-url: /content/help/en/id-service/using/home.html
       + [Data Collection CNAMEs and Cross-Domain Tracking](reference/analytics-reference/cname.md)
       + [Server-side Implementation Mixed with JavaScript](reference/analytics-reference/server-side.md)
       + [The ID Service Grace Period](reference/analytics-reference/grace-period.md)
-   + [Chrome SameSite labelling changes](reference/chrome-samesite-labelling.md)
+   + [Google Chrome SameSite labelling changes](reference/chrome-samesite-labelling.md)
    + [Content Security Policies and the ID Service](reference/csp.md)
    + [COPPA Support in the ID Service](reference/coppa.md)
    + [CORS Support in the ID Service](reference/cors.md)
