@@ -82,7 +82,7 @@ Only the common visitor standard cookies are listed in the table below. For addi
 
 | Cookie | Type | SameSite attribute | Secure attribute |
 | ------ | ---- | ------------------ | ---------------- |
-| s_vi | <ul><li> Server-side first-party if using `CNAME` </li> <li>Third-party if using 2o7.net or omtrdc.net</li> | <li>`lax` if first-party</li> <li>`none` if third party</li></ul> *Customers can edit setting via Customer Care ticket for first-party domains* | Set, if using `none` and HTTPS request |
+| s_vi | <ul><li> Server-side first-party if using `CNAME` </li> <li>Third-party if using 2o7.net or omtrdc.net</li></ul>| <ul><li>`lax` if first-party</li> <li>`none` if third party</li></ul> *Customers can edit setting via Customer Care ticket for first-party domains* | Set, if using `none` and HTTPS request |
 | s_fid | Client-side first-party | No value added *Chrome defaults to `lax` setting | Not set |
 
 ### Target
