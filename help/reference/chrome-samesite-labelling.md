@@ -5,7 +5,7 @@ description: Documentation for Adobe ECID (ID Service) library.
 seo-description: Documentation for Adobe ECID (ID Service) library.
 ---
 
-# Google Chrome SameSite labelling changes {#samesite}
+# Google Chrome SameSite labelling changes {#google-chrome-samesite-labelling-changes}
 
 The SameSite attribute tells browsers when and how to fire cookies in first and third-party scenarios. The SameSite attribute can have one of three values: `strict`, `lax`, or `none`. Chrome, Firefox, Edge, Safari, and Opera have supported `strict` and `lax` since November 2017, while `none` was introduced in 2018. However, some older browsers do not support this setting.
 
