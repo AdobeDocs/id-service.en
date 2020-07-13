@@ -15,8 +15,7 @@ These instructions are for Analytics and Audience Manager customers who want to 
 >
 >* [Read the requirements](../reference/requirements.md) before you begin. 
 >* This procedure requires AppMeasurement. Customers using s_code cannot complete this procedure. 
->* Configure and test this code in a development environment before implementing it in production. 
->
+>* Configure and test this code in a development environment before implementing it in production.
 
 ## Step 1: Plan for server-side forwarding {#section-880797cc992d4755b29cada7b831f1fc}
 
@@ -45,8 +44,7 @@ The ID Service requires the `VisitorAPI.js` code library. To download this code 
 >[!IMPORTANT]
 >
 >* Previous versions of the ID service API placed this function in a different location and required a different syntax. If you are migrating from a version prior to [version 1.4](../release-notes/notes-2015.md#section-f5c596f355b14da28f45c798df513572), note the new placement and syntax documented here. 
->* Code in ALL CAPS is a placeholder for actual values. Replace this text with your Organization ID, tracking server URL, or other named value. 
->
+>* Code in ALL CAPS is a placeholder for actual values. Replace this text with your Organization ID, tracking server URL, or other named value.
 
 **Part 1: Copy the Visitor.getInstance function below**
 
