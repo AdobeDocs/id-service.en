@@ -15,7 +15,6 @@ These instructions are for Target customers who want to use the Experience Cloud
 >
 >* [Read the requirements](../reference/requirements.md) before you begin. 
 >* Configure and test this code in a development environment before implementing it in production. 
->
 
 ## Step 1: Get the ID Service code {#section-b32ba0548aa546a79dd38be59832a53e}
 

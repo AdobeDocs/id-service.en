@@ -35,7 +35,9 @@ More FAQs will be added here as additional ITP changes are released. For more in
 
 As additional methods are created for tracking within Safari, they will be added as reference to this page.
 
->[!NOTE] *ECID* = *MID* = *MCID* in all documentation below.
+>[!NOTE]
+>
+>*ECID* = *MID* = *MCID* in all documentation below.
 
 See below for efforts related to ITP and ECID library usage.
 

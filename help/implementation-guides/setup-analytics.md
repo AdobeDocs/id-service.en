@@ -15,7 +15,6 @@ These instructions are for Analytics customers who want to use the Experience Cl
 >
 >* [Read the requirements](../reference/requirements.md) before you begin. 
 >* Configure and test this code in a development environment before implementing it in production. 
->
 
 Follow these steps to implement the ID Service for Adobe Analytics:
 
@@ -44,8 +43,7 @@ The [!UICONTROL ID Service] requires the `VisitorAPI.js` code library. To downlo
 >[!IMPORTANT]
 >
 >* Previous versions of the ID service API placed this function in a different location and required a different syntax. If you are migrating from a version prior to [version 1.4](../release-notes/notes-2015.md#section-f5c596f355b14da28f45c798df513572), note the new placement and syntax documented here. 
->* Code in ALL CAPS is a placeholder for actual values. Replace this text with your Organization ID, tracking server URL, or other named value. 
->
+>* Code in ALL CAPS is a placeholder for actual values. Replace this text with your Organization ID, tracking server URL, or other named value.
 
 **Part 1: Copy the Visitor.getInstance function below**
 
@@ -121,10 +119,10 @@ To determine which tracking server variables to use:
 
 >[!NOTE]
 >
->When used, match the [!DNL Experience Cloud] server URLs to their corresponding tracking server URLs like this: >
+>When used, match the [!DNL Experience Cloud] server URLs to their corresponding tracking server URLs like this: 
+>
 >* [!DNL Experience Cloud] server URL = tracking server URL 
 >* [!DNL Experience Cloud] server secure URL = tracking server secure URL 
->
 
 If you're not sure how to find your tracking server see the [FAQ](../faq-intro/faq.md) and [Correctly Populate the trackingServer and trackingServerSecure variables](https://helpx.adobe.com/analytics/kb/determining-data-center.html#).
 

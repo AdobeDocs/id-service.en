@@ -89,7 +89,6 @@ Customer IDs can include combinations of IDs and authenticated states as shown i
 >* Only use unencoded values for your IDs. 
 >* Customer IDs and authentication states are not stored in the visitor ID cookie. They must be set for every page or application context. 
 >* You should not include any Personally Identifiable Information (PII) in the customer IDs. If you are using PII to identify a visitor (such as an email address), we recommend storing a hashed or encrypted version of the information instead. The ECID library provides support for hashing user identifiers. See [SHA256 Hashing Support for setCustomerIDs](/help/reference/hashing-support.md).
->
 
 ```js
 // Single ID with a single authentication state 

@@ -8,7 +8,9 @@ uuid: 8df39d9c-c016-490e-b4db-d02e4044b480
 
 # Using Opt-in Services with IAB Framework{#using-opt-in-services-with-iab-framework}
 
->[!IMPORTANT] The following document only applies to IAB 2.0. Users need to use Visitor.js version 5.0 to work with IAB 2.0.
+>[!IMPORTANT]
+>
+>The following document only applies to IAB 2.0. Users need to use Visitor.js version 5.0 to work with IAB 2.0.
 
 Connect the Consent Management Platform (CMP) with Opt-in's IAB Transparency and Consent Framework (TCF) plugin.
 
