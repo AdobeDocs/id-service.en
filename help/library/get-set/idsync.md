@@ -29,10 +29,7 @@ The ID service functions idSyncByURL and idSyncByDataSource let you manually imp
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> visitor.idSyncByDataSource(); </span> </p> </td> 
-   <td colname="col2"> <p>When you already know the DPID and DPUUID and want to send it to <span class="keyword"> Audience Manager </span> in the standard ID sync URL format. </p> <p> 
-     <draft-comment>
-       When you already know the user ID and want to send it to Audience Manager. 
-     </draft-comment> </p> </td> 
+   <td colname="col2"> <p>When you already know the DPID and DPUUID and want to send it to <span class="keyword"> Audience Manager </span> in the standard ID sync URL format. </p> <p></p> </td> 
   </tr> 
  </tbody> 
 </table>

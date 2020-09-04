@@ -118,10 +118,7 @@ The following sections list the minimum code versions that are required to use t
   <tr> 
    <td colname="col1"> <p> <b> <span class="keyword"> Audience Manager </span> </b> </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> dil.js</span> </p> <p> See <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/dil-api/dil-overview.html" format="https" scope="external"> Data Integration Library</a> (DIL). </p> </td> 
-   <td colname="col4"> <p>5.0 </p> <p> 
-     <draft-comment>
-       updated from 4.9 
-     </draft-comment> </p> </td> 
+   <td colname="col4"> <p>5.0 </p></td> 
   </tr> 
   <tr> 
    <td colname="col1" morerows="1"> <p> <b> <span class="keyword"> Target </span> </b> </p> </td> 
