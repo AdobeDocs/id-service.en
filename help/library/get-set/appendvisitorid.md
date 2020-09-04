@@ -48,11 +48,7 @@ var visitor = Visitor.getInstance(...);
 //Append visitor IDs to the destination URL 
 var destinationURLWithVisitorIDs = visitor.appendVisitorIDsTo(destinationURL); 
      //Result of appendVisitorIDsTo includes destination URL, Experience Cloud ID (MCMID), and Analytics ID (MCAID) 
-     "www.destination.com?adobe_mc=MCMID=1234|MCAID=5678 
-<draft-comment>
-  |TS=123675879 
-</draft-comment>" 
- 
+     "www.destination.com?adobe_mc=MCMID=1234|MCAID=5678"
 //Redirect to the destination
 ```
 

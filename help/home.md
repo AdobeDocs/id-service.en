@@ -27,10 +27,10 @@ The Adobe Experience Cloud Identity Service (ID service) provides a universal, p
       <li id="li_B28082F3D075413D89E5AFB718657E17"> <a href="library/function-vars/coopsafe.md#reference-7fbed36f38a048d1a5883c53d430ddf4" format="dita" scope="local"> isCoopSafe </a> </li> 
       <li id="li_7744A4898EA542B9BF009D2066810050"> <a href="library/function-vars/idsyncontainerid.md#reference-5cfbed2240fa4def90f535f017a36015" format="dita" scope="local"> idSyncContainerID </a> </li> 
      </ul> </p> 
-    <draft-comment> 
+     <!-- 
      <p> <b>Announcements:</b> </p> 
      <p> <p>Important:  ID service support for Internet Explorer 6, 7, and 8 is deprecated and will be discontinued in a future release. </p> </p> 
-    </draft-comment> </td> 
+     --> </td> 
    <td colname="col2"> <p> <b>Release Notes</b> </p> <p><b>Version 4.4</b> July 17, 2019 release includes support for the <a href="reference/hashing-support.md" format="dita" scope="local"> SHA-256 hashing algorithm</a> that allows you to pass in customer IDs or email addresses, and pass out hashed IDs.</p><p><b>Version 4.0</b> February 12, 2019 release includes the <a href="implementation-guides/opt-in-service/optin-overview.md#concept-f9b5db0d27a245fbadd3e19162319360" format="dita" scope="local"> Opt-in service</a> used to identify if you can place a cookie on a user's device or browser when visiting your site. </p> <p> 
      <ul id="ul_4F06F170F214492780C7D25A069F799F"> 
       <li id="li_45A7CD556FE44F4DAB035C736A058F36"> See the latest <a href="https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html" format="https" scope="external"> Experience Cloud Release Notes</a> for new features and fixes. </li> 
