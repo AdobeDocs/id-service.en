@@ -57,7 +57,9 @@ With `lax` becoming the new default SameSite setting in Chrome, the CNAME is no 
 
 To accommodate the change, Analytics is now explicitly setting the SameSite value of `s_vi` cookie to `lax`. To use this cookie in a friendly, third-party context, set the SameSite value to `none`, which also means you must always use HTTPS. Please contact Customer Care to have the SameSite value changed for your secure CNAMEs.
 
-> [!IMPORTANT] This action is not required for Analytics customers using ECID, customers using a separate CNAME for each of their domains, or customers using only third-party Analytics data collection.
+>[!IMPORTANT]
+>
+>This action is not required for Analytics customers using ECID, customers using a separate CNAME for each of their domains, or customers using only third-party Analytics data collection.
 
 ## Adobe Standard Visitor Cookies
 
