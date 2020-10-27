@@ -1,6 +1,8 @@
 ---
 cloud: experience-cloud
 product: ID Service
+solution: Experience Cloud Services
+type: Documentation
 audience: end-user
 solution-title: Learn & Support
 solution-hub-url: https://helpx.adobe.com/support/experience-cloud/core-services.html
