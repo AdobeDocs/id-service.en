@@ -20,3 +20,5 @@ Fix for performance issue on `Internet-Explorer (IE) 11` when ECID is given optI
 
 * Beginning with version 4.5,  ECID will reject any empty IDs sent to `setCustomerIDs` method. 
 * Fixed an issue occurring when opt-in is configured as `doesOptInApply=false` and `isIabContext=true`.
+
+See [Experience Cloud release notes](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html) for monthly release notes for all products.
