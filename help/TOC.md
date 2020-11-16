@@ -36,7 +36,7 @@ user-guide-url: /content/help/en/id-service/using/home.html
       + [Validating Opt-in Service](implementation-guides/opt-in-service/testing-optin-and-iab-plugin.md)
       + [Configuring Opt-in with Experience Platform Launch](implementation-guides/opt-in-service/launch.md)
       + [Configuring Opt-in with DTM](implementation-guides/opt-in-service/optin-dtm.md)
-      + [Control Experience Cloud Activities Based on User Consent](implementation-guides/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent)
+      + [Control Experience Cloud Activities Based on User Consent](implementation-guides/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.md)
       + [Opt-in Use Cases](implementation-guides/opt-in-service/use-cases.md)
       + [Opt-in Reference](implementation-guides/opt-in-service/api.md)
       + [Using Opt-in Services with IAB Framework](implementation-guides/opt-in-service/iab.md)
