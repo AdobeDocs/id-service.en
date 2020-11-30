@@ -43,7 +43,7 @@ See below for efforts related to ITP and ECID library usage.
 
 ## Use ECID library and CNAME tracking to extend visitor ID expiration
 
-ITP 2.1 hampers the ability to write client-side cookies, which impairs the ability to provide accurate visitor tracking information to customers. As such, a change is being introduced in Adobe's CNAME tracking servers to store the visitor's Experience Cloud ID (ECID) in a first party cookie.
+ITP 2.1 hampers the ability to write client-side cookies, which impairs the ability to provide accurate visitor tracking information to customers. As such, a change is being introduced in Adobe's CNAME tracking servers to store the visitor's Experience Cloud ID (ECID) in a first-party cookie.
 
 This change is only helpful for ECID customers using an Analytics CNAME in first-party context. If you are an Analytics customer not currently using a CNAME, or even a non-Analytics customer, you are still eligible for a CNAME record. Contact Customer Care or your account representative to start the process of registering for a [CNAME](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-first-party.html).
 
@@ -59,7 +59,7 @@ In addition, if your consumer has opted out of Analytics tracking via this [meth
 
 The tracking server name should be supplied to the VisitorJS library when initializing the library using `trackingServer` or `trackingServerSecure`. This should match the `trackingServer` config in the Analytics configs.
 
-If you choose not to take advantage of this method, add the following config to your ECID library implementation: `discardtrackingServerECID`. When this config is set to true, Visitor library does not read the MID set by the first party tracking server.
+If you choose not to take advantage of this method, add the following config to your ECID library implementation: `discardtrackingServerECID`. When this config is set to true, Visitor library does not read the MID set by the first-party tracking server.
 
 ![](assets/itp-proposal-v1.png)
 
