@@ -1,9 +1,5 @@
 # Contribute article
 
-| EXL-PR | EXL | Preview | Activate | Published | Help |
-|--- |--- |--- |--- |--- |--- |
-| [![Build Status](https://docs.ci.corp.adobe.com/view/exl-pr/job/id-service.en_pr-exl/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/id-service.en_pr-exl/lastBuild/) | [![Build Status](https://docs.ci.corp.adobe.com/view/exl-pr/job/id-service.en_exl/lastBuild/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/id-service.en_exl/lastBuild/lastBuild) | [Preview URL](https://experienceleague.corp.adobe.com/docs/id-service/using/home.html?lang=en) | [activate-exl](https://docs.ci.corp.adobe.com/job/activate-exl/build/)| [Live URL](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en) | [Authoring Guide](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/home.html?lang=en) |
-
 We welcome content contributions from our community and Adobe employees outside the documentation teams. 
 
 ## Adobe Open Source Code of Conduct
