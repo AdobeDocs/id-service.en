@@ -33,4 +33,3 @@ var visitor = Visitor.getInstance("IMSORG_ID", {
 
 });
 ```
- 
