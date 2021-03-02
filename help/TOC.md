@@ -58,6 +58,7 @@ user-guide-url: /content/help/en/id-service/using/home.html
       + [overwriteCrossDomainMCIDAndAID](library/function-vars/overwrite-visitor-id.md)
       + [resetBeforeVersion](library/function-vars/resetbeforeversion.md)
       + [sdidParamExpiry](library/function-vars/sdidparamexpiry.md)
+      + [Secure and SameSite configurations](library/function-vars/secure-samesite-config.md)
       + [secureCookie](library/function-vars/securecookie.md)
       + [useCORSOnly](library/function-vars/use-cors-only.md)
       + [whitelistParentDomain and whitelistIframeDomains](library/function-vars/whitelistdomain.md)
