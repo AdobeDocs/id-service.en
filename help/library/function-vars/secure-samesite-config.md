@@ -10,7 +10,7 @@ title: Secure and SameSite configurations
 
 This configuration allows you to change the settings for your cookies and support [AMCV cookies](../../introduction/cookies.md) on Google AMP pages.
 
-The Adobe visitor ID service sets ECID cookies with the browser default setting of `SameSite = Lax`, which is inaccessible if the page is loaded in an iframe like a Google AMP page. As a workaround, you can update the setting to `SameSite = None`.
+The Adobe visitor ID service sets ECID cookies with the browser default setting of `SameSite = Lax`, which is inaccessible if the page is loaded in an iframe like a Google AMP page. In order to access ECID cookies, use the below configurations to update the SameSite setting to `SameSite = None`.
 
 >[!NOTE]
 >
