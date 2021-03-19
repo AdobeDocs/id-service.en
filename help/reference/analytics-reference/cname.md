@@ -1,7 +1,7 @@
 ---
-description: null
+description: If you have a main entry site where customers can be identified before they visit other domains, then a CNAME can enable cross-domain tracking in browsers that do not accept third-party cookies (such as Safari).
 keywords: order of operations;ID Service
-seo-description: null
+seo-description: If you have a main entry site where customers can be identified before they visit other domains, then a CNAME can enable cross-domain tracking in browsers that do not accept third-party cookies (such as Safari).
 seo-title: Data Collection CNAMEs and Cross-Domain Tracking
 title: Data Collection CNAMEs and Cross-Domain Tracking
 uuid: ba42c822-b677-4139-b1ed-4d98d3320fd0

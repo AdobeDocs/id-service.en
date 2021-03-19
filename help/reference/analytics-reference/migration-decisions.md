@@ -50,7 +50,7 @@ If you have multiple domains that send data to the *same report suite*, then we 
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Multiple domains </p> </td> 
-   <td colname="col2"> <p>If you are tracking visitors across multiple domains, and you also have a main entry site where customers can be identified before they visit other domains, then you should continue to use your data collection CNAME. See <a href="../../reference/analytics-reference/cname.md#concept-4df91f8a30ad4ec7a01eb943d579cc9d" format="dita" scope="local"> Data Collection CNAMES and Cross Domain Tracking</a> for a detailed explanation. </p> <p>Note that you need to specify two additional tracking-server parameters, <span class="codeph"> visitor.marketingCloudServer</span> and <span class="codeph"> visitor.marketingCloudServerSecure</span>, to configure a CNAME with the ID service. </p> </td> 
+   <td colname="col2"> <p>If you are tracking visitors across multiple domains, and you also have a main entry site where customers can be identified before they visit other domains, then you should continue to use your data collection CNAME. <!--See <a href="../../reference/analytics-reference/cname.md#concept-4df91f8a30ad4ec7a01eb943d579cc9d" format="dita" scope="local"> Data Collection CNAMES and Cross Domain Tracking</a> for a detailed explanation.--> </p> <p>Note that you need to specify two additional tracking-server parameters, <span class="codeph"> visitor.marketingCloudServer</span> and <span class="codeph"> visitor.marketingCloudServerSecure</span>, to configure a CNAME with the ID service. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>A single domain </p> </td> 

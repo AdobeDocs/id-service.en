@@ -86,7 +86,6 @@ user-guide-url: /content/help/en/id-service/using/home.html
       + [ID Service Migration Decision Points](reference/analytics-reference/migration-decisions.md)
       + [ID Service Migration Scenarios](reference/analytics-reference/migration-scenarios.md)
       + [Analytics and Identity Requests](reference/analytics-reference/legacy-analytics.md)
-      + [Data Collection CNAMEs and Cross-Domain Tracking](reference/analytics-reference/cname.md)
       + [Server-side Implementation Mixed with JavaScript](reference/analytics-reference/server-side.md)
       + [The ID Service Grace Period](reference/analytics-reference/grace-period.md)
    + [Google Chrome SameSite labelling changes](reference/chrome-samesite-labelling.md)

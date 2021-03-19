@@ -16,6 +16,6 @@ ID service features or functionality unique to Adobe Analytics.
 + [Experience Cloud Identity Service Migration Decision Points](migration-decisions.md)
 + [Experience Cloud Identity Service Migration Scenarios](migration-scenarios.md)
 + [Analytics and Experience Cloud ID Requests](legacy-analytics.md)
-+ [Data Collection CNAMEs and Cross-Domain Tracking](cname.md)
 + [Server-side Implementation Mixed with JavaScript](server-side.md)
 + [The ID Service Grace Period](grace-period.md)
+<!--+ [Data Collection CNAMEs and Cross-Domain Tracking](cname.md)-->
