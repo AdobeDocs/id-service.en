@@ -33,7 +33,7 @@ To avoid this, many customers have implemented CNAME records for their data coll
 
 JavaScript can read and write cookies set in the first-party domain (the domain of the current website). The [!DNL Experience Cloud] ID service uses this method to set the `AMCV_###@AdobeOrg` cookie that contains all of the visitor IDs, so the domain of the tracking server no longer needs to match the domain of the website in order for the visitor ID cookie to be stored. In most circumstances this is the preferred way to set the ID service cookie because it eliminates the overhead of CNAME records and SSL certificates.
 
-However, there are a few situations where setting the cookie in the HTTP header is beneficial for cross-domain tracking, which is described in [Data Collection CNAMEs and Cross-Domain Tracking](../../reference/analytics-reference/cname.md#concept-4df91f8a30ad4ec7a01eb943d579cc9d).
+<!---However, there are a few situations where setting the cookie in the HTTP header is beneficial for cross-domain tracking, which is described in [Data Collection CNAMEs and Cross-Domain Tracking](../../reference/analytics-reference/cname.md#concept-4df91f8a30ad4ec7a01eb943d579cc9d).-->
 
 ## Custom Analytics IDs {#section-b6a7bd19e9ff432390010062450808f6}
 
