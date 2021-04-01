@@ -1,5 +1,5 @@
 ---
-cloud: experience-cloud
+cloud: Experience Cloud
 product: ID Service
 solution: Experience Cloud Services
 type: Documentation
