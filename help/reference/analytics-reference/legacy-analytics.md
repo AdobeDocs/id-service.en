@@ -5,8 +5,8 @@ seo-description: An overview of how the Experience Cloud Identity Service works 
 seo-title: Analytics and Experience Cloud ID Requests
 title: Analytics and Experience Cloud ID Requests
 uuid: 28beed16-7ef9-4824-8e82-853930756eca
+exl-id: 8c682159-e23a-4641-9ffd-e0028dc2f305
 ---
-
 # Analytics and Experience Cloud ID Requests{#analytics-and-experience-cloud-id-requests}
 
 An overview of how the Experience Cloud Identity Service works with the legacy Analytics ID.
@@ -48,4 +48,4 @@ If the [!DNL Experience Cloud] (AMCV) cookie is not present, then an ID service 
 
 ## The AMCV Cookie is Set in the Browser {#section-01c088fc565c4b24ba1722c7cc240310}
 
-If the AMCV cookie is present, Analytics will use the MID as the [!DNL Analytics] identifier if there is no legacy [!DNL Analytics] ID value in the cookie. 
+If the AMCV cookie is present, Analytics will use the MID as the [!DNL Analytics] identifier if there is no legacy [!DNL Analytics] ID value in the cookie.

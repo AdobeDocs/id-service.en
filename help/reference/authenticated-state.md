@@ -5,8 +5,8 @@ seo-description: Along with the Experience Cloud visitor ID, you can associate a
 seo-title: Customer IDs and Authentication States
 title: Customer IDs and Authentication States
 uuid: 643df363-224a-463e-a332-be59926b47e7
+exl-id: 0215225c-20f5-4e44-a368-b2df683aca9d
 ---
-
 # Customer IDs and Authentication States {#customer-ids-and-authentication-states}
 
 Along with the Experience Cloud visitor ID, you can associate additional customer IDs and an authentication status with each visitor.
@@ -214,4 +214,4 @@ The [!DNL Experience Cloud] ID service supports customer IDs and authentication 
 
 ## Notice for Analytics and Audience Manager Customers {#section-3a8e9d51e71c4c6e865184b81ed9d99b}
 
-If you're passing declared IDs to [!DNL Audience Manager], the `userid` object needs to match the integration code associated with a data source. For more information, see the [!UICONTROL Visitor ID Service] section in the [Configure Merge Rules Code](https://docs.adobe.com/help/en/audience-manager/user-guide/features/profile-merge-rules/merge-rules-start.html#configure-merge-rule-code) documentation. 
+If you're passing declared IDs to [!DNL Audience Manager], the `userid` object needs to match the integration code associated with a data source. For more information, see the [!UICONTROL Visitor ID Service] section in the [Configure Merge Rules Code](https://docs.adobe.com/help/en/audience-manager/user-guide/features/profile-merge-rules/merge-rules-start.html#configure-merge-rule-code) documentation.

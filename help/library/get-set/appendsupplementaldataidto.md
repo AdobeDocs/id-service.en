@@ -5,8 +5,8 @@ seo-description: This helper method lets you append the Supplemental Data ID (SD
 seo-title: appendSupplementalDataIDTo
 title: appendSupplementalDataIDTo
 uuid: f3504d82-8da3-4971-818b-3df57df4ec2d
+exl-id: 7f0e7fca-4551-4165-a12b-c7e5514d6818
 ---
-
 # appendSupplementalDataIDTo{#appendsupplementaldataidto}
 
 This helper method lets you append the Supplemental Data ID (SDID) as a query string parameter to a redirect URL. This is useful when using A4T and you need to persist the SDID from one page to another and stitch those separate visits together. To use this function, you must have implemented the ID service with the same Organization ID on the source and destination domains.
@@ -69,4 +69,3 @@ var pageB = "www.domain.com/pageB";
 var pageBWithSdid = visitor.appendSupplementalDataIDTo(pageB, "67987653465787219"); 
 
 ```
-

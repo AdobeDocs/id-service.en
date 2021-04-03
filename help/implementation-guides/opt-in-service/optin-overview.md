@@ -4,8 +4,8 @@ seo-description: The Opt-in service lets you set up protocols for the visitor to
 seo-title: Opt-in Service
 title: Opt-in Service
 uuid: aebd72ad-4118-471b-9755-d08a72caa0fd
+exl-id: 351da861-4faa-409b-b0ff-f4d2ce66700b
 ---
-
 # Opt-in Service{#opt-in-service}
 
 The Opt-in service lets you set up protocols for the visitor to determine if you can set a cookie on the user's device or browser when visiting your site.
@@ -41,4 +41,4 @@ Using the Opt-in services, you can configure your site to allow some cookies to 
 
 ![](assets/Opt-in-approval.png)
 
-Adobe solutions can then check if the tag is approved, subscribe to changes, and then retrieve all Opt-in customers. Opt-in service allows you to get permissions directly through the solution JavaScript libraries or through ECID if implemented. 
+Adobe solutions can then check if the tag is approved, subscribe to changes, and then retrieve all Opt-in customers. Opt-in service allows you to get permissions directly through the solution JavaScript libraries or through ECID if implemented.

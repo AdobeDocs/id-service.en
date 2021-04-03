@@ -5,8 +5,8 @@ seo-description: Call these ID service functions to determine the timeout status
 seo-title: callTimeOut Methods
 title: callTimeOut Methods
 uuid: e5047498-11db-4945-b356-c92b7d447573
+exl-id: ff3a2c5e-a0a8-4257-b538-0e4ce454b4e8
 ---
-
 # callTimeOut Methods{#calltimeout-methods}
 
 Call these ID service functions to determine the timeout status for a Experience Cloud Identity Service, Analytics, or Audience Manager ID request. Available in VisitorAPI.js version 1.7.0 or higher.
@@ -60,4 +60,3 @@ Call these ID service functions to determine the timeout status for a Experience
   </tr> 
  </tbody> 
 </table>
-

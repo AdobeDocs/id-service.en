@@ -3,8 +3,8 @@ description: The role of the Experience Cloud Identity service in the Adobe Expe
 seo-description: The Experience Cloud Identity Service (formerly Visitor ID service or Marketing Cloud ID service) enables the common identification framework for the Experience Cloud services like customer attributes and audiences.
 seo-title: Experience Cloud ID Service overview
 title: Experience Cloud ID Service overview
+exl-id: dc7d6220-d42b-4a3e-bf37-1e4e87280ae1
 ---
-
 # Experience Cloud ID Service overview
 
 The [!UICONTROL Experience Cloud Identity Service] enables the common identification framework for Experience Cloud Core Services (such as customer attributes and audiences) solutions in the Experience Platform Identity Service.

@@ -5,8 +5,8 @@ seo-description: This function lets you share a visitor's Experience Cloud ID ac
 seo-title: appendVisitorIDsTo (Cross-Domain Tracking)
 title: appendVisitorIDsTo (Cross-Domain Tracking)
 uuid: 06b453ee-73c5-4625-82d9-877ad2b4f702
+exl-id: 3e4f4e2c-e658-4124-bd0e-59c63127bdde
 ---
-
 # appendVisitorIDsTo (Cross-Domain Tracking){#appendvisitoridsto-cross-domain-tracking}
 
 This function lets you share a visitor's Experience Cloud ID across domains when browsers block third-party cookies. To use this function, you must have implemented the ID service and own the source and destination domains. Available in VisitorAPI.js version 1.7.0 or higher.
@@ -76,4 +76,3 @@ var destinationURLWithVisitorIDs = visitor.appendVisitorIDsTo(destinationURL);
   </tr> 
  </tbody> 
 </table>
-

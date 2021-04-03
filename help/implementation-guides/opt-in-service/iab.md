@@ -4,8 +4,8 @@ seo-description: Connect their Consent Management Platform (CMP) with Audience M
 seo-title: Using Opt-in Services with IAB Framework
 title: Using Opt-in Services with IAB Framework
 uuid: 8df39d9c-c016-490e-b4db-d02e4044b480
+exl-id: 9ac9b232-0797-4e77-a611-9cf5d17a5cb7
 ---
-
 # Using Opt-in Services with IAB Framework{#using-opt-in-services-with-iab-framework}
 
 >[!IMPORTANT]

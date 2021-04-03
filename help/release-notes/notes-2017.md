@@ -5,8 +5,8 @@ seo-description: Feature releases, updates, or changes to the Experience Cloud I
 seo-title: 2017 Release Notes
 title: 2017 Release Notes
 uuid: 79452df0-49db-42b8-96fe-01aa7629fbb5
+exl-id: 0b51d3b1-e405-4473-9e1a-f89a55250e5e
 ---
-
 # 2017 Release Notes {#release-notes}
 
 Feature releases, updates, or changes to the Experience Cloud Identity Service for 2017.
@@ -206,4 +206,4 @@ January, 2017
 
 ## Previous Years {#section-aaabe2b7b0f04641b24acffc11cd7d2e}
 
-Older ID service release notes. 
+Older ID service release notes.

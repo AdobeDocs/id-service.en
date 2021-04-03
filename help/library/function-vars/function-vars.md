@@ -5,8 +5,8 @@ seo-description: Configure the ID service by passing these properties to the Vis
 seo-title: Configurations
 title: Configurations
 uuid: 2dfe1ed6-f3a6-4f5c-976b-eeb43738c20c
+exl-id: a369f624-d263-4287-bb7e-b89d584fa245
 ---
-
 # Configurations{#configurations}
 
 Configure the ID service by passing these properties to the Visitor.getInstance static method.
@@ -34,4 +34,3 @@ Related articles:
 + [secureCookie](securecookie.md)
 + [useCORSOnly](use-cors-only.md)
 + [whitelistParentDomain and whitelistIframeDomains](whitelistdomain.md)
-

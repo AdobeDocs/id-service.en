@@ -4,8 +4,8 @@ seo-description: API for the Opt-in library and configuration settings reference
 seo-title: Opt-in Reference
 title: Opt-in Reference
 uuid: d5023a34-2f3e-464d-b21f-579b2f416ce6
+exl-id: aa61aed7-695b-47e4-a922-9841e00aa09d
 ---
-
 # Opt-in Reference{#opt-in-reference}
 
 API for the Opt-in library and configuration settings reference.

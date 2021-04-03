@@ -1,8 +1,8 @@
 ---
 title: Use Opt-In to Control Experience Cloud Activities Based on User Consent
 description: The Adobe Opt-in Object is an extension of the Adobe Experience Platform Identity Service, designed to help you control whether and which Experience Cloud solutions can create cookies on web pages or initiate beacons, based on end user consent.
+exl-id: ac44e628-01ca-401c-864b-30fed0450e5f
 ---
-
 # Control Experience Cloud Activities Based on User Consent
 
 The Adobe [!UICONTROL Opt-in] Object is an extension of the Adobe [!UICONTROL Experience Platform Identity Service], designed to help you control whether and which Experience Cloud solutions can create cookies on web pages or initiate beacons, based on end user consent.

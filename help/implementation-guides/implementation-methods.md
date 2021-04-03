@@ -5,8 +5,8 @@ seo-description: Standard vs. non-standard implementation methods of the Experie
 seo-title: Implementation methods
 title: Implementation methods
 uuid: d41250e2-09f4-4a8b-8ade-54d43e9281c9
+exl-id: 0fe40a3c-bdcd-4290-bcd7-25344ff108d6
 ---
-
 # Implementation methods
 
 You can choose a standard [!DNL Experience Cloud ID Service] implementation method using [!DNL Experience Platform Launch] or a non-standard method.

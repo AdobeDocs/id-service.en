@@ -5,8 +5,8 @@ seo-description: Review this section to make sure you're using the right solutio
 seo-title: Requirements for the Experience Cloud Identity Service
 title: Requirements for the Experience Cloud Identity Service
 uuid: 608b1082-6e9e-4101-b6cb-60027950109b
+exl-id: ebeac4c7-b36c-4a4e-9378-351fac5baf53
 ---
-
 # Requirements for the Experience Cloud Identity Service {#requirements-for-the-experience-cloud-id-service}
 
 Review this section to make sure you're using the right solutions, services, and code versions required by the Experience Cloud Identity Service.

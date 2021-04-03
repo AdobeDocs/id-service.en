@@ -4,8 +4,8 @@ seo-description: Adobe Experience Platform Launch is the primary tool used to se
 seo-title: Implement with Launch
 title: Implement with Launch
 uuid: b3282f8e-82b8-4635-8c80-1b365e8a9693
+exl-id: cf197fde-3b93-4578-b24e-2db5633f043c
 ---
-
 # Implement with Launch{#implement-with-launch}
 
 Adobe Experience Platform Launch is the primary tool used to set up, deploy, and integrate the Experience Cloud Identity Service with your other Experience Cloud solutions.
@@ -17,4 +17,3 @@ Adobe Experience Platform Launch is the primary tool used to set up, deploy, and
 * Deploy client-side web products using integrations called extensions 
 * Consistently capture, define, manage, and share data between marketing and advertising products from other vendors and from Adobe 
 * Launch is an advanced JavaScript delivery system that evaluates conditions and executed actions to efficiently and effectively deploy client-side libraries and products. It provides a highly scalable approach to managing and building extensions, together with a robust set of APIs for programmatic interaction with the Adobe Experience Cloud.
-

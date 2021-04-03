@@ -5,8 +5,8 @@ seo-description: An overview of the ID request and response process. These examp
 seo-title: How the Experience Cloud Identity Service requests and sets IDs
 title: How the Experience Cloud Identity Service requests and sets IDs
 uuid: ff7f5b7e-e959-4391-b75c-b7a36286e0ea
+exl-id: 1bbee560-d72a-47cf-b3fe-d6bbcacb9eff
 ---
-
 # How the Experience Cloud Identity Service requests and sets IDs{#how-the-experience-cloud-id-service-requests-and-sets-ids}
 
 An overview of the ID request and response process. These examples cover ID assignment on individual sites, across different sites, and for sites managed by different Experience Cloud customers with their own organization IDs.
@@ -57,4 +57,3 @@ After the DCS receives the organization ID and the demdex ID, it creates and ret
 In this example, our visitor leaves the Food Company sites and navigates to the soccer site owned by the Sports Company. When the visitor comes to the soccer site, the ID checking and request process works the same way as described in the previous examples. However, because the Sports Company has its own organization ID, the ID service returns a different MID. The new MID is unique to the domains controlled by the Sports Company and lets that enterprise track and share visitor data across solutions in the [!DNL Experience Cloud]. The demdex ID remains the same for this visitor because it's contained in a third-party cookie and persists across different domains.
 
 ![](assets/req_resp.png)
-

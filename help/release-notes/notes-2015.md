@@ -5,8 +5,8 @@ seo-description: Release notes and updates for 2015.
 seo-title: 2015 Release Notes
 title: 2015 Release Notes
 uuid: 49423699-1e0f-49e4-9135-2ae84b4f92df
+exl-id: 57c45726-f856-4af5-a30a-9a1bdcaa6411
 ---
-
 # 2015 Release Notes {#release-notes}
 
 Release notes and updates for 2015.
@@ -75,4 +75,4 @@ Fixed the handling of timeout on requests for AAM Blob and Location Hint. Now, o
 
 January, 2015
 
-Reworked `<head>/<body>` tag finding for JSONP request `<script>` tag container, as well as the creation of the `<script>` tag to account for different DOM implementations (HTML vs XHTML) with possibly different case sensitivity settings. (AN-9355) 
+Reworked `<head>/<body>` tag finding for JSONP request `<script>` tag container, as well as the creation of the `<script>` tag to account for different DOM implementations (HTML vs XHTML) with possibly different case sensitivity settings. (AN-9355)

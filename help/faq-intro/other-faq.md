@@ -5,8 +5,8 @@ seo-description: Frequently asked questions about features, functionality, and i
 seo-title: FAQs for other Experience Cloud solutions
 title: FAQs for other Experience Cloud solutions
 uuid: 7d848663-6cbb-4d80-ab06-7b6d2dc20e2b
+exl-id: d1164951-01c9-4375-981a-f87d8a280e4b
 ---
-
 # FAQs for other Experience Cloud solutions{#faqs-for-other-experience-cloud-solutions}
 
 Frequently asked questions about features, functionality, and issues related to using other Experience Cloud solutions with the ID service.
@@ -27,4 +27,3 @@ There are two options here:
 
 * If a user has any visiting activity after the ID Service is implemented, the visitor and their history is included in the data export to [!DNL Audience Manager]. 
 * If a user does not have any visiting activity after the ID Service is implemented, the visitor and their history will not be included in the data export to Audience Manager. Because new activity is not present, we have no way to associate the Analytics ID with the Experience Cloud ID.
-

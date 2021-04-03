@@ -5,8 +5,8 @@ seo-description: If you have multiple JavaScript files that are sending data to 
 seo-title: The ID Service Grace Period
 title: The ID Service Grace Period
 uuid: 10a7db7d-de32-4379-914f-edaf929efa32
+exl-id: 83b4898c-8358-458b-a798-1e3c9633afe9
 ---
-
 # The ID Service Grace Period {#the-id-service-grace-period}
 
 If you have multiple JavaScript files that are sending data to the same report suite, or if you are using other technologies on your site such as Flash video measurement, we recommend configuring a grace period.
@@ -29,4 +29,4 @@ If you have multiple JavaScript files that are sending data to the *same report 
 
 ## How can I enable a grace period? {#section-512d5cd8570e483cbdd8b04457a16ced}
 
-Contact [Customer Care](https://helpx.adobe.com/marketing-cloud/contact-support.html). 
+Contact [Customer Care](https://helpx.adobe.com/marketing-cloud/contact-support.html).

@@ -4,8 +4,8 @@ seo-description: Implement the Opt-in service as the single point of reference u
 seo-title: Setting up Opt-in Service
 title: Setting up Opt-in Service
 uuid: f1c27139-cef2-4122-af12-c839cfc82e6e
+exl-id: 6e8a6531-9924-4523-a842-cb4614a7a7a0
 ---
-
 # Setting up Opt-in Service{#setting-up-opt-in-service}
 
 Implement the Opt-in service as the single point of reference used by Experience Cloud solutions (referred to as Categories in Opt-in) to determine whether or not to create cookies on a visitor's device.
@@ -140,4 +140,3 @@ The `adobe.optIn` object is stateless and provides no storage mechanism. It is i
 
 * If your consent persistence solution, whether it be a CMP or a cookie on the visitor's browser, allows for timely retrieval of visitor preferences, you can provide those to the Opt-in service during Visitor initialization. 
 * However, if retrieval can be a lengthy process or is otherwise best served as an asynchronous process, you can use the service's `approve()` function to provide those settings once they are successfully loaded.
-

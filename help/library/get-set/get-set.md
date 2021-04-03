@@ -5,8 +5,8 @@ seo-description: Public methods that let you interact with the ID service.
 seo-title: Methods
 title: Methods
 uuid: 184d0a62-0c8d-481b-9afe-b7a67bdafdce
+exl-id: 59a930f0-c0a8-477e-abad-f019d7d02d3b
 ---
-
 # Methods{#methods}
 
 Public methods that let you interact with the ID service.
@@ -30,4 +30,3 @@ Related articles:
 + [getVisitorValues](getvisitorvalues.md)
 + [isClientSideMarketingCloudVisitorID](client-side-id.md)
 + [resetState](resetstate.md)
-

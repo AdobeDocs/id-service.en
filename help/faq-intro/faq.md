@@ -5,8 +5,8 @@ seo-description: Frequently asked questions about features, functionality, and i
 seo-title: ID Service FAQs
 title: ID Service FAQs
 uuid: e8d8f819-3d73-4fa2-864c-4867071c14ee
+exl-id: 4dd2220c-8a9d-4e27-838b-be5ad357cb3e
 ---
-
 # ID Service FAQs{#id-service-faqs}
 
 Frequently asked questions about features, functionality, and issues related to using the ID service.

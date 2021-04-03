@@ -5,8 +5,8 @@ seo-description: These instructions are for Analytics and Audience Manager custo
 seo-title: Implement the Experience Cloud Identity Service for Analytics and Audience Manager
 title: Implement the Experience Cloud Identity Service for Analytics and Audience Manager
 uuid: d46050ae-87de-46cc-911b-d6346c7fd511
+exl-id: e31720a1-5c89-4084-88f6-443994dbb2f4
 ---
-
 # Implement the Experience Cloud Identity Service for Analytics and Audience Manager{#implement-the-experience-cloud-id-service-for-analytics-and-audience-manager}
 
 These instructions are for Analytics and Audience Manager customers who want to use the Experience Cloud Identity Service and do not use Dynamic Tag Management (DTM). However, we strongly recommend that you use DTM to implement the ID service. DTM streamlines the implementation workflow and automatically ensures the correct code placement and sequencing.
@@ -203,4 +203,3 @@ If you enabled a grace period:
 
 * Ensure the Analytics ID (AID) and MID are in the image request. 
 * Remember to disable the grace period once you meet the criteria for discontinuation.
-

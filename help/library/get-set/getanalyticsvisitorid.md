@@ -5,8 +5,8 @@ seo-description: Returns the legacy Analytics ID (if any) that was stored in the
 seo-title: getAnalyticsVisitorID
 title: getAnalyticsVisitorID
 uuid: 6bb8ddfc-9fc1-4105-b377-d9b4d247a0f8
+exl-id: 82973de4-4257-4aab-9268-4ab124a01ee2
 ---
-
 # getAnalyticsVisitorID{#getanalyticsvisitorid}
 
 Returns the legacy Analytics ID (if any) that was stored in the s_vi cookie before the Experience Cloud Identity Service was implemented. It returns an empty string if a visitor was never assigned an Analytics ID.

@@ -5,8 +5,8 @@ seo-description: Before deploying the Experience Cloud Identity Service, you sho
 seo-title: Experience Cloud Identity Service Migration Decision Points
 title: Experience Cloud Identity Service Migration Decision Points
 uuid: ee56b5de-fcf3-4cfb-9e53-762af7c4d2ff
+exl-id: f2802db2-c95f-476f-8c60-f45e8312253c
 ---
-
 # Experience Cloud Identity Service Migration Decision Points
 
 Before deploying the Experience Cloud Identity Service, you should understand how this service affects visitor tracking on multiple domains and potential issues if you are collecting data with different methods or through JavaScript files.
@@ -118,4 +118,3 @@ You might need to update the way you track links or migrate away from Sliverligh
   </tr> 
  </tbody> 
 </table>
-

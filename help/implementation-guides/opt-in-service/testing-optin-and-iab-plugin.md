@@ -4,8 +4,8 @@ seo-description: Once you have enabled Opt-in on your website, use the validatio
 seo-title: Validating Opt-in Service
 title: Validating Opt-in Service
 uuid: 1743360a-d757-4e50-8697-0fa92b302cbc
+exl-id: f0bcb32a-ccad-40a4-b031-2584e4136ace
 ---
-
 # Validating Opt-in Service{#validating-opt-in-service}
 
 Once you have enabled Opt-in on your website, use the validation methods to test that the service is working as expected using the developer tools in your browser.

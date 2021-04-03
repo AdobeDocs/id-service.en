@@ -5,8 +5,8 @@ seo-description: This implementation lets customers use the ID service on device
 seo-title: Direct integration with the Experience Cloud Identity Service
 title: Direct integration with the Experience Cloud Identity Service
 uuid: de502f7e-cffd-4130-b3ca-7d6b9a9caae9
+exl-id: 29565b74-5fe7-41f7-b278-6a90559faab9
 ---
-
 # Direct integration with the Experience Cloud Identity Service {#direct-integration-with-the-experience-cloud-id-service}
 
 This implementation lets customers use the ID service on devices that cannot accept or work with our JavaScript or SDK code. This includes devices such as gaming consoles, smart TVs, or other Internet-enabled appliances. Refer to this section for syntax, code samples, and definitions.
@@ -119,4 +119,3 @@ Some response parameters are part of the request and have been defined in the se
   </tr> 
  </tbody> 
 </table>
-

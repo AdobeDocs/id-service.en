@@ -5,8 +5,8 @@ seo-description: Change the default domain name used by calls to the Experience 
 seo-title: audienceManagerServer and audienceManagerServerSecure
 title: audienceManagerServer and audienceManagerServerSecure
 uuid: e21cacbf-5151-4d34-b0f7-9e90275f4c7c
+exl-id: b740eb5c-ac4e-46f4-ba7c-1080d8d9292d
 ---
-
 # audienceManagerServer and audienceManagerServerSecure{#audiencemanagerserver-and-audiencemanagerserversecure}
 
 Change the default domain name used by calls to the Experience Cloud Identity Service to your own subdomain name with these configurations.
@@ -42,4 +42,3 @@ var visitor = Visitor.getInstance("Insert Experience Cloud Organization ID here"
      } 
 );
 ```
-

@@ -5,8 +5,8 @@ seo-description: Browsers use Cross Origin Resource Sharing (CORS) to request re
 seo-title: CORS Support in the Experience Cloud Identity Service
 title: CORS Support in the Experience Cloud Identity Service
 uuid: e656b573-72a8-4312-a7d5-5cc3818f0a9e
+exl-id: 0e8ffe85-8d1f-42a0-aae3-a2b3b28c7bce
 ---
-
 # CORS Support in the Experience Cloud Identity Service {#cors-support-in-the-experience-cloud-id-service}
 
 Browsers use Cross Origin Resource Sharing (CORS) to request resources from a domain other than the current domain. The Experience Cloud Identity Service supports CORS standards that enable these client-side, cross-origin resource requests. The ID service reverts to JSONP requests on older browsers or browsers that do not support CORS.
@@ -85,4 +85,3 @@ The table below describes some of the advantages CORS provides to customers who 
   </tr> 
  </tbody> 
 </table>
-

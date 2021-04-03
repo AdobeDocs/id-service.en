@@ -5,8 +5,8 @@ seo-description: Feature releases, updates, or changes to the Experience Cloud I
 seo-title: 2016 Release Notes
 title: 2016 Release Notes
 uuid: 7a5a314a-3ff8-4561-9c64-6c10d2223887
+exl-id: f96b9869-6282-4090-b392-797608e25a51
 ---
-
 # 2016 Release Notes {#release-notes}
 
 Feature releases, updates, or changes to the Experience Cloud Identity Service for 2016.
@@ -220,4 +220,3 @@ January, 2016
   </tr> 
  </tbody> 
 </table>
-

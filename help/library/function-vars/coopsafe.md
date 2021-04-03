@@ -5,8 +5,8 @@ seo-description: An optional, Boolean configuration that determines if the ID se
 seo-title: isCoopSafe
 title: isCoopSafe
 uuid: 4dfa1f35-0a88-48d1-9484-d88cb53ad461
+exl-id: 827f7819-9f95-4e8d-90c3-dcf86b67715b
 ---
-
 # isCoopSafe{#iscoopsafe}
 
 An optional, Boolean configuration that determines if the ID service sends (or does not send) data to the Adobe Experience Cloud Device Co-op.

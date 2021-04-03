@@ -5,8 +5,8 @@ seo-description: setCustomerIDs sets 1 or more key-value pairs that define custo
 seo-title: setCustomerIDs
 title: setCustomerIDs
 uuid: 4f960f98-cec2-4db6-84ea-0259e2128ea2
+exl-id: 8fc549d3-2a6f-4214-bb0d-3e0bc1501ce2
 ---
-
 # setCustomerIDs{#setcustomerids}
 
 setCustomerIDs sets 1 or more key-value pairs that define customer IDs and their authentication state.
@@ -33,4 +33,3 @@ visitor.setCustomerIDs({
     "dpuuid":"550e8400-e29b-41d4-a716-446655440000" 
 });
 ```
-

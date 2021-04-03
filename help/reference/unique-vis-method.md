@@ -1,8 +1,8 @@
 ---
 title: Identifying Unique Visitors
 description: Documentation for Adobe ECID (ID Service)
+exl-id: 379dbf0a-814d-4348-9ac4-d0e8fc13b9dc
 ---
-
 # Identifying Unique Visitors
 
 The method for identifying unique visitors among multiple contexts includes a prioritized sequence to ensure accuracy in this determination. The following table shows this prioritized sequence:

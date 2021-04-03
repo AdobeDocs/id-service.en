@@ -5,8 +5,8 @@ seo-description: In some implementations, visitor IDs are passed from JavaScript
 seo-title: Server-side Implementation Mixed with JavaScript
 title: Server-side Implementation Mixed with JavaScript
 uuid: 256ea0e7-1eb4-4c92-9a7e-f61cb1ed13c7
+exl-id: 1986ee11-2021-4f34-bb56-6eaa87b6dd6d
 ---
-
 # Server-side Implementation Mixed with JavaScript {#server-side-implementation-mixed-with-javascript}
 
 In some implementations, visitor IDs are passed from JavaScript to a server so that additional Analytics events (such as a purchase) can be sent by the server.
@@ -29,4 +29,4 @@ See [Supported XML Tags](https://www.adobe.io).
 
 ## AppMeasurement for Java {#section-d664b94934924d048300d9c2b6560085}
 
-The Experience Cloud Identity Service is not currently supported by AppMeasurement for Java. 
+The Experience Cloud Identity Service is not currently supported by AppMeasurement for Java.

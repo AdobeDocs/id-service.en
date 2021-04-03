@@ -5,8 +5,8 @@ seo-description: This property sets the data source container ID that you want t
 seo-title: idSyncContainerID
 title: idSyncContainerID
 uuid: e35dc48b-1aa1-41e3-91c1-ef1e9d2d8b90
+exl-id: 6c4cd41b-902b-4872-8c3f-475a834b76f4
 ---
-
 # idSyncContainerID{#idsynccontainerid}
 
 This property sets the data source container ID that you want to use for ID syncs.
@@ -82,4 +82,3 @@ If you have deployed [!UICONTROL DIL]*and* VisitorAPI.js on the same page:
 
 * Visitor ID service code takes precedence over DIL for ID syncs. 
 * Set the `idSyncContainerID` configuration in the ID service code only.
-

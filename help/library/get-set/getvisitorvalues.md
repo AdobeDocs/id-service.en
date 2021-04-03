@@ -5,8 +5,8 @@ seo-description: This is an asynchronous API that returns identifiers for Analyt
 seo-title: getVisitorValues
 title: getVisitorValues
 uuid: 7fb831b3-cf7e-40e2-a219-07fec28ad49c
+exl-id: bd023e8d-a804-4205-989f-e1e58080b63c
 ---
-
 # getVisitorValues{#getvisitorvalues}
 
 This is an asynchronous API that returns identifiers for Analytics, the ID service, data collection opt-out, geographic location, and metadata "blob" content by default. Also, you can control which IDs you want to return with the optional visitor.FIELDS enum.
@@ -116,4 +116,3 @@ The following table lists and defines the response parameters. These are also al
   </tr> 
  </tbody> 
 </table>
-

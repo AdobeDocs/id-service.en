@@ -5,8 +5,8 @@ seo-description: The ID service functions idSyncByURL and idSyncByDataSource let
 seo-title: ID Synchronization by URL or Data Source
 title: ID Synchronization by URL or Data Source
 uuid: ff83d910-8375-4295-9f2a-e14c15eee09a
+exl-id: a22e6b47-00ff-4b51-9958-ddeccc1e507e
 ---
-
 # ID Synchronization by URL or Data Source{#id-synchronization-by-url-or-data-source}
 
 The ID service functions idSyncByURL and idSyncByDataSource let you manually implement an ID sync in the Destination Publishing iFrame. These are available in VisitorAPI.js versions 1.10, or higher.

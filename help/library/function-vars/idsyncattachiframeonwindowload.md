@@ -5,8 +5,8 @@ seo-description: An optional, Boolean flag that controls how the Experience Clou
 seo-title: idSyncAttachIframeOnWindowLoad
 title: idSyncAttachIframeOnWindowLoad
 uuid: aa2c2fa4-2cab-4e08-8d35-729a6c3e459a
+exl-id: 44c45378-f007-4d87-913a-d6bb9961948c
 ---
-
 # idSyncAttachIframeOnWindowLoad{#idsyncattachiframeonwindowload}
 
 An optional, Boolean flag that controls how the Experience Cloud Identity Service loads the ID synchronization iFrame.
@@ -30,4 +30,3 @@ var visitor = Visitor.getInstance ("Insert Experience Cloud organization ID here
    idSyncAttachIframeOnWindowLoad: true 
 });
 ```
-

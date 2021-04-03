@@ -5,8 +5,8 @@ seo-description: These instructions are for A4T customers with mixed server- and
 seo-title: Using the ID Service with A4T and a server-side implementation of Target
 title: Using the ID Service with A4T and a server-side implementation of Target
 uuid: debbc5ca-7f8b-4331-923e-0e6339057de2
+exl-id: 6f201378-29a1-44b7-b074-6004246fc999
 ---
-
 # Using the ID Service with A4T and a server-side implementation of Target {#using-the-id-service-with-a-t-and-a-server-side-implementation-of-target}
 
 These instructions are for A4T customers with mixed server- and client-side implementations of Target, Analytics, and the ID service. Customers who need to run the ID service in a NodeJS or Rhino environment should also review this information. This instance of the ID service uses a shortened version the VisitorAPI.js code library, which you download and install from Node Package Manager (NPM). Review this section for installation instructions and other configuration requirements.

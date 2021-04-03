@@ -5,8 +5,8 @@ seo-description: Sets a timeout interval in milliseconds. Used to tell other sol
 seo-title: loadTimeout
 title: loadTimeout
 uuid: f627e044-bd73-49a4-8a90-6d19aa566751
+exl-id: 485264f4-ee24-4042-8be3-259e70462110
 ---
-
 # loadTimeout{#loadtimeout}
 
 Sets a timeout interval in milliseconds. Used to tell other solutions (e.g., Analytics, Audience Manager, Target, etc.) how long to wait for a response from the ID service.
@@ -34,4 +34,3 @@ var visitor = Visitor.getInstance ("Insert Experience Cloud organization ID here
    loadTimeout:10000 
 });
 ```
-

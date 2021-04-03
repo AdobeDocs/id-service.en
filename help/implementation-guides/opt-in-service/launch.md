@@ -4,8 +4,8 @@ seo-description: Simplify enabling Experience Cloud solution for Opt-in using Ad
 seo-title: Configuring Opt-in with Launch
 title: Configuring Opt-in with Launch
 uuid: d35ed917-c4bd-4868-9026-1461f1a8f13e
+exl-id: 9e9d1e2b-196f-474c-b872-de4329dcb017
 ---
-
 # Configuring Opt-in with Experience Platform Launch {#configuring-opt-in-with-launch}
 
 Simplify enabling Experience Cloud solution for Opt-in using Adobe Experience Platform Launch.
@@ -23,4 +23,3 @@ To configure the extension, open the *Extensions* tab and hover over the extensi
 For additional reference information, see [Opt-in Extension for Launch](https://docs.adobelaunch.com/extension-reference/web/experience-cloud-id-service-extension).
 
 ![](assets/optin-launch.jpg)
-

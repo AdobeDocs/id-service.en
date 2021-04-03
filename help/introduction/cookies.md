@@ -5,8 +5,8 @@ seo-description: The ID service uses your organization ID, the Experience Cloud 
 seo-title: Cookies and the Experience Cloud Identity Service
 title: Cookies and the Experience Cloud Identity Service
 uuid: c5cbd235-37ee-4605-8792-b1a991e190ad
+exl-id: 727c6381-56b9-44b8-8e59-355d072769be
 ---
-
 # Cookies and the Experience Cloud Identity Service{#cookies-and-the-experience-cloud-id-service}
 
 The ID service uses your organization ID, the Experience Cloud AMCV cookie, and a demdex cookie to create and store unique, persistent identifiers for your site visitors. These cookies let the ID service track visitors across your different domains and enable data sharing among different Experience Cloud solutions.
@@ -132,4 +132,4 @@ The following table describes flags for Experience Cloud Cookies:
 
 ## Next steps {#section-8db1727a63bc4ff68b495f270315d453}
 
-See [How the Experience Cloud Identity Service Requests and Sets IDs...](../introduction/id-request.md#concept-2caacebb1d244402816760e9b8bcef6a). 
+See [How the Experience Cloud Identity Service Requests and Sets IDs...](../introduction/id-request.md#concept-2caacebb1d244402816760e9b8bcef6a).

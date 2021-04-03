@@ -4,8 +4,8 @@ keywords: ID Service
 seo-description: Feature releases, updates, or changes to the Experience Cloud Identity Service.
 seo-title: 2020 Release Notes
 title: 2020 Release Notes
+exl-id: c9d7876e-debc-4c8e-8ebc-91646610c876
 ---
-
 # Experience Cloud release notes - 2020 {#release-notes}
 
 Feature releases, updates, or changes to the Experience Cloud Identity Service (ECID).

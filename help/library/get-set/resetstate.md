@@ -5,8 +5,8 @@ seo-description: This function is designed mainly for A4T customers to help solv
 seo-title: resetState
 title: resetState
 uuid: ed7be76d-a7ee-4e51-b26c-456ff85fd096
+exl-id: 8e8cb299-bb89-4bc1-8841-3091ce0cbd81
 ---
-
 # resetState{#resetstate}
 
 This function is designed mainly for A4T customers to help solve issues related to working with IDs on single page sites/screens or apps.
@@ -85,4 +85,4 @@ var sdid2 = visitor.getSupplementalDataID("consumer4"); // sdid2: 5678
 
 **Dynamic Tag Manager (DTM)**
 
-Currently, there is no DTM configuration path for `visitor.resetState()`. 
+Currently, there is no DTM configuration path for `visitor.resetState()`.

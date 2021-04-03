@@ -5,8 +5,8 @@ seo-description: The role of the Experience Cloud Identity Service in the Adobe 
 seo-title: About the ID Service
 title: Overview
 uuid: c52d6155-00a0-4fc5-9d8e-5ce00b8d01e6
+exl-id: d907e299-bde0-4b5f-8c16-867a4eaa8be1
 ---
-
 # About the ID Service{#aboutidservice}
 
 The role of the Experience Cloud Identity Service in the Adobe Experience Cloud.

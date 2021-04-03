@@ -5,8 +5,8 @@ seo-description: Contains server example configurations and the required migrati
 seo-title: Experience Cloud Identity Service Migration Scenarios
 title: Experience Cloud Identity Service Migration Scenarios
 uuid: 9e229045-6508-48c4-ae39-9537b4941853
+exl-id: 419532bf-399f-4646-a95f-31c35535d6fc
 ---
-
 # Experience Cloud Identity Service Migration Scenarios {#experience-cloud-id-service-migration-scenarios}
 
 Contains server example configurations and the required migration steps.
@@ -45,4 +45,4 @@ When this customer updates to the latest Analytics JavaScript code in preparatio
 
 First, this customer should find their Adobe Experience Cloud Organization ID (see the [requirements](../../reference/requirements.md)). Next, they should configure a migration grace period because they are using multiple JavaScript files. This customer tracks visitors between their primary domain and their sub-domains, so they will continue to use their data collection CNAME with the visitor ID service.
 
-When this customer updates to the latest Analytics JavaScript code in preparation for the [!DNL Experience Cloud] ID service rollout, they will also update their Flash-based video player to the latest version of AppMeasurement for Flash. 
+When this customer updates to the latest Analytics JavaScript code in preparation for the [!DNL Experience Cloud] ID service rollout, they will also update their Flash-based video player to the latest version of AppMeasurement for Flash.
