@@ -1,6 +1,6 @@
 ---
 cloud: Experience Cloud
-product: ID Service
+product: id service
 solution: Experience Cloud Services
 type: Documentation
 audience: end-user
