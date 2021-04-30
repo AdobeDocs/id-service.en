@@ -45,12 +45,12 @@ AMCV_1FD6776A524453CC0A490D44%40AdobeOrg
 
 **Contents**
 
-The AMCV cookie contains the Experience Cloud visitor ID or MID. The MID is stored in a key-value pair that follows this syntax, `mid|<Experience Cloud ID>`.
+The AMCV cookie contains the Experience Cloud visitor ID or MID. The MID is stored in a key-value pair that follows this syntax, `MCMID|<Experience Cloud ID>`.
 
 A fully formed key-value pair would look similar to this:
 
 ```
-mid|20265673158980419722735089753036633573
+MCMID|20265673158980419722735089753036633573
 ```
 
 This persistent identifier enables cross-solution data sharing.
