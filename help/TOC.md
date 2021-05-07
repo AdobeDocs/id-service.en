@@ -80,6 +80,7 @@ user-guide-url: /content/help/en/id-service/using/home.html
    + [Reference Overview](reference/reference.md)
    + Analytics Reference {#analytics-reference}
       + [Analytics Reference Overview](reference/analytics-reference/analytics-reference.md)
+      + [CNAME Implementation Overview](reference/analytics-reference/cname.md)
       + [Setting Analytics and Experience Cloud IDs](reference/analytics-reference/analytics-ids.md)
       + [Order of Operations for Analytics IDs](reference/analytics-reference/analytics-order-of-operations.md)
       + [ID Service Migration Decision Points](reference/analytics-reference/migration-decisions.md)
