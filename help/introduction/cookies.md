@@ -21,7 +21,7 @@ The ID service relies on the AMCV, AMCVS, and demdex cookies to function properl
 * Persist this unique ID so the ID service can collect and share data with other Experience Cloud solutions. 
 * Track users across your domains. However, this requires that you own those other domains and have ID service code deployed on them.
 
-### What the ID Service ookies cannot do
+### What the ID Service cookies cannot do
 
 * Store, transmit, or execute computer viruses. 
 * Access or store personally identifiable information (PII) like your email address. 
@@ -45,12 +45,12 @@ AMCV_1FD6776A524453CC0A490D44%40AdobeOrg
 
 **Contents**
 
-The AMCV cookie contains the Experience Cloud visitor ID or MID. The MID is stored in a key-value pair that follows this syntax, `mid|<Experience Cloud ID>`.
+The AMCV cookie contains the Experience Cloud visitor ID or MID. The MID is stored in a key-value pair that follows this syntax, `MCMID|<Experience Cloud ID>`.
 
 A fully formed key-value pair would look similar to this:
 
 ```
-mid|20265673158980419722735089753036633573
+MCMID|20265673158980419722735089753036633573
 ```
 
 This persistent identifier enables cross-solution data sharing.
