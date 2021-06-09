@@ -38,7 +38,7 @@ The Adobe Experience Cloud Identity Service (ID service) provides a universal, p
      </ul> </p> <p> <b>Experience Cloud Resources</b> </p> <p> 
      <ul id="ul_E30EC96BDC624B5591F0470D430B7F41"> 
       <li id="li_F3A5CCFAE0F247CEB41A03CA8E03106B"> <a href="http://www.adobe.com/privacy.html" format="http" scope="external"> Adobe Privacy Center</a> </li> 
-      <li id="li_A54C1EB170EA4B8FA6A81B90AB0C39DD"> <a href="https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html" scope="external" format="http"> Adobe Experience Cloud</a> </li> 
+      <li id="li_A54C1EB170EA4B8FA6A81B90AB0C39DD"> <a href="https://experienceleague.adobe.com/docs/home.html?lang=en" scope="external" format="http"> Adobe Experience Cloud</a> </li> 
       <li id="li_1938F7044F544481A6CC0F45CC22B80A"> <a href="http://helpx.adobe.com/learning.html?promoid=KAUDK" scope="external" format="http"> Adobe Training and Tutorials</a> </li> 
       <li id="li_C71459E0D1464C05B8B9387C43541F17"> <a href="https://helpx.adobe.com/support/experience-cloud.html" scope="external" format="https"> Product Documentation Home</a> </li> 
      </ul> </p> </td> 

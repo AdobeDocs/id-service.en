@@ -28,7 +28,7 @@ The following examples demonstrate how the ID service requests and receives the 
 In this example, a new visitor comes to the pizza site managed by the Food Company. The Food Company has ID service code on the pizza website. When the pizza site loads, the ID service code checks for the AMCV cookie in the pizza domain.
 
 * If the AMCV cookie is set, the site visitor has a Experience Cloud ID. In this case, the cookie tracks the visitor and shares data with other Experience Cloud solutions. 
-* If the AMCV cookie is not set, the ID service code calls a regional [data collection server](https://docs.adobe.com/content/help/en/analytics/technotes/rdc/regional-data-collection.html) (DCS) at `dpm.demdex.net/id` (see also, [Understanding Calls to the Demdex Domain](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/demdex-calls.html)). The call includes the organization ID for the Food Company. The organization ID is set in the `Visitor.getInstance` function of the ID service code.
+* If the AMCV cookie is not set, the ID service code calls a regional [data collection server](https://experienceleague.adobe.com/docs/analytics/technotes/rdc/regional-data-collection.html?lang=en) (DCS) at `dpm.demdex.net/id` (see also, [Understanding Calls to the Demdex Domain](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=en). The call includes the organization ID for the Food Company. The organization ID is set in the `Visitor.getInstance` function of the ID service code.
 
 ![](assets/request1.png)
 

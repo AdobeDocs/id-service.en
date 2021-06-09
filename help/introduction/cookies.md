@@ -110,7 +110,7 @@ The following table lists and defines some important attributes of the demdex co
  </tbody> 
 </table>
 
-For related information, see [Understanding Calls to the Demdex Domain](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/demdex-calls.html).
+For related information, see [Understanding Calls to the Demdex Domain](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=en).
 
 ## Generating the Experience Cloud ID {#section-15f69c0bac394b4b9966a23fbc586d17}
 
@@ -128,7 +128,7 @@ The following table describes flags for Experience Cloud Cookies:
 | AMCV (Javascript) | No | Configurable | Unset (defaults to Lax) |
 | AMCVS (Javascript) | No | Configurable | Unset (defaults to Lax) |
 
-*Note: For information on configuring the AMCV and AMCVS cookie with secure attributes, see the topic for [secureCookie](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/securecookie.html).*
+*Note: For information on configuring the AMCV and AMCVS cookie with secure attributes, see the topic for [secureCookie](../library/function-vars/securecookie.md).*
 
 ## Next steps {#section-8db1727a63bc4ff68b495f270315d453}
 
