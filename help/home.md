@@ -33,8 +33,8 @@ The Adobe Experience Cloud Identity Service (ID service) provides a universal, p
      --> </td> 
    <td colname="col2"> <p> <b>Release Notes</b> </p> <p><b>Version 4.4</b> July 17, 2019 release includes support for the <a href="reference/hashing-support.md" format="dita" scope="local"> SHA-256 hashing algorithm</a> that allows you to pass in customer IDs or email addresses, and pass out hashed IDs.</p><p><b>Version 4.0</b> February 12, 2019 release includes the <a href="implementation-guides/opt-in-service/optin-overview.md#concept-f9b5db0d27a245fbadd3e19162319360" format="dita" scope="local"> Opt-in service</a> used to identify if you can place a cookie on a user's device or browser when visiting your site. </p> <p> 
      <ul id="ul_4F06F170F214492780C7D25A069F799F"> 
-      <li id="li_45A7CD556FE44F4DAB035C736A058F36"> See the latest <a href="https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html" format="https" scope="external"> Experience Cloud Release Notes</a> for new features and fixes. </li> 
-      <li id="li_10CC4FBFEFC947CA9AD15F52D9715257">See the <a href="https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html" format="html" scope="external"> Previous Release Notes</a> section for older releases. </li> 
+      <li id="li_45A7CD556FE44F4DAB035C736A058F36"> See the latest <a href="https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en" format="https" scope="external"> Experience Cloud Release Notes</a> for new features and fixes. </li> 
+      <li id="li_10CC4FBFEFC947CA9AD15F52D9715257">See the <a href="https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en" format="html" scope="external"> Previous Release Notes</a> section for older releases. </li> 
      </ul> </p> <p> <b>Experience Cloud Resources</b> </p> <p> 
      <ul id="ul_E30EC96BDC624B5591F0470D430B7F41"> 
       <li id="li_F3A5CCFAE0F247CEB41A03CA8E03106B"> <a href="http://www.adobe.com/privacy.html" format="http" scope="external"> Adobe Privacy Center</a> </li> 
