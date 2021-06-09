@@ -64,7 +64,7 @@ See the table below for a description of the `d_cid_ic` parameter and authentica
 
 ## Add an Action in Adobe Experience Platform Launch {#add-action-launch}
 
-Experience Platform Launch is the next-generation of tag management capabilities from Adobe. Read more about Launch in the [Launch product documentation](https://docs.adobe.com/content/help/en/launch/using/overview.html).
+Experience Platform Launch is the next-generation of tag management capabilities from Adobe. Read more about Platform Launch in the [Launch product documentation](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=en).
 
 To add an action in Launch, read the [rules documentation](https://docs.adobe.com/help/en/launch/using/reference/manage-resources/rules.html) in Adobe Launch and see the screen capture below:
 
