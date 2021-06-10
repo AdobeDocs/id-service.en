@@ -8,7 +8,7 @@ exl-id: 0b51d3b1-e405-4473-9e1a-f89a55250e5e
 
 Feature releases, updates, or changes to the Experience Cloud Identity Service for 2017.
 
-These changes are also captured in the [Experience Cloud Release notes](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html).
+These changes are also captured in the [Experience Cloud Release notes](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html).
 
 >[!NOTE]
 >
@@ -185,7 +185,7 @@ Fixed a bug that caused the ID service to make redundant server calls for an ID 
 
 **New Documentation**
 
-[Using DNS Prefetch with Different Experience Cloud Solutions and Services](https://docs.adobe.com/content/help/en/core-services/interface/more-resources/dns-prefetch.html)
+[Using DNS Prefetch with Different Experience Cloud Solutions and Services](https://experienceleague.adobe.com/docs/core-services/interface/more-resources/dns-prefetch.html)
 
 ## Version 2.0 {#section-0ceac6007c1241b58ad607e2b76b2b7e}
 

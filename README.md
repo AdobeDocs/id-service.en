@@ -30,7 +30,7 @@ If you submit a pull request with significant changes to documentation and code 
 
 ### Major changes from Adobe Employees
 
-If you are a technical writer, program manager, or developer from the product team for an [!UICONTROL Adobe Experience Cloud] solution, and it's your job to contribute to or author technical articles, you should use the private repository at `https://git.corp.adobe.com/AdobeDocs`. See the [Internal Collaboration Guide](https://docs.adobe.com/content/help/en/collaborative-doc-instructions/collaboration-guide/home.html).
+If you are a technical writer, program manager, or developer from the product team for an [!UICONTROL Adobe Experience Cloud] solution, and it's your job to contribute to or author technical articles, you should use the private repository at `https://git.corp.adobe.com/AdobeDocs`.
 
 <!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
 

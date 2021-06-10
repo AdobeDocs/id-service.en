@@ -10,11 +10,11 @@ Along with the Experience Cloud visitor ID, you can associate additional custome
 
 ## Authentication States {#section-68ad4065dfaa437d9070832d6e2bf85c}
 
-The `setCustomerIDs` method accepts multiple customer IDs for the same visitor. This helps you identify or target an individual user across different devices. For example, you can upload these IDs as [customer attributes](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html) to the [!DNL Experience Cloud] and access this data across the different solutions.
+The `setCustomerIDs` method accepts multiple customer IDs for the same visitor. This helps you identify or target an individual user across different devices. For example, you can upload these IDs as [customer attributes](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html) to the [!DNL Experience Cloud] and access this data across the different solutions.
 
 >[!IMPORTANT]
 >
->`setCustomerIDs` (customer ID synchronization) is required by customer attributes and core services functionality. Synching customer IDs is an optional identification method for [!DNL Analytics]. [!DNL Target] requires `Visitor.AuthState.AUTHENTICATED` for Customer Attributes to work. See [Core Services - How to Enable Your Solutions](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/core-services.html) for examples.
+>`setCustomerIDs` (customer ID synchronization) is required by customer attributes and core services functionality. Synching customer IDs is an optional identification method for [!DNL Analytics]. [!DNL Target] requires `Visitor.AuthState.AUTHENTICATED` for Customer Attributes to work. See [Core Services - How to Enable Your Solutions](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/core-services.html) for examples.
 
 Beginning with Experience Cloud Identity Service v1.5+, `setCustomerIDs` includes the optional `AuthState` object. `AuthState` identifies visitors according to their authentication status (e.g., logged in, logged out). You set the authentication state with a status value listed in the table. Authentication status is returned as an integer.
 
@@ -206,8 +206,8 @@ Object customerIDs = visitor.getCustomerIDs();
 
 The [!DNL Experience Cloud] ID service supports customer IDs and authentication states in our Android and iOS SDK code. See the following code libraries:
 
-* [Android SDK methods](https://docs.adobe.com/content/help/en/mobile-services/android/overview.html) 
-* [iOS SDK methods](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html)
+* [Android SDK methods](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html) 
+* [iOS SDK methods](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html)
 
 ## Notice for Analytics and Audience Manager Customers {#section-3a8e9d51e71c4c6e865184b81ed9d99b}
 

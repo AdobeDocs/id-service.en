@@ -29,7 +29,7 @@ visitor.setCustomerIDs({email: {id: "ecid@adobe.com", authState: 1}}, "SHA-256")
 
 Along with the Experience Cloud visitor ID, you can associate additional customer IDs, authentication status and hash type (SHA-256) with each visitor. If you don't provide any hash type, it will be considered as no hashing.
 
-The `setCustomerIDs` method accepts multiple customer IDs for the same visitor. This helps you identify or target an individual user across different devices. For example, you can upload these IDs as [customer attributes](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html) to the Experience Cloud and access this data across the different solutions.
+The `setCustomerIDs` method accepts multiple customer IDs for the same visitor. This helps you identify or target an individual user across different devices. For example, you can upload these IDs as [customer attributes](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html) to the Experience Cloud and access this data across the different solutions.
 
 Customer IDs, authenticated states and hash type *are not* stored in a cookie to be used later. Instead, Customer IDs, authenticated states and hash type should be stored in an instance variable, to be retrieved using [`getCustomerIDs`](/help/library/get-set/getcustomerids.md), as shown below:
 

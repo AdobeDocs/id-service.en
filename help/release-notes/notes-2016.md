@@ -8,7 +8,7 @@ exl-id: f96b9869-6282-4090-b392-797608e25a51
 
 Feature releases, updates, or changes to the Experience Cloud Identity Service for 2016.
 
-These changes are also captured in the [Experience Cloud Release notes](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html). 
+These changes are also captured in the [Experience Cloud Release notes](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html). 
 
 ## Version 1.10 {#section-7d719b3213344a46858835042e0214ed}
 
@@ -73,7 +73,7 @@ Revised: [Requirements for the Experience Cloud Identity Service](../reference/r
 
 **Known Issues**
 
-Customers using [!DNL Audience Manager] DIL code and visitorAPI.js code on the same page should set the DIL variable `secureDataCollection= false`. See [secureDataCollection](https://docs.adobe.com/content/help/en/audience-manager/user-guide/dil-api/dil-overview.html).
+Customers using [!DNL Audience Manager] DIL code and visitorAPI.js code on the same page should set the DIL variable `secureDataCollection= false`. See [secureDataCollection](https://experienceleague.adobe.com/docs/audience-manager/user-guide/dil-api/dil-overview.html).
 
 ## Version 1.6.0 {#section-3faaa14bf3934c6a99b8f79ee06fc0d2}
 

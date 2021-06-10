@@ -20,13 +20,13 @@ Alternatively, you can test the ID service in an anonymous or incognito browser 
 
 **Tools**
 
-The [Adobe debugger](https://docs.adobe.com/content/help/en/analytics/implementation/validate/debugger.html) and the [Charles HTTP proxy](https://www.charlesproxy.com/) can help you determine if the ID service has been configured to work properly with Analytics. The information in this section based on the results returned by the Adobe debugger and Charles. However, you should feel free to use whatever tool or debugger works best for you.
+The [Adobe debugger](https://experienceleague.adobe.com/docs/analytics/implementation/validate/debugger.html) and the [Charles HTTP proxy](https://www.charlesproxy.com/) can help you determine if the ID service has been configured to work properly with Analytics. The information in this section based on the results returned by the Adobe debugger and Charles. However, you should feel free to use whatever tool or debugger works best for you.
 
 ## Testing with the Adobe Debugger {#section-861365abc24b498e925b3837ea81d469}
 
 Your service integration is configured properly when you see a [!DNL Experience Cloud ID] (MID) in the [!DNL Adobe] debugger response. See [Cookies and the Experience Cloud Identity Service](../introduction/cookies.md) for more information about the MID.
 
-To verify the status of the ID service with the [!DNL Adobe] [debugger](https://docs.adobe.com/content/help/en/analytics/implementation/validate/debugger.html):
+To verify the status of the ID service with the [!DNL Adobe] [debugger](https://experienceleague.adobe.com/docs/analytics/implementation/validate/debugger.html):
 
 1. Clear your browser cookies or open an anonymous browsing session. 
 1. Load your test page that contains ID service code. 
@@ -78,7 +78,7 @@ Your ID service code is working properly when the `Visitor.getInstance` function
 
 **Successful ID Service responses in Charles**
 
-Your account has been provisioned correctly for the ID service when the response from the [Data Collection Servers](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/system-components/components-data-collection.html) (DCS) return a MID. The MID is returned as a key-value pair that uses this syntax: `d_mid: *`visitor Experience Cloud ID`*`. Look for the MID in the [!UICONTROL Response] tab as shown below.
+Your account has been provisioned correctly for the ID service when the response from the [Data Collection Servers](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/system-components/components-data-collection.html) (DCS) return a MID. The MID is returned as a key-value pair that uses this syntax: `d_mid: *`visitor Experience Cloud ID`*`. Look for the MID in the [!UICONTROL Response] tab as shown below.
 
 ![](assets/charles_response_success.png)
 
@@ -88,4 +88,4 @@ Your account has not been provisioned correctly if the MID is missing from the D
 
 ![](assets/charles_response_unsuccessful.png)
 
-For more information about error codes, see [DCS Error Codes, Messages, and Examples](https://docs.adobe.com/content/help/en/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-error-codes.html).
+For more information about error codes, see [DCS Error Codes, Messages, and Examples](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-error-codes.html).

@@ -28,7 +28,7 @@ Nothing will change for users who have already been identified by the Identity S
 
 If you have a main entry site where customers can be identified before they visit other domains, then a CNAME can enable cross-domain tracking in browsers that do not accept third-party cookies (such as Safari).
 
-In browsers that accept third-party cookies, a cookie is set in the [demdex.net domain](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/demdex-calls.html) during the request to retrieve a visitor ID. This cookie allows the Identity Service to return the same Experience Cloud visitor ID on all domains that are configured using the same organization ID. In browsers that reject third-party cookies, a new Experience Cloud visitor ID is assigned for each domain.
+In browsers that accept third-party cookies, a cookie is set in the [demdex.net domain](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html) during the request to retrieve a visitor ID. This cookie allows the Identity Service to return the same Experience Cloud visitor ID on all domains that are configured using the same organization ID. In browsers that reject third-party cookies, a new Experience Cloud visitor ID is assigned for each domain.
 
 Even when a CNAME is configured, if the main entry site is not visited first, visitors are identified differently on the secondary site and main site in browsers that do not accept third-party cookies.
 

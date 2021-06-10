@@ -66,7 +66,7 @@ These configurations help solve the problem of setting an ID service cookie and 
 
 >[!TIP]
 >
->You may also want to implement these configurations when you're serving video in an iFrame with [Video Heartbeat](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html). Video Heartbeat needs an ID service ID (the MID) to work properly.
+>You may also want to implement these configurations when you're serving video in an iFrame with [Video Heartbeat](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html). Video Heartbeat needs an ID service ID (the MID) to work properly.
 
 **Use Case 1: The Browser Blocks Third-Party Cookies and the ID Service is Implemented on the iFrame and Parent Page**
 
