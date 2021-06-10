@@ -17,7 +17,7 @@ These instructions are for Analytics, Audience Manager, and Target customers who
 
 ## Step 1: Plan for server-side forwarding {#section-880797cc992d4755b29cada7b831f1fc}
 
-In addition to the steps described here, customers who use [!DNL Analytics] and [!DNL Audience Manager] should migrate to server-side forwarding. Server-side forwarding lets you remove DIL (Audience Manager's data collection code) and replace it with the [Audience Management Module](https://docs.adobe.com/content/help/en/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html). See the [server-side forwarding documentation](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf.html) for more information.
+In addition to the steps described here, customers who use [!DNL Analytics] and [!DNL Audience Manager] should migrate to server-side forwarding. Server-side forwarding lets you remove DIL (Audience Manager's data collection code) and replace it with the [Audience Management Module](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html). See the [server-side forwarding documentation](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf.html) for more information.
 
 Migrating to server-side forwarding requires planning and coordination. This process involves external changes to your site code and internal steps that Adobe must take to provision your account. In fact, many of these migration procedures need to happen in parallel and get released together. Your implementation path should follow this sequence of events:
 
@@ -134,7 +134,7 @@ Add the `Visitor.getInstance` function shown below to your `AppMeasurement.js` f
 
 >[!IMPORTANT]
 >
->At this point, you should remove the [!DNL Audience Manager] DIL code and replace it with the Audience Management Module. See [Implement Server-Side Forwarding](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf.html) for instructions.
+>At this point, you should remove the [!DNL Audience Manager] DIL code and replace it with the Audience Management Module. See [Implement Server-Side Forwarding](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html) for instructions.
 
 ***(Optional, but recommended)* Create a custom prop**
 
@@ -176,7 +176,7 @@ You need a grace period if you send data to an internal system from a Clickstrea
 
 Discontinue the grace period after your data ingestion process can use the `post_visid_high` and `post_visid_low` columns.
 
-See also, [Clickstream Data Column Reference](https://docs.adobe.com/content/help/en/analytics/export/analytics-data-feed/data-feed-overview.html).
+See also, [Clickstream Data Column Reference](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html).
 
 ## Step 9: Test and verify {#section-f857542bfc70496dbb9f318d6b3ae110}
 
@@ -184,7 +184,7 @@ The [!DNL Experience Cloud] solutions in this implementation return IDs in the f
 
 >[!TIP]
 >
->You can use the [Adobe Debugger](https://docs.adobe.com/content/help/en/analytics/implementation/validate/debugger.html) or the [Charles HTTP proxy](https://www.charlesproxy.com/) to check for these solution-specific IDs. However, you should feel free to use whatever tool or debugger works best for you.
+>You can use the [Adobe Debugger](https://experienceleague.adobe.com/docs/analytics/implementation/validate/debugger.html) or the [Charles HTTP proxy](https://www.charlesproxy.com/) to check for these solution-specific IDs. However, you should feel free to use whatever tool or debugger works best for you.
 
 **All solutions**
 
@@ -208,7 +208,7 @@ When you see an AID, check its value against the [!DNL Target] mboxMCAVID. These
 
 **Audience Manager**
 
-To test server-side forwarding, see [How to verify your server-side forwarding implementation](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf-verify.html).
+To test server-side forwarding, see [How to verify your server-side forwarding implementation](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf-verify.html).
 
 **Target**
 

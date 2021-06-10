@@ -113,4 +113,4 @@ Only the common visitor standard cookies are listed in the table below. For addi
 
 > ![IMPORTANT] Adobe third-party cookies are set server-side
 
-For more information, see the document on [Target's Google Chrome SameSite policies](https://docs.adobe.com/content/help/en/target/using/implement-target/before-implement/privacy/google-chrome-samesite-cookie-policies.html).
+For more information, see the document on [Target's Google Chrome SameSite policies](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/privacy/google-chrome-samesite-cookie-policies.html).

@@ -24,7 +24,7 @@ When a request is sent to the Adobe data collection server, the header is checke
 
 However, some browsers, such as Apple Safari, do not accept third-party cookies. These are cookies set in the browser from domains other than the current website. Additionally, Safari blocks cookies on third-party domains if a visitor has not been to that domain before. For example, if you are on `mysite.com` and your data collection server is `mysite.omtrdc.net`, the cookie that is returned in the HTTP header from `mysite.omtrdc.net` might be rejected by the browser.
 
-To avoid this, many customers have implemented CNAME records for their data collection servers. This can be an effective part of a [first-party cookie implementation](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-first-party.html) strategy. If a CNAME record is configured to map a hostname on the customer's domain to the data collection server (e.g., mapping `metrics.mysite.com` to `mysite.omtrdc.net`), the [!DNL Experience Cloud] ID cookie is stored because the data collection domain now matches the domain of the website. This increases the likelihood that the ID service cookie will be stored. However, this does introduce some overhead because you need to configure CNAME records and maintain SSL certificates for the data collection servers.
+To avoid this, many customers have implemented CNAME records for their data collection servers. This can be an effective part of a [first-party cookie implementation](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html) strategy. If a CNAME record is configured to map a hostname on the customer's domain to the data collection server (e.g., mapping `metrics.mysite.com` to `mysite.omtrdc.net`), the [!DNL Experience Cloud] ID cookie is stored because the data collection domain now matches the domain of the website. This increases the likelihood that the ID service cookie will be stored. However, this does introduce some overhead because you need to configure CNAME records and maintain SSL certificates for the data collection servers.
 
 **JavaScript**
 
@@ -53,12 +53,12 @@ After you deploy the visitor ID service, there are five ways a visitor can be id
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <img id="image_9F3E58898A1B4F40BBDEF5ADE362E55C" src="assets/step1_icon.png" /> </p> </td> 
-   <td colname="col2"> <p> <a href="https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/visitorid.html" format="http" scope="external"> vid (s.visitorID)</a> </p> </td> 
+   <td colname="col2"> <p> <a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/visitorid.html" format="http" scope="external"> vid (s.visitorID)</a> </p> </td> 
    <td colname="col3"> <p>s.visitorID is set </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <img id="image_77A06981672745B6AEA8BB4D55911CCA" src="assets/step2_icon.png" /> </p> </td> 
-   <td colname="col2"> <p> <a href="https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-analytics.html" format="http" scope="external"> aid (s_vi cookie)</a> </p> </td> 
+   <td colname="col2"> <p> <a href="https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html" format="http" scope="external"> aid (s_vi cookie)</a> </p> </td> 
    <td colname="col3"> <p>The visitor had an existing s_vi cookie before you deployed the <span class="keyword"> Experience Cloud</span> ID service, or you have a <a href="../../reference/analytics-reference/grace-period.md" format="dita" scope="local"> grace period</a> configured. </p> </td> 
   </tr> 
   <tr> 
@@ -68,12 +68,12 @@ After you deploy the visitor ID service, there are five ways a visitor can be id
   </tr> 
   <tr> 
    <td colname="col1"> <p> <img id="image_6F0ED8FE3EF846CA8E6ECCC3C0070D85" src="assets/step4_icon.png" /> </p> </td> 
-   <td colname="col2"> <p> <a href="https://docs.adobe.com/content/help/en/id-service/using/reference/analytics-reference/analytics-ids.html" format="http" scope="external"> fid (fallback cookie on H.25.3 or newer, or AppMeasurement for JavaScript)</a> </p> </td> 
+   <td colname="col2"> <p> <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/analytics-ids.html" format="http" scope="external"> fid (fallback cookie on H.25.3 or newer, or AppMeasurement for JavaScript)</a> </p> </td> 
    <td colname="col3"> <p>A browser doesn't accept third-party cookies and the Analytics tracking server is set up as a third-party tracking server. </p> <p> <p>Note: The <span class="codeph"> fid</span> is a legacy identifier and is not used if you've implemented the ID service on your site. In this case, the <span class="codeph"> fid</span> is not needed because the first-party, <a href="../../introduction/cookies.md" format="dita" scope="local"> AMCV cookie</a> makes it obsolete. It has been retained to support legacy code and for historic reasons. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <img id="image_23D8C0EB69EC4084BC237B5B98C036F4" src="assets/step5_icon.png" /> </p> </td> 
-   <td colname="col2"> <p> <a href="https://docs.adobe.com/content/help/en/analytics/technotes/visitor-identification.html" format="http" scope="external"> IP Address, User Agent, Gateway IP Address</a> </p> </td> 
+   <td colname="col2"> <p> <a href="https://experienceleague.adobe.com/docs/analytics/technotes/visitor-identification.html" format="http" scope="external"> IP Address, User Agent, Gateway IP Address</a> </p> </td> 
    <td colname="col3"> <p>The visitor's browser does not accept cookies. </p> </td> 
   </tr> 
  </tbody> 

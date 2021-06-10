@@ -15,7 +15,7 @@ Change the default domain name used by calls to the Experience Cloud Identity Se
 
 **Purpose**
 
-Normally, the [!DNL Experience Cloud] ID service makes calls to [!DNL Adobe] at `dpm.demdex.net`. Sometimes you may not want to make calls to this destination because it looks too generic or "third-party." To make the ID service call look more like a first-party call, use these configurations to add your [!DNL Audience Manager] subdomain name to `demdex.net` as shown below. For more information about the `dpm.demdex.net` call, see [Understanding Calls to the Demdex Domain](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/demdex-calls.html).
+Normally, the [!DNL Experience Cloud] ID service makes calls to [!DNL Adobe] at `dpm.demdex.net`. Sometimes you may not want to make calls to this destination because it looks too generic or "third-party." To make the ID service call look more like a first-party call, use these configurations to add your [!DNL Audience Manager] subdomain name to `demdex.net` as shown below. For more information about the `dpm.demdex.net` call, see [Understanding Calls to the Demdex Domain](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html).
 
 **Requirements**
 

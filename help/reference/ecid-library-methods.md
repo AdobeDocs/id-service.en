@@ -27,7 +27,7 @@ See below for efforts related to ITP and ECID library usage.
 
 ITP 2.1 hampers the ability to write client-side cookies, which impairs the ability to provide accurate visitor tracking information to customers. As such, a change is being introduced in Adobe's CNAME tracking servers to store the visitor's Experience Cloud ID (ECID) in a first-party cookie.
 
-This change is only helpful for ECID customers using an Analytics CNAME in first-party context. If you are an Analytics customer not currently using a CNAME, or even a non-Analytics customer, you are still eligible for a CNAME record. Contact Customer Care or your account representative to start the process of registering for a [CNAME](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-first-party.html).
+This change is only helpful for ECID customers using an Analytics CNAME in first-party context. If you are an Analytics customer not currently using a CNAME, or even a non-Analytics customer, you are still eligible for a CNAME record. Contact Customer Care or your account representative to start the process of registering for a [CNAME](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html).
 
 Upgrade to ECID library v. 4.3.0 + to take advantage of this change.
 
@@ -43,7 +43,7 @@ Once an ID request is made to demdex.net and an ECID is retrieved, if a tracking
 
 This new `s_ecid` cookie follows the same opt-out status as the AMCV cookie. If the ecid is read from the `s_ecid` cookie, demdex is always immediately called to retrieve the latest opt-out status for that ID and stored in the AMCV cookie.
 
-In addition, if your consumer has opted out of Analytics tracking via this [method](https://docs.adobe.com/content/help/en/analytics/implementation/js/opt-out.html), this `s_ecid` cookie will be deleted.
+In addition, if your consumer has opted out of Analytics tracking via this [method](https://experienceleague.adobe.com/docs/analytics/implementation/js/opt-out.html), this `s_ecid` cookie will be deleted.
 
 The tracking server name should be supplied to the VisitorJS library when initializing the library using `trackingServer` or `trackingServerSecure`. This should match the `trackingServer` config in the Analytics configs.
 
