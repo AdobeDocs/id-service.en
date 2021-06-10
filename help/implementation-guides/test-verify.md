@@ -1,10 +1,7 @@
 ---
 description: These instructions, tools, and procedures help you determine if the ID service is working properly. These tests apply to the ID service in general and for different ID service and Experience Cloud solution combinations.
 keywords: ID Service
-seo-description: These instructions, tools, and procedures help you determine if the ID service is working properly. These tests apply to the ID service in general and for different ID service and Experience Cloud solution combinations.
-seo-title: Test and verify the Experience Cloud Identity Service
 title: Test and verify the Experience Cloud Identity Service
-uuid: 442de9c3-c265-4412-89bd-aeaa286ddad6
 exl-id: afdf9778-e73d-46ca-9d2f-a65abaae2fe6
 ---
 # Test and verify the Experience Cloud Identity Service{#test-and-verify-the-experience-cloud-id-service}

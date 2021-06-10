@@ -1,10 +1,7 @@
 ---
 description: These examples cover 2 common use cases related to a direct integration and the Experience Cloud ID (MID). The MID is a unique, persistent ID for your site visitors.
 keywords: ID Service
-seo-description: These examples cover 2 common use cases related to a direct integration and the Experience Cloud ID (MID). The MID is a unique, persistent ID for your site visitors.
-seo-title: Direct integration use cases
 title: Direct integration use cases
-uuid: 6de1eb8b-4783-4545-8a64-ab6b9ef93432
 exl-id: f2a55b90-8307-4242-b20a-6a3c367a251b
 ---
 # Direct integration use cases {#direct-integration-use-cases}

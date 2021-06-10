@@ -1,10 +1,7 @@
 ---
 description: This configuration lets you override the default Supplemental Data ID (SDID) expiration interval when passing that ID from one page to another using the appendSupplementalDataIDTo helper function. By default, the ID service code on the receiving page has 30 seconds to get the SDID from the URL sent by the referring page. If the ID service code on the receiving page can't retrieve the SDID in less than 30 seconds it requests a new SDID. This functionality is mainly for A4T customers who need to pass the SDID from one page to another and want control over this timeout interval.
 keywords: ID Service
-seo-description: This configuration lets you override the default Supplemental Data ID (SDID) expiration interval when passing that ID from one page to another using the appendSupplementalDataIDTo helper function. By default, the ID service code on the receiving page has 30 seconds to get the SDID from the URL sent by the referring page. If the ID service code on the receiving page can't retrieve the SDID in less than 30 seconds it requests a new SDID. This functionality is mainly for A4T customers who need to pass the SDID from one page to another and want control over this timeout interval.
-seo-title: sdidParamExpiry
 title: sdidParamExpiry
-uuid: cdaf7e2d-b196-4c70-936d-8a98191cbb85
 exl-id: 5458ffa5-03d1-4c52-907d-c50fe00ce35d
 ---
 # sdidParamExpiry{#sdidparamexpiry}

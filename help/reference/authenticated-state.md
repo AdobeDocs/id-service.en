@@ -1,10 +1,7 @@
 ---
 description: Along with the Experience Cloud visitor ID, you can associate additional customer IDs and an authentication status with each visitor.
 keywords: ID Service
-seo-description: Along with the Experience Cloud visitor ID, you can associate additional customer IDs and an authentication status with each visitor.
-seo-title: Customer IDs and Authentication States
 title: Customer IDs and Authentication States
-uuid: 643df363-224a-463e-a332-be59926b47e7
 exl-id: 0215225c-20f5-4e44-a368-b2df683aca9d
 ---
 # Customer IDs and Authentication States {#customer-ids-and-authentication-states}

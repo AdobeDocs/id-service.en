@@ -1,10 +1,7 @@
 ---
 description: An optional, Boolean flag that disables ID synchronization.
 keywords: ID Service
-seo-description: An optional, Boolean flag that disables ID synchronization.
-seo-title: disableIdSyncs
 title: disableIdSyncs
-uuid: 8bea1de8-53c8-4a15-bcf5-f0869763a32e
 exl-id: 96d42133-6040-4da3-9315-fd94318b33aa
 ---
 # disableIdSyncs{#disableidsyncs}

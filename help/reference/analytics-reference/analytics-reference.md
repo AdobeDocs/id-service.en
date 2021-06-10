@@ -1,10 +1,7 @@
 ---
 description: ID service features or functionality unique to Adobe Analytics.
 keywords: ID Service
-seo-description: ID service features or functionality unique to Adobe Analytics.
-seo-title: Analytics Reference
 title: Analytics Reference
-uuid: 215f0394-a436-4f0c-9a52-3b387048e40e
 exl-id: bfa13677-77e4-4201-94e4-31328523c421
 ---
 # Analytics Reference{#analytics-reference}

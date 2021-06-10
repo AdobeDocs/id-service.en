@@ -1,10 +1,7 @@
 ---
 description: Follow these instructions to integrate the Experience Cloud ID field into Data Workbench. This process lets you use the persistent Experience Cloud ID in your data feed, which enables stronger integration with other products in the Adobe Experience Cloud and provides enhanced visitor tracking.
 keywords: ID Service
-seo-description: Follow these instructions to integrate the Experience Cloud ID field into Data Workbench. This process lets you use the persistent Experience Cloud ID in your data feed, which enables stronger integration with other products in the Adobe Experience Cloud and provides enhanced visitor tracking.
-seo-title: Data Workbench and the Experience Cloud Identity Service
 title: Data Workbench and the Experience Cloud Identity Service
-uuid: 9448abc8-04fb-47d2-be08-1dfbddb0764e
 exl-id: 1903918d-44e4-4790-ab1f-49f5bb701e31
 ---
 # Data Workbench and the Experience Cloud Identity Service {#data-workbench-and-the-experience-cloud-id-service}

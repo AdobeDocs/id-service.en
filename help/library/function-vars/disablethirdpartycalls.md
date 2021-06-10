@@ -1,10 +1,7 @@
 ---
 description: An optional, Boolean flag that prevents the ID service from making calls to other domains.
 keywords: cross domain tracking;ID Service
-seo-description: An optional, Boolean flag that prevents the ID service from making calls to other domains.
-seo-title: disableThirdPartyCalls
 title: disableThirdPartyCalls
-uuid: e92ce1f5-67a4-476c-9d04-41d4e96b1592
 exl-id: 1d5b4e80-1b2d-4401-9057-449a6abf5db5
 ---
 # disableThirdPartyCalls{#disablethirdpartycalls}

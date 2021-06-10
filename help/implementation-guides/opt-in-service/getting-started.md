@@ -1,9 +1,6 @@
 ---
 description: Implement the Opt-in service as the single point of reference used by Experience Cloud solutions (referred to as Categories in Opt-in) to determine whether or not to create cookies on a visitor's device.
-seo-description: Implement the Opt-in service as the single point of reference used by Experience Cloud solutions (referred to as Categories in Opt-in) to determine whether or not to create cookies on a visitor's device.
-seo-title: Setting up Opt-in Service
 title: Setting up Opt-in Service
-uuid: f1c27139-cef2-4122-af12-c839cfc82e6e
 exl-id: 6e8a6531-9924-4523-a842-cb4614a7a7a0
 ---
 # Setting up Opt-in Service{#setting-up-opt-in-service}
@@ -38,7 +35,7 @@ The Opt-in service lets you specify if a visitor can opt in to Adobe solutions a
 
 1. Your company's privacy requirements will be specific to how you choose to stay compliant with GDPR. Be aware of which libraries your company privacy teams are okay with using in a pre-consent state.
 
-If using [Adobe Launch](https://docs.adobelaunch.com/), take advantage of the [Opt-in extension](../../implementation-guides/opt-in-service/launch.md) to configure Opt-in service.
+If using [Adobe Launch](https://experienceleague.adobe.com/docs/launch/using/home.html), take advantage of the [Opt-in extension](../../implementation-guides/opt-in-service/launch.md) to configure Opt-in service.
 
 ## Opt-in categories {#section-9ab0492ab4414f0ca16dc08d3a905f47}
 

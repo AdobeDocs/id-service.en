@@ -1,10 +1,7 @@
 ---
 description: This function is designed mainly for A4T customers to help solve issues related to working with IDs on single page sites/screens or apps.
 keywords: ID Service
-seo-description: This function is designed mainly for A4T customers to help solve issues related to working with IDs on single page sites/screens or apps.
-seo-title: resetState
 title: resetState
-uuid: ed7be76d-a7ee-4e51-b26c-456ff85fd096
 exl-id: 8e8cb299-bb89-4bc1-8841-3091ce0cbd81
 ---
 # resetState{#resetstate}

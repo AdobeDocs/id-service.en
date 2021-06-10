@@ -1,10 +1,7 @@
 ---
 description: This is an asynchronous API that returns identifiers for Analytics, the ID service, data collection opt-out, geographic location, and metadata "blob" content by default. Also, you can control which IDs you want to return with the optional visitor.FIELDS enum.
 keywords: ID Service
-seo-description: This is an asynchronous API that returns identifiers for Analytics, the ID service, data collection opt-out, geographic location, and metadata "blob" content by default. Also, you can control which IDs you want to return with the optional visitor.FIELDS enum.
-seo-title: getVisitorValues
 title: getVisitorValues
-uuid: 7fb831b3-cf7e-40e2-a219-07fec28ad49c
 exl-id: bd023e8d-a804-4205-989f-e1e58080b63c
 ---
 # getVisitorValues{#getvisitorvalues}

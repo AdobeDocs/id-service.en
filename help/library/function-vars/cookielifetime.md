@@ -1,10 +1,7 @@
 ---
 description: This variable lets you override the default lifetime interval for the AMCV cookie.
 keywords: ID Service
-seo-description: This variable lets you override the default lifetime interval for the AMCV cookie.
-seo-title: cookieLifetime
 title: cookieLifetime
-uuid: cd945db3-429a-4625-ac3f-69ac259377a3
 exl-id: bdbabdcd-a87b-412c-8c2f-3f39820f939a
 ---
 # cookieLifetime{#cookielifetime}

@@ -1,10 +1,7 @@
 ---
 description: An overview of ID synchronization processes and match rates in the Experience Cloud Identity Service, including Adobe Media Optimizer and the ID service.
 keywords: ID Service
-seo-description: An overview of ID synchronization processes and match rates in the Experience Cloud Identity Service, including Adobe Media Optimizer and the ID service.
-seo-title: Understanding ID synchronization and match rates
 title: Understanding ID synchronization and match rates
-uuid: 31bd655f-2b9e-4f8d-9a1f-e81a6110eda8
 exl-id: 9386824c-7d04-459b-9417-45b67f8a7b37
 ---
 # Understanding ID synchronization and match rates{#understanding-id-synchronization-and-match-rates}

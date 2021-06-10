@@ -1,8 +1,6 @@
 ---
 description: Experience Cloud ID Service (ECID) supports the SHA-256 hashing algorithm that allows you to pass in customer IDs or email addresses, and pass out hashed IDs. This is an optional Javascript method for sending hashed identifiers to Experience Cloud. You can continue to use your own methods of hashing prior to sending customer IDs.
 keywords: ID Service
-seo-description: Experience Cloud ID Service (ECID) supports the SHA-256 hashing algorithm that allows you to pass in customer IDs or email addresses, and pass out hashed IDs. This is an optional Javascript method for sending hashed identifiers to Experience Cloud. You can continue to use your own methods of hashing prior to sending customer IDs.
-seo-title: SHA256 Hashing Support for setCustomerIDs
 title: SHA256 Hashing Support for setCustomerIDs
 exl-id: fd30634e-6435-4d14-8804-649c1ad3aaaa
 ---

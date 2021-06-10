@@ -1,8 +1,6 @@
 ---
 title: Google Chrome SameSite labelling changes
-seo-title: Google Chrome SameSite labelling changes
 description: Documentation for Adobe ECID (ID Service) library.
-seo-description: Documentation for Adobe ECID (ID Service) library.
 exl-id: f20b25a4-c9bc-41b9-8e49-79b8424e62a0
 ---
 # Google Chrome SameSite labelling changes {#google-chrome-samesite-labelling-changes}

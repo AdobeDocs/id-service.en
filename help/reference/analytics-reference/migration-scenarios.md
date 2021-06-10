@@ -1,10 +1,7 @@
 ---
 description: Contains server example configurations and the required migration steps.
 keywords: ID Service
-seo-description: Contains server example configurations and the required migration steps.
-seo-title: Experience Cloud Identity Service Migration Scenarios
 title: Experience Cloud Identity Service Migration Scenarios
-uuid: 9e229045-6508-48c4-ae39-9537b4941853
 exl-id: 419532bf-399f-4646-a95f-31c35535d6fc
 ---
 # Experience Cloud Identity Service Migration Scenarios {#experience-cloud-id-service-migration-scenarios}

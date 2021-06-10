@@ -1,10 +1,7 @@
 ---
 description: An optional Boolean flag that adds a "Secure" attribute to the AMCV cookie.
 keywords: ID Service
-seo-description: An optional Boolean flag that adds a "Secure" attribute to the AMCV cookie.
-seo-title: secureCookie
 title: secureCookie
-uuid: 995d19f6-9c9d-4493-9c9c-545b0b5696b0
 exl-id: ba281b1c-1112-4ed6-b4fd-b8f87cabc575
 ---
 # secureCookie{#securecookie}

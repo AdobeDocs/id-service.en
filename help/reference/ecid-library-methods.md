@@ -1,8 +1,6 @@
 ---
 title: ECID library methods in a Safari ITP world
-seo-title: ECID library methods in a Safari ITP world
 description: Documentation for Adobe ECID (ID Service) library.
-seo-description: Documentation for Adobe ECID (ID Service) library.
 exl-id: ac1d1ee1-2b5f-457a-a694-60bb4c960ae7
 ---
 # ECID library methods in a Safari ITP world

@@ -1,10 +1,7 @@
 ---
 description: Returns the Experience Cloud Identity Service region ID. A region ID (or location hint), is a numeric identifier for the geographic location of a particular ID service data center. You need the region ID in order to make server-side API calls to Audience Manager.
 keywords: ID Service
-seo-description: Returns the Experience Cloud Identity Service region ID. A region ID (or location hint), is a numeric identifier for the geographic location of a particular ID service data center. You need the region ID in order to make server-side API calls to Audience Manager.
-seo-title: getLocationHint
 title: getLocationHint
-uuid: cdc312b7-d270-4a5c-a2bb-0fbb37f1e2f4
 exl-id: 0213f828-a985-4201-8a38-0a4b170ed057
 ---
 # getLocationHint{#getlocationhint}

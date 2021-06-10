@@ -1,10 +1,7 @@
 ---
 description: An optional, Boolean flag that controls how the browser requests resources from the Experience Cloud Identity Service.
 keywords: ID Service
-seo-description: An optional, Boolean flag that controls how the browser requests resources from the Experience Cloud Identity Service.
-seo-title: useCORSOnly
 title: useCORSOnly
-uuid: 607dc035-dffc-4f4d-be51-08ef6c0a8fad
 exl-id: 049a082a-8e6b-44cc-bd05-c12aaf3cbe4d
 ---
 # useCORSOnly{#usecorsonly}

@@ -1,10 +1,7 @@
 ---
 description: An optional, Boolean flag that prevents the Experience Cloud Identity Service from returning the third-party, demdex.net cookie.
 keywords: ID Service
-seo-description: An optional, Boolean flag that prevents the Experience Cloud Identity Service from returning the third-party, demdex.net cookie.
-seo-title: disableThirdPartyCookies
 title: disableThirdPartyCookies
-uuid: 7ed5aa16-44ca-4702-878a-1a208ca95270
 exl-id: 19d12822-0e17-4a1c-8e9c-25a22e20a4a8
 ---
 # disableThirdPartyCookies{#disablethirdpartycookies}

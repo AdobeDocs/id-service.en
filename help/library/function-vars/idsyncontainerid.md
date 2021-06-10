@@ -1,10 +1,7 @@
 ---
 description: This property sets the data source container ID that you want to use for ID syncs.
 keywords: ID Service
-seo-description: This property sets the data source container ID that you want to use for ID syncs.
-seo-title: idSyncContainerID
 title: idSyncContainerID
-uuid: e35dc48b-1aa1-41e3-91c1-ef1e9d2d8b90
 exl-id: 6c4cd41b-902b-4872-8c3f-475a834b76f4
 ---
 # idSyncContainerID{#idsynccontainerid}
