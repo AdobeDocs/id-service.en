@@ -88,11 +88,9 @@ Visitor.getInstance({{YOUR_ORG_ID}}, {
 Open the developer tools and select the *Console* tab. Paste the following code snippet and press Enter:
 
 ```
-<codeblock>
-  __cmp("getVendorConsents", null, function (vendorConsents) { 
-     console.log("Vendor Consent:", vendorConsents); }) 
-</codeblock>  
-  
+__cmp("getVendorConsents", null, function (vendorConsents) { 
+    console.log("Vendor Consent:", vendorConsents);
+});
 ```
 
 Here's an example output when purposes 1, 2, and 5 are approved, and the Audience Manager vendor ID is approved:
