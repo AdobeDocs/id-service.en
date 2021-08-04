@@ -173,7 +173,7 @@ Additional fields that let you add an integration code or authenticated state st
 
 **Integration Code**
 
-An integration code is a unique, customer provided ID. The integration code should contain the value you used to [create a data source](hhttps://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html#create-data-source) in [!DNL Audience Manager].
+An integration code is a unique, customer provided ID. The integration code should contain the value you used to [create a data source](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html#create-data-source) in [!DNL Audience Manager].
 
 **Value**
 
