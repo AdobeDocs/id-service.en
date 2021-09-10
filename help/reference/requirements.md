@@ -35,7 +35,7 @@ A successful, supported implementation meets (or exceeds) the code requirements 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../implementation-guides/implementation-guides.md#section-2c4f2db1f9704315a7cccab6d2e07113" format="dita" scope="local"> Non-Standard Implementations </a> </p> </td> 
-   <td colname="col2"> <p>For non-standard, or manual implementations, you must set up the ID service as described by the procedures this guide. As with the DTM guidelines above, improper code placement and loading will create an unsupported implementation. </p> </td> 
+   <td colname="col2"> <p>For non-standard, or manual implementations, you must set up the ID service as described by the procedures on this guide. As with the DTM guidelines above, improper code placement and loading will create an unsupported implementation. </p> </td> 
   </tr> 
  </tbody> 
 </table>
