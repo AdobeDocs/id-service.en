@@ -73,7 +73,7 @@ To use the ID service, your company must be enabled for the [!DNL Experience Clo
 
 ## Analytics Requirements: Regional Data Collection (RDC) {#section-7d04bb013bc84a25bae3b148bc0ca25f}
 
-All tracking servers have been converted to RDC, so there is no need to change the Analytics tracking server. [More info...](https://experienceleague.adobe.com/docs/analytics/admin/data-collection/regional-data-collection/regional-data-collection.html)
+All tracking servers have been converted to RDC, so there is no need to change the Analytics tracking server. [More info...](https://experienceleague.adobe.com/docs/analytics/technotes/rdc/regional-data-collection.html?lang=en)
 
 ## Code Libraries and Version Requirements {#section-ad7542a4317d430fa79fc6b095beb84d}
 
