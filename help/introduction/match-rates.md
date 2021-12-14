@@ -18,7 +18,7 @@ Match rates measure and validate the effectiveness of the ID synchronization pro
 
 **Ensuring high match rates**
 
-To generate high match rates, it is important to set up the ID service properly (see the [standard implementation guide](../implementation-guides/standard.md#concept-89cd0199a9634fc48644f2d61e3d2445)). A proper implementation helps ensure high match rates because lets the ID service set the cookies it requires to function and synchronize IDs with enabled data partners. However, factors such as slow Internet connections, data collection from mobile devices or wireless networks can affect how well the ID service collects, synchronizes, and matches IDs. These client-side variables are beyond the control of the ID service or [!DNL Adobe].
+A proper implementation helps ensure high match rates because lets the ID service set the cookies it requires to function and synchronize IDs with enabled data partners. However, factors such as slow Internet connections, data collection from mobile devices or wireless networks can affect how well the ID service collects, synchronizes, and matches IDs. These client-side variables are beyond the control of the ID service or [!DNL Adobe].
 
 ## ID synchronization process described {#section-a541a85cbbc74f5682824b1a2ee2a657}
 

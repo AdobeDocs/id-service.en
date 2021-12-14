@@ -10,7 +10,7 @@ Older implementations use Dynamic Tag Management (DTM) to set up, deploy, and in
 
 ## Implementation with Dynamic Tag Management {#topic-6f4ed5d96977406ca991e50f3fbd5b01}
 
-Older implementations use Dynamic Tag Management (DTM) to set up, deploy, and integrate the Experience Cloud Identity Service with your other Experience Cloud solutions.
+Older implementations use Dynamic Tag Management (DTM) to set up, deploy, and integrate the Experience Cloud Identity Service with your other Experience Cloud solutions. 
 
 >[!NOTE]
 >

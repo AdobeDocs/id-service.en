@@ -160,8 +160,6 @@ Your configured settings should look like this:
 
 ![](assets/server_side_dtm.png)
 
-See also, [Experience Cloud Identity Service Settings for DTM](../implementation-guides/standard.md#concept-fb6cb6a0e6cc4f10b92371f8671f6b59).
-
 **Get server state without DTM**
 
 If you have a non-standard implementation of the ID service, you must configure this code to run on your server while it assembles the requested page:

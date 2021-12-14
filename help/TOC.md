@@ -19,7 +19,7 @@ user-guide-url: /content/help/en/id-service/using/home.html
 + Implementation {#implementation}
    + [Implementation methods](implementation-guides/implementation-methods.md)
    + [Implementation guides](implementation-guides/implementation-guides.md)
-   + [Implement with Experience Platform Launch](implementation-guides/ecid-implement-with-launch.md)
+   + [Implement with Experience Platform tags](implementation-guides/ecid-implement-with-launch.md)
    + [Implement for Analytics](implementation-guides/setup-analytics.md)
    + [Implement for Target](implementation-guides/setup-target.md)
    + [Implement for Analytics and Audience Manager](implementation-guides/setup-aam-analytics.md)

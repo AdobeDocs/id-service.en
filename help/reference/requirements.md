@@ -12,33 +12,13 @@ Review this section to make sure you're using the right solutions, services, and
 
 A successful, supported implementation meets (or exceeds) the code requirements and follows the instructions as they appear in the [!DNL Adobe] help. An unsupported implementation will yield unexpected results and prevent Customer Care and our engineering teams from assisting with efforts to troubleshoot or resolve your issues with the ID service.
 
-<table id="table_2216C44AA66248DCAA13BF64BDF2D88A"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Implementation Type </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <a href="../implementation-guides/standard.md#concept-89cd0199a9634fc48644f2d61e3d2445" format="dita" scope="local"> Standard</a> </p> </td> 
-   <td colname="col2"> <p>For a standard implementation with Dynamic Tag Management (DTM), you must: </p> 
-    <ul id="ul_59CDE179566844B494F3068FF6333809"> 
-     <li id="li_CCCB6AFC08EE405F94C42216D3CE50AC"> Place the embed head code in the <span class="codeph"> &lt;head&gt;</span> section of your page. </li> 
-     <li id="li_13962F2CB1764091A84863BE499675A2">Place the embed footer code before the closing <span class="codeph"> &lt;/body&gt;</span> tag. </li> 
-    </ul> <p>A standard implementation is not supported when you: </p> 
-    <ul id="ul_3B62559317ED4C7AA548C3B8DBA281F7"> 
-     <li id="li_1F16C6D412944197BEA56BC24730782C"> Place either of these DTM embed codes elsewhere in your markup and/or page code. </li> 
-     <li id="li_05615C01F3A947BBBD41046E68377224"> Append, add, or load DTM code with asynchronous methods, calls/callback methods, or wrappers. </li> 
-     <li id="li_B2137DFF627B473FA876580449026D2B">Include multiple instances of embed code on the same page. </li> 
-    </ul> <p>See also, <a href="https://experienceleague.adobe.com/docs/dtm/using/client-side/deployment.html" format="https" scope="external"> Embed Code and Hosting Options</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <a href="../implementation-guides/implementation-guides.md#section-2c4f2db1f9704315a7cccab6d2e07113" format="dita" scope="local"> Non-Standard Implementations </a> </p> </td> 
-   <td colname="col2"> <p>For non-standard, or manual implementations, you must set up the ID service as described by the procedures this guide. As with the DTM guidelines above, improper code placement and loading will create an unsupported implementation. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+### Standard implementations
+
+See [Experience Platform tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html) for your standard implementation.
+
+### Non-standard implementations
+
+For non-standard, or manual implementations, you must set up the ID service as described by the procedures this guide. As with the DTM guidelines above, improper code placement and loading will create an unsupported implementation.
 
 ## Experience Cloud Requirements: Organization ID {#section-a02f537129a64ffbb690d5738d360c26}
 

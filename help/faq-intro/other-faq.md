@@ -8,14 +8,6 @@ exl-id: d1164951-01c9-4375-981a-f87d8a280e4b
 
 Frequently asked questions about features, functionality, and issues related to using other Experience Cloud solutions with the ID service.
 
-## Dynamic Tag Management (DTM) {#section-7ac4b9c1f1fd45a5a03eac3fb5968af7}
-
-**Can I use Dynamic Tag Management to deploy the visitor ID service?**
-
-Yes, this is the preferred and recommended deployment option.
-
-See [Standard Implementation with DTM](../implementation-guides/standard.md#concept-89cd0199a9634fc48644f2d61e3d2445).
-
 ## Analytics and Audience Manager {#section-b3dd206d497041acb04554c6fb1c912a}
 
 **Will the visiting history of a user be exported from [!DNL Adobe Analytics] to [!DNL Audience Manager] after I implement the Experience Cloud Identity Service?**
