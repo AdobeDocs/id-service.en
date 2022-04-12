@@ -10,4 +10,4 @@ CNAME implementations allow you to customize the collection domain used by Adobe
 
 While a CNAME implementation does not provide any benefits in terms of cookie lifetime, there may be some other benefits. These benefits include ad blockers and less-common browsers preventing data from being sent to domains they classify as trackers. In these cases, using a CNAME can prevent your data collection from being disrupted for users employing these tools.
 
-In addition, CNAME implementations allow you to specify **[!UICONTROL Choose custom RDC type]** which controls where users’ hits are initially routed. The majority of customers do not use custom RDC types.
+In addition, CNAME implementations allow you to [choose a custom RDC type](https://experienceleague.adobe.com/docs/analytics/technotes/rdc/regional-data-collection.html?lang=en) which controls where users’ hits are initially routed. The majority of customers do not use custom RDC types.
