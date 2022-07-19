@@ -6,7 +6,7 @@ exl-id: fe1368db-06ca-4c79-b655-b7064e316d74
 ---
 # Adobe Experience Cloud Identity Service {#experience-cloud-id-service}
 
-The Adobe Experience Cloud Identity Service (ID service) provides a universal, persistent ID that identifies your visitors across all the solutions in the Experience Cloud. It can replace ID generation code for services such as Analytics, Audience Manager, Target, and other Experience Cloud solutions or features.
+The Adobe Experience Cloud Identity Service provides a universal, persistent ID that identifies your visitors across all the solutions in the Experience Cloud. It can replace ID generation code for Experience Cloud solutions and services.
 
 <table id="table_5E612F746A704FE095B809A013EE977F" class="simpletable"> 
  <tbody> 
