@@ -9,7 +9,7 @@ user-guide-url: /content/help/en/id-service/using/home.html
 
 # Experience Cloud Identity Service Help {#using}
 
-+ [ID Service Help](home.md)
++ [Identity Service Help](home.md)
 + Overview {#intro}
    + [Overview](introduction/overview.md)
    + [About the ID Service](introduction/about-id-service.md)
