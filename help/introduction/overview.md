@@ -13,7 +13,7 @@ Experience Cloud Identity Service enables the common identification framework fo
 >You might see references to the ID service as acronyms or or former names, such as ECID, Marketing Cloud ID Service (MID), and Visitor ID Service. These refer to the [!UICONTROL Experience Cloud Identity Service]. You might also see [!UICONTROL Experience Platform Identity Service]. To clarify:
 -->
 
-* Experience Platform Identity Service provides you with a comprehensive view of your customers and their behavior by bridging identities across devices and systems, allowing you to deliver impactful, personal digital experiences in real time.
+* [Experience Platform Identity Service](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=en) provides you with a comprehensive view of your customers and their behavior by bridging identities across devices and systems, allowing you to deliver impactful, personal digital experiences in real time.
 * Experience Cloud ID (ECID) is a shared identity namespace used across Experience Cloud and Experience Platform applications. The ECID is a unique, persistent ID assigned to a site visitor that can add a people-centric context to identities, allowing to market to real people as opposed to devices.
 
 When your organization implements Identity Service, the ECID lets you identify the same site visitor and their data in different Experience Cloud solutions.
