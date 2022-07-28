@@ -5,28 +5,31 @@ exl-id: dc7d6220-d42b-4a3e-bf37-1e4e87280ae1
 ---
 # Experience Cloud Identity Service overview
 
-Experience Cloud Identity Service enables the common identification framework for Experience Cloud Core Services (such as customer attributes and audiences) and the Adobe Experience Platform Identity Service.
+The Experience Cloud Identity Service enables the common identification framework for Experience Cloud Application Services. You can use the Experience Cloud Identity Service to set the [Experience Cloud ID (ECID)](https://experienceleague.adobe.com/docs/experience-platform/identity/ecid.html). 
 
-<!--
+The ECID is a shared identity namespace used across Adobe Experience Platform and Experience Cloud applications to track visitor behavior and ensure that each device has a unique identifier that can persist across multiple sessions.
+
+>[!TIP]
+>
+>The Experience Cloud Identity Service, Experience Platform Identity Service, and ECID are three **different** entities. 
+
+The Experience Cloud Identity Service can replace different application-specific IDs and use the [Customer IDs and Authentication States](/help/reference/authenticated-state.md) functionality to let you pass in your own customer IDs to the Experience Cloud.
+
 >[!NOTE]
 >
->You might see references to the ID service as acronyms or or former names, such as ECID, Marketing Cloud ID Service (MID), and Visitor ID Service. These refer to the [!UICONTROL Experience Cloud Identity Service]. You might also see [!UICONTROL Experience Platform Identity Service]. To clarify:
--->
+>The Experience Cloud Identity Service only works with Experience Cloud Application Services that you are subscribed to and will not provide access to other application services if you are not subscribed to them.
 
-* [Experience Platform Identity Service](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=en) provides you with a comprehensive view of your customers and their behavior by bridging identities across devices and systems, allowing you to deliver impactful, personal digital experiences in real time.
-* Experience Cloud ID (ECID) is a shared identity namespace used across Experience Cloud and Experience Platform applications. The ECID is a unique, persistent ID assigned to a site visitor that can add a people-centric context to identities, allowing to market to real people as opposed to devices.
+The Experience Cloud Identity Service is an integral component of many current and future Experience Cloud features, enhancements, and services. Currently, the Experience Cloud Identity Service supports the following application services:
 
-When your organization implements Identity Service, the ECID lets you identify the same site visitor and their data in different Experience Cloud solutions.
+* [Adobe Analytics](https://business.adobe.com/products/analytics/web-analytics.html)
+* [Audience Manager](https://business.adobe.com/products/audience-manager/adobe-audience-manager.html)
+* [Adobe Target](https://business.adobe.com/products/target/adobe-target.html)
 
-![](assets/ecid-new.png)
-
-Also, the ID service can replace the different solution-specific IDs (e.g., Analytics AID). And, through the [Customer IDs and Authentication States](/help/reference/authenticated-state.md) functionality, the ID service lets you pass in your own customer IDs to the Experience Cloud. Keep in mind, however, that the ID service only works with the solutions you're already subscribed to. It won't provide access to other products if you're not signed up for them.
-
-Going forward, the ID service is an integral component of many current and future Experience Cloud features, enhancements, and services. Currently, the ID service supports [Analytics](http://www.adobe.com/marketing-cloud/web-analytics.html), [Audience Manager](http://www.adobe.com/marketing-cloud/data-management-platform.html), and [Target](http://www.adobe.com/marketing-cloud/testing-targeting.html). And, it is required if you want to participate in the Adobe Experience Cloud Device Co-op. If you have not implemented the ID service, now is the time to start considering a migration strategy.
+The Experience Cloud Identity Service is also required in order to participate in the Experience Cloud Device Co-op.
 
 ## Feature Summary
 
-To sum up, the Identity Service:
+To sum up, the Experience Cloud Identity Service:
 
 * Creates a common key or ID which can be used to link profiles and identities.
 * Uniquely identifies a device across multiple applications.
