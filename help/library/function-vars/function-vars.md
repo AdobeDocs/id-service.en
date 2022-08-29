@@ -23,7 +23,6 @@ Related articles:
 + [idSyncAttachIframeOnWindowLoad](idsyncattachiframeonwindowload.md)
 + [idSyncContainerID](idsyncontainerid.md)
 + [idSyncSSLUseAkamai](idsyncssluseakamai.md)
-+ [isCoopSafe](coopsafe.md)
 + [loadTimeout](loadtimeout.md)
 + [overwriteCrossDomainMCIDAndAID](overwrite-visitor-id.md)
 + [resetBeforeVersion](resetbeforeversion.md)
