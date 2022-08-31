@@ -25,15 +25,15 @@ The Experience Cloud Identity Service is an integral component of many current a
 * [Audience Manager](https://business.adobe.com/products/audience-manager/adobe-audience-manager.html)
 * [Adobe Target](https://business.adobe.com/products/target/adobe-target.html)
 
-The Experience Cloud Identity Service is also required in order to participate in the Experience Cloud Device Co-op.
+Going forward, the ID service is an integral component of many current and future Experience Cloud features, enhancements, and services. Currently, the ID service supports [Analytics](http://www.adobe.com/marketing-cloud/web-analytics.html), [Audience Manager](http://www.adobe.com/marketing-cloud/data-management-platform.html), and [Target](http://www.adobe.com/marketing-cloud/testing-targeting.html). If you have not implemented the ID service, now is the time to start considering a migration strategy.
 
 ## Feature Summary
 
 To sum up, the Experience Cloud Identity Service:
 
 * Creates a common key or ID which can be used to link profiles and identities.
-* Uniquely identifies a device across multiple applications.
-* Sets a first-party cookie in customer’s domain to ensure tracking on same domain. See the document on [cookies and Experience Cloud Identity Service](./cookies.md) for more information.
+* Uniquely identifies a device across multiple solutions.
+* Sets a first-party cookie in customer's domain to ensure tracking on same domain. See the document on [cookies and Experience Cloud Identity Service](./cookies.md) for more information.
 * Receives aliases and ID mappings from Experience Cloud customers and partners.
 * Manages ID synchronization within the Experience Cloud.
 * Supports ID synchronization with different third-parties across the ad tech ecosystem.
