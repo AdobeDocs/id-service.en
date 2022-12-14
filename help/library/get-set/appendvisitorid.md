@@ -49,7 +49,7 @@ var destinationURLWithVisitorIDs = visitor.appendVisitorIDsTo(destinationURL);
 //Redirect to the destination
 ```
 
-## Dynamic Tag Management (DTM) and SDK Support {#section-168e313df6054af0a7e27b9fa0d69640}
+<!-- ## Dynamic Tag Management (DTM) and SDK Support {#section-168e313df6054af0a7e27b9fa0d69640}
 
 <table id="table_6E7152B4FD2B4C4D8C9477C68204C4FF"> 
  <thead> 
@@ -72,4 +72,4 @@ var destinationURLWithVisitorIDs = visitor.appendVisitorIDsTo(destinationURL);
     </ul> </td> 
   </tr> 
  </tbody> 
-</table>
+</table> -->
