@@ -36,12 +36,14 @@ If you've set up the ID service with a [non-standard implementation](../../imple
 ```js
 //Instantiate server state variable 
 var serverState = { 
-     "Insert Experience Cloud organization ID here": { 
-          //Specify the SDID or other ID 
-          supplementalDataIDCurrent: "1234", 
-          supplementalDataIDCurrentConsumed: { 
-               "payload:top-center": false 
-          } 
+     "Insert Experience Cloud organization ID here": {
+          sdid: {
+               //Specify the SDID or other ID 
+               supplementalDataIDCurrent: "1234", 
+               supplementalDataIDCurrentConsumed: { 
+                    "payload:top-center": false 
+               }
+          }
      } 
 }; 
  
