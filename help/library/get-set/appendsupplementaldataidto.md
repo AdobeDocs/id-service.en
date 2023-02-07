@@ -24,13 +24,14 @@ This helper method lets you append the Supplemental Data ID (SDID) as a query st
 **Code Sample**
 
 ```js
-var visitor = Visitor.getInstance ("Insert Experience Cloud organization ID here",{ 
-   ... 
-}); 
+var visitor = Visitor.getInstance("Insert Experience Cloud organization ID here");
  
+//Get the current SDID value
+var theCurrentSDID = visitor._supplementalDataIDCurrent ? visitor._supplementalDataIDCurrent : "";
+
 //Call helper method to append SDID to the Page B URL from Page A 
 var pageB = "www.domain.com/pageB"; 
-var pageBWithSdid = visitor.appendSupplementalDataIDTo(pageB, "67987653465787219");
+var pageBWithSdid = visitor.appendSupplementalDataIDTo(pageB, theCurrentSDID);
 
 ```
 
@@ -39,7 +40,7 @@ var pageBWithSdid = visitor.appendSupplementalDataIDTo(pageB, "67987653465787219
 As shown below, the URL redirect contains the visitor's SDID, your Organization ID, and a UNIX timestamp in the call to the receiving page.
 
 <ul class="simplelist"> 
- <li> <span class="codeph"> www.domain.com/pageB?adobe_mc_sdid=SDID=123|MCORGID=123456789@AdobeOrg|TS=1498569322 </span> </li> 
+ <li> <span class="codeph">  www.domain.com/pageB?adobe_mc_sdid=SDID=58187932A6B53601-06A6F8FC57B00879|MCORGID=123456789@AdobeOrg|TS=1498569322 </span> </li> 
 </ul>
 
 ## Changing the SDID Timeout with sdidParamExpiry {#section-99946715cefa4acc95200b093db5297e}
@@ -55,14 +56,17 @@ If you need to change the default SDID timeout, add `sdidParamExpiry` to the `Vi
 When configured your ID service code could look similar to this sample. This sample sets the SDID timeout to 15 seconds.
 
 ```js
-var visitor = Visitor.getInstance ("Insert Experience Cloud organization ID here",{ 
+var visitor = Visitor.getInstance("Insert Experience Cloud organization ID here",{ 
    ... 
    //Change the default SDID timeout to 15 seconds 
    sdidParamExpiry: 15 
 }); 
  
+//Get the SDID value
+var thecurrentSDID = visitor._supplementalDataIDCurrent ? visitor._supplementalDataIDCurrent : "";
+
 //Call helper method to append SDID to the Page B URL from Page A 
 var pageB = "www.domain.com/pageB"; 
-var pageBWithSdid = visitor.appendSupplementalDataIDTo(pageB, "67987653465787219"); 
+var pageBWithSdid = visitor.appendSupplementalDataIDTo(pageB, thecurrentSDID); 
 
 ```
