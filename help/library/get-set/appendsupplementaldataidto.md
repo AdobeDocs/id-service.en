@@ -24,13 +24,14 @@ This helper method lets you append the Supplemental Data ID (SDID) as a query st
 **Code Sample**
 
 ```js
-var visitor = Visitor.getInstance ("Insert Experience Cloud organization ID here",{ 
-   ... 
-}); 
- 
+var visitor = Visitor.getInstance("Insert Experience Cloud organization ID here"); 
+
+//Get current supplemental data id
+var theCurrentSDID = visitor._supplementalDataIDCurrent ? visitor._supplementalDataIDCurrent : "";
+
 //Call helper method to append SDID to the Page B URL from Page A 
 var pageB = "www.domain.com/pageB"; 
-var pageBWithSdid = visitor.appendSupplementalDataIDTo(pageB, "67987653465787219");
+var pageBWithSdid = visitor.appendSupplementalDataIDTo(pageB, theCurrentSDID));
 
 ```
 
@@ -39,7 +40,7 @@ var pageBWithSdid = visitor.appendSupplementalDataIDTo(pageB, "67987653465787219
 As shown below, the URL redirect contains the visitor's SDID, your Organization ID, and a UNIX timestamp in the call to the receiving page.
 
 <ul class="simplelist"> 
- <li> <span class="codeph"> www.domain.com/pageB?adobe_mc_sdid=SDID=123|MCORGID=123456789@AdobeOrg|TS=1498569322 </span> </li> 
+ <li> <span class="codeph"> www.domain.com/pageB?adobe_mc_sdid=SDID=7996F0B028999505-13DA591039D6226|MCORGID=123456789@AdobeOrg|TS=1498569322 </span> </li> 
 </ul>
 
 ## Changing the SDID Timeout with sdidParamExpiry {#section-99946715cefa4acc95200b093db5297e}
@@ -63,6 +64,6 @@ var visitor = Visitor.getInstance ("Insert Experience Cloud organization ID here
  
 //Call helper method to append SDID to the Page B URL from Page A 
 var pageB = "www.domain.com/pageB"; 
-var pageBWithSdid = visitor.appendSupplementalDataIDTo(pageB, "67987653465787219"); 
+var pageBWithSdid = visitor.appendSupplementalDataIDTo(pageB, theCurrentSDID)); 
 
 ```
