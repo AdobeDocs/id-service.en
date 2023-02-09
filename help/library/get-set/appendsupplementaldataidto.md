@@ -62,6 +62,9 @@ var visitor = Visitor.getInstance ("Insert Experience Cloud organization ID here
    sdidParamExpiry: 15 
 }); 
  
+//Get current supplemental data id
+var theCurrentSDID = visitor._supplementalDataIDCurrent ? visitor._supplementalDataIDCurrent : "";
+
 //Call helper method to append SDID to the Page B URL from Page A 
 var pageB = "www.domain.com/pageB"; 
 var pageBWithSdid = visitor.appendSupplementalDataIDTo(pageB, theCurrentSDID)); 
