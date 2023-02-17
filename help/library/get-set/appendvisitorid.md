@@ -35,7 +35,7 @@ See the code sample for details.
 
 >[!IMPORTANT]
 >
->In order for the values passed in the URL via appendVisitorsIDsTo to be picked up, the [ovewriteCrossDomainMDCIDAndAID](../function-vars/overwrite-visitor-id.md) variable must be set to true.
+>In order for the values passed in the URL via appendVisitorsIDsTo to be picked up, the [ovewriteCrossDomainMCIDAndAID](../function-vars/overwrite-visitor-id.md) variable must be set to true.
 
 The following example can help you get started with ` Visitor.appendVisitorIDsTo( *`url`*)`. When implemented properly, your JavaScript code could look similar to the following example.
 
