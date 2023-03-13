@@ -107,7 +107,9 @@ The following table lists and defines some important attributes of the demdex co
  </tbody> 
 </table>
 
-For related information, see [Understanding Calls to the Demdex Domain](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=en).
+For information on disclosures regarding Demdex, visit the [Audience Manager device storage disclosures](https://aam-iab-tcf-vendor.s3.amazonaws.com/aam_device_storage_disclosures.json).
+
+For related information, read the documentation on [understanding Calls to the Demdex Domain](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=en).
 
 ## Generating the Experience Cloud ID {#section-15f69c0bac394b4b9966a23fbc586d17}
 
