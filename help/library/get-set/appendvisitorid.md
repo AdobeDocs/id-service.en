@@ -13,8 +13,10 @@ Contents:
 <ul class="simplelist"> 
  <li> <a href="../../library/get-set/appendvisitorid.md#section-7251d88befd440b4b79520e33c5aa44a" format="dita" scope="local"> Track Visitors Across Domains When Browsers Block Third-Party Cookies </a> </li> 
  <li> <a href="../../library/get-set/appendvisitorid.md#section-62d55f7f986542b0b9238e483d50d7b0" format="dita" scope="local"> Append Visitor ID Code Sample </a> </li> 
- <li> <a href="../../library/get-set/appendvisitorid.md#section-168e313df6054af0a7e27b9fa0d69640" format="dita" scope="local"> Dynamic Tag Management (DTM) and SDK Support </a> </li> 
+ </a> </li> 
 </ul>
+
+ <!-- <li> <a href="../../library/get-set/appendvisitorid.md#section-168e313df6054af0a7e27b9fa0d69640" format="dita" scope="local"> Dynamic Tag Management (DTM) and SDK Support -->
 
 ## Track Visitors Across Domains When Browsers Block Third-Party Cookies {#section-7251d88befd440b4b79520e33c5aa44a}
 
