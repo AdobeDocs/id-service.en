@@ -77,3 +77,25 @@ var destinationURLWithVisitorIDs = visitor.appendVisitorIDsTo(destinationURL);
   </tr> 
  </tbody> 
 </table> -->
+
+```js
+var adbeDomains = ["marketo.com", "figma.com", "workfront.com"];
+var visitor = Visitor.getInstance("9E1005A551ED61CA0A490D45@AdobeOrg", {
+  trackingServer: "sstats.adobe.com",
+  trackingServerSecure: "sstats.adobe.com",
+  marketingCloudServer: "sstats.adobe.com",
+  marketingCloudServerSecure: "sstats.adobe.com"
+});
+adbeDomains.forEach(function(domain) {
+  var domainRegex = RegExp(domain);
+  if (!domainRegex.test(location.hostname)) {
+    hrefSelector = '[href*="' + domain + '"]';
+    document.querySelectorAll(hrefSelector).forEach(function(href) {
+      href.addEventListener('mousedown', function(event) {
+        var destinationURLWithVisitorIDs = visitor.appendVisitorIDsTo(event.currentTarget.href)
+        event.currentTarget.href = destinationURLWithVisitorIDs.replace(/MCAID%3D.*%7CMCORGID/, 'MCAID%3D%7CMCORGID');
+      });
+    });
+  }
+});
+```
