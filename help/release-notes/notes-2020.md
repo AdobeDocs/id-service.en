@@ -6,7 +6,7 @@ exl-id: c9d7876e-debc-4c8e-8ebc-91646610c876
 ---
 # Experience Cloud release notes - 2020 {#release-notes}
 
-Feature releases, updates, or changes to the Experience Cloud Identity Service (ECID).
+Feature releases, updates, or changes to the Experience Cloud Identity Service.
 
 ## Version 5.1.1
 
