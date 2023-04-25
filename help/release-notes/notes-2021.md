@@ -2,6 +2,7 @@
 description: Feature releases, updates, or changes to the Experience Cloud Identity Service.
 keywords: ID Service
 title: 2021 Release Notes
+exl-id: f0bbb100-49a9-4bba-8cee-5f40bec87984
 ---
 # Experience Cloud Identity Service release notes - 2021
 
