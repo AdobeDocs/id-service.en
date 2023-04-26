@@ -17,7 +17,6 @@ If the Experience Cloud ID extension is not yet installed, open your property, t
 
 To configure the extension, open the *Extensions* tab and hover over the extension. Then click *Configure*.
 
-For additional reference information, read the [Adobe Experience Cloud Identity Service extension overview
-](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/id-service/overview.html).
+For additional reference information, read the [Adobe Experience Cloud Identity Service extension overview](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/id-service/overview.html).
 
 ![](assets/optin-launch.jpg)
