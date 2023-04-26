@@ -104,7 +104,9 @@ user-guide-url: /content/help/en/id-service/using/home.html
    + [Analytics and ID Service FAQs](faq-intro/analytics-faq.md)
    + [FAQs for Other Experience Cloud Solutions](faq-intro/other-faq.md)
 + Release notes for ID Service {#release-notes}
-   + [2020 Release Notes](release-notes/release-notes.md)
+   + [2022 Release Notes](release-notes/notes-2022.md)
+   + [2021 Release Notes](release-notes/notes-2021.md)
+   + [2020 Release Notes](release-notes/notes-2020.md)
    + [2019 Release Notes](release-notes/notes-2019.md)
    + [2018 Release Notes](release-notes/notes-2018.md)
    + [2017 Release Notes](release-notes/notes-2017.md)
