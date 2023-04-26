@@ -35,7 +35,7 @@ The Opt-in service lets you specify if a visitor can opt in to Adobe solutions a
 
 1. Your company's privacy requirements will be specific to how you choose to stay compliant with GDPR. Be aware of which libraries your company privacy teams are okay with using in a pre-consent state.
 
-If using [Adobe Launch](https://experienceleague.adobe.com/docs/launch/using/home.html), take advantage of the [Opt-in extension](../../implementation-guides/opt-in-service/launch.md) to configure Opt-in service.
+If using [Tags in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html), take advantage of the [Opt-in extension](../../implementation-guides/opt-in-service/launch.md) to configure Opt-in service.
 
 ## Opt-in categories {#section-9ab0492ab4414f0ca16dc08d3a905f47}
 

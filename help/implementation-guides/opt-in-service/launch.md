@@ -9,7 +9,7 @@ Simplify enabling Experience Cloud solution for Opt-in using Adobe Experience Pl
 
 ## Configure an Opt-in scenario with Experience Platform Launch {#section-8aa1b58bf8374c938aa8cfdeddbad6ff}
 
-[Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html) makes it easy to configure and set up an opt in scenario with Adobe solutions. You can simplify gathering visitor opt-in consents for Experience Cloud solutions by enabling Analytics, Target, Audience Manager, and other or all select Experience Cloud solutions to opt in to your consent management system.
+[Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html) makes it easy to configure and set up an opt in scenario with Adobe solutions. You can simplify gathering visitor opt-in consents for Experience Cloud solutions by enabling Analytics, Target, Audience Manager, and other or all select Experience Cloud solutions to opt in to your consent management system.
 
 **Configure the Experience Cloud ID extension**
 
@@ -17,6 +17,7 @@ If the Experience Cloud ID extension is not yet installed, open your property, t
 
 To configure the extension, open the *Extensions* tab and hover over the extension. Then click *Configure*.
 
-For additional reference information, see [Opt-in Extension for Launch](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html).
+For additional reference information, read the [Adobe Experience Cloud Identity Service extension overview
+](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/id-service/overview.html).
 
 ![](assets/optin-launch.jpg)
