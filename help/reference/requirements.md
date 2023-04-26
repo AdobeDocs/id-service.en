@@ -42,7 +42,7 @@ To use the ID service, your company must be enabled for the [!DNL Experience Clo
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Not sure</b> </p> </td> 
-   <td colname="col2"> <p> If you don't know your company's <span class="keyword"> Experience Cloud</span> status, ask whoever manages your Adobe account if members of your company can log in at <a href="https://experiencecloud.adobe.com" format="https" scope="external"> marketing.adobe.com</a> using an Adobe ID. If you can, then you're enabled and an administrator can view your Organization ID. To find the Organization ID, see the "Administration Page" section in <a href="https://docs.adobe.com/help/en/core-services/interface/experience-cloud.html" format="https" scope="external"> Experience Cloud Administration</a>. </p> </td> 
+   <td colname="col2"> <p> If you don't know your company's <span class="keyword"> Experience Cloud</span> status, ask whoever manages your Adobe account if members of your company can log in at <a href="https://experiencecloud.adobe.com" format="https" scope="external"> marketing.adobe.com</a> using an Adobe ID. If you can, then you're enabled and an administrator can view your Organization ID. To find the Organization ID, see the "Administration Page" section in <a href="https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=en" format="https" scope="external"> Experience Cloud Administration</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Not enabled</b> </p> </td> 
