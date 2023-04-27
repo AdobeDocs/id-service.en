@@ -11,7 +11,7 @@ The Opt-in service is an extension of the Experience Cloud ID (ECID), designed t
 
 Using the Opt-in service, you can specify if a visitor can opt in to Adobe solutions at once, or present solutions in sequence for permissions. Once the approval process is complete and recorded by the customer, you can retrieve the CMP visitor approvals from all Adobe solutions.
 
-The Opt-in service is implemented and configured easily using [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html) with the [Opt-in extension](../../implementation-guides/opt-in-service/launch.md). It can also be implemented and configured using [DTM](../../implementation-guides/opt-in-service/optin-dtm.md).
+The Opt-in service is implemented and configured easily using [Tags in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html) with the [Opt-in extension](../../implementation-guides/opt-in-service/launch.md). It can also be implemented and configured using [DTM](../../implementation-guides/opt-in-service/optin-dtm.md).
 
 See the [Setting up Opt-in Service](../../implementation-guides/opt-in-service/getting-started.md) to get started.
 

@@ -37,6 +37,10 @@ See the code sample for details.
 
 The following example code can help you get started with the `appendVisitorIDsTo` function:
 
+>[!TIP]
+>
+>This code can be placed in the Custom Code editor that's part of the Adobe Analytics extension or at the top of [AppMeasurement.js](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html).
+
 ```js
 var adbeDomains = ["marketo.com", "figma.com", "workfront.com"];
 var visitor = Visitor.getInstance("9E1005A551ED61CA0A490D45@AdobeOrg", {

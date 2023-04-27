@@ -41,7 +41,7 @@ Once settings are configured properly, ECID and DIL libraries will be enabled/di
 
 >[!IMPORTANT]
 >
->Audience Manager needs consent for *Purpose 1 and Purpose 10, plus vendor consent* in order to deploy cookies and initiate or honor ID syncs. Read more about the Opt-in's IAB TCF plugin in Audience Manager documentation [here](https://docs.adobe.com/help/en/audience-manager/user-guide/overview/gdpr/aam-iab-plugin.html).
+>Audience Manager needs consent for *Purpose 1 and Purpose 10, plus vendor consent* in order to deploy cookies and initiate or honor ID syncs. Read more about the Opt-in's IAB TCF plugin in Audience Manager documentation [here](https://experienceleague.adobe.com/docs/audience-manager/user-guide/overview/data-privacy/consent-management/aam-iab-plugin.html).
 
 For more information on how to validate Opt-in's IAB TCF plugin, check use case #4 in the validation guide [here](../../implementation-guides/opt-in-service/testing-optin-and-iab-plugin.md#section-ca5c6f92fbdf4fd29b4acb6b644efbd0).
 

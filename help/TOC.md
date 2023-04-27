@@ -1,5 +1,4 @@
 ---
-cloud: platform-cloud
 audience: end-user
 user-guide-title: Experience Cloud Identity Service Help
 breadcrumb-title: Identity Service Guide
