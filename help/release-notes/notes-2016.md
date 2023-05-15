@@ -2,6 +2,8 @@
 description: Feature releases, updates, or changes to the Experience Cloud Identity Service for 2016.
 keywords: ID Service
 title: 2016 Release Notes
+feature-set: Experience Cloud Services
+feature: TK421
 exl-id: f96b9869-6282-4090-b392-797608e25a51
 ---
 # 2016 Release Notes {#release-notes}
