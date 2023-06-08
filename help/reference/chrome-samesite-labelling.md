@@ -19,7 +19,7 @@ Visit the [cookie standard document](https://tools.ietf.org/html/draft-ietf-http
 | ------ | ------------ |
 | `strict` | Cookies with this setting are only sent when both the referring page and the landing page are part of the same domain as the cookie. |
 | `lax` | Cookies with this setting are only sent when the domain displayed in the URL of the browser matches the domain of the cookie. This is the new default for cookies in Chrome. |
-| `none` | Cookies with this setting are available for external or third-party access, such as “cross-site.” Prior to this change, `none` was the default SameSite setting for cookies, so using this setting makes a cookie behave most similarly to how it has traditionally worked. However, Google is requiring that any cookie with this setting now specify the secure flag, which means the cookie will only be created and sent with requests over HTTPS. All cross-site cookies without the secure flag will be rejected by Google. |
+| `none` | Cookies with this setting are available for external or third-party access, such as "cross-site." Prior to this change, `none` was the default SameSite setting for cookies, so using this setting makes a cookie behave most similarly to how it has traditionally worked. However, Google is requiring that any cookie with this setting now specify the secure flag, which means the cookie will only be created and sent with requests over HTTPS. All cross-site cookies without the secure flag will be rejected by Google. |
 
 ## What you need to know as an Adobe Experience Cloud customer
 
@@ -45,7 +45,7 @@ Most Adobe products already have the appropriate flags assigned to cookies. The 
 
 **Possible cookie match decrease for destination and marketplace partners (Audience Manager only)**
 
-While Adobe has control over updating its cookies, Adobe can’t force partners to make necessary changes. Cookie matching may decrease for Audience Manager customers using destination partners or marketplace partners that have not made these updates.
+While Adobe has control over updating its cookies, Adobe can't force partners to make necessary changes. Cookie matching may decrease for Audience Manager customers using destination partners or marketplace partners that have not made these updates.
 
 **Analytics Friendly third-party Cookies (Analytics `s_vi` cookies only)**
 
@@ -111,6 +111,4 @@ Only the common visitor standard cookies are listed in the table below. For addi
 | ------ | ---- | ------------------ | ---------------- |
 | _mkto_trk | Client-side first-party | No-value added *Chrome defaults to `lax` setting | Configurable for external pages |
 
-> ![IMPORTANT] Adobe third-party cookies are set server-side
-
-For more information, see the document on [Target's Google Chrome SameSite policies](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/privacy/google-chrome-samesite-cookie-policies.html).
+> ![IMPORTANT] Adobe third-party cookies are set server-side.
