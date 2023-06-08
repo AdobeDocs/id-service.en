@@ -112,3 +112,5 @@ Only the common visitor standard cookies are listed in the table below. For addi
 | _mkto_trk | Client-side first-party | No-value added *Chrome defaults to `lax` setting | Configurable for external pages |
 
 > ![IMPORTANT] Adobe third-party cookies are set server-side.
+
+For more information, see the document on [Target's Google Chrome SameSite policies](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/google-chrome-samesite-cookie-policies.html).
