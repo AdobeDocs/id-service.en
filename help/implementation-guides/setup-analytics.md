@@ -26,14 +26,13 @@ Follow these steps to implement the ID Service for Adobe Analytics:
 
 ## Step 1: Download the ID Service code {#section-ead9403a6b7e45b887f9ac959ef89f7f}
 
-The [!UICONTROL ID Service] requires the `VisitorAPI.js` code library. To download this code library:
+The [!UICONTROL ID Service] requires the `visitorapi.min.js` code library. To download this code library:
 
-1. Go to **[!UICONTROL Admin]** > **[!UICONTROL Code Manager]**. 
-1. In [!UICONTROL Code Manager], click either **[!UICONTROL JavaScript (New)]** or **[!UICONTROL JavaScript (Legacy)]**.
+1. Visit the [Releases](https://github.com/Adobe-Marketing-Cloud/id-service/releases) tab and download the `source.zip` folder which contains the `lib/visitorapi.min.js` library.
 
-   This downloads compressed code libraries. 
+2. If you are looking for the latest version, you can find it [here](https://github.com/Adobe-Marketing-Cloud/id-service/releases/latest).
 
-1. Decompress the code file and open the `VisitorAPI.js` file.
+3. Decompress the code file and open the `visitorapi.min.js` file.
 
 ## Step 2. Add the Visitor.getInstance function to the ID Service Code {#section-6053a6b7c16c466a9f9fdbf9cb9db3df}
 
