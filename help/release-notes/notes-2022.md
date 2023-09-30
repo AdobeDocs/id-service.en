@@ -2,7 +2,7 @@
 description: Feature releases, updates, or changes to the Experience Cloud Identity Service.
 keywords: ID Service
 title: 2022 Release Notes
-exl-id: 1550f43f-81be-447e-904c-b408785965fe
+exl-id: 2e2de89e-75b3-484d-ae4f-99054ef9956f
 ---
 # Experience Cloud Identity Service release notes - 2022
 
