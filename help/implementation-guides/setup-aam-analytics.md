@@ -1,12 +1,12 @@
 ---
-description: These instructions are for Analytics and Audience Manager customers who want to use the Experience Cloud Identity Service and do not use Dynamic Tag Management (DTM). However, we strongly recommend that you use DTM to implement the ID service. DTM streamlines the implementation workflow and automatically ensures the correct code placement and sequencing.
+description: These instructions are for Analytics and Audience Manager customers who want to use the Experience Cloud Identity Service and do not use Data Collection tags. However, we strongly recommend that you use tags to implement the ID service. Tags streamlines the implementation workflow and automatically ensures the correct code placement and sequencing.
 keywords: ID Service
 title: Implement the Experience Cloud Identity Service for Analytics and Audience Manager
 exl-id: e31720a1-5c89-4084-88f6-443994dbb2f4
 ---
 # Implement the Experience Cloud Identity Service for Analytics and Audience Manager{#implement-the-experience-cloud-id-service-for-analytics-and-audience-manager}
 
-These instructions are for Analytics and Audience Manager customers who want to use the Experience Cloud Identity Service and do not use Dynamic Tag Management (DTM). However, we strongly recommend that you use DTM to implement the ID service. DTM streamlines the implementation workflow and automatically ensures the correct code placement and sequencing.
+These instructions are for Analytics and Audience Manager customers who want to use the Experience Cloud Identity Service and do not use [Data Collection tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en). However, we strongly recommend that you use tags to implement the ID service. Tags streamlines the implementation workflow and automatically ensures the correct code placement and sequencing.
 
 >[!IMPORTANT]
 >
