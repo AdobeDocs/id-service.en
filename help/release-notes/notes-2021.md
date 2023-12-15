@@ -20,10 +20,10 @@ The following updates were included in the release of Visitor 5.3.0:
 
 The following updates were included in the release of Visitor 5.2.0:
 
-* This version introduces an event `onRecieveEcid`, which gets called when an ECID is received from the Identity Service. For example:
+* This version introduces an event `onReceiveEcid`, which gets called when an ECID is received from the Identity Service. For example:
 
 ```js
-visitorInstance.onRecieveEcid(callback(ecid){
+visitorInstance.onReceiveEcid(callback(ecid){
  console.log(ecid)
 })
 ```
