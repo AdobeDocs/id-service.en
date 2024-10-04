@@ -8,7 +8,7 @@ exl-id: 3e4f4e2c-e658-4124-bd0e-59c63127bdde
 
 >[!TIP]
 >
->Cross Domain tracking will not work as intended if the ECID is rejected initially (or previously). It will not check the existing IDs that were either passed via URL or previously existed in the cookie, considering those were the IDs when the consent was set to "NO"
+>Cross Domain tracking will not work as intended if the ECID is rejected initially (or previously). It will not check the existing IDs that were either passed via URL or previously existed in the cookie, considering those were the IDs when the consent was set to "NO".
 
 This function lets you share a visitor's Experience Cloud ID across domains when browsers block third-party cookies. To use this function, you must have implemented the ID service and own the source and destination domains. Available in VisitorAPI.js version 1.7.0 or higher.
 
