@@ -10,7 +10,7 @@ The Experience Cloud Identity Service enables the common identification framewor
 
 ## Understanding the main entities of identity
 
-To better understand how Adobe helps uniquely identify visitors and resolves identity information, reade the breakdown below:
+To better understand how Adobe helps uniquely identify visitors and resolves identity information, read the breakdown below:
 
 * **Experience Cloud Identity Service**: The Experience Cloud Identity Service **is responsible for setting the Experience Cloud ID (ECID)**. For more information, read the [Experience Cloud Identity Service overview](./introduction/overview.md).
 * **Experience Cloud ID (ECID)**: The ECID is a shared identity namespace used across Adobe Experience Platform and Adobe Experience Cloud applications to identify people and devices. For more information on the ECID, read the [ECID overview](https://experienceleague.adobe.com/docs/experience-platform/identity/ecid.html).
