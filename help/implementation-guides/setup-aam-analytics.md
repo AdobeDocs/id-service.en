@@ -30,11 +30,11 @@ Migrating to server-side forwarding requires planning and coordination. This pro
 
 The ID Service requires the `VisitorAPI.js` code library. To download this code library:
 
-1. Go to **[!UICONTROL Admin]** > **[!UICONTROL Code Manager]**. 
+1. Visit the [Releases](https://github.com/Adobe-Marketing-Cloud/id-service/releases) tab and download the `source.zip` folder which contains the `lib/visitorapi.min.js` library.
 
-1. In Code Manager, click either **[!UICONTROL JavaScrpt (New)]** or **[!UICONTROL JavaScript (Legacy)]**. This downloads compressed code libraries. 
+If you are looking for the latest version, you can find it [here](https://github.com/Adobe-Marketing-Cloud/id-service/releases/latest).
 
-1. Decompress the code file and open the `VisitorAPI.js` file.
+2. Decompress the code file and open the `VisitorAPI.js` file.
 
 ## Step 3: Add the Visitor.getInstance function to the ID Service code {#section-9e30838b4d0741658a7a492153c49f27}
 
