@@ -57,9 +57,17 @@ Add these domain names or URLs to your CSP for each list Experience Cloud soluti
  <td colname="col1"> <p> <b>Activity Map plugin</b> </p> </td> 
  <td colname="col2"> <p>Modify your CSP to include *.adobe.com. **Note**: If you already had Activity Map installed prior to January, 2020, your browser will still see an initial request to *.omniture.com, but will be redirected to *.adobe.com. </p></td> 
  </tr>
+  <tr>
+ <tdcolname="col1"><p><b>Advertising Analytics</b></p></td>
+ <tdcolname="col2"><p>If you restrict query string parameters, then whitelist the following parameters:<ul><li>`s_kwcid` (which uses `!`)</li><li>`ef_id` (which uses `:`)</li></ul>.</p><p>If you block the `!` character in URLs, then whitelist it also.</p><p>Advertising Analytics only uses `s_kwcid`, but Advertising Search, Social, & Commerce and Advertising DSP also use `ef_id`.</p></td>
+ </tr>
+  <tr>
+ <tdcolname="col1"><p><b>Adobe Advertising</b></p></td>
+ <tdcolname="col2"><p>Modify your CSP to include the following domains:<ul><li>`.everestjs.net`</li><li>`.everesttech.net`</li></ul></p></td>
+ </tr>
  <tr>
  <td colname="col1"> <p> <b>Advertising Analytics</b> </p> </td> 
- <td colname="col2"> <p>If you have controls on query string parameters, be sure to whitelist the parameters `s_kwcid` and `ef_id`. Technically, Advertising Analytics only uses `s_kwcid`, but if you pick up Ad Cloud Search or DSP, it also uses `ef_id`. These query string parameters are alphanumeric. The `s_kwcid` parameter uses the “!” character and the `ef_id` parameter uses the “:” character. If you are blocking the “!” character in the URL, you need to whitelist it as well.</p></td> 
+ <td colname="col2"> <p>If you have controls on query string parameters, be sure to whitelist the parameters `s_kwcid` and `ef_id`. Technically, Advertising Analytics only uses `s_kwcid`, but if you pick up Ad Cloud Search or DSP, it also uses `ef_id`. These query string parameters are alphanumeric. The `s_kwcid` parameter uses the "!" character and the `ef_id` parameter uses the ":" character. If you are blocking the "!" character in the URL, you need to whitelist it as well.</p></td> 
  </tr>
  </tbody> 
 </table>
