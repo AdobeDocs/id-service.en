@@ -1,18 +1,18 @@
 ---
-description: A Content Security Policy (CSP) is an HTTP header and security feature that gives browsers control over what type of resources are loaded on a Web page. Review this section if you use the ID service and have strict CSPs that use whitelists to accept resources from trusted domains. You will need to add the Adobe domains listed here to your CSP whitelists.
+description: A Content Security Policy (CSP) is an HTTP header and security feature that gives browsers control over what type of resources are loaded on a Web page. Review this section if you use the ID service and have strict CSPs that use allowlists to accept resources from trusted domains. You will need to add the Adobe domains listed here to your CSP allowlists.
 keywords: ID Service
 title: Content Security Policies and the Experience Cloud Identity Service
 exl-id: e35c6809-764e-4c3e-9139-88bb92e82338
 ---
 # Content Security Policies and the Experience Cloud Identity Service {#content-security-policies-and-the-experience-cloud-id-service}
 
-A Content Security Policy (CSP) is an HTTP header and security feature that gives browsers control over what type of resources are loaded on a Web page. Review this section if you use the ID service and have strict CSPs that use whitelists to accept resources from trusted domains. You will need to add the Adobe domains listed here to your CSP whitelists.
+A Content Security Policy (CSP) is an HTTP header and security feature that gives browsers control over what type of resources are loaded on a Web page. Review this section if you use the ID service and have strict CSPs that use allowlists to accept resources from trusted domains. You will need to add the Adobe domains listed here to your CSP allowlists.
 
 ## CSP Review {#section-5fde5c00a678455c914b8307a8caab82}
 
 CSPs use the HTTP header `Content-Security-Policy` to control the type of resources a browsers accept or load on a page. Applying a CSP can help you prevent:
 
-* JavaScript files from loading if the source is unknown or not included in a whitelist. 
+* JavaScript files from loading if the source is unknown or not included in an allowlist. 
 * Cross-site scripting (XXS) attacks. 
 * Data injection attacks. 
 * Site defacement attacks. 
@@ -20,7 +20,7 @@ CSPs use the HTTP header `Content-Security-Policy` to control the type of resour
 
 The use of CSPs are common and well-understood. It is not the purpose of this documentation to explain CSPs in detail (see the related information links below for more information). What is important is that you understand what Adobe domain names you should add to a CSP if you use these and have tight security policies. Adding these domains lets visitor browsers that access your site make those important calls to Experience Cloud resources that you use.
 
-## Experience Cloud Domains for Whitelisting {#section-30693e9a96834edfbf04de9e698cf2aa}
+## Experience Cloud Domains for Allowlisting {#section-30693e9a96834edfbf04de9e698cf2aa}
 
 Add these domain names or URLs to your CSP for each list Experience Cloud solution or service that you use.
 
@@ -81,12 +81,12 @@ Add these domain names or URLs to your CSP for each list Experience Cloud soluti
     <p><b>Advertising Analytics</b></p>
    </td>
    <td colname="col2">
-    <p>If you restrict query string parameters, then whitelist the following parameters:</p>
+    <p>If you restrict query string parameters, then allowlist the following parameters:</p>
     <ul>
      <li><code>s_kwcid</code> (which uses <code>!</code>)</li>
      <li><code>ef_id</code> (which uses <code>:</code>)</li>
     </ul>
-    <p>If you block the <code>!</code> character in URLs, then whitelist it also.</p>
+    <p>If you block the <code>!</code> character in URLs, then allowlist it also.</p>
     <p>Advertising Analytics only uses <code>s_kwcid</code>, but Advertising Search, Social, & Commerce and Advertising DSP also use <code>ef_id</code>.</p>
    </td>
   </tr>
