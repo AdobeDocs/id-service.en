@@ -11,3 +11,5 @@ This is a test file for gathering analytics.
 Testing some changes
 
 9-18-2025
+
+>[!SLIDE](analyze-project)
