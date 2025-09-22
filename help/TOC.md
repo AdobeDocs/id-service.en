@@ -112,3 +112,4 @@ user-guide-url: /content/help/en/id-service/using/home.html
    + [2016 Release Notes](release-notes/notes-2016.md)
    + [2015 Release Notes](release-notes/notes-2015.md)
 + [Analytics test hidden from TOC](analytics-test-file-hidetoc.md)
++ [Hidden test file](hidden-file.md)
