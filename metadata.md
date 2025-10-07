@@ -10,6 +10,7 @@ index: yes
 role: Architect, Developer, Data Architect, Data Engineer, User, Admin, Leader
 feature-set: Experience Cloud, Experience Platform
 feature: Identities, Integrations
+debug: true
 ---
 
 # metadata file
