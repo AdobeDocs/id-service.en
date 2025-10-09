@@ -7,7 +7,7 @@ audience: end-user
 git-repo: https://github.com/AdobeDocs/id-service.en
 description: Identity Service
 index: yes
-role: Architect, Developer, Data Architect, Data Engineer, User, Admin, Leader
+role: Developer, User, Admin, Leader
 feature-set: Experience Cloud, Experience Platform
 feature: Identities, Integrations
 debug: true
