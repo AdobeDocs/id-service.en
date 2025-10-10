@@ -8,7 +8,7 @@ exl-id: 280416ad-372a-4a59-a938-0f49c0ce300f
 
 Required for multi-part, top-level domains where either of the last two parts of the URL are greater than 2 characters.
 
- **Syntax:** ` cookieDomain: " *`URL`*"` (The `www` prefix is not required.)
+**Syntax:** `cookieDomain: "*`URL`*"` (The `www` prefix is not required.)
 
 **Use Case**
 

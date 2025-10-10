@@ -147,7 +147,7 @@ s.prop1 = (typeof(Visitor) != "undefined" ? "VisitorAPI Present" : "VisitorAPI M
 
 ## Step 7: Add visitor API code to the page {#section-c2bd096a3e484872a72967b6468d3673}
 
-Place the ` [!UICONTROL VisitorAPI.js]` file within the `<head>` tags on each page. When you the `VisitorAPI.js` file to your page:
+Place the `[!UICONTROL VisitorAPI.js]` file within the `<head>` tags on each page. When you the `VisitorAPI.js` file to your page:
 
 * Put it at the beginning of the `<head>` section to it appears before other solution tags. 
 * It must execute before AppMeasurement and the code for other [!DNL Experience Cloud] solutions.

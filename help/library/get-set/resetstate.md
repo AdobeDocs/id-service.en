@@ -19,7 +19,7 @@ See the code samples below.
 
 ## Syntax {#section-9e63503e178f4be28ac850abf44d6d91}
 
-**Syntax:** ` visitor.resetState( *`state`*);`
+**Syntax:** `visitor.resetState( *`state`*);`
 
 ## Code samples {#section-d75b211bb4ea473887eb284de2ad838b}
 

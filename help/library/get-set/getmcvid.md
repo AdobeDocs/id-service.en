@@ -8,7 +8,7 @@ exl-id: bd81cc0b-0511-492d-beb8-8ba2fe5d4323
 
 getMarketingCloudVisitorID returns the Experience Cloud visitor ID.
 
- **Syntax:** ` var *`variable name`* = visitor.getMarketingCloudVisitorID()`
+ **Syntax:** `var *`variable name`* = visitor.getMarketingCloudVisitorID()`
 
 This method typically used with custom solutions that require reading the visitor ID. It is not used by a standard implementation. `getMarketingCloudVisitorID` also works with callback functions to read [!DNL Analytics] IDs and bring them in to your system or application.
 

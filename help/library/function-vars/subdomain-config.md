@@ -10,8 +10,8 @@ Change the default domain name used by calls to the Experience Cloud Identity Se
 
  **Syntax:**
 
-* ` audienceManagerServer: " *`your subdomain name`*.demdex.net"` 
-* ` audienceManagerServerSecure: " *`your subdomain name`*.demdex.net"`
+* `audienceManagerServer: " *`your subdomain name`*.demdex.net"` 
+* `audienceManagerServerSecure: " *`your subdomain name`*.demdex.net"`
 
 **Purpose**
 

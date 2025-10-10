@@ -12,4 +12,4 @@ getCustomerIDs returns any customer IDs set by the Experience Cloud Identity Ser
 Is there anything else we can say about this??
 -->
 
-` var *`variable name`* = visitor.getCustomerIDs();`
+`var *`variable name`* = visitor.getCustomerIDs();`

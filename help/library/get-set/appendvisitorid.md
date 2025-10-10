@@ -29,9 +29,9 @@ ID service writes a first- and third-party cookie to the browser when a person v
 * Regenerate the unique ID for that site visitor when they navigate to another domain. 
 * Track visitors across different domains owned by your organization.
 
-To help solve this problem, implement ` Visitor.appendVisitorIDsTo( *`url`*)`. This property lets the ID service track site visitors across multiple domains even when their browsers block third-party cookies. It works like this:
+To help solve this problem, implement `Visitor.appendVisitorIDsTo( *`url`*)`. This property lets the ID service track site visitors across multiple domains even when their browsers block third-party cookies. It works like this:
 
-* As a visitor browses to your other domains, the ` Visitor.appendVisitorIDsTo( *`url`*)` appends the MID as a query parameter in the URL redirect from the original domain to the destination domain. 
+* As a visitor browses to your other domains, the `Visitor.appendVisitorIDsTo( *`url`*)` appends the MID as a query parameter in the URL redirect from the original domain to the destination domain. 
 * The ID service code on the destination domain extracts the MID from the URL instead of sending a request to Adobe for that visitor's ID. This request includes the third-party cookie ID, which is not available in this case. 
 * The ID service code on the destination page uses the passed-in MID to track the visitor.
 
@@ -71,7 +71,7 @@ adbeDomains.forEach(function(domain) {
 >
 >In order for the values passed in the URL via appendVisitorsIDsTo to be picked up, the [ovewriteCrossDomainMCIDAndAID](../function-vars/overwrite-visitor-id.md) variable must be set to true.
 
-The following example can help you get started with ` Visitor.appendVisitorIDsTo( *`url`*)`. When implemented properly, your JavaScript code could look similar to the following example.
+The following example can help you get started with `Visitor.appendVisitorIDsTo( *`url`*)`. When implemented properly, your JavaScript code could look similar to the following example.
 
 ```js
 //Code on Domain A 

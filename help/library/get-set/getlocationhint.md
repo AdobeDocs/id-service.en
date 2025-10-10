@@ -8,7 +8,7 @@ exl-id: 0213f828-a985-4201-8a38-0a4b170ed057
 
 Returns the Experience Cloud Identity Service region ID. A region ID (or location hint), is a numeric identifier for the geographic location of a particular ID service data center. You need the region ID in order to make server-side API calls to Audience Manager.
 
- **Syntax:** ` var *`variable name`* = visitor.getLocationHint()`
+ **Syntax:** `var *`variable name`* = visitor.getLocationHint()`
 
 For a list of region IDs and corresponding locations, see [DCS Region IDs, Locations, and Host Names](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-regions.html).
 

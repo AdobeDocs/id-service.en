@@ -12,7 +12,7 @@ This configuration lets you override the default Supplemental Data ID (SDID) exp
 
 If you need to change the default SDID timeout, add `sdidParamExpiry` to the `Visitor.getInstance` function with the following syntax:
 
-**Syntax:** ` sdidParamExpiry: *`time in seconds`*`
+**Syntax:** `sdidParamExpiry: *`time in seconds`*`
 
 **Code Sample**
 
