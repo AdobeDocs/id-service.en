@@ -37,7 +37,7 @@ You should not see any requests to Adobe servers:
 >
 >You might see a call to `http://dpm.demdex.net/optOutStatus`, which is a READ ONLY endpoint that is used to retrieve the visitor's Opt-out status. This endpoint will not result in any third-party cookies being created, and will not collect any information from the page.
 
-You should not see any cookies created by the Adobe tags: (AMCV_{{YOUR_ORG_ID}}, mbox, demdex, s_cc, s_sq, everest_g_v2, everest_session_v2)
+You should not see any cookies created by the Adobe tags: (`AMCV_{{YOUR_ORG_ID}}`, `mbox`, `demdex`, `s_cc`, `s_sq`, `everest_g_v2`, `everest_session_v2`)
 
 In Chrome, go to the *Application* tab, expand the *Cookies* section under *Storage*, and select the domain name of your website:
 

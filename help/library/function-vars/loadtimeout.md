@@ -8,7 +8,7 @@ exl-id: 485264f4-ee24-4042-8be3-259e70462110
 
 Sets a timeout interval in milliseconds. Used to tell other solutions (e.g., Analytics, Audience Manager, Target, etc.) how long to wait for a response from the ID service.
 
- **Syntax:** ` loadTimeout: *`interval in milliseconds`*`
+ **Syntax:** `loadTimeout: *`interval in milliseconds`*`
 
 The default value is 30,000 milliseconds (30 seconds). We strongly recommend that you *do not* change the default value.
 

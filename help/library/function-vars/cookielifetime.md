@@ -10,7 +10,7 @@ This variable lets you override the default lifetime interval for the AMCV cooki
 
  By default, [!DNL Experience Cloud] ID service cookies expire after 24-months. Set the time interval in seconds.
 
-**Syntax:** ` cookieLifetime: *`lifetime in seconds`*`
+**Syntax:** `cookieLifetime: *`lifetime in seconds`*`
 
 **Code Sample**
 

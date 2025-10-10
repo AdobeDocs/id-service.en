@@ -19,7 +19,7 @@ This helper method lets you append the Supplemental Data ID (SDID) as a query st
 
 ## Syntax and Code Sample {#section-cbb0b2f73bcc418386796c24c01b2365}
 
-**Syntax:** ` appendSupplementalDataIDTo( *`URL`*, *`SDID`*)`
+**Syntax:** `appendSupplementalDataIDTo( *`URL`*, *`SDID`*)`
 
 **Code Sample**
 
@@ -49,7 +49,7 @@ The [sdidParamExpiry](../../library/function-vars/sdidparamexpiry.md#reference-c
 
 If you need to change the default SDID timeout, add `sdidParamExpiry` to the `Visitor.getInstance` function with the following syntax:
 
-**Syntax:** ` sdidParamExpiry: *`time in seconds`*`
+**Syntax:** `sdidParamExpiry: *`time in seconds`*`
 
 **Code Sample**
 

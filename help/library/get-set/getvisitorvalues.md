@@ -19,12 +19,12 @@ Contents:
 
 ## Syntax {#section-5aebe3907b2b46e997f45a1d1ed35c09}
 
-This function uses the following syntax (italics represents a placeholder for a variable): ` var *`values`* = visitor.getVisitorValues (callback, [visitor.FIELDS. *`ID type`*, visitor.FIELDS. *`ID type`*]);`
+This function uses the following syntax (italics represents a placeholder for a variable): `var *`values`* = visitor.getVisitorValues (callback, [visitor.FIELDS. *`ID type`*, visitor.FIELDS. *`ID type`*]);`
 
 In the function parameters:
 
-* ` *`callback`*` represents your own callback code that receives the returned IDs. 
-* *(Optional)* ` visitor.FIELDS. *`ID type`*` is an enum that lets you specify which [ID values](../../library/get-set/getvisitorvalues.md#section-4c4c300167694c6fbff1d6c612f372b5) you want this function to return.
+* `*`callback`*` represents your own callback code that receives the returned IDs. 
+* *(Optional)* `visitor.FIELDS. *`ID type`*` is an enum that lets you specify which [ID values](../../library/get-set/getvisitorvalues.md#section-4c4c300167694c6fbff1d6c612f372b5) you want this function to return.
 
 See the following use cases and definitions for more information.
 

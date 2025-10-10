@@ -18,7 +18,7 @@ Contents:
 
 ## Syntax and Code Sample {#section-b0c50732b1c84bed8616e82e8e83d58c}
 
-**Syntax:** ` idSyncContainerID: *`container ID value`*`
+**Syntax:** `idSyncContainerID: *`container ID value`*`
 
 **Code Sample:**
 
