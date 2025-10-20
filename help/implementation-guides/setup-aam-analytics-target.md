@@ -154,7 +154,7 @@ Place the `[!UICONTROL VisitorAPI.js]` file within the `<head>` tags on each pag
 
 ## Step 8: (Optional) Configure a grace period {#section-aceacdb7d5794f25ac6ff46f82e148e1}
 
-If any of these use cases apply to your situation, ask [Customer Care](https://helpx.adobe.com/marketing-cloud/contact-support.html) to set up a temporary [grace period](../reference/analytics-reference/grace-period.md). Grace periods can run for up to 180-days. You can renew a grace period if required.
+If any of these use cases apply to your situation, ask [Customer Care](https://helpx.adobe.com/marketing-cloud/contact-support.html) to set up a temporary grace period. Grace periods can run for up to 180-days. You can renew a grace period if required.
 
 **Partial Implementation**
 
@@ -202,7 +202,7 @@ Check for the SDID identifier in the JavaScript request. The Analytics SDID shou
 If your tests return an AID, that indicates either of the following:
 
 * You're a returning visitor in the process of migrating legacy [!DNL Analytics] IDs. 
-* You have a [grace period](../reference/analytics-reference/grace-period.md) enabled.
+* You have a [grace period](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/migration) enabled.
 
 When you see an AID, check its value against the [!DNL Target] mboxMCAVID. These values are identical when the ID service has been implemented correctly.
 

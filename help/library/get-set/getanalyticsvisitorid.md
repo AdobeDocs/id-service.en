@@ -41,7 +41,7 @@ You will see the `aid` parameter in a query string when:
 
 **Case 2**
 
-You will see the `aid` parameter in a query string when your organization is using a [grace period](../../reference/analytics-reference/grace-period.md) before fully implementing the ID service. If the user visiting your site is new, and you're not using a grace period, the visitor will get the `mid` ( [!DNL Experience Cloud] ID) parameter. 
+You will see the `aid` parameter in a query string when your organization is using a [grace period](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/migration) before fully implementing the ID service. If the user visiting your site is new, and you're not using a grace period, the visitor will get the `mid` ( [!DNL Experience Cloud] ID) parameter. 
 
 >[!MORELIKETHIS]
 >

@@ -19,7 +19,7 @@ user-guide-url: /content/help/en/id-service/using/home.html
    + [Implementation methods](implementation-guides/implementation-methods.md)
    + [Implementation guides](implementation-guides/implementation-guides.md)
    + [Implement with Experience Platform tags](implementation-guides/ecid-implement-with-launch.md)
-   + [Implement for Analytics](implementation-guides/setup-analytics.md)
+   + [Implement for Analytics](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/overview)
    + [Implement for Target](implementation-guides/setup-target.md)
    + [Implement for Analytics and Audience Manager](implementation-guides/setup-aam-analytics.md)
    + [Implement for Analytics, Audience Manager, and Target](implementation-guides/setup-aam-analytics-target.md)
@@ -75,16 +75,6 @@ user-guide-url: /content/help/en/id-service/using/home.html
       + [resetState](library/get-set/resetstate.md)
 + Reference {#reference}
    + [Reference Overview](reference/reference.md)
-   + Analytics Reference {#analytics-reference}
-      + [Analytics Reference Overview](reference/analytics-reference/analytics-reference.md)
-      + [CNAME Implementation Overview](reference/analytics-reference/cname.md)
-      + [Setting Analytics and Experience Cloud IDs](reference/analytics-reference/analytics-ids.md)
-      + [Order of Operations for Analytics IDs](reference/analytics-reference/analytics-order-of-operations.md)
-      + [ID Service Migration Decision Points](reference/analytics-reference/migration-decisions.md)
-      + [ID Service Migration Scenarios](reference/analytics-reference/migration-scenarios.md)
-      + [Analytics and Identity Requests](reference/analytics-reference/legacy-analytics.md)
-      + [Server-side Implementation Mixed with JavaScript](reference/analytics-reference/server-side.md)
-      + [The ID Service Grace Period](reference/analytics-reference/grace-period.md)
    + [Google Chrome SameSite labelling changes](reference/chrome-samesite-labelling.md)
    + [Content Security Policies and the ID Service](reference/csp.md)
    + [COPPA Support in the ID Service](reference/coppa.md)
@@ -100,7 +90,6 @@ user-guide-url: /content/help/en/id-service/using/home.html
 + FAQs {#faqs}
    + [FAQ Overview](faq-intro/faq-intro.md)
    + [ID Service FAQs](faq-intro/faq.md)
-   + [Analytics and ID Service FAQs](faq-intro/analytics-faq.md)
    + [FAQs for Other Experience Cloud Solutions](faq-intro/other-faq.md)
 + Release notes for ID Service {#release-notes}
    + [2022 Release Notes](release-notes/notes-2022.md)
