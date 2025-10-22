@@ -154,7 +154,7 @@ Place the `[!UICONTROL VisitorAPI.js]` file within the `<head>` tags on each pag
 
 ## Step 8: (Optional) Configure a grace period {#section-aceacdb7d5794f25ac6ff46f82e148e1}
 
-If any of these use cases apply to your situation, ask [Customer Care](https://helpx.adobe.com/marketing-cloud/contact-support.html) to set up a temporary [grace period](../reference/analytics-reference/grace-period.md). Grace periods can run for up to 180-days. You can renew a grace period if required.
+If any of these use cases apply to your situation, ask [Customer Care](https://helpx.adobe.com/marketing-cloud/contact-support.html) to set up a temporary [grace period](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/migration). Grace periods can run for up to 180 days. You can renew a grace period if required.
 
 **Partial Implementation**
 

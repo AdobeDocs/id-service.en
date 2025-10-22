@@ -22,7 +22,6 @@ A standard implementation uses [Adobe Exprience Platform Launch](https://experie
 
 * [Implementation methods](implementation-methods.md)
 * [Implement with Experience Platform Launch](ecid-implement-with-launch.md)
-* [Implement the Experience Cloud Identity Service for Analytics](setup-analytics.md)
 * [Implement the Experience Cloud Identity Service for Target](setup-target.md)
 * [Implement the Experience Cloud Identity Service for Analytics and Audience Manager](setup-aam-analytics.md)
 * [Implement the Experience Cloud Identity Service for Analytics, Audience Manager, and Target](setup-aam-analytics-target.md)

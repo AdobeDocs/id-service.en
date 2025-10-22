@@ -12,4 +12,4 @@ Testing some changes
 
 9-18-2025
 
->[!SLIDE](analyze-project)
+<!-- >[!SLIDE](analyze-project) -->

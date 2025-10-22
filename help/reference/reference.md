@@ -8,7 +8,6 @@ exl-id: 9a14300c-206c-4960-b594-517809f7e979
 
 Information about other Experience Cloud Identity Service features and functions.
 
-* [Analytics Reference Overview](analytics-reference/analytics-reference.md)
 * [Content Security Policies and the Experience Cloud Identity Service](csp.md)
 * [COPPA Support in the Experience Cloud Identity Service](coppa.md)
 * [CORS Support in the Experience Cloud Identity Service](cors.md)

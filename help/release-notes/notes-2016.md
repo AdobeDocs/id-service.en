@@ -117,7 +117,6 @@ July, 2016
 
 **New**
 
-* [Implement the Experience Cloud Identity Service for Analytics](../implementation-guides/setup-analytics.md#concept-9ebbea85cb844a15b557be572cd142fd) 
 * [Implement the Experience Cloud Identity Service for Analytics, Audience Manager, and Target](../implementation-guides/setup-aam-analytics-target.md#concept-e7e2dc0d0bbe481db93328b5604b4673)
 
 **Revised**
@@ -192,12 +191,6 @@ March, 2016
   </tr> 
  </tbody> 
 </table>
-
-**Documentation Updates**
-
-* [Implement the Experience Cloud Identity Service for Analytics](../implementation-guides/setup-analytics.md#concept-9ebbea85cb844a15b557be572cd142fd) : New procedure that describes how to set up the ID service with [!DNL Analytics]. 
-
-* [Experience Cloud Identity Service Migration Decision Points](../reference/analytics-reference/migration-decisions.md#concept-ba44803eea3c4cc185232a510cec0257) : Revised text for clarity. Working with a single domain means you can migrate away from a data collection CNAME if you no longer wish to manage it. However, there's no requirement to change if your CNAME is working.
 
 ## Version 1.5.3 {#section-7c09ba2832bd4644a1ccc3aa83abe66a}
 

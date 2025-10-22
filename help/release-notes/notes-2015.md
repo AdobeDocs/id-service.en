@@ -31,8 +31,7 @@ August, 2015
   This only affected a few clients that met *all* of the following criteria:
 
     * Using the ID service. 
-    * Enabled a [grace period](../reference/analytics-reference/grace-period.md)*or* are using first-party cookies and users block third-party cookies. 
-    
+    * Enabled a [grace period](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/migration) *or* are using first-party cookies and users block third-party cookies. 
     * Have pages with multi-part, top-level domains.
 
 Documentation revisions in this release include:
@@ -59,8 +58,6 @@ var visitor = Visitor.getInstance("016D5C175213CCA80A490D05@AdobeOrg",{
     "idSyncContainerID":80 
 });
 ```
-
-See [Experience Cloud](../implementation-guides/setup-analytics.md#concept-9ebbea85cb844a15b557be572cd142fd).
 
 ## Version 1.3.5 {#section-eed4567f058f446d9a819e4682621aed}
 
