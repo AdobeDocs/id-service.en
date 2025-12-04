@@ -19,7 +19,7 @@ user-guide-url: /content/help/en/id-service/using/home.html
    + [Implementation methods](implementation-guides/implementation-methods.md)
    + [Implementation guides](implementation-guides/implementation-guides.md)
    + [Implement with Experience Platform tags](implementation-guides/ecid-implement-with-launch.md)
-   + [Implement for Analytics](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/overview)
+   + [Implement for Analytics](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/overview){target=_blank}
    + [Implement for Target](implementation-guides/setup-target.md)
    + [Implement for Analytics and Audience Manager](implementation-guides/setup-aam-analytics.md)
    + [Implement for Analytics, Audience Manager, and Target](implementation-guides/setup-aam-analytics-target.md)

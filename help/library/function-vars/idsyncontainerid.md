@@ -79,3 +79,4 @@ If you have deployed [!UICONTROL DIL] *and* VisitorAPI.js on the same page:
 
 * Visitor ID service code takes precedence over DIL for ID syncs. 
 * Set the `idSyncContainerID` configuration in the ID service code only.
+

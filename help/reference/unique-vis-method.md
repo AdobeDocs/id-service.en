@@ -19,3 +19,4 @@ The method for identifying unique visitors among multiple contexts includes a pr
 {style="table-layout:auto"}
 
 For information on how unique visitors are reported, see [Unique Visitors in Analytics](https://experienceleague.adobe.com/docs/analytics/components/metrics/unique-visitors.html?lang=en).
+

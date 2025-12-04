@@ -25,3 +25,4 @@ var visitor = Visitor.getInstance("INSERT-MARKETING-CLOUD-ID-HERE",{
         secureCookie: true 
  });
 ```
+

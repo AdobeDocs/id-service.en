@@ -208,3 +208,4 @@ Complete event triggers when the approval process has been completed. If you cal
   adobe.optIn.on("complete", callback); 
 </codeph>
 ```
+

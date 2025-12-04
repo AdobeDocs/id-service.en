@@ -11,7 +11,7 @@ exl-id: ac1d1ee1-2b5f-457a-a694-60bb4c960ae7
 
 As Safari tightens up cross-domain tracking via ITP, Adobe must maintain best practices for libraries that support customers as well as consumer privacy and choice.
 
-As of November 10, 2020, all first-party persistent cookies set through the document.cookie API, often known as “client-side” cookies, and cookies set through first-party CNAME implementations in Safari and mobile iOS browsers have their expiration capped at seven days. Third-party cookies will continue to be blocked, as stated in previous versions of ITP. For more details on ITP 2.1 and the impact of Adobe solutions, read [Safari ITP 2.1 Impact on Adobe Experience Cloud and Experience Platform Customers](https://medium.com/adobetech/safari-itp-2-1-impact-on-adobe-experience-cloud-customers-9439cecb55ac).
+As of November 10, 2020, all first-party persistent cookies set through the document.cookie API, often known as "client-side" cookies, and cookies set through first-party CNAME implementations in Safari and mobile iOS browsers have their expiration capped at seven days. Third-party cookies will continue to be blocked, as stated in previous versions of ITP. For more details on ITP 2.1 and the impact of Adobe solutions, read [Safari ITP 2.1 Impact on Adobe Experience Cloud and Experience Platform Customers](https://medium.com/adobetech/safari-itp-2-1-impact-on-adobe-experience-cloud-customers-9439cecb55ac).
 
 ## ITP related changes, methods, and configurations
 
@@ -71,3 +71,4 @@ This function lets you share a visitor's ECID across domains when browsers block
     >If the destination page already has a ECID from previous visits, then the decision to over-write the existing cookie is controlled by this config overwriteCrossDomainMCIDAndAID. For details about this config, see [overwriteCrossDomainMCIDAndAID](/help/library/function-vars/overwrite-visitor-id.md).
     >
     >For more details on this method, see the [appendVisitorIDsTo (Cross Domain Tracking)](/help/library/get-set/appendvisitorid.md) reference page.
+

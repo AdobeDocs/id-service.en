@@ -107,3 +107,4 @@ If one of the following is not valid, you will not see any requests to Adobe ser
 
 * Purposes 1, 2 OR 5 are not approved. 
 * The Audience Manager vendor ID is not approved.
+

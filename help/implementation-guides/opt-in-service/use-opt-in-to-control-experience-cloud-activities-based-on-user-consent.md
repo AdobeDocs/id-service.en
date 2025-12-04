@@ -25,7 +25,7 @@ An important aspect of privacy regulations is the acquisition and conveyance of 
 
 >[!VIDEO](https://video.tv.adobe.com/v/26431/?quality=12)
 
-If you are not using Experience Platform tags, you can set [!UICONTROL Opt-in]’s configuration in the initialization of the global Visitor object, as shown in the [documentation](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/getting-started.html?lang=en).
+If you are not using Experience Platform tags, you can set [!UICONTROL Opt-in]'s configuration in the initialization of the global Visitor object, as shown in the [documentation](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/getting-started.html?lang=en).
 
 ## Implementing [!UICONTROL Opt-In] on the Page
 
@@ -45,3 +45,4 @@ In the following video, see a quick demo of [!UICONTROL Opt-in] working on the p
 * Analytics
 * Audience Manager
 * [!DNL Target]
+

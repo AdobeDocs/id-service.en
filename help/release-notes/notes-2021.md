@@ -27,3 +27,4 @@ visitorInstance.onReceiveEcid(callback(ecid){
  console.log(ecid)
 })
 ```
+

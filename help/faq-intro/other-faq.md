@@ -16,3 +16,4 @@ There are two options here:
 
 * If a user has any visiting activity after the ID Service is implemented, the visitor and their history is included in the data export to [!DNL Audience Manager]. 
 * If a user does not have any visiting activity after the ID Service is implemented, the visitor and their history will not be included in the data export to Audience Manager. Because new activity is not present, we have no way to associate the Analytics ID with the Experience Cloud ID.
+

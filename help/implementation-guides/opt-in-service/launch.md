@@ -20,3 +20,4 @@ To configure the extension, open the *Extensions* tab and hover over the extensi
 For additional reference information, read the [Adobe Experience Cloud Identity Service extension overview](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/id-service/overview.html).
 
 ![](assets/optin-launch.jpg)
+

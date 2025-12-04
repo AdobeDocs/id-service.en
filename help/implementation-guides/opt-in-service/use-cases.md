@@ -27,13 +27,13 @@ These use cases are example ideas for using Opt-in service.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Analytics is okay to collect in pre-consent state but all other libraries can’t be loaded until consent is received </p> </td> 
+   <td colname="col1"> <p>Analytics is okay to collect in pre-consent state but all other libraries can't be loaded until consent is received </p> </td> 
    <td colname="col2"> <p>Use Opt-in to enable Analytics category in pre-consent state </p> </td> 
    <td colname="col3"> <p>Analytics uses the Analytics identifier rather than ECID in pre-consent collection. Once ECID is approved, a new identifier will be used and the visitor will receive an ECID that can be used for activation and integrations. </p> <p>Visitor fragmenting in pre-/post- consent state is expected. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>First-party measurement is okay to collect in pre-consent state. All other types of data usage prevented until consent is received. </p> </td> 
-   <td colname="col2"> <p>Use Opt-in to enable Analytics + ECID libraries in pre-consent state. </p> <p>Add the ‘disablethirdpartycookies’ config to ECID library to block 3rd party cookie + ID syncs in pre-consent state </p> </td> 
+   <td colname="col2"> <p>Use Opt-in to enable Analytics + ECID libraries in pre-consent state. </p> <p>Add the 'disablethirdpartycookies' config to ECID library to block 3rd party cookie + ID syncs in pre-consent state </p> </td> 
    <td colname="col3"> <p>Adobe Demdex call will trigger for ECID retrieval but no Demdex cookie, other third-party cookie or ID syncs will be present. </p> <p>Keeps consistent visitor in pre-/post- consent state for Analytics. Collection in pre-consent state will be tied to post-consent data collection. </p> </td> 
   </tr> 
   <tr> 
@@ -48,3 +48,4 @@ These use cases are example ideas for using Opt-in service.
   </tr> 
  </tbody> 
 </table>
+

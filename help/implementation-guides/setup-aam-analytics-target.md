@@ -234,3 +234,4 @@ If you enabled a grace period:
 
 * Ensure the Analytics ID (AID) and MID are in the image request. 
 * Remember to disable the grace period once you meet the [criteria for discontinuation](../implementation-guides/setup-aam-analytics-target.md#section-aceacdb7d5794f25ac6ff46f82e148e1).
+

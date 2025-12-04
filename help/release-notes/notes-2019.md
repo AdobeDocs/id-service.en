@@ -61,3 +61,4 @@ Support for the Audience Manager Plug-in for IAB TCF, available via the ECID Opt
 |---|---|
 | `disableIdSyncs` flag not working when passed a string.  |Fixed. Values set on `disableidSyncs` parameter for `getInstance` function are now being honored.  |
 |  Third-party iFrames not getting ECID  | Fixed ECID on Safari Mobil and ECIDs in various iFrames that were not working.  |
+
