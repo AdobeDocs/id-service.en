@@ -16,7 +16,7 @@ When set to `false`, the browser performs resource checks with CORS or JSONP. Ho
 
 >[!IMPORTANT]
 >
->`Set useCORSOnly: true` if you have strict security requirements. You should only enable this mode if you’re confident all of your visitors use browsers that support CORS. The user experience is unaffected by browsers that do not support CORS. However, browsers without CORS support cannot request resources or exchange data with the [!DNL Adobe Experience Cloud].
+>`Set useCORSOnly: true` if you have strict security requirements. You should only enable this mode if you're confident all of your visitors use browsers that support CORS. The user experience is unaffected by browsers that do not support CORS. However, browsers without CORS support cannot request resources or exchange data with the [!DNL Adobe Experience Cloud].
 
 **Code Sample**
 
@@ -33,3 +33,4 @@ var visitor = Visitor.getInstance ("Insert Experience Cloud organization ID here
    useCORSOnly: true 
 });
 ```
+

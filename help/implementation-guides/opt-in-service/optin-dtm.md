@@ -16,3 +16,4 @@ Required:
 Enter [configuration fields](/help/implementation-guides/opt-in-service/api.md) in the General DTM page.
 
 ![](assets/DTM-example.png)
+

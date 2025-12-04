@@ -21,3 +21,4 @@ The following updates were included in the release of Visitor 5.4.0:
 
 * Support for ability to configure lifetime of `s_ecid` cookie using `cookieLifetime` config.
 * Patch fix for Firefox browser issue when a page is loaded in a child iFrame.
+

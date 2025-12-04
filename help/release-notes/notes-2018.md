@@ -83,7 +83,7 @@ Feature releases, updates, or changes to the Experience Cloud Identity Service f
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Cookie set on incorrect domain </p> </td> 
-   <td colname="col2"> <p>We fixed a bug where temp Visitor cookie was setting a cookie in the ‘default’ cookie domain instead of setting it in the domain provided in the config (initConfig). </p> </td> 
+   <td colname="col2"> <p>We fixed a bug where temp Visitor cookie was setting a cookie in the 'default' cookie domain instead of setting it in the domain provided in the config (initConfig). </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -116,3 +116,4 @@ Feature releases, updates, or changes to the Experience Cloud Identity Service f
   </tr> 
  </tbody> 
 </table>
+

@@ -1,12 +1,12 @@
 ---
-description: The Children’s Online Privacy Protection Act (COPPA) prohibits the online collection of personal information from children under 13 years old without verifiable parental consent. Customers concerned about COPPA can add an optional variable to their Experience Cloud Identity Service code that prevents it from setting cookies in the third-party domain of a browser.
+description: The Children's Online Privacy Protection Act (COPPA) prohibits the online collection of personal information from children under 13 years old without verifiable parental consent. Customers concerned about COPPA can add an optional variable to their Experience Cloud Identity Service code that prevents it from setting cookies in the third-party domain of a browser.
 keywords: ID Service
 title: COPPA Support in the Experience Cloud Identity Service
 exl-id: c7579f90-3011-4e26-b908-08907bf12ba2
 ---
 # COPPA Support in the Experience Cloud Identity Service {#coppa-support-in-the-experience-cloud-id-service}
 
-The Children’s Online Privacy Protection Act (COPPA) prohibits the online collection of personal information from children under 13 years old without verifiable parental consent. Customers concerned about COPPA can add an optional variable to their Experience Cloud Identity Service code that prevents it from setting cookies in the third-party domain of a browser.
+The Children's Online Privacy Protection Act (COPPA) prohibits the online collection of personal information from children under 13 years old without verifiable parental consent. Customers concerned about COPPA can add an optional variable to their Experience Cloud Identity Service code that prevents it from setting cookies in the third-party domain of a browser.
 
 >[!NOTE]
 >
@@ -40,3 +40,4 @@ When set to `true`, the `disableThirdPartyCookies` object stops the DCS from ret
 >
 >* [Adobe Privacy Center](http://www.adobe.com/privacy.html)
 >* [What is COPPA?](http://www.consumer.ftc.gov/articles/0031-protecting-your-childs-privacy-online#whatis)
+

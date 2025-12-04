@@ -41,3 +41,4 @@ Fix for performance issue on `Internet-Explorer (IE) 11` when ECID is given optI
 * Fixed an issue occurring when opt-in is configured as `doesOptInApply=false` and `isIabContext=true`.
 
 See [Experience Cloud release notes](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html) for monthly release notes for all products.
+

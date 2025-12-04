@@ -39,3 +39,4 @@ Using the Opt-in services, you can configure your site to allow some cookies to 
 ![](assets/Opt-in-approval.png)
 
 Adobe solutions can then check if the tag is approved, subscribe to changes, and then retrieve all Opt-in customers. Opt-in service allows you to get permissions directly through the solution JavaScript libraries or through ECID if implemented.
+

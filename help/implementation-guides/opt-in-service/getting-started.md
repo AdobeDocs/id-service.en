@@ -137,3 +137,4 @@ The `adobe.optIn` object is stateless and provides no storage mechanism. It is i
 
 * If your consent persistence solution, whether it be a CMP or a cookie on the visitor's browser, allows for timely retrieval of visitor preferences, you can provide those to the Opt-in service during Visitor initialization. 
 * However, if retrieval can be a lengthy process or is otherwise best served as an asynchronous process, you can use the service's `approve()` function to provide those settings once they are successfully loaded.
+

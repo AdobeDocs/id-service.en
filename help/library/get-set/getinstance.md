@@ -51,3 +51,4 @@ If `getInstance` doesn't find an existing instance, an new instance is created a
 The [!DNL Experience Cloud] ID service API maintains a list of all instances created for each [!DNL Adobe Experience Cloud] organization ID. If the application using the ID service API isn't passing around a reference to the instance, it can find that instance by calling `getInstance` instead of creating a new one. This also provides support for multiple instances for different organizations in the same web page or application.
 
 This is useful for applications that don't have a clear `init` phase, but need to call into the ID service API in multiple places. You can call `getInstance` in all of those places and the first to execute will create the instance. The existing instance will be returned by subsequent calls.
+

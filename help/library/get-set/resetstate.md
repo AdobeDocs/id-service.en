@@ -83,3 +83,4 @@ var sdid2 = visitor.getSupplementalDataID("consumer4"); // sdid2: 5678
 **Dynamic Tag Manager (DTM)**
 
 Currently, there is no DTM configuration path for `visitor.resetState()`.
+

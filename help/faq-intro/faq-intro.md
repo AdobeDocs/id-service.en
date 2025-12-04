@@ -12,3 +12,4 @@ Frequently asked questions about the Experience Cloud Identity Service itself al
 
 * [ID Service FAQs](faq.md)
 * [FAQs for Other Experience Cloud Solutions](other-faq.md)
+

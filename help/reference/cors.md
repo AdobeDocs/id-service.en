@@ -82,3 +82,4 @@ The table below describes some of the advantages CORS provides to customers who 
   </tr> 
  </tbody> 
 </table>
+

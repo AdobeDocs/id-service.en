@@ -13,3 +13,4 @@ The AMCV cookie contains the Experience Cloud ID (MID) and a region ID for your 
 If you're an [!DNL Audience Manager] customer, you can get the region ID from the response sent by the Data Collection Server (DCS). See [Get User IDs and Regions from a DCS Response](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-apis/dcs-aam-ids.html).
 
 You can also get the region ID with a `GET` method provided by the ID service. See [Get Region IDs (Location Hint)](../library/get-set/getlocationhint.md#reference-a761030ff06c4439946bb56febf42d4c).
+

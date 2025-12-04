@@ -132,3 +132,4 @@ The following table describes flags for Experience Cloud Cookies:
 ## Next steps {#section-8db1727a63bc4ff68b495f270315d453}
 
 See [How the Experience Cloud Identity Service Requests and Sets IDs...](../introduction/id-request.md#concept-2caacebb1d244402816760e9b8bcef6a).
+

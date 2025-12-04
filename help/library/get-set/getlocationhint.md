@@ -27,3 +27,4 @@ var callback = function (
 visitor.getLocationHint(callback, true); 
 
 ```
+

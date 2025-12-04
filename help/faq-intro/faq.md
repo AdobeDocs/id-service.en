@@ -74,10 +74,11 @@ Yes. See [CORS Support in the Experience Cloud Identity Service](../reference/co
 
 **What if my security requirements are so strict that I never want to use JSONP?**
 
-If you have strict security requirements, set the ID service API config `useCORSOnly: true`. You should only enable this mode if you’re confident that your site visitors use browsers that support CORS.
+If you have strict security requirements, set the ID service API config `useCORSOnly: true`. You should only enable this mode if you're confident that your site visitors use browsers that support CORS.
 
 See [Experience Cloud](../reference/cors.md#concept-6c280446990d46d88ba9da15d2dcc758) and [useCORSOnly](../library/function-vars/use-cors-only.md#reference-8a9a143d838b48d6b23329b84b13e1fa). 
 
 >[!MORELIKETHIS]
 >
 >* [Customer Care](https://helpx.adobe.com/marketing-cloud/contact-support.html)
+

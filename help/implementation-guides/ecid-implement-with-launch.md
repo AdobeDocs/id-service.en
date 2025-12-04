@@ -16,3 +16,4 @@ Tags in Adobe Experience Platform is the primary tool used to set up, deploy, an
 * Deploy client-side web products using integrations called _extensions_. 
 * Consistently capture, define, manage, and share data between marketing and advertising products from other vendors and from Adobe.
 * Platform tags are an advanced JavaScript delivery system that evaluates conditions and executed actions to efficiently and effectively deploy client-side libraries and products. Tags provide a highly scalable approach to managing and building extensions, together with a robust set of APIs for programmatic interaction with the Adobe Experience Cloud.
+

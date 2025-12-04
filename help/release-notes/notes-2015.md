@@ -70,3 +70,4 @@ Fixed the handling of timeout on requests for AAM Blob and Location Hint. Now, o
 January, 2015
 
 Reworked `<head>/<body>` tag finding for JSONP request `<script>` tag container, as well as the creation of the `<script>` tag to account for different DOM implementations (HTML vs XHTML) with possibly different case sensitivity settings. (AN-9355)
+

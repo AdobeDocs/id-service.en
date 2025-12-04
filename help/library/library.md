@@ -16,3 +16,4 @@ Properties, methods, and configurations that let you work programmatically with 
 >[!NOTE]
 >
 >The *Experience Cloud ID Javascript Libraries* have moved recently. The latest release of the ECID JS libraries can be found at [https://github.com/Adobe-Marketing-Cloud/id-service/releases](https://github.com/Adobe-Marketing-Cloud/id-service/releases).
+

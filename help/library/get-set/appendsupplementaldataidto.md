@@ -70,3 +70,4 @@ var pageB = "www.domain.com/pageB";
 var pageBWithSdid = visitor.appendSupplementalDataIDTo(pageB, theCurrentSDID)); 
 
 ```
+
