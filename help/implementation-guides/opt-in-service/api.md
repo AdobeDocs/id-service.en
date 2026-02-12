@@ -2,6 +2,22 @@
 description: API for the Opt-in library and configuration settings reference.
 title: Opt-in Reference
 exl-id: aa61aed7-695b-47e4-a922-9841e00aa09d
+TQID: https://experienceleague.adobe.com/Fmah6TphSbKa3W6s6ew97Diz59Brj-2tpYKcxwzEj1o
+product_v2:
+  - id: e1971122-7081-4556-9222-8a31bd71800c
+    internal-label: Experience Cloud Services
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
 ---
 # Opt-in Reference{#opt-in-reference}
 

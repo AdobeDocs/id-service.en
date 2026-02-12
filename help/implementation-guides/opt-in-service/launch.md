@@ -2,6 +2,22 @@
 description: Simplify enabling Experience Cloud solution for Opt-in using Adobe Experience Platform Launch.
 title: Configuring Opt-in with Launch
 exl-id: 9e9d1e2b-196f-474c-b872-de4329dcb017
+TQID: https://experienceleague.adobe.com/o2vzYw-VbX-F5dg-vnaRPdX2va99K1bRsAOA4IoUklc
+product_v2:
+  - id: e1971122-7081-4556-9222-8a31bd71800c
+    internal-label: Experience Cloud Services
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
 ---
 # Configuring Opt-in with Experience Platform Launch {#configuring-opt-in-with-launch}
 
