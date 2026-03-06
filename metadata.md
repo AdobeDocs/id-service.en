@@ -6,7 +6,7 @@ type: Documentation
 audience: end-user
 git-repo: https://github.com/AdobeDocs/id-service.en
 description: Identity Service
-index: yes
+index: true
 role: Developer, User, Admin, Leader
 feature-set: Experience Cloud, Experience Platform
 feature: Identities, Integrations
