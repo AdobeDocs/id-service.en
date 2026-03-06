@@ -1,7 +1,6 @@
 ---
 title: Test file
 description: This is a hidden test file. Please ignore.
-hidefromtoc: true
 hide: true
 ---
 # Test file
