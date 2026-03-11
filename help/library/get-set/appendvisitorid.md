@@ -67,7 +67,8 @@ adbeDomains.forEach(function(domain) {
 });
 ```
 
-<!-- >[!IMPORTANT]
+<!-- 
+>[!IMPORTANT]
 >
 >In order for the values passed in the URL via appendVisitorsIDsTo to be picked up, the [ovewriteCrossDomainMCIDAndAID](../function-vars/overwrite-visitor-id.md) variable must be set to true.
 
@@ -85,9 +86,11 @@ var destinationURLWithVisitorIDs = visitor.appendVisitorIDsTo(destinationURL);
      //Result of appendVisitorIDsTo includes destination URL, Experience Cloud ID (MCMID), and Analytics ID (MCAID) 
      "www.destination.com?adobe_mc=MCMID=1234|MCAID=5678"
 //Redirect to the destination
-``` -->
+``` 
+-->
 
-<!-- ## Dynamic Tag Management (DTM) and SDK Support {#section-168e313df6054af0a7e27b9fa0d69640}
+<!--
+## Dynamic Tag Management (DTM) and SDK Support {#section-168e313df6054af0a7e27b9fa0d69640}
 
 <table id="table_6E7152B4FD2B4C4D8C9477C68204C4FF"> 
  <thead> 
@@ -110,5 +113,6 @@ var destinationURLWithVisitorIDs = visitor.appendVisitorIDsTo(destinationURL);
     </ul> </td> 
   </tr> 
  </tbody> 
-</table> -->
+</table> 
+-->
 
