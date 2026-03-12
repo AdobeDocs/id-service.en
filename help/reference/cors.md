@@ -13,7 +13,7 @@ Browsers use Cross Origin Resource Sharing (CORS) to request resources from a do
 Same-origin policies are security controls or restrictions enforced by a web browser. When enforced on this level, the web browser itself determines if a request for resources made from one page to another will be permitted or blocked. To determine if a request is a same-origin request, the browser compares:
 
 * Uniform Resource Identifiers (URIs) 
-* Host names (e.g., http://www.my-webpage-example.com) 
+* Host names (e.g., `http://www.my-webpage-example.com`) 
 * Port numbers (e.g., port 80 and 440 for HTTP and HTTPS requests)
 
 The browser allows a request to succeed if both pages share these characteristics and blocks resource requests if they do not.
@@ -25,7 +25,7 @@ CORS provides a secure, effective way to request resources across different doma
 * `Origin`: A request header that identifies the source of a request. 
 * `Access-Control-Allow-Origin`: A response header that indicates if a resource can be shared with the requestor.
 
-Let's take a look at how these headers work. In this example, say we have a financial services company that has implemented the [!DNL Experience Cloud] ID service on their site, www.finance-website.com. The following table defines how the CORS request and response headers check for access to a resource.
+Let's take a look at how these headers work. In this example, say we have a financial services company that has implemented the [!DNL Experience Cloud] ID service on their site, `www.finance-website.com`. The following table defines how the CORS request and response headers check for access to a resource.
 
 <table id="table_B004ACF52B5A4D33B1DCF7EA77BE4E6D"> 
  <thead> 
@@ -39,7 +39,7 @@ Let's take a look at how these headers work. In this example, say we have a fina
    <td colname="col1"> <p> <b>Request</b> </p> </td> 
    <td colname="col2"> <p>As finance company page loads, the browser makes a request to <span class="codeph"> dpm.demdex.net</span>. This is a call to the domain of the data collection servers (DCS) used by the ID service. This cross-domain request includes the header: </p> <p> 
      <ul class="simplelist"> 
-      <li> <span class="codeph"> Origin:https://www.finance-website.com</span> </li> 
+      <li> <code> Origin:https://www.finance-website.com</code> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
