@@ -70,4 +70,3 @@ After the DCS receives the organization ID and the demdex ID, it creates and ret
 In this example, our visitor leaves the Food Company sites and navigates to the soccer site owned by the Sports Company. When the visitor comes to the soccer site, the ID checking and request process works the same way as described in the previous examples. However, because the Sports Company has its own organization ID, the ID service returns a different MID. The new MID is unique to the domains controlled by the Sports Company and lets that enterprise track and share visitor data across solutions in the [!DNL Experience Cloud]. The demdex ID remains the same for this visitor because it's contained in a third-party cookie and persists across different domains.
 
 ![](assets/req_resp.png)
-

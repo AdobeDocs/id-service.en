@@ -1,7 +1,6 @@
 ---
 title: Test file
 description: This is a hidden test file. Please ignore.
-hidefromtoc: true
 hide: true
 TQID: https://experienceleague.adobe.com/-rPajHuW1qIYTWQ2HYJsez5QqPxUqhCB5i8UVXbJmnk
 product_v2:

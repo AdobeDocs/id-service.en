@@ -100,5 +100,5 @@ user-guide-url: /content/help/en/id-service/using/home.html
    + [2017 Release Notes](release-notes/notes-2017.md)
    + [2016 Release Notes](release-notes/notes-2016.md)
    + [2015 Release Notes](release-notes/notes-2015.md)
-+ [Analytics test hidden from TOC](analytics-test-file-hidetoc.md)
-+ [Hidden test file](hidden-file.md)
++ {hide-from-toc} [Analytics test hidden from TOC](analytics-test-file-hidetoc.md)
++ {hide-from-toc} [Hidden test file](hidden-file.md)
