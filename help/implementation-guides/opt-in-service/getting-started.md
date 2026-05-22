@@ -2,6 +2,26 @@
 description: Implement the Opt-in service as the single point of reference used by Experience Cloud solutions (referred to as Categories in Opt-in) to determine whether or not to create cookies on a visitor's device.
 title: Setting up Opt-in Service
 exl-id: 6e8a6531-9924-4523-a842-cb4614a7a7a0
+TQID: https://experienceleague.adobe.com/Nq3mYoy0U-0RK8MHzsu-yCIVwbCbaAJnIUR8QZDCKcs
+product_v2:
+  - id: e1971122-7081-4556-9222-8a31bd71800c
+    internal-label: Experience Cloud Services
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 ---
 # Setting up Opt-in Service{#setting-up-opt-in-service}
 
