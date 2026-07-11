@@ -1,6 +1,6 @@
 ---
 description: This variable lets you override the default lifetime interval for the AMCV cookie.
-keywords: ID Service
+keywords: Visitor ID Service
 title: cookieLifetime
 exl-id: bdbabdcd-a87b-412c-8c2f-3f39820f939a
 TQID: https://experienceleague.adobe.com/EBAkG9W3VE4p7Xd5NkegOtFDNo6qBOKrKRaBUYwwJog
@@ -21,14 +21,14 @@ role_v2:
 
 This variable lets you override the default lifetime interval for the AMCV cookie.
 
- By default, [!DNL Experience Cloud] ID service cookies expire after 24-months. Set the time interval in seconds.
+ By default, Visitor ID Service cookies expire after 24-months. Set the time interval in seconds.
 
 **Syntax:** `cookieLifetime: *`lifetime in seconds`*`
 
 **Code Sample**
 
 ```js
-var visitor = Visitor.getInstance ("Insert Experience Cloud organization ID here",{ 
+var visitor = Visitor.getInstance ("INSERT-IMS-ORG-ID-HERE",{ 
    trackingServer: "Insert tracking server here here",  //Same as s.trackingServer 
    trackingServerSecure: "Insert secure tracking server here",  //Same as s.trackingServerSecure 
  

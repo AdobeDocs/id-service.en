@@ -1,44 +1,43 @@
 ---
 audience: end-user
-user-guide-title: Experience Cloud Identity Service Help
-breadcrumb-title: Identity Service Guide
-user-guide-description: The Adobe Experience Cloud Identity Service provides a universal, persistent ID that identifies your visitors across all the solutions in the Experience Cloud. It helps replace legacy ID generation code for Experience Cloud solutions and services.
+user-guide-title: Adobe Visitor ID Service Help
+breadcrumb-title: Visitor ID Service Guide
+user-guide-description: The Adobe Visitor ID Service provides a universal, persistent ID that identifies your visitors across all the solutions in CX Enterprise. It helps replace legacy ID generation code for CX Enterprise solutions and services.
 user-guide-url: /content/help/en/id-service/using/home.html
 ---
 
-# Experience Cloud Identity Service Help {#using}
+# Adobe Visitor ID Service Help {#using}
 
-+ [Identity Service Help](home.md)
++ [Visitor ID Service Help](home.md)
 + Overview {#intro}
    + [Overview](introduction/overview.md)
-   + [About the ID Service](introduction/about-id-service.md)
-   + [Cookies and the ID Service](introduction/cookies.md)
-   + [How the ID Service requests and sets IDs](introduction/id-request.md)
+   + [About the Visitor ID Service](introduction/about-id-service.md)
+   + [Cookies and the Visitor ID Service](introduction/cookies.md)
+   + [How the Visitor ID Service requests and sets IDs](introduction/id-request.md)
    + [Understanding synchronization and match rates](introduction/match-rates.md)
 + Implementation {#implementation}
    + [Implementation methods](implementation-guides/implementation-methods.md)
    + [Implementation guides](implementation-guides/implementation-guides.md)
-   + [Implement with Experience Platform tags](implementation-guides/ecid-implement-with-launch.md)
+   + [Implement with tags](implementation-guides/ecid-implement-with-launch.md)
    + [Implement for Analytics](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/overview){target=_blank}
    + [Implement for Target](implementation-guides/setup-target.md)
    + [Implement for Analytics and Audience Manager](implementation-guides/setup-aam-analytics.md)
    + [Implement for Analytics, Audience Manager, and Target](implementation-guides/setup-aam-analytics-target.md)
-   + [Using the ID Service with A4T and a Server-side Implementation of Target](implementation-guides/ecid-a4t-target.md)
-   + [Direct Integration with the ID Service](implementation-guides/direct-integration.md)
+   + [Using the Visitor ID Service with A4T and a Server-side Implementation of Target](implementation-guides/ecid-a4t-target.md)
+   + [Direct Integration with the Visitor ID Service](implementation-guides/direct-integration.md)
    + [Direct Integration Use Cases](implementation-guides/direct-integration-examples.md)
-   + [Test and verify the ID Service](implementation-guides/test-verify.md)
+   + [Test and verify the Visitor ID Service](implementation-guides/test-verify.md)
    + Opt-in Service {#opt-in-service}
       + [Opt-in Service overview](implementation-guides/opt-in-service/optin-overview.md)
       + [Setting up Opt-in Service](implementation-guides/opt-in-service/getting-started.md)
       + [Validating Opt-in Service](implementation-guides/opt-in-service/testing-optin-and-iab-plugin.md)
-      + [Configuring Opt-in with Experience Platform Launch](implementation-guides/opt-in-service/launch.md)
-      + [Configuring Opt-in with DTM](implementation-guides/opt-in-service/optin-dtm.md)
-      + [Control Experience Cloud Activities Based on User Consent](implementation-guides/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.md)
+      + [Configuring Opt-in with tags](implementation-guides/opt-in-service/launch.md)
+      + [Control CX Enterprise Activities Based on User Consent](implementation-guides/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.md)
       + [Opt-in Use Cases](implementation-guides/opt-in-service/use-cases.md)
       + [Opt-in Reference](implementation-guides/opt-in-service/api.md)
       + [Using Opt-in Services with IAB Framework](implementation-guides/opt-in-service/iab.md)
-+ ID Service API {#id-service-api}
-   + [ID Service API Overview](library/library.md)
++ Visitor ID Service API {#id-service-api}
+   + [Visitor ID Service API Overview](library/library.md)
    + Configuration {#configurations}
       + [Configurations overview](library/function-vars/function-vars.md)
       + [audienceManagerServer and audienceManagerServerSecure](library/function-vars/subdomain-config.md)
@@ -76,22 +75,21 @@ user-guide-url: /content/help/en/id-service/using/home.html
 + Reference {#reference}
    + [Reference Overview](reference/reference.md)
    + [Google Chrome SameSite labelling changes](reference/chrome-samesite-labelling.md)
-   + [Content Security Policies and the ID Service](reference/csp.md)
-   + [COPPA Support in the ID Service](reference/coppa.md)
-   + [CORS Support in the ID Service](reference/cors.md)
+   + [Content Security Policies and the Visitor ID Service](reference/csp.md)
+   + [COPPA Support in the Visitor ID Service](reference/coppa.md)
+   + [CORS Support in the Visitor ID Service](reference/cors.md)
    + [Customer IDs and Authentication States](reference/authenticated-state.md)
    + [ECID library methods in a Safari ITP world](reference/ecid-library-methods.md)
    + [Identifying Unique Visitors](reference/unique-vis-method.md)
-   + [Get Region and User IDs From the AMCV Cookie or the ID Service](reference/regions.md)
-   + [Requirements for the ID Service](reference/requirements.md)
-   + [Video Heartbeat and the ID Service](reference/heartbeat.md)
-   + [Data Workbench and the ID Service](reference/dwb.md)
+   + [Get Region and User IDs From the AMCV Cookie or the Visitor ID Service](reference/regions.md)
+   + [Requirements for the Visitor ID Service](reference/requirements.md)
+   + [Video Heartbeat and the Visitor ID Service](reference/heartbeat.md)
    + [SHA256 Hashing Support for setCustomerIDs](reference/hashing-support.md)
 + FAQs {#faqs}
    + [FAQ Overview](faq-intro/faq-intro.md)
-   + [ID Service FAQs](faq-intro/faq.md)
-   + [FAQs for Other Experience Cloud Solutions](faq-intro/other-faq.md)
-+ Release notes for ID Service {#release-notes}
+   + [Visitor ID Service FAQs](faq-intro/faq.md)
+   + [FAQs for Other CX Enterprise Solutions](faq-intro/other-faq.md)
++ Release notes for the Visitor ID Service {#release-notes}
    + [2022 Release Notes](release-notes/notes-2022.md)
    + [2021 Release Notes](release-notes/notes-2021.md)
    + [2020 Release Notes](release-notes/notes-2020.md)

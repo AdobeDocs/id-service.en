@@ -1,6 +1,6 @@
 ---
 description: An optional, Boolean flag that disables ID synchronization.
-keywords: ID Service
+keywords: Visitor ID Service
 title: disableIdSyncs
 exl-id: 96d42133-6040-4da3-9315-fd94318b33aa
 TQID: https://experienceleague.adobe.com/ltW03vCXP9-8G7kJ8KwKOwAOgrsxkTxSoGzImR7dax0
@@ -30,7 +30,7 @@ An optional, Boolean flag that disables ID synchronization.
 **Code Sample**
 
 ```js
-var visitor = Visitor.getInstance ("Insert Experience Cloud organization ID here",{ 
+var visitor = Visitor.getInstance ("INSERT-IMS-ORG-ID-HERE",{ 
    trackingServer: "Insert tracking server here here",  //Same as s.trackingServer 
    trackingServerSecure: "Insert secure tracking server here",  //Same as s.trackingServerSecure 
  

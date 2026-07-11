@@ -1,7 +1,7 @@
 ---
-description: Frequently asked questions about features, functionality, and issues related to using the ID service.
-keywords: ID Service
-title: ID Service FAQs
+description: Frequently asked questions about features, functionality, and issues related to using the Visitor ID Service.
+keywords: Visitor ID Service
+title: Visitor ID Service FAQs
 exl-id: 4dd2220c-8a9d-4e27-838b-be5ad357cb3e
 TQID: https://experienceleague.adobe.com/FxgL8UXSmoJM1oFr47yCAgYGcTa2PqKvSNM4bHjTw1M
 product_v2:
@@ -20,41 +20,41 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
 ---
-# ID Service FAQs{#id-service-faqs}
+# Visitor ID Service FAQs{#id-service-faqs}
 
-Frequently asked questions about features, functionality, and issues related to using the ID service.
+Frequently asked questions about features, functionality, and issues related to using the Visitor ID Service.
 
 ## Functionality {#section-659e89f8b9a74cb8afff35587dc96836}
 
-**What sort of functionality or capabilities does the ID service provide?**
+**What sort of functionality or capabilities does the Visitor ID Service provide?**
 
 See the [Overview](../introduction/overview.md).
 
-**Why is the ID service not making a call to retrieve the Experience Cloud ID?**
+**Why is the Visitor ID Service not making a call to retrieve the ECID?**
 
-This can be difficult to diagnose. One thing you can check are the content security policy headers on your site. If you have a strict security policy, those settings can block the third-party calls made by the ID service. See [Content Security Policies and the Experience Cloud Identity Service](../reference/csp.md#concept-968c423a7392479db0a0d821ae9783e3).
+This can be difficult to diagnose. One thing you can check are the content security policy headers on your site. If you have a strict security policy, those settings can block the third-party calls made by the Visitor ID Service. See [Content Security Policies and the Visitor ID Service](../reference/csp.md#concept-968c423a7392479db0a0d821ae9783e3).
 
-**VisitorAPI.js file storage**
+**`VisitorAPI.js` file storage**
 
-You might experience issues if you host the VisitorAPI.js as a local file in mobile apps. We recommend you host the file on a web server.
+You might experience issues if you host the `VisitorAPI.js` as a local file in mobile apps. We recommend you host the file on a web server.
 
 ## Page load times and latency {#section-c78e148d8dbe4c77a436ef0f2af5434b}
 
-**How does the placement of the ID service VisitorAPI.js library affect page load times?**
+**How does the placement of the Visitor ID Service `VisitorAPI.js` library affect page load times?**
 
-Place the VisitorAPI.js library at the top of the page in the `<head>` section of your code. This helps ensure that the call for an ID goes out before the page body starts loading and maximizes the chances that an ID will return successfully.
+Place the `VisitorAPI.js` library at the top of the page in the `<head>` section of your code. This helps ensure that the call for an ID goes out before the page body starts loading and maximizes the chances that an ID will return successfully.
 
-The ID service call is asynchronous and is the only call to the [demdex.net domain](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html). The ID service call does not block other elements from loading on the page.
+The Visitor ID Service call is asynchronous and is the only call to the [demdex.net domain](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html). The Visitor ID Service call does not block other elements from loading on the page.
 
-For [!DNL Target] customers, placing ID service code in the `<body>` of the page may increase the odds that it could block a [!DNL Target] call. If you must place ID service code in the body of your page, it should be placed after the open `<body>` tag.
+For Target customers, placing Visitor ID Service code in the `<body>` of the page may increase the odds that it could block a Target call. If you must place Visitor ID Service code in the body of your page, it should be placed after the open `<body>` tag.
 
-**Does the ID service make a server call with every page load?**
+**Does the Visitor ID Service make a server call with every page load?**
 
-No, this call will only happen the first time the page renders and once every 7 days thereafter. In the meantime, server calls are not required. The ID service operates in client-side mode and does not need to make a server call to return an ID.
+No, this call will only happen the first time the page renders and once every 7 days thereafter. In the meantime, server calls are not required. The Visitor ID Service operates in client-side mode and does not need to make a server call to return an ID.
 
 See [Overview](../introduction/overview.md).
 
-**When using the ID service, what can cause slow page load times or affect the user experience?**
+**When using the Visitor ID Service, what can cause slow page load times or affect the user experience?**
 
 It is hard to catalog all of the possible conditions. Billions of consumer clients connect to our services and the tremendous variety in where and how they connect affect performance. For example:
 
@@ -76,23 +76,23 @@ This change improves performance for customers using Visitor 2.3.0+ and DIL 6.10
 
 Resource requests with CORS are generally more preferable than with JSONP. With JSONP, some browsers queue and de-prioritize requests relative to other synchronous and asynchronous calls on the page. CORS helps ensure that these requests are treated with a higher priority in the browser call stack.
 
-See [CORS Support in the Experience Cloud Identity Service](../reference/cors.md#concept-6c280446990d46d88ba9da15d2dcc758).
+See [CORS Support in the Visitor ID Service](../reference/cors.md#concept-6c280446990d46d88ba9da15d2dcc758).
 
 ## Security {#section-b176b8492fbe4acfb79ebb30ec902f98}
 
-**Does the ID service support CORS?**
+**Does the Visitor ID Service support CORS?**
 
-Yes. See [CORS Support in the Experience Cloud Identity Service](../reference/cors.md#concept-6c280446990d46d88ba9da15d2dcc758).
+Yes. See [CORS Support in the Visitor ID Service](../reference/cors.md#concept-6c280446990d46d88ba9da15d2dcc758).
 
 **What is CORS?**
 
-*`Cross-Origin Resource Sharing`* or CORS, is a method that browsers use to request resources. The ID service always requests resources using CORS in browsers that support it. The ID service requests resources with JSON-P in older browsers that do not support CORS. See [Experience Cloud](../reference/cors.md#concept-6c280446990d46d88ba9da15d2dcc758).
+*`Cross-Origin Resource Sharing`* or CORS, is a method that browsers use to request resources. The Visitor ID Service always requests resources using CORS in browsers that support it. The Visitor ID Service requests resources with JSON-P in older browsers that do not support CORS. See [CORS Support in the Visitor ID Service](../reference/cors.md#concept-6c280446990d46d88ba9da15d2dcc758).
 
 **What if my security requirements are so strict that I never want to use JSONP?**
 
-If you have strict security requirements, set the ID service API config `useCORSOnly: true`. You should only enable this mode if you're confident that your site visitors use browsers that support CORS.
+If you have strict security requirements, set the Visitor ID Service API config `useCORSOnly: true`. You should only enable this mode if you're confident that your site visitors use browsers that support CORS.
 
-See [Experience Cloud](../reference/cors.md#concept-6c280446990d46d88ba9da15d2dcc758) and [useCORSOnly](../library/function-vars/use-cors-only.md#reference-8a9a143d838b48d6b23329b84b13e1fa). 
+See [CORS Support in the Visitor ID Service](../reference/cors.md#concept-6c280446990d46d88ba9da15d2dcc758) and [useCORSOnly](../library/function-vars/use-cors-only.md#reference-8a9a143d838b48d6b23329b84b13e1fa). 
 
 >[!MORELIKETHIS]
 >

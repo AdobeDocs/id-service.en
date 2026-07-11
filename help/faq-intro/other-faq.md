@@ -1,7 +1,7 @@
 ---
-description: Frequently asked questions about features, functionality, and issues related to using other Experience Cloud solutions with the ID service.
-keywords: ID Service
-title: FAQs for other Experience Cloud solutions
+description: Frequently asked questions about features, functionality, and issues related to using other CX Enterprise solutions with the Visitor ID Service.
+keywords: Visitor ID Service
+title: FAQs for other CX Enterprise solutions
 exl-id: d1164951-01c9-4375-981a-f87d8a280e4b
 TQID: https://experienceleague.adobe.com/fn7ZHenELGcFGr3PI8cQRr0xk4xEIEqB180kDWTe4KM
 product_v2:
@@ -17,16 +17,16 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
 ---
-# FAQs for other Experience Cloud solutions{#faqs-for-other-experience-cloud-solutions}
+# FAQs for other CX Enterprise solutions{#faqs-for-other-experience-cloud-solutions}
 
-Frequently asked questions about features, functionality, and issues related to using other Experience Cloud solutions with the ID service.
+Frequently asked questions about features, functionality, and issues related to using other CX Enterprise solutions with the Visitor ID Service.
 
 ## Analytics and Audience Manager {#section-b3dd206d497041acb04554c6fb1c912a}
 
-**Will the visiting history of a user be exported from [!DNL Adobe Analytics] to [!DNL Audience Manager] after I implement the Experience Cloud Identity Service?**
+**Will the visiting history of a user be exported from Adobe Analytics to Audience Manager after I implement the Visitor ID Service?**
 
 There are two options here:
 
-* If a user has any visiting activity after the ID Service is implemented, the visitor and their history is included in the data export to [!DNL Audience Manager]. 
-* If a user does not have any visiting activity after the ID Service is implemented, the visitor and their history will not be included in the data export to Audience Manager. Because new activity is not present, we have no way to associate the Analytics ID with the Experience Cloud ID.
+* If a user has any visiting activity after the Visitor ID Service is implemented, the visitor and their history is included in the data export to Audience Manager. 
+* If a user does not have any visiting activity after the Visitor ID Service is implemented, the visitor and their history will not be included in the data export to Audience Manager. Because new activity is not present, we have no way to associate the Analytics ID with the ECID.
 

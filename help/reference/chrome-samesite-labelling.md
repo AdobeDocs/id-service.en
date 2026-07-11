@@ -1,6 +1,6 @@
 ---
 title: Google Chrome SameSite labelling changes
-description: Documentation for Adobe ECID (ID Service) library.
+description: Documentation for Adobe ECID (Visitor ID Service) library.
 exl-id: f20b25a4-c9bc-41b9-8e49-79b8424e62a0
 TQID: https://experienceleague.adobe.com/VlmpxMM0Jm4ExEL1WdjeA3h9brGBslGoJCqgQ-xFaRs
 product_v2:
@@ -43,7 +43,7 @@ Visit the [cookie standard document](https://tools.ietf.org/html/draft-ietf-http
 | `lax` | Cookies with this setting are only sent when the domain displayed in the URL of the browser matches the domain of the cookie. This is the new default for cookies in Chrome. |
 | `none` | Cookies with this setting are available for external or third-party access, such as "cross-site." Prior to this change, `none` was the default SameSite setting for cookies, so using this setting makes a cookie behave most similarly to how it has traditionally worked. However, Google is requiring that any cookie with this setting now specify the secure flag, which means the cookie will only be created and sent with requests over HTTPS. All cross-site cookies without the secure flag will be rejected by Google. |
 
-## What you need to know as an Adobe Experience Cloud customer
+## What you need to know as an Adobe CX Enterprise customer
 
 **No JavaScript updates required**
 
@@ -51,7 +51,7 @@ Adobe products have already released server-side updates to set third-party cook
 
 **Ensure third-party endpoints are using HTTPS**
 
-All customers should confirm that their JavaScript configuration is using HTTPS for their calls to Adobe services. Target, Audience Manager, and the Experience Cloud Identity Service (ECID) are redirecting third-party HTTP calls to their respective HTTPS endpoints, which can increase latency. This means you are not required to change your configuration. Analytics customers should update their implementations to exclusively use HTTPS, as redirects specific to Analytics can cause data loss.
+All customers should confirm that their JavaScript configuration is using HTTPS for their calls to Adobe services. Target, Audience Manager, and the Visitor ID Service (ECID) are redirecting third-party HTTP calls to their respective HTTPS endpoints, which can increase latency. This means you are not required to change your configuration. Analytics customers should update their implementations to exclusively use HTTPS, as redirects specific to Analytics can cause data loss.
 
 **Correctly labeled cookies should collect data as intended**
 

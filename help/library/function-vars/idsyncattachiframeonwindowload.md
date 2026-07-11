@@ -1,6 +1,6 @@
 ---
-description: An optional, Boolean flag that controls how the Experience Cloud Identity Service loads the ID synchronization iFrame.
-keywords: ID Service
+description: An optional, Boolean flag that controls how the Visitor ID Service loads the ID synchronization iFrame.
+keywords: Visitor ID Service
 title: idSyncAttachIframeOnWindowLoad
 exl-id: 44c45378-f007-4d87-913a-d6bb9961948c
 TQID: https://experienceleague.adobe.com/fEqtHlUaNadgatKX-V-7FuZn-WTZOFg-YtBOD7yKg0k
@@ -19,16 +19,16 @@ role_v2:
 ---
 # idSyncAttachIframeOnWindowLoad{#idsyncattachiframeonwindowload}
 
-An optional, Boolean flag that controls how the Experience Cloud Identity Service loads the ID synchronization iFrame.
+An optional, Boolean flag that controls how the Visitor ID Service loads the ID synchronization iFrame.
 
  **Syntax:** ` `idSyncAttachIframeOnWindowLoad= true|false`` (default is `false`.)
 
-When `idSyncAttachIframeOnWindowLoad: true` the ID service loads the ID synchronization iFrame on window load. By default, the ID service loads the ID synchronization iFrame as fast as possible instead of on window load.
+When `idSyncAttachIframeOnWindowLoad: true` the Visitor ID Service loads the ID synchronization iFrame on window load. By default, the Visitor ID Service loads the ID synchronization iFrame as fast as possible instead of on window load.
 
 **Code Sample**
 
 ```js
-var visitor = Visitor.getInstance ("Insert Experience Cloud organization ID here",{ 
+var visitor = Visitor.getInstance ("INSERT-IMS-ORG-ID-HERE",{ 
    trackingServer: "Insert tracking server here here",  //Same as s.trackingServer 
    trackingServerSecure: "Insert secure tracking server here",  //Same as s.trackingServerSecure 
  

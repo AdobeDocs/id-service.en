@@ -1,6 +1,6 @@
 ---
-description: Feature releases, updates, or changes to the Experience Cloud Identity Service for 2018.
-keywords: ID Service
+description: Feature releases, updates, or changes to the Visitor ID Service for 2018.
+keywords: Visitor ID Service
 title: 2018 Release Notes
 exl-id: ad3cccf1-2753-4ac9-a68c-15b2d62bbc1a
 TQID: https://experienceleague.adobe.com/1vrVFuFbQiLL9XYnZwEf0WkElW-qhsklHbrem-mo5LE
@@ -26,7 +26,7 @@ topic_v2:
 ---
 # 2018 Release Notes {#release-notes}
 
-Feature releases, updates, or changes to the Experience Cloud Identity Service for 2018.
+Feature releases, updates, or changes to the Visitor ID Service for 2018.
 
 ## Version 3.3 {#section-3202c8d5457a45a5b5f4b4c838d44de3}
 
@@ -40,7 +40,7 @@ Feature releases, updates, or changes to the Experience Cloud Identity Service f
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Increased security for AMCV cookies </p> </td> 
-   <td colname="col2"> <p>During an internal security scan, it was discovered that when using the DTM library, cookies used for session management fail to specify proper attributes. This could result in cookie information being inadvertently shared. To solve for this, we have introduced a configuration that allows the Customer to set the AMCV cookie as secure. See <a href="/help/library/function-vars/securecookie.md" format="https" scope="external"> secureCookie</a>. </p> </td> 
+   <td colname="col2"> <p>During an internal security scan, it was discovered that cookies used for session management fail to specify proper attributes. This could result in cookie information being inadvertently shared. To solve for this, we have introduced a configuration that allows the Customer to set the AMCV cookie as secure. See <a href="/help/library/function-vars/securecookie.md" format="https" scope="external"> secureCookie</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -57,7 +57,7 @@ Feature releases, updates, or changes to the Experience Cloud Identity Service f
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Increased security for AMCV cookies </p> </td> 
-   <td colname="col2"> <p>During an internal security scan, it was discovered that when using the DTM library, cookies used for session management fail to specify proper attributes. This could result in cookie information being inadvertently shared. To solve for this, we have introduced a configuration that allows the Customer to set the AMCV cookie as secure. See secureCookie. </p> </td> 
+   <td colname="col2"> <p>During an internal security scan, it was discovered that cookies used for session management fail to specify proper attributes. This could result in cookie information being inadvertently shared. To solve for this, we have introduced a configuration that allows the Customer to set the AMCV cookie as secure. See secureCookie. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Integration code and id must be numbers or non-empty strings </p> </td> 
@@ -65,7 +65,7 @@ Feature releases, updates, or changes to the Experience Cloud Identity Service f
   </tr> 
   <tr> 
    <td colname="col1"> ECID JS is available in Public Git repo </td> 
-   <td colname="col2"> ECID JS is now available in Public Git repo for all Experience Cloud customers at https://github.com/Adobe-Marketing-Cloud/id-service/releases. </td> 
+   <td colname="col2"> ECID JS is now available in Public Git repo for all CX Enterprise customers at https://github.com/Adobe-Marketing-Cloud/id-service/releases. </td> 
   </tr> 
  </tbody> 
 </table>
@@ -82,7 +82,7 @@ Feature releases, updates, or changes to the Experience Cloud Identity Service f
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Unrealistic spike in the unique visitor count </p> </td> 
-   <td colname="col2"> <p>With the release of Experience Cloud Identity Service 3.1.0, we found an issue that created an unrealistic spike in the unique visitor count when this version was implemented. This behavior is exhibited only with the latest version of ECID, v3.1.0, and if a user has selected the "Allow from current website only" option in the privacy settings of a Safari browser. Version 3.1.2 fixes this issue. </p> </td> 
+   <td colname="col2"> <p>With the release of Visitor ID Service 3.1.0, we found an issue that created an unrealistic spike in the unique visitor count when this version was implemented. This behavior is exhibited only with the latest version of ECID, v3.1.0, and if a user has selected the "Allow from current website only" option in the privacy settings of a Safari browser. Version 3.1.2 fixes this issue. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -91,7 +91,7 @@ Feature releases, updates, or changes to the Experience Cloud Identity Service f
 
 >[!NOTE]
 >
->It is recommended that you upgrade from version 3.1.0 to the latest version at the earliest convenient time. See the version 3.1.2 description. The latest bundle is available within Adobe Experience Platform Launch, DTM, and AppMeasurement.
+>It is recommended that you upgrade from version 3.1.0 to the latest version at the earliest convenient time. See the version 3.1.2 description. The latest bundle is available within tags and AppMeasurement.
 
 <table id="table_512039AFC4D34038B8F116B71EEEE7F6"> 
  <thead> 
@@ -128,7 +128,7 @@ Feature releases, updates, or changes to the Experience Cloud Identity Service f
   </tr> 
   <tr> 
    <td colname="col1"> <p>Internet Explorer support </p> </td> 
-   <td colname="col2"> <p>The ID service no longer supports Internet Explorer 6, 7, 8, and 9. </p> </td> 
+   <td colname="col2"> <p>The Visitor ID Service no longer supports Internet Explorer 6, 7, 8, and 9. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Update to getInstance documentation </p> </td> 

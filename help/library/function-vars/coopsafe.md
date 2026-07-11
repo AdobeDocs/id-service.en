@@ -1,12 +1,12 @@
 ---
-description: An optional, Boolean configuration that determines if the ID service sends (or does not send) data to the Adobe Experience Cloud Device Co-op.
-keywords: ID Service
+description: An optional, Boolean configuration that determines if the Visitor ID Service sends (or does not send) data to the Adobe Device Co-op.
+keywords: Visitor ID Service
 title: isCoopSafe
 exl-id: 827f7819-9f95-4e8d-90c3-dcf86b67715b
 ---
 # isCoopSafe{#iscoopsafe}
 
-An optional, Boolean configuration that determines if the ID service sends (or does not send) data to the Adobe Experience Cloud Device Co-op.
+An optional, Boolean configuration that determines if the Visitor ID Service sends (or does not send) data to the Adobe Device Co-op.
 
 Contents:
 
@@ -22,10 +22,10 @@ Contents:
 
 To use `isCoopSafe` you must:
 
-* Use ID service code version 2.4, or higher. 
-* Participate in the [Experience Cloud Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/about/overview.html). Prospective co-op members should also review this documentation to determine if `isCoopSafe` addresses possible concerns about how data is used to create the device graph. 
+* Use Visitor ID Service code version 2.4, or higher. 
+* Participate in the [Adobe Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/about/overview.html). Prospective co-op members should also review this documentation to determine if `isCoopSafe` addresses possible concerns about how data is used to create the device graph. 
 
-* Work with your [!DNL Adobe] consultant to set a whitelist or a blacklist flag on your Device Co-op account. There is no self-service path to enabling these flags.
+* Work with your Adobe consultant to set a whitelist or a blacklist flag on your Device Co-op account. There is no self-service path to enabling these flags.
 
 ## Use Cases {#section-d18af2b903f248e18ae8108aaf0a8ebb}
 
@@ -41,11 +41,11 @@ To use `isCoopSafe` you must:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>Authenticated Visitors</b> </p> </td> 
-   <td colname="col2"> <p>Add <span class="codeph"> isCoopSafe </span> to your ID service code to control how data for authenticated visitors who have or have not accepted term-of-use agreements is used by the Device Co-op to build the device graph. </p> </td> 
+   <td colname="col2"> <p>Add <span class="codeph"> isCoopSafe </span> to your Visitor ID Service code to control how data for authenticated visitors who have or have not accepted term-of-use agreements is used by the Device Co-op to build the device graph. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>DIL on Third-Party Sites</b> </p> </td> 
-   <td colname="col2"> <p>Add <span class="codeph"> isCoopSafe </span> to your ID service code for use on third-party sites where you: </p> <p> 
+   <td colname="col2"> <p>Add <span class="codeph"> isCoopSafe </span> to your Visitor ID Service code for use on third-party sites where you: </p> <p> 
      <ul id="ul_C27BB26510314834A2A7CD99D46DA4AC"> 
       <li id="li_4E6AE574F18646F09C0CF4553EEA1A9E">Cannot ensure that authenticated visitors have or have not accepted term-of-use agreements. </li> 
       <li id="li_26D0561BF32B4278B0A6B5082C17FED8">Need to control how that data is used by the Device Co-op to build the device graph. </li> 
@@ -66,10 +66,10 @@ The Boolean options determine how customer data is or is not used by the Device 
 
 **Code Sample**
 
-Set this when your ID service code instantiates:
+Set this when your Visitor ID Service code instantiates:
 
 ```js
-var visitor = Visitor.getInstance("Insert Experience Cloud organization ID here",{ 
+var visitor = Visitor.getInstance("INSERT-IMS-ORG-ID-HERE",{ 
      ... 
      isCoopSafe: true 
 });
@@ -77,12 +77,12 @@ var visitor = Visitor.getInstance("Insert Experience Cloud organization ID here"
 
 ## Event Call POST Parameters {#section-fcd441933506493faefaa6b51f194a17}
 
-Depending on the flag you set ( `true` or `false`), the ID service translates `isCoopSafe` into these POST parameters and sends them to [!DNL Adobe] in an event call:
+Depending on the flag you set ( `true` or `false`), the Visitor ID Service translates `isCoopSafe` into these POST parameters and sends them to Adobe in an event call:
 
 * `d_coop_safe=1` 
 * `d_coop_unsafe=1`
 
-The POST parameters tell the [!DNL Experience Cloud] Device Co-op if it can or cannot include user data in the device graph. The table below defines the relationship between the `isCoopSafe` Boolean flags and the POST parameters passed in on an event call. If you don't use `isCoopSafe`, neither of these are passed in an event call.
+The POST parameters tell the Adobe Device Co-op if it can or cannot include user data in the device graph. The table below defines the relationship between the `isCoopSafe` Boolean flags and the POST parameters passed in on an event call. If you don't use `isCoopSafe`, neither of these are passed in an event call.
 
 <table id="table_0A544534CA904F4D9836A34B8C1EACBB"> 
  <thead> 

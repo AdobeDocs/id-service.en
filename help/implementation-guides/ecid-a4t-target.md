@@ -1,7 +1,7 @@
 ---
-description: These instructions are for A4T customers with mixed server- and client-side implementations of Target, Analytics, and the ID service. Customers who need to run the ID service in a NodeJS or Rhino environment should also review this information. This instance of the ID service uses a shortened version the VisitorAPI.js code library, which you download and install from Node Package Manager (NPM). Review this section for installation instructions and other configuration requirements.
-keywords: ID Service
-title: Using the ID Service with A4T and a server-side implementation of Target
+description: These instructions are for A4T customers with mixed server- and client-side implementations of Target, Analytics, and the Visitor ID Service. Customers who need to run the Visitor ID Service in a NodeJS or Rhino environment should also review this information. This instance of the Visitor ID Service uses a shortened version the VisitorAPI.js code library, which you download and install from Node Package Manager (NPM). Review this section for installation instructions and other configuration requirements.
+keywords: Visitor ID Service
+title: Using the Visitor ID Service with A4T and a server-side implementation of Target
 exl-id: 6f201378-29a1-44b7-b074-6004246fc999
 TQID: https://experienceleague.adobe.com/NQKu4J9BE0pnMswSHCtE7Hi8FJGDXmInvSEKTNuM80M
 product_v2:
@@ -22,22 +22,22 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
 ---
-# Using the ID Service with A4T and a server-side implementation of Target {#using-the-id-service-with-a-t-and-a-server-side-implementation-of-target}
+# Using the Visitor ID Service with A4T and a server-side implementation of Target {#using-the-id-service-with-a-t-and-a-server-side-implementation-of-target}
 
-These instructions are for A4T customers with mixed server- and client-side implementations of Target, Analytics, and the ID service. Customers who need to run the ID service in a NodeJS or Rhino environment should also review this information. This instance of the ID service uses a shortened version the VisitorAPI.js code library, which you download and install from Node Package Manager (NPM). Review this section for installation instructions and other configuration requirements.
+These instructions are for A4T customers with mixed server- and client-side implementations of Target, Analytics, and the Visitor ID Service. Customers who need to run the Visitor ID Service in a NodeJS or Rhino environment should also review this information. This instance of the Visitor ID Service uses a shortened version the `VisitorAPI.js` code library, which you download and install from Node Package Manager (NPM). Review this section for installation instructions and other configuration requirements.
 
 ## Introduction {#section-ab0521ff5bbd44c592c3eaab31c1de8b}
 
-A4T (and other customers) can use this version of the ID service when they need to:
+A4T (and other customers) can use this version of the Visitor ID Service when they need to:
 
 * Render web page content on their servers and pass it to a browser for final display. 
-* Make server-side [!DNL Target] calls. 
-* Make client-side (in-browser) calls to [!DNL Analytics]. 
-* Synchronize separate [!DNL Target] and [!DNL Analytics] IDs to determine if a visitor seen by one solution is the same person as seen by the other solution.
+* Make server-side Target calls. 
+* Make client-side (in-browser) calls to Analytics. 
+* Synchronize separate Target and Analytics IDs to determine if a visitor seen by one solution is the same person as seen by the other solution.
 
 ## Code download and provided interfaces {#section-32d75561438b4c3dba8861be6557be8a}
 
-See the [ID service NPM repository](https://www.npmjs.com/package/@adobe-mcid/visitor-js-server) to download the server-side code package and review the interfaces included in the current build.
+See the [Visitor ID Service NPM repository](https://www.npmjs.com/package/@adobe-mcid/visitor-js-server) to download the server-side code package and review the interfaces included in the current build.
 
 ## Workflow {#section-56b01017922046ed96536404239a272b}
 
@@ -47,27 +47,27 @@ The diagram and sections below describe what happens, and what you need to confi
 
 ## Step 1: Request page {#section-c12e82633bc94e8b8a65747115d0dda8}
 
-Server-side activity begins when a visitor makes an HTTP request to load a web page. During this step, your server receives this request and checks for the [AMCV cookie](../introduction/cookies.md). The AMCV cookie contains the visitor's [!DNL Experience Cloud] ID (MID).
+Server-side activity begins when a visitor makes an HTTP request to load a web page. During this step, your server receives this request and checks for the [AMCV cookie](../introduction/cookies.md). The AMCV cookie contains the visitor's ECID.
 
-## Step 2: Generate ID Service payload {#section-c86531863db24bd9a5b761c1a2e0d964}
+## Step 2: Generate Visitor ID Service payload {#section-c86531863db24bd9a5b761c1a2e0d964}
 
-Next, you need make a server-side *`payload request`* to the ID service. A payload request:
+Next, you need make a server-side *`payload request`* to the Visitor ID Service. A payload request:
 
-* Passes the AMCV cookie to the ID service. 
+* Passes the AMCV cookie to the Visitor ID Service. 
 * Requests data that is required by Target and Analytics in subsequent steps described below.
 
 >[!NOTE]
 >
->This method requests a single mbox from [!DNL Target]. If you need to request multiple mboxes in a single call, see [generateBatchPayload](https://www.npmjs.com/package/@adobe-mcid/visitor-js-server#generatebatchpayload).
+>This method requests a single mbox from Target. If you need to request multiple mboxes in a single call, see [generateBatchPayload](https://www.npmjs.com/package/@adobe-mcid/visitor-js-server#generatebatchpayload).
 
 Your payload request should look like following code sample. In the code sample, the `visitor.setCustomerIDs` function is optional. See [Customer IDs and Authentication States](../reference/authenticated-state.md) for more information.
 
 ```js
-//Import the ID service server package 
+//Import the Visitor ID Service server package 
 var Visitor = require("@adobe-mcid/visitor-js-server"); 
  
-//Pass in your Organization ID to instantiate Visitor 
-var visitor = new Visitor("Insert Experience Cloud ID here"); 
+//Pass in your IMS org ID to instantiate Visitor 
+var visitor = new Visitor("Insert ECID here"); 
  
 // 
 <i>(Optional)</i> Set a custom customer ID 
@@ -90,7 +90,7 @@ var visitorPayload = visitor.generatePayload({
 });
 ```
 
-The ID service returns the payload in a JSON object similar to the following example. Payload data is required by [!DNL Target].
+The Visitor ID Service returns the payload in a JSON object similar to the following example. Payload data is required by Target.
 
 ```js
 { 
@@ -113,7 +113,7 @@ If your visitor doesn't have an AMCV cookie, the payload omits these key-value p
 
 ## Step 3: Add payload to the Target call {#section-62451aa70d2f44ceb9fd0dc2d4f780f7}
 
-After your server receives payload data from the ID service, you need to instantiate additional code to merge it with data passed in to [!DNL Target]. The final JSON object passed to [!DNL Target] would look similar to this:
+After your server receives payload data from the Visitor ID Service, you need to instantiate additional code to merge it with data passed in to Target. The final JSON object passed to Target would look similar to this:
 
 ```js
 { 
@@ -134,53 +134,11 @@ After your server receives payload data from the ID service, you need to instant
 
 ```
 
-## Step 4: Get server state for the ID Service {#section-8ebfd177d42941c1893bfdde6e514280}
+## Step 4: Get server state for the Visitor ID Service {#section-8ebfd177d42941c1893bfdde6e514280}
 
-Server state data contains information about work that's been done on the server. The client-side ID service code requires this information. Customers who have implemented the ID service through [!DNL Dynamic Tag Manager] (DTM) can configure DTM to pass server state data through that tool. If you've set up the ID service through a non-standard process, you will need to return server state with your own code. The client-side ID service and [!DNL Analytics] code passes state data to Adobe when the page loads.
+Server state data contains information about work that's been done on the server. The client-side Visitor ID Service code requires this information. If you've set up the Visitor ID Service through a non-standard process, you will need to return server state with your own code. The client-side Visitor ID Service and Analytics code passes state data to Adobe when the page loads.
 
-**Get server state via DTM**
-
-If you have implemented the ID service with DTM, you need to add code to your page and specify a name-value pair in the DTM settings.
-
-**Page Code**
-
-Add this code to the `<head>` tag of your HTML page:
-
-```js
-//Get server state 
-var serverState = visitor.getState(); 
- 
-Response.send(" 
-... 
-<head> 
-     <script> 
-          //Add 'serverState' as a stringified JSON global variable. 
-          "var serverState = "+ JSON.stringify(serverState) +";  
-     </script> 
-     <script src = "DTM script (satellite JS)"> 
-     </script> 
-</head> 
-...
-```
-
-**DTM Settings**
-
-Add these as name-value pairs to the **[!UICONTROL General > Settings]** section of your ID service instance:
-
-* **[!UICONTROL Name:]** serverState 
-* **[!UICONTROL Value:]** %serverState% 
-
-  >[!IMPORTANT]
-  >
-  >The value name must match the variable name you set for `serverState` in your page code.
-
-Your configured settings should look like this:
-
-![](assets/server_side_dtm.png)
-
-**Get server state without DTM**
-
-If you have a non-standard implementation of the ID service, you must configure this code to run on your server while it assembles the requested page:
+If you have a non-standard implementation of the Visitor ID Service, you must configure this code to run on your server while it assembles the requested page:
 
 ```js
 //Get server state 
@@ -199,15 +157,15 @@ Response.send("
 ...
 ```
 
-## Step 5: Serve a page and return Experience Cloud data {#section-4b5631a0d75a41febd6f43f8c214c263}
+## Step 5: Serve a page and return CX Enterprise data {#section-4b5631a0d75a41febd6f43f8c214c263}
 
-At this point, the web server sends page content to the visitor's browser. From this point on, the browser (not the server) makes all the remaining ID service and [!DNL Analytics] calls. For example, in the browser:
+At this point, the web server sends page content to the visitor's browser. From this point on, the browser (not the server) makes all the remaining Visitor ID Service and Analytics calls. For example, in the browser:
 
-* The ID service receives state data from the server and passes the SDID to AppMeasurement. 
-* AppMeasurement sends data about the page hit to [!DNL Analytics], including the SDID. 
-* [!DNL Analytics] and [!DNL Target] compare SDIDs for this visitor. With an identical SDID, [!DNL Target] and [!DNL Analytics] stitch the server-side call and the client-side call together. At this point, both solutions now recognize this visitor as the same person.
+* The Visitor ID Service receives state data from the server and passes the SDID to AppMeasurement. 
+* AppMeasurement sends data about the page hit to Analytics, including the SDID. 
+* Analytics and Target compare SDIDs for this visitor. With an identical SDID, Target and Analytics stitch the server-side call and the client-side call together. At this point, both solutions now recognize this visitor as the same person.
 
 >[!MORELIKETHIS]
 >
->* [Server-Side ID Service Package from Node Package Manager](https://www.npmjs.com/package/@adobe-mcid/visitor-js-server)
+>* [Server-Side Visitor ID Service Package from Node Package Manager](https://www.npmjs.com/package/@adobe-mcid/visitor-js-server)
 

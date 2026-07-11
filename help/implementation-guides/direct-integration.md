@@ -1,7 +1,7 @@
 ---
-description: This implementation lets customers use the ID service on devices that cannot accept or work with our JavaScript or SDK code. This includes devices such as gaming consoles, smart TVs, or other Internet-enabled appliances. Refer to this section for syntax, code samples, and definitions.
-keywords: ID Service
-title: Direct integration with the Experience Cloud Identity Service
+description: This implementation lets customers use the Visitor ID Service on devices that cannot accept or work with our JavaScript or SDK code. This includes devices such as gaming consoles, smart TVs, or other Internet-enabled appliances. Refer to this section for syntax, code samples, and definitions.
+keywords: Visitor ID Service
+title: Direct integration with the Adobe Visitor ID Service
 exl-id: 29565b74-5fe7-41f7-b278-6a90559faab9
 TQID: https://experienceleague.adobe.com/f5Tp-XaNY-KIpHXExT4hFwNt7FQqh6y4iaaWmIHEhAI
 product_v2:
@@ -24,19 +24,19 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
 ---
-# Direct integration with the Experience Cloud Identity Service {#direct-integration-with-the-experience-cloud-id-service}
+# Direct integration with the Adobe Visitor ID Service {#direct-integration-with-the-experience-cloud-id-service}
 
-This implementation lets customers use the ID service on devices that cannot accept or work with our JavaScript or SDK code. This includes devices such as gaming consoles, smart TVs, or other Internet-enabled appliances. Refer to this section for syntax, code samples, and definitions.
+This implementation lets customers use the Visitor ID Service on devices that cannot accept or work with our JavaScript or SDK code. This includes devices such as gaming consoles, smart TVs, or other Internet-enabled appliances. Refer to this section for syntax, code samples, and definitions.
 
 ## Syntax {#section-a4754afec5ad40b6be00d6f1011d68bb}
 
-Devices that cannot use the VisitorAPI.js or SDK code libraries can make calls directly to the data collection servers (DCS) used by the ID service. To do this, you would call `dpm.demdex.net` and format your request as shown below. *Italics* indicates a variable placeholder.
+Devices that cannot use the `VisitorAPI.js` or SDK code libraries can make calls directly to the data collection servers (DCS) used by the Visitor ID Service. To do this, you would call `dpm.demdex.net` and format your request as shown below. *Italics* indicates a variable placeholder.
 
 ![](assets/directSyntax.png)
 
-In this syntax example, the `d_` prefix identifies the key-value pairs in the call as a system-level variable. You can pass quite a few `d_` parameters to the ID service, but stay focused on the key-value pairs as shown in the code above. For more information about other variables, see [Supported Attributes for DCS API calls](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html).
+In this syntax example, the `d_` prefix identifies the key-value pairs in the call as a system-level variable. You can pass quite a few `d_` parameters to the Visitor ID Service, but stay focused on the key-value pairs as shown in the code above. For more information about other variables, see [Supported Attributes for DCS API calls](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html).
 
-The ID service supports HTTP and HTTPS calls. Use HTTPS to pass data from a secure page.
+The Visitor ID Service supports HTTP and HTTPS calls. Use HTTPS to pass data from a secure page.
 
 ## Sample request {#section-26302b8851704888b6f8e6b2071bcdb0}
 
@@ -46,7 +46,7 @@ Your request could look similar to the sample shown below. Long variables have b
 
 ## Sample response {#section-89bc103b3e9e4a8b98e74c32897b1200}
 
-The ID service returns data in a JSON object as shown below. Your response may be different.
+The Visitor ID Service returns data in a JSON object as shown below. Your response may be different.
 
 ```js
 {
@@ -75,15 +75,15 @@ The ID service returns data in a JSON object as shown below. Your response may b
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> d_mid</span> </p> </td> 
-   <td colname="col2"> <p>The Experience Cloud visitor ID. See <a href="../introduction/cookies.md" format="dita" scope="local"> Cookies and the Experience Cloud Identity Service</a>. </p> </td> 
+   <td colname="col2"> <p>The ECID. See <a href="../introduction/cookies.md" format="dita" scope="local"> Cookies and the Visitor ID Service</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> d_orgid</span> </p> </td> 
-   <td colname="col2"> <p>Your Experience Cloud Organization ID. For help with finding this ID see, <a href="../reference/requirements.md" format="dita" scope="local"> Requirements for the Experience Cloud Identity Service</a>. </p> </td> 
+   <td colname="col2"> <p>Your IMS org ID. For help with finding this ID see, <a href="../reference/requirements.md" format="dita" scope="local"> Requirements for the Visitor ID Service</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> d_cid</span> </p> </td> 
-   <td colname="col2"> <p>An optional parameter that passes the Data Provider ID (DPID), the Unique User ID (DPUUID), and an <a href="../reference/authenticated-state.md" format="dita" scope="local"> authenticated state ID</a> to the ID service. As shown in the code sample, separate the DPID and DPUUID with the non-printing control character, <span class="codeph"> %01</span>. </p> <p> <b>DPID and DPUUID</b> </p> <p>In the <span class="codeph"> d_cid</span> parameter, assign each related DPID and DPUUID combination to the same <span class="codeph"> d_cid</span> parameter. This lets you return multiple ID sets in a single request. Also, separate the DPID, DPUUID, and optional authentication flag with the non-printing control character, <span class="codeph"> %01</span>. In the examples below, the provider and user IDs are highlighted in <b>bold</b> text. </p> 
+   <td colname="col2"> <p>An optional parameter that passes the Data Provider ID (DPID), the Unique User ID (DPUUID), and an <a href="../reference/authenticated-state.md" format="dita" scope="local"> authenticated state ID</a> to the Visitor ID Service. As shown in the code sample, separate the DPID and DPUUID with the non-printing control character, <span class="codeph"> %01</span>. </p> <p> <b>DPID and DPUUID</b> </p> <p>In the <span class="codeph"> d_cid</span> parameter, assign each related DPID and DPUUID combination to the same <span class="codeph"> d_cid</span> parameter. This lets you return multiple ID sets in a single request. Also, separate the DPID, DPUUID, and optional authentication flag with the non-printing control character, <span class="codeph"> %01</span>. In the examples below, the provider and user IDs are highlighted in <b>bold</b> text. </p> 
     <ul id="ul_2E19D837296B40E9ACD096495CF711C5"> 
      <li id="li_5B94B057654440B99B989BA60E4ED053">Syntax: <span class="codeph">...d_cid=DPID%01DPUUID%01authentication state...</span> </li> 
      <li id="li_B07833EF51D54F088574B7B7F9FB841A">Example: <span class="codeph">...d_cid=123%01456%011...</span> </li> 
@@ -101,7 +101,7 @@ The ID service returns data in a JSON object as shown below. Your response may b
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> dcs_region</span> </p> </td> 
-   <td colname="col2"> <p>The ID service is a geographically distributed and load-balanced system. The ID identifies the region of the data center handling the call. See <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-regions.html" format="https" scope="external"> DCS Region IDs, Locations, and Host Names</a>. </p> </td> 
+   <td colname="col2"> <p>The Visitor ID Service is a geographically distributed and load-balanced system. The ID identifies the region of the data center handling the call. See <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-regions.html" format="https" scope="external"> DCS Region IDs, Locations, and Host Names</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> d_cb</span> </p> </td> 

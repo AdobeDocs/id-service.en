@@ -1,6 +1,6 @@
 ---
-description: An optional, Boolean flag that prevents the Experience Cloud Identity Service from returning the third-party, demdex.net cookie.
-keywords: ID Service
+description: An optional, Boolean flag that prevents the Visitor ID Service from returning the third-party, demdex.net cookie.
+keywords: Visitor ID Service
 title: disableThirdPartyCookies
 exl-id: 19d12822-0e17-4a1c-8e9c-25a22e20a4a8
 TQID: https://experienceleague.adobe.com/vx9q-Q1X0fraWPUmaBlx-bBFX-gvnAox03mpENTizHw
@@ -19,7 +19,7 @@ role_v2:
 ---
 # disableThirdPartyCookies{#disablethirdpartycookies}
 
-An optional, Boolean flag that prevents the Experience Cloud Identity Service from returning the third-party, demdex.net cookie.
+An optional, Boolean flag that prevents the Visitor ID Service from returning the third-party, demdex.net cookie.
 
 >[!NOTE]
 >
@@ -27,12 +27,12 @@ An optional, Boolean flag that prevents the Experience Cloud Identity Service fr
 
 **Syntax:** `disableThirdPartyCookies: true|false` (default is `false`.) For `VisitorAPI.js` v3.0.0 or greater.
 
-When `disableThirdPartyCookies: true`, the ID service does not return the third-party, demdex.net cookie (see [Cookies and the Experience Cloud Identity Service](../../introduction/cookies.md) ). If a site visitor already has this cookie in their browser, the ID service won't use it to create a new Experience Cloud ID (MID) or return an existing ID. Instead, the ID service creates a new, random MID in the first-party cookie. Once enabled, you can collect data with the ID service and share it across different Experience Cloud solutions.
+When `disableThirdPartyCookies: true`, the Visitor ID Service does not return the third-party, demdex.net cookie (see [Cookies and the Visitor ID Service](../../introduction/cookies.md) ). If a site visitor already has this cookie in their browser, the Visitor ID Service won't use it to create a new ECID or return an existing ID. Instead, the Visitor ID Service creates a new, random MID in the first-party cookie. Once enabled, you can collect data with the Visitor ID Service and share it across different CX Enterprise solutions.
 
 **Code Sample**
 
 ```js
-var visitor = Visitor.getInstance ("Insert Experience Cloud organization ID here",{ 
+var visitor = Visitor.getInstance ("INSERT-IMS-ORG-ID-HERE",{ 
    trackingServer: "Insert tracking server here here",  //Same as s.trackingServer 
    trackingServerSecure: "Insert secure tracking server here",  //Same as s.trackingServerSecure 
  

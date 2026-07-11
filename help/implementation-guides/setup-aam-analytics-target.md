@@ -1,7 +1,7 @@
 ---
-description: These instructions are for Analytics, Audience Manager, and Target customers who want to use the Experience Cloud Identity Service and do not use Data Collection tags. However, we strongly recommend that you use tags to implement the ID service. Tags streamlines the implementation workflow and automatically ensures the correct code placement and sequencing.
-keywords: ID Service
-title: Implement the Experience Cloud Identity Service for Analytics, Audience Manager, and Target
+description: These instructions are for Analytics, Audience Manager, and Target customers who want to use the Visitor ID Service and do not use tags. However, we strongly recommend that you use tags to implement the Visitor ID Service. Tags streamlines the implementation workflow and automatically ensures the correct code placement and sequencing.
+keywords: Visitor ID Service
+title: Implement the Adobe Visitor ID Service for Analytics, Audience Manager, and Target
 exl-id: d55baa11-e8ec-4c30-b6bc-caccf4c284ba
 TQID: https://experienceleague.adobe.com/wGjBgvbWkETj-JmZ4MYFXiheoS0ctiycXvKIncTZpJw
 product_v2:
@@ -28,49 +28,49 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
 ---
-# Implement the Experience Cloud Identity Service for Analytics, Audience Manager, and Target {#implement-the-experience-cloud-id-service-for-analytics-audience-manager-and-target}
+# Implement the Adobe Visitor ID Service for Analytics, Audience Manager, and Target {#implement-the-experience-cloud-id-service-for-analytics-audience-manager-and-target}
 
-These instructions are for Analytics, Audience Manager, and Target customers who want to use the Experience Cloud Identity Service and do not use [Data Collection tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en). However, we strongly recommend that you use tags to implement the ID service. Tags streamlines the implementation workflow and automatically ensures the correct code placement and sequencing.
+These instructions are for Analytics, Audience Manager, and Target customers who want to use the Visitor ID Service and do not use [tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en). However, we strongly recommend that you use tags to implement the Visitor ID Service. Tags streamlines the implementation workflow and automatically ensures the correct code placement and sequencing.
 
 >[!IMPORTANT]
 >
->Read the ID service [requirements](../reference/requirements.md) before you begin and note the following requirements that are specific to this implementation: 
+>Read the Visitor ID Service [requirements](../reference/requirements.md) before you begin and note the following requirements that are specific to this implementation: 
 >
 >* Customers using s_code cannot complete this procedure. Upgrade to mbox code v61 to complete this procedure. 
 >* Configure and test this code in a development environment *before* you implement it in production. 
 
 ## Step 1: Plan for server-side forwarding {#section-880797cc992d4755b29cada7b831f1fc}
 
-In addition to the steps described here, customers who use [!DNL Analytics] and [!DNL Audience Manager] should migrate to server-side forwarding. Server-side forwarding lets you remove DIL (Audience Manager's data collection code) and replace it with the [Audience Management Module](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html). See the [server-side forwarding documentation](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/server-side-forwarding/ssf.html) for more information.
+In addition to the steps described here, customers who use Analytics and Audience Manager should migrate to server-side forwarding. Server-side forwarding lets you remove DIL (Audience Manager's data collection code) and replace it with the [Audience Management Module](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html). See the [server-side forwarding documentation](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/server-side-forwarding/ssf.html) for more information.
 
 Migrating to server-side forwarding requires planning and coordination. This process involves external changes to your site code and internal steps that Adobe must take to provision your account. In fact, many of these migration procedures need to happen in parallel and get released together. Your implementation path should follow this sequence of events:
 
-1. Work with your [!DNL Analytics] and [!DNL Audience Manager] contacts to plan your ID service and server-side forwarding migration. Make selecting a tracking server an important part of this plan. 
+1. Work with your Analytics and Audience Manager contacts to plan your Visitor ID Service and server-side forwarding migration. Make selecting a tracking server an important part of this plan. 
 
 1. Complete the form on the [integrations and provisioning site](https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES) to get started. 
 
-1. Implement the ID service and the [!DNL Audience Management Module] simultaneously. To work properly, the [!DNL Audience Management Module] (server-side forwarding) and the ID service must be released for the same set of pages and at the same time.
+1. Implement the Visitor ID Service and the Audience Management Module simultaneously. To work properly, the Audience Management Module (server-side forwarding) and the Visitor ID Service must be released for the same set of pages and at the same time.
 
-## Step 2: Download the ID Service code {#section-0780126cf43e4ad9b6fc5fe17bb3ef86}
+## Step 2: Download the Visitor ID Service code {#section-0780126cf43e4ad9b6fc5fe17bb3ef86}
 
-The ID Service requires the `VisitorAPI.js` code library. To download this code library:
+The Visitor ID Service requires the `VisitorAPI.js` code library. To download this code library:
 
 1. Go to **[!UICONTROL Admin > Code Manager]**. 
 1. In Code Manager, click either **[!UICONTROL JavaScrpt (New)]** or **[!UICONTROL JavaScript (Legacy)]**. This downloads compressed code libraries. 
 
 1. Decompress the code file and open the `VisitorAPI.js` file.
 
-## Step 3: Add the Visitor.getInstance function to the ID Service code {#section-9e30838b4d0741658a7a492153c49f27}
+## Step 3: Add the Visitor.getInstance function to the Visitor ID Service code {#section-9e30838b4d0741658a7a492153c49f27}
 
 >[!IMPORTANT]
 >
->* Previous versions of the ID service API placed this function in a different location and required a different syntax. If you are migrating from a version prior to [version 1.4](../release-notes/notes-2015.md#section-f5c596f355b14da28f45c798df513572), note the new placement and syntax documented here. 
->* Code in ALL CAPS is a placeholder for actual values. Replace this text with your Organization ID, tracking server URL, or other named value.
+>* Previous versions of the Visitor ID Service API placed this function in a different location and required a different syntax. If you are migrating from a version prior to [version 1.4](../release-notes/notes-2015.md#section-f5c596f355b14da28f45c798df513572), note the new placement and syntax documented here. 
+>* Code in ALL CAPS is a placeholder for actual values. Replace this text with your IMS org ID, tracking server URL, or other named value.
 
 **Part 1: Copy the Visitor.getInstance function below**
 
 ```js
-var visitor = Visitor.getInstance("INSERT-MARKETING-CLOUD-ORGANIZATION ID-HERE", { 
+var visitor = Visitor.getInstance("INSERT-IMS-ORG-ID-HERE", { 
      trackingServer: "INSERT-TRACKING-SERVER-HERE", // same as s.trackingServer 
      trackingServerSecure: "INSERT-SECURE-TRACKING-SERVER-HERE", // same as s.trackingServerSecure 
  
@@ -82,7 +82,7 @@ var visitor = Visitor.getInstance("INSERT-MARKETING-CLOUD-ORGANIZATION ID-HERE",
 
 ```
 
-**Part 2: Add function code to the Visitor API.js file**
+**Part 2: Add function code to the `VisitorAPI.js` file**
 
 Place the `Visitor.getInstance` function at the end of the file after the code block. Your edited file should look like this:
 
@@ -96,7 +96,7 @@ Version and copyright section
  
 // Put Visitor.getInstance at the end of the file, after the code library 
  
-var visitor = Visitor.getInstance("INSERT-MARKETING-CLOUD-ORGANIZATION ID-HERE", { 
+var visitor = Visitor.getInstance("INSERT-IMS-ORG-ID-HERE", { 
      trackingServer: "INSERT-TRACKING-SERVER-HERE", // same as s.trackingServer 
      trackingServerSecure: "INSERT-SECURE-TRACKING-SERVER-HERE", // same as s.trackingServerSecure 
  
@@ -108,15 +108,15 @@ var visitor = Visitor.getInstance("INSERT-MARKETING-CLOUD-ORGANIZATION ID-HERE",
 
 ```
 
-## Step 4: Add your Experience Cloud Organization ID to Visitor.getInstance {#section-e2947313492546789b0c3b2fc3e897d8}
+## Step 4: Add your IMS org ID to Visitor.getInstance {#section-e2947313492546789b0c3b2fc3e897d8}
 
-In the `Visitor.getInstance` function, replace `INSERT-MARKETING-CLOUD-ORGANIZATION ID-HERE` with your Experience Cloud organization ID. If you do not know your organization ID, you can find it on the Experience Cloud administration page. Your edited function could look similar to the example below.
+In the `Visitor.getInstance` function, replace `INSERT-IMS-ORG-ID-HERE` with your IMS org ID. If you do not know your IMS org ID, you can find it on the CX Enterprise administration page. Your edited function could look similar to the example below.
 
 `var visitor = Visitor.getInstance("1234567ABC@AdobeOrg", { ...`
 
 >[!IMPORTANT]
 >
->*Do not* change the case of the characters in your organization ID. The ID is case-sensitive and must be used exactly as provided.
+>*Do not* change the case of the characters in your IMS org ID. The ID is case-sensitive and must be used exactly as provided.
 
 ## Step 5: Add your tracking servers to Visitor.getInstance {#section-0dfc52096ac2427f86045aab9a0e0dfc}
 
@@ -135,16 +135,16 @@ To determine which tracking server variables to use:
 
 1. Answer the questions in the decision matrix below. Use the variables that correspond to your answers. 
 1. Replace the tracking server placeholders with your tracking server URLs. 
-1. Remove unused tracking server and Experience Cloud server variables from the code.
+1. Remove unused tracking server and CX Enterprise server variables from the code.
 
 ![](assets/tracking-server-matrix.png)
 
 >[!NOTE]
 >
->When used, match the Experience Cloud server URLs to their corresponding tracking server URLs like this:
+>When used, match the CX Enterprise server URLs to their corresponding tracking server URLs like this:
 
-* Experience Cloud server URL = tracking server URL 
-* Experience Cloud server secure URL = tracking server secure URL
+* CX Enterprise server URL = tracking server URL 
+* CX Enterprise server secure URL = tracking server secure URL
 
 If you're not sure how to find your tracking server see the [FAQ](../faq-intro/faq.md) and [Correctly Populate the trackingServer and trackingServerSecure variables](https://helpx.adobe.com/analytics/kb/determining-data-center.html#).
 
@@ -154,11 +154,11 @@ This step requires [!UICONTROL AppMeasurement]. You cannot continue if you're st
 
 Add the `Visitor.getInstance` function shown below to your `AppMeasurement.js` file. Place it in the section that contains configurations such as `linkInternalFilters`, `charSet`, `trackDownloads`, etc. :
 
-`s.visitor = Visitor.getInstance("INSERT-MARKETING-CLOUD-ORGANIZATION ID-HERE");`
+`s.visitor = Visitor.getInstance("INSERT-IMS-ORG-ID-HERE");`
 
 >[!IMPORTANT]
 >
->At this point, you should remove the [!DNL Audience Manager] DIL code and replace it with the Audience Management Module. See [Implement Server-Side Forwarding](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html) for instructions.
+>At this point, you should remove the Audience Manager DIL code and replace it with the Audience Management Module. See [Implement Server-Side Forwarding](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html) for instructions.
 
 ***(Optional, but recommended)* Create a custom prop**
 
@@ -171,10 +171,10 @@ s.prop1 = (typeof(Visitor) != "undefined" ? "VisitorAPI Present" : "VisitorAPI M
 
 ## Step 7: Add Visitor API code to the page {#section-c2bd096a3e484872a72967b6468d3673}
 
-Place the `[!UICONTROL VisitorAPI.js]` file within the `<head>` tags on each page. When you the `VisitorAPI.js` file to your page:
+Place the `VisitorAPI.js` file within the `<head>` tags on each page. When you the `VisitorAPI.js` file to your page:
 
 * Put it at the beginning of the `<head>` section to it appears before other solution tags. 
-* It must execute before AppMeasurement and the code for other [!DNL Experience Cloud] solutions.
+* It must execute before AppMeasurement and the code for other CX Enterprise solutions.
 
 ## Step 8: (Optional) Configure a grace period {#section-aceacdb7d5794f25ac6ff46f82e148e1}
 
@@ -182,17 +182,17 @@ If any of these use cases apply to your situation, ask [Customer Care](https://h
 
 **Partial Implementation**
 
-You need a grace period if you have some pages that use the ID service and some pages that do not, and they all report into the same Analytics report suite. This is common if you have a global report suite that reports across domains.
+You need a grace period if you have some pages that use the Visitor ID Service and some pages that do not, and they all report into the same Analytics report suite. This is common if you have a global report suite that reports across domains.
 
-Discontinue the grace period after the ID service is deployed on all your web pages that report into the same report suite.
+Discontinue the grace period after the Visitor ID Service is deployed on all your web pages that report into the same report suite.
 
 **s_vi Cookie Requirements**
 
-You need a grace period if you require new visitors to have an s_vi cookie after migrating to the ID service. This is common if your implementation reads the s_vi cookie and stores it in a variable.
+You need a grace period if you require new visitors to have an s_vi cookie after migrating to the Visitor ID Service. This is common if your implementation reads the s_vi cookie and stores it in a variable.
 
 Discontinue the grace period after your implementation can capture the MID instead of reading the s_vi cookie.
 
-See also, [Cookies and the Experience Cloud Identity Service](../introduction/cookies.md).
+See also, [Cookies and the Visitor ID Service](../introduction/cookies.md).
 
 **Clickstream Data Integration**
 
@@ -204,7 +204,7 @@ See also, [Clickstream Data Column Reference](https://experienceleague.adobe.com
 
 ## Step 9: Test and verify {#section-f857542bfc70496dbb9f318d6b3ae110}
 
-The [!DNL Experience Cloud] solutions in this implementation return IDs in the form of key-value pairs. Each solution uses different keys (e.g., the [!DNL Analytics] SDID vs the [!DNL Target] mboxMCSDID) to hold the same ID. To test your implementation, load your pages in a development environment. Use your browser console or software that monitors HTTP requests and responses to check the IDs listed below. The ID service has been implemented correctly when the key-value pairs listed below return the same ID values.
+The CX Enterprise solutions in this implementation return IDs in the form of key-value pairs. Each solution uses different keys (e.g., the Analytics SDID vs the Target mboxMCSDID) to hold the same ID. To test your implementation, load your pages in a development environment. Use your browser console or software that monitors HTTP requests and responses to check the IDs listed below. The Visitor ID Service has been implemented correctly when the key-value pairs listed below return the same ID values.
 
 >[!TIP]
 >
@@ -215,9 +215,9 @@ The [!DNL Experience Cloud] solutions in this implementation return IDs in the f
 Check for the:
 
 * [AMCV cookie](../introduction/cookies.md) in the domain where you page is hosted. 
-* [!DNL Experience Cloud] ID (MID) with the [!DNL Adobe] debugger or your preferred debugging tool.
+* ECID with the Adobe debugger or your preferred debugging tool.
 
-For additional checks that help you determine if the ID service is working properly, see [Test and Verify the Experience Cloud Identity Service](../implementation-guides/test-verify.md).
+For additional checks that help you determine if the Visitor ID Service is working properly, see [Test and Verify the Visitor ID Service](../implementation-guides/test-verify.md).
 
 **Analytics**
 
@@ -225,10 +225,10 @@ Check for the SDID identifier in the JavaScript request. The Analytics SDID shou
 
 If your tests return an AID, that indicates either of the following:
 
-* You're a returning visitor in the process of migrating legacy [!DNL Analytics] IDs. 
+* You're a returning visitor in the process of migrating legacy Analytics IDs. 
 * You have a [grace period](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/migration) enabled.
 
-When you see an AID, check its value against the [!DNL Target] mboxMCAVID. These values are identical when the ID service has been implemented correctly.
+When you see an AID, check its value against the Target mboxMCAVID. These values are identical when the Visitor ID Service has been implemented correctly.
 
 **Audience Manager**
 
@@ -243,10 +243,10 @@ Check for the:
 
 If your tests return an mboxMCAVID, that indicates either of the following:
 
-* You're a returning visitor in the process of migrating legacy [!DNL Analytics] IDs. 
+* You're a returning visitor in the process of migrating legacy Analytics IDs. 
 * You have a grace period enabled.
 
-When you see an mboxMCAVID, check its value against the [!DNL Analytics] AID. These values are identical when the ID service has been implemented correctly.
+When you see an mboxMCAVID, check its value against the Analytics AID. These values are identical when the Visitor ID Service has been implemented correctly.
 
 **Deployment**
 

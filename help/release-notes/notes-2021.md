@@ -1,6 +1,6 @@
 ---
-description: Feature releases, updates, or changes to the Experience Cloud Identity Service.
-keywords: ID Service
+description: Feature releases, updates, or changes to the Visitor ID Service.
+keywords: Visitor ID Service
 title: 2021 Release Notes
 exl-id: 56bffb6f-a4fc-40df-8bb2-17e43772fe60
 TQID: https://experienceleague.adobe.com/AB8VuYn9X41P9REJ8C215GzBRtH66lb35i-q1PNbZfU
@@ -20,9 +20,9 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
 ---
-# Experience Cloud Identity Service release notes - 2021
+# Adobe Visitor ID Service release notes - 2021
 
-Feature releases, updates, or changes to the Experience Cloud Identity Service.
+Feature releases, updates, or changes to the Visitor ID Service.
 
 ## Visitor 5.3.0
 
@@ -36,7 +36,7 @@ The following updates were included in the release of Visitor 5.3.0:
 
 The following updates were included in the release of Visitor 5.2.0:
 
-* This version introduces an event `onReceiveEcid`, which gets called when an ECID is received from the Identity Service. For example:
+* This version introduces an event `onReceiveEcid`, which gets called when an ECID is received from the Visitor ID Service. For example:
 
 ```js
 visitorInstance.onReceiveEcid(callback(ecid){

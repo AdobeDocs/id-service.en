@@ -1,6 +1,6 @@
 ---
-description: Call these ID service functions to determine the timeout status for a Experience Cloud Identity Service, Analytics, or Audience Manager ID request. Available in VisitorAPI.js version 1.7.0 or higher.
-keywords: ID Service
+description: Call these Visitor ID Service functions to determine the timeout status for a Visitor ID Service, Analytics, or Audience Manager ID request. Available in VisitorAPI.js version 1.7.0 or higher.
+keywords: Visitor ID Service
 title: callTimeOut Methods
 exl-id: ff3a2c5e-a0a8-4257-b538-0e4ce454b4e8
 TQID: https://experienceleague.adobe.com/DIis78iaPQ7qpawlKwWCwReXbh5Mt0K8J3w-5KYdhmg
@@ -19,7 +19,7 @@ role_v2:
 ---
 # callTimeOut Methods{#calltimeout-methods}
 
-Call these ID service functions to determine the timeout status for a Experience Cloud Identity Service, Analytics, or Audience Manager ID request. Available in VisitorAPI.js version 1.7.0 or higher.
+Call these Visitor ID Service functions to determine the timeout status for a Visitor ID Service, Analytics, or Audience Manager ID request. Available in `VisitorAPI.js` version 1.7.0 or higher.
 
 ## Timeout Functions {#section-e08228ef5f9b45c9a84139bbb763164a}
 
@@ -32,7 +32,7 @@ Call these ID service functions to determine the timeout status for a Experience
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Experience Cloud Identity Service </p> </td> 
+   <td colname="col1"> <p>Visitor ID Service </p> </td> 
    <td colname="col2"> <p> <span class="codeph">var <span class="varname"> variableName</span> = visitor.MCIDCallTimedOut()</span> </p> </td> 
   </tr> 
   <tr> 
@@ -58,15 +58,15 @@ Call these ID service functions to determine the timeout status for a Experience
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> TRUE</span> </p> </td> 
-   <td colname="col2"> <p>The ID service sent a request and the request timed out. </p> </td> 
+   <td colname="col2"> <p>The Visitor ID Service sent a request and the request timed out. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FALSE</span> </p> </td> 
-   <td colname="col2"> <p>The ID service sent a request and received a successful response from the server. </p> </td> 
+   <td colname="col2"> <p>The Visitor ID Service sent a request and received a successful response from the server. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> NULL</span> </p> </td> 
-   <td colname="col2"> <p>The ID service did not send a request. </p> </td> 
+   <td colname="col2"> <p>The Visitor ID Service did not send a request. </p> </td> 
   </tr> 
  </tbody> 
 </table>

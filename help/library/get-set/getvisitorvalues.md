@@ -1,6 +1,6 @@
 ---
-description: This is an asynchronous API that returns identifiers for Analytics, the ID service, data collection opt-out, geographic location, and metadata "blob" content by default. Also, you can control which IDs you want to return with the optional visitor.FIELDS enum.
-keywords: ID Service
+description: This is an asynchronous API that returns identifiers for Analytics, the Visitor ID Service, data collection opt-out, geographic location, and metadata "blob" content by default. Also, you can control which IDs you want to return with the optional visitor.FIELDS enum.
+keywords: Visitor ID Service
 title: getVisitorValues
 exl-id: bd023e8d-a804-4205-989f-e1e58080b63c
 TQID: https://experienceleague.adobe.com/CF9G6wKlDxjklwedJk8KVmYH7KjA7CRkxtNu-mQ-Kjs
@@ -24,7 +24,7 @@ topic_v2:
 ---
 # getVisitorValues{#getvisitorvalues}
 
-This is an asynchronous API that returns identifiers for Analytics, the ID service, data collection opt-out, geographic location, and metadata "blob" content by default. Also, you can control which IDs you want to return with the optional visitor.FIELDS enum.
+This is an asynchronous API that returns identifiers for Analytics, the Visitor ID Service, data collection opt-out, geographic location, and metadata "blob" content by default. Also, you can control which IDs you want to return with the optional visitor.FIELDS enum.
 
 Contents:
 
@@ -51,8 +51,8 @@ See the following use cases and definitions for more information.
 This code returns the standard data set. Your request and response could look similar to the following examples.
 
 ```js
-//Call the ID service 
-var visitor = Visitor.getInstance ("Insert Experience Cloud organization ID here",{...}); 
+//Call the Visitor ID Service 
+var visitor = Visitor.getInstance ("INSERT-IMS-ORG-ID-HERE",{...}); 
    
 //Add your callback to the GET method to return IDs and data. 
 visitor.getVisitorValues(visitorIdsCallback);
@@ -73,11 +73,11 @@ In the default sample response, some values have been shortened for demonstratio
 
 ## Use Case 2: Request a Custom Data Set {#section-467b2f4e513344c89b7332b05f6f59f3}
 
-This code uses an optional array to return a specific set of IDs using the `visitor.FIELDS` enum. In this case, we only want the visitor's Experience Cloud ID (MCID) and Analytics ID (MCAID). Your request and response could look similar to the following examples.
+This code uses an optional array to return a specific set of IDs using the `visitor.FIELDS` enum. In this case, we only want the visitor's ECID (MCID) and Analytics ID (MCAID). Your request and response could look similar to the following examples.
 
 ```js
-//Call the ID service 
-var visitor = Visitor.getInstance("Insert Experience Cloud organization ID here", { ... });
+//Call the Visitor ID Service 
+var visitor = Visitor.getInstance("INSERT-IMS-ORG-ID-HERE", { ... });
 
 // Add an optional array to specify which IDs you want to return. 
 visitor.getVisitorValues(visitorIdsCallback, [visitor.FIELDS.MCMID, visitor.FIELDS.MCAID]);
@@ -111,7 +111,7 @@ The following table lists and defines the response parameters. These are also al
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MCAAMLH </span> </p> </td> 
-   <td colname="col2"> <p>The data collection region ID. This is a numeric identifier for the geographic location of a particular ID service data center. </p> <p>See <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-regions.html" format="https" scope="external"> DCS Region IDs, Locations, and Host Names </a> and <a href="../../library/get-set/getlocationhint.md#reference-a761030ff06c4439946bb56febf42d4c" format="dita" scope="local"> getLocationHint </a>. </p> </td> 
+   <td colname="col2"> <p>The data collection region ID. This is a numeric identifier for the geographic location of a particular Visitor ID Service data center. </p> <p>See <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-regions.html" format="https" scope="external"> DCS Region IDs, Locations, and Host Names </a> and <a href="../../library/get-set/getlocationhint.md#reference-a761030ff06c4439946bb56febf42d4c" format="dita" scope="local"> getLocationHint </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MCAID </span> </p> </td> 
@@ -119,7 +119,7 @@ The following table lists and defines the response parameters. These are also al
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MCMID </span> </p> </td> 
-   <td colname="col2"> <p>The visitor's Experience Cloud ID. </p> <p>See <a href="../../introduction/cookies.md" format="dita" scope="local"> Cookies and the Experience Cloud Identity Service </a>. </p> </td> 
+   <td colname="col2"> <p>The visitor's ECID. </p> <p>See <a href="../../introduction/cookies.md" format="dita" scope="local"> Cookies and the Visitor ID Service </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MCOPTOUT </span> </p> </td> 

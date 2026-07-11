@@ -1,6 +1,6 @@
 ---
 description: Required for multi-part, top-level domains where either of the last two parts of the URL are greater than 2 characters.
-keywords: ID Service
+keywords: Visitor ID Service
 title: cookieDomain
 exl-id: 280416ad-372a-4a59-a938-0f49c0ce300f
 TQID: https://experienceleague.adobe.com/V-Aej2Eh52NBXQfeUTHQHEs6Q72mzpI5HptURu6FTUM
@@ -31,7 +31,7 @@ Required for multi-part, top-level domains where either of the last two parts of
 **Code Sample**
 
 ```js
-var visitor = Visitor.getInstance ("Insert Experience Cloud organization ID here",{ 
+var visitor = Visitor.getInstance ("INSERT-IMS-ORG-ID-HERE",{ 
    trackingServer: "Insert tracking server here here",  //Same as s.trackingServer 
    trackingServerSecure: "Insert secure tracking server here",  //Same as s.trackingServerSecure 
  

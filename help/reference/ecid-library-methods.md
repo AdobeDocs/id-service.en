@@ -1,6 +1,6 @@
 ---
 title: ECID library methods in a Safari ITP world
-description: Documentation for Adobe ECID (ID Service) library.
+description: Documentation for Adobe ECID (Visitor ID Service) library.
 exl-id: ac1d1ee1-2b5f-457a-a694-60bb4c960ae7
 TQID: https://experienceleague.adobe.com/GwI5LkCBXGiKyfjGm6bOqbyGbHQ2GwW64PeyLIrl3Ck
 product_v2:
@@ -29,7 +29,7 @@ topic_v2:
 
 As Safari tightens up cross-domain tracking via ITP, Adobe must maintain best practices for libraries that support customers as well as consumer privacy and choice.
 
-As of November 10, 2020, all first-party persistent cookies set through the document.cookie API, often known as "client-side" cookies, and cookies set through first-party CNAME implementations in Safari and mobile iOS browsers have their expiration capped at seven days. Third-party cookies will continue to be blocked, as stated in previous versions of ITP. For more details on ITP 2.1 and the impact of Adobe solutions, read [Safari ITP 2.1 Impact on Adobe Experience Cloud and Experience Platform Customers](https://medium.com/adobetech/safari-itp-2-1-impact-on-adobe-experience-cloud-customers-9439cecb55ac).
+As of November 10, 2020, all first-party persistent cookies set through the document.cookie API, often known as "client-side" cookies, and cookies set through first-party CNAME implementations in Safari and mobile iOS browsers have their expiration capped at seven days. Third-party cookies will continue to be blocked, as stated in previous versions of ITP. For more details on ITP 2.1 and the impact of Adobe solutions, read [Safari ITP 2.1 Impact on Adobe Experience Platform Customers](https://medium.com/adobetech/safari-itp-2-1-impact-on-adobe-experience-cloud-customers-9439cecb55ac).
 
 ## ITP related changes, methods, and configurations
 
@@ -43,7 +43,7 @@ See below for efforts related to ITP and ECID library usage.
 
 ## Current ECID library behavior with ITP and Apple's WebKit
 
-ITP 2.1 hampers the ability to write client-side cookies, which impairs the ability to provide accurate visitor tracking information to customers. As such, a change is being introduced in Adobe's CNAME tracking servers to store the visitor's Experience Cloud ID (ECID) in a first-party cookie.
+ITP 2.1 hampers the ability to write client-side cookies, which impairs the ability to provide accurate visitor tracking information to customers. As such, a change is being introduced in Adobe's CNAME tracking servers to store the visitor's ECID in a first-party cookie.
 
 This change is only helpful for ECID customers using an Analytics CNAME in first-party context. If you are an Analytics customer not currently using a CNAME, or even a non-Analytics customer, you are still eligible for a CNAME record. Contact Customer Care or your account representative to start the process of registering for a [CNAME](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html).
 
@@ -71,7 +71,7 @@ If you choose not to take advantage of this method, add the following config to 
 
 ## Use appendVisitorIDsTo method for cross-domain tracking (within your own company's multiple domains)
 
-This function lets you share a visitor's ECID across domains when browsers block third-party cookies. To use this function, you must have implemented the ID service and own the source and destination domains. Available in VisitorAPI.js version 1.7.0 or higher (but not in version 1.10.0).
+This function lets you share a visitor's ECID across domains when browsers block third-party cookies. To use this function, you must have implemented the Visitor ID Service and own the source and destination domains. Available in `VisitorAPI.js` version 1.7.0 or higher (but not in version 1.10.0).
 
 **Design**
 
@@ -79,14 +79,14 @@ This function lets you share a visitor's ECID across domains when browsers block
 
     Use this URL to redirect from the original domain to the destination domain.
 
-* The ID service code on the destination domain extracts the ECID from the URL instead of sending a request to Adobe for that visitor's ID.
+* The Visitor ID Service code on the destination domain extracts the ECID from the URL instead of sending a request to Adobe for that visitor's ID.
 
     This request includes the third-party cookie ID, which is not available in this case.
 
-* The ID service code on the destination page uses the passed-in ECID to track the visitor.
+* The Visitor ID Service code on the destination page uses the passed-in ECID to track the visitor.
 
     >[!NOTE]
-    >If the destination page already has a ECID from previous visits, then the decision to over-write the existing cookie is controlled by this config overwriteCrossDomainMCIDAndAID. For details about this config, see [overwriteCrossDomainMCIDAndAID](/help/library/function-vars/overwrite-visitor-id.md).
+    >If the destination page already has an ECID from previous visits, then the decision to over-write the existing cookie is controlled by this config overwriteCrossDomainMCIDAndAID. For details about this config, see [overwriteCrossDomainMCIDAndAID](/help/library/function-vars/overwrite-visitor-id.md).
     >
     >For more details on this method, see the [appendVisitorIDsTo (Cross Domain Tracking)](/help/library/get-set/appendvisitorid.md) reference page.
 

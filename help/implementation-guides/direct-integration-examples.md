@@ -1,6 +1,6 @@
 ---
-description: These examples cover 2 common use cases related to a direct integration and the Experience Cloud ID (MID). The MID is a unique, persistent ID for your site visitors.
-keywords: ID Service
+description: These examples cover 2 common use cases related to a direct integration and the ECID. The MID is a unique, persistent ID for your site visitors.
+keywords: Visitor ID Service
 title: Direct integration use cases
 exl-id: f2a55b90-8307-4242-b20a-6a3c367a251b
 TQID: https://experienceleague.adobe.com/1vfYQsSZiqM3SrnP0lmSrZEWpAMsbwVK8sR0MNitetQ
@@ -22,15 +22,15 @@ topic_v2:
 ---
 # Direct integration use cases {#direct-integration-use-cases}
 
-These examples cover 2 common use cases related to a direct integration and the Experience Cloud ID (ECID or MID). This ID is a unique, persistent ID for your site visitors.
+These examples cover 2 common use cases related to a direct integration and the ECID (also called the MID). This ID is a unique, persistent ID for your site visitors.
 
 >[!TIP]
 >
 >* Review and understand the [code syntax and variables](../implementation-guides/direct-integration.md#concept-4cd3206a84bb4687af0b312ae09648b9) before diving into the use cases.
->* For more information about the MID, see [Cookies and the Experience Cloud Identity Service](../introduction/cookies.md).
+>* For more information about the MID, see [Cookies and the Visitor ID Service](../introduction/cookies.md).
 >
 
-## Use case 1: I have an Experience Cloud ID (MID) but want to pass my visitor IDs and set an authentication state {#section-a67d89a343754d1286d03cf08d34b806}
+## Use case 1: I have an ECID but want to pass my visitor IDs and set an authentication state {#section-a67d89a343754d1286d03cf08d34b806}
 
 <table id="table_DA8840FCB51541109FE6DF20430E8924"> 
  <thead> 
@@ -52,7 +52,7 @@ These examples cover 2 common use cases related to a direct integration and the 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Actions</b> </p> </td> 
-   <td colname="col2"> <p>Given these conditions, make a call to the ID service that includes: </p> 
+   <td colname="col2"> <p>Given these conditions, make a call to the Visitor ID Service that includes: </p> 
     <ul id="ul_9ECB1A65266644E89E949C57D202D5A4"> 
      <li id="li_10A6F5A9C54D44A08F4F2E405E6019E2">The MID (1234). </li> 
      <li id="li_4869572B40E54C54B88A2474DAC475A8">Your data provider ID. This is a unique ID assigned to your company. Let's call this ID 4444. </li> 
@@ -62,7 +62,7 @@ These examples cover 2 common use cases related to a direct integration and the 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Solution and code sample</b> </p> </td> 
-   <td colname="col2"> <p>Format your call to the ID service like this: </p> <p> <span class="codeph">https://dpm.demdex.net/id?d_mid=1234&amp;d_cid=4444%019876%011&amp;d_ver=2</span> </p> <p>Note how the sample call contains the: </p> 
+   <td colname="col2"> <p>Format your call to the Visitor ID Service like this: </p> <p> <span class="codeph">https://dpm.demdex.net/id?d_mid=1234&amp;d_cid=4444%019876%011&amp;d_ver=2</span> </p> <p>Note how the sample call contains the: </p> 
     <ul id="ul_0667FBFD8D3C46BDBD027F484691EC97"> 
      <li id="li_FAB1FAE703DB48D1A32EE72684028964">MID: <span class="codeph">d_mid=1234</span> </li> 
      <li id="li_C97B74FF444F4BB4B4A5CB1CBBE52249">MID joined to your unique ID for the visitor: <span class="codeph">d_mid=1234&amp;d_cid=4444%019876%011</span> </li> 
@@ -87,17 +87,17 @@ These examples cover 2 common use cases related to a direct integration and the 
    <td colname="col2"> <p>This use case assumes you: </p> 
     <ul id="ul_BF3BD821907B46A4B2EFA63146D35722"> 
      <li id="li_E658AE0671D14558B65FDD8992F25996">Do not have a MID for the site visitor. </li> 
-     <li id="li_28A48BB3F71C4E4297F95A2D3E10AD7B">Need to request a MID from the ID service. </li> 
-     <li id="li_E2C306B9308D41E5BFE2F23EF48F5A41">Know your <a href="../reference/requirements.md#section-a02f537129a64ffbb690d5738d360c26" format="dita" scope="local"> organization ID</a>. Let's call this 5555. </li> 
+     <li id="li_28A48BB3F71C4E4297F95A2D3E10AD7B">Need to request a MID from the Visitor ID Service. </li> 
+     <li id="li_E2C306B9308D41E5BFE2F23EF48F5A41">Know your <a href="../reference/requirements.md#section-a02f537129a64ffbb690d5738d360c26" format="dita" scope="local"> IMS org ID</a>. Let's call this 5555. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Actions</b> </p> </td> 
-   <td colname="col2"> <p>Given these conditions, make a call to the ID service that includes your Organization ID. </p> <p>And, if you happen to have any of the other parameters listed in the <a href="../implementation-guides/direct-integration.md#concept-4cd3206a84bb4687af0b312ae09648b9" format="dita" scope="local"> direct integration guide</a> (e.g.,<span class="codeph"> d_blob</span> or <span class="codeph"> dcs_region</span>, etc.) it's ok to pass those in as well. </p> </td> 
+   <td colname="col2"> <p>Given these conditions, make a call to the Visitor ID Service that includes your IMS org ID. </p> <p>And, if you happen to have any of the other parameters listed in the <a href="../implementation-guides/direct-integration.md#concept-4cd3206a84bb4687af0b312ae09648b9" format="dita" scope="local"> direct integration guide</a> (e.g.,<span class="codeph"> d_blob</span> or <span class="codeph"> dcs_region</span>, etc.) it's ok to pass those in as well. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Solution and code sample</b> </p> </td> 
-   <td colname="col2"> <p>Format your call to the ID service like this: </p> <p> <span class="codeph">https://dpm.demdex.net/id?d_orgid=5555&amp;d_ver=2</span> </p> <p>Note how the sample call contains your Organization ID, <span class="codeph">d_orgid=5555</span>. It would return a <span class="keyword"> Experience Cloud</span> ID for this visitor. </p> </td> 
+   <td colname="col2"> <p>Format your call to the Visitor ID Service like this: </p> <p> <span class="codeph">https://dpm.demdex.net/id?d_orgid=5555&amp;d_ver=2</span> </p> <p>Note how the sample call contains your IMS org ID, <span class="codeph">d_orgid=5555</span>. It would return an ECID for this visitor. </p> </td> 
   </tr> 
  </tbody> 
 </table>

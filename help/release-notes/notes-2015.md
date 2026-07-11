@@ -1,6 +1,6 @@
 ---
 description: Release notes and updates for 2015.
-keywords: ID Service
+keywords: Visitor ID Service
 title: 2015 Release Notes
 exl-id: 57c45726-f856-4af5-a30a-9a1bdcaa6411
 TQID: https://experienceleague.adobe.com/WmeSY7aRbvnZJN0a-lNR-yYzWzF4dfJLPZqA--6lpYQ
@@ -32,38 +32,38 @@ Release notes and updates for 2015.
 
 November, 2015
 
-The Children's Online Privacy Protection Act (COPPA) prohibits online collection of personal information from children under 13 years old without verifiable parental consent. Customers concerned about COPPA can add an optional variable to their [!DNL Experience Cloud] ID service code that prevents it from setting cookies in the third-party domain of a browser. See [COPPA Support in the Experience Cloud Identity Service](../reference/coppa.md#concept-d7ddf81bebd74f129661fcec1ca19413). For version 1.5.3 or greater.
+The Children's Online Privacy Protection Act (COPPA) prohibits online collection of personal information from children under 13 years old without verifiable parental consent. Customers concerned about COPPA can add an optional variable to their Visitor ID Service code that prevents it from setting cookies in the third-party domain of a browser. See [COPPA Support in the Visitor ID Service](../reference/coppa.md#concept-d7ddf81bebd74f129661fcec1ca19413). For version 1.5.3 or greater.
 
 ## Version 1.5.2 {#section-e3c73e47539942a89b02d33061128148}
 
 September, 2015
 
 * Fixed a bug in the Safari browser that prevented synchronization services from functioning when users blocked third-party cookies. (AAM-20764) 
-* Calls to the ID service now include the version ID in the `d_visid_ver=` parameter. The returned ID helps internal teams with troubleshooting and support issues. (AAM-20824)
+* Calls to the Visitor ID Service now include the version ID in the `d_visid_ver=` parameter. The returned ID helps internal teams with troubleshooting and support issues. (AAM-20824)
 
 ## Version 1.5.1 {#section-f4309d7917964a748fee4bdb45bffa44}
 
 August, 2015
 
-* Fixed a bug to prevent the ID service from requesting an iframe if there's no data to synchronize or fire. (AAM-20164) 
-* Fixed a bug that prevented the ID service from properly setting a multi-part, top-level domain cookie. For example, if you have a domain like `my_company.co.uk`, under some circumstances, the ID service would set a cookie in `co.uk` only. (AN-104683)
+* Fixed a bug to prevent the Visitor ID Service from requesting an iframe if there's no data to synchronize or fire. (AAM-20164) 
+* Fixed a bug that prevented the Visitor ID Service from properly setting a multi-part, top-level domain cookie. For example, if you have a domain like `my_company.co.uk`, under some circumstances, the Visitor ID Service would set a cookie in `co.uk` only. (AN-104683)
 
   This only affected a few clients that met *all* of the following criteria:
 
-    * Using the ID service. 
+    * Using the Visitor ID Service. 
     * Enabled a [grace period](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/migration) *or* are using first-party cookies and users block third-party cookies. 
     * Have pages with multi-part, top-level domains.
 
 Documentation revisions in this release include:
 
 * [API Methods and Code Library](../library/library.md#concept-ff27497375644a898d47984aefb21c97): Reorganized content and text. In most cases, each method gets its own page. 
-* [Requirements for the Experience Cloud Identity Service](../reference/requirements.md): Revised content and reorganized text.
+* [Requirements for the Visitor ID Service](../reference/requirements.md): Revised content and reorganized text.
 
 ## Version 1.5 {#section-db5edfa11ae143ada07a96e0ab06dc57}
 
 July, 2015
 
-The [!DNL Experience Cloud] ID service supports multiple IDs and authentication states. This change also removes deprecated support for [!DNL Audience Manager] DPID mappings to user IDs used by the `setCustomerIDs` function. See [Customer IDs and Authentication States](../reference/authenticated-state.md)
+The Visitor ID Service supports multiple IDs and authentication states. This change also removes deprecated support for Audience Manager DPID mappings to user IDs used by the `setCustomerIDs` function. See [Customer IDs and Authentication States](../reference/authenticated-state.md)
 
 ## Version 1.4 {#section-f5c596f355b14da28f45c798df513572}
 

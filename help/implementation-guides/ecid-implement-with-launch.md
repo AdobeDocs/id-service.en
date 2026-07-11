@@ -1,6 +1,6 @@
 ---
-description: Adobe Experience Platform Launch is the primary tool used to set up, deploy, and integrate the Experience Cloud Identity Service with your other Experience Cloud solutions.
-title: Implement with Launch
+description: tags is the primary tool used to set up, deploy, and integrate the Visitor ID Service with your other CX Enterprise solutions.
+title: Implement with Data Collection tags
 feature-set: Experience Cloud Services
 feature: TK421
 exl-id: cf197fde-3b93-4578-b24e-2db5633f043c
@@ -21,15 +21,15 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
 ---
-# Implement with Experience Platform tags{#implement-with-launch}
+# Implement with Data Collection tags{#implement-with-launch}
 
-Tags in Adobe Experience Platform is the primary tool used to set up, deploy, and integrate the Experience Cloud Identity Service with your other Experience Cloud solutions.
+Tags is the primary tool used to set up, deploy, and integrate the Visitor ID Service with your other CX Enterprise solutions.
 
-## About Experience Platform tags {#section-611711602854464ea351a4af80a8dafe}
+## About Data Collection tags {#section-611711602854464ea351a4af80a8dafe}
 
-[Tags in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en) is the next-generation of the Adobe tag-management capability that is built into the Adobe Experience Cloud. Platform tags enable clients to:
+[Tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en) in Adobe Experience Platform Data Collection is the next-generation of the Adobe tag-management capability that is built into Adobe CX Enterprise. Tags enable clients to:
 
 * Deploy client-side web products using integrations called _extensions_. 
 * Consistently capture, define, manage, and share data between marketing and advertising products from other vendors and from Adobe.
-* Platform tags are an advanced JavaScript delivery system that evaluates conditions and executed actions to efficiently and effectively deploy client-side libraries and products. Tags provide a highly scalable approach to managing and building extensions, together with a robust set of APIs for programmatic interaction with the Adobe Experience Cloud.
+* Tags are an advanced JavaScript delivery system that evaluates conditions and executed actions to efficiently and effectively deploy client-side libraries and products. Tags provide a highly scalable approach to managing and building extensions, together with a robust set of APIs for programmatic interaction with Adobe CX Enterprise.
 

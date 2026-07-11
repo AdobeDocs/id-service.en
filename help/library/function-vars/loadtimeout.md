@@ -1,6 +1,6 @@
 ---
-description: Sets a timeout interval in milliseconds. Used to tell other solutions (e.g., Analytics, Audience Manager, Target, etc.) how long to wait for a response from the ID service.
-keywords: ID Service
+description: Sets a timeout interval in milliseconds. Used to tell other solutions (e.g., Analytics, Audience Manager, Target, etc.) how long to wait for a response from the Visitor ID Service.
+keywords: Visitor ID Service
 title: loadTimeout
 exl-id: 485264f4-ee24-4042-8be3-259e70462110
 TQID: https://experienceleague.adobe.com/w0-c0ROMsYRLqlHQuBfSAdardHnMfaJ8oTLf1xwL9QQ
@@ -19,7 +19,7 @@ role_v2:
 ---
 # loadTimeout{#loadtimeout}
 
-Sets a timeout interval in milliseconds. Used to tell other solutions (e.g., Analytics, Audience Manager, Target, etc.) how long to wait for a response from the ID service.
+Sets a timeout interval in milliseconds. Used to tell other solutions (e.g., Analytics, Audience Manager, Target, etc.) how long to wait for a response from the Visitor ID Service.
 
  **Syntax:** `loadTimeout: *`interval in milliseconds`*`
 
@@ -27,12 +27,12 @@ The default value is 30,000 milliseconds (30 seconds). We strongly recommend tha
 
 >[!NOTE]
 >
->Calls to the ID service are asynchronous in relation to other, non-Adobe code on the page. As a result, increasing or decreasing the timeout interval does not change the rate at which your page renders content. However, long timeout intervals may affect page load times as measured by common network monitoring tools, but rendering time is unaffected.
+>Calls to the Visitor ID Service are asynchronous in relation to other, non-Adobe code on the page. As a result, increasing or decreasing the timeout interval does not change the rate at which your page renders content. However, long timeout intervals may affect page load times as measured by common network monitoring tools, but rendering time is unaffected.
 
 **Code Sample**
 
 ```js
-var visitor = Visitor.getInstance ("Insert Experience Cloud organization ID here",{ 
+var visitor = Visitor.getInstance ("INSERT-IMS-ORG-ID-HERE",{ 
    trackingServer: "Insert tracking server here here",  //Same as s.trackingServer 
    trackingServerSecure: "Insert secure tracking server here",  //Same as s.trackingServerSecure 
  

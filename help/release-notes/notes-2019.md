@@ -1,6 +1,6 @@
 ---
-description: Feature releases, updates, or changes to the Experience Cloud Identity Service.
-keywords: ID Service
+description: Feature releases, updates, or changes to the Visitor ID Service.
+keywords: Visitor ID Service
 title: 2019 Release Notes
 exl-id: 11439e27-9740-4afc-a2b8-5e35d179f34f
 TQID: https://experienceleague.adobe.com/KnO04dnP6z7gKrr8vkFiiToDSBfClpiOJkGq8949ahA
@@ -20,24 +20,24 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
 ---
-# Experience Cloud release notes - 2019 {#release-notes}
+# 2019 Release Notes {#release-notes}
 
-Feature releases, updates, or changes to the Experience Cloud Identity Service.
+Feature releases, updates, or changes to the Visitor ID Service.
 
 ## Version 4.4.1
 
-Add pre opt-in approval checkbox for media analytics in ECID Launch Extension.
+Add pre opt-in approval checkbox for media analytics in the [!UICONTROL Experience Cloud ID Service] tag extension.
 
 **Fixes**
 
-* Issue with ECID launch extension preOptInApprovals input string parsing.
+* Issue with [!UICONTROL Experience Cloud ID Service] tag extension preOptInApprovals input string parsing.
 * Performance drop when trackingServer is being used.
 
 ## Version 4.4 {#version-4point4}
 
 **New Feature**
 
-[SHA256 Hashing Support for setCustomerIDs](/help/reference/hashing-support.md). Experience Cloud ID Service (ECID) supports the SHA-256 hashing algorithm that allows you to pass in customer IDs or email addresses, and pass out hashed IDs.
+[SHA256 Hashing Support for setCustomerIDs](/help/reference/hashing-support.md). Visitor ID Service (ECID) supports the SHA-256 hashing algorithm that allows you to pass in customer IDs or email addresses, and pass out hashed IDs.
 
 **Fixes, enhancements, improvements**
 
@@ -64,12 +64,12 @@ Support for the Audience Manager Plug-in for IAB TCF, available via the ECID Opt
 **Fixes**
 
 * IAB + OptIn fails to get MID for revisiting customers.
-* Fixed bug on opt-in doesOptInApply configuration in DTM.
+* Fixed bug on opt-in doesOptInApply configuration.
 * ECID opt-out disables ID syncs.
 
 ## Version 4.0 {#section-51a4be943bbe41558f196ef2654513e2}
 
-**Opt-in service**. Opt-in is an extension of the Experience Cloud ID (ECID) that allows you to control whether (and then which) Experience Cloud libraries can create cookies on web pages for visitors. Using [Experience Platform Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html), you can simplify gathering visitor opt-in consents for Experience Cloud solution by enabling Analytics, Target, Audience Manager, and other or all select Experience Cloud solutions to opt-in to your consent management system.
+**Opt-in service**. Opt-in is an extension of the ECID that allows you to control whether (and then which) CX Enterprise libraries can create cookies on web pages for visitors. Using [tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html), you can simplify gathering visitor opt-in consents for CX Enterprise solution by enabling Analytics, Target, Audience Manager, and other or all select CX Enterprise solutions to opt-in to your consent management system.
 
 ## Version 3.4 {#section-046ce29b43af47cc849d4091098f5927}
 

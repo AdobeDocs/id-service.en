@@ -1,6 +1,6 @@
 ---
-description: Feature releases, updates, or changes to the Experience Cloud Identity Service.
-keywords: ID Service
+description: Feature releases, updates, or changes to the Visitor ID Service.
+keywords: Visitor ID Service
 title: 2020 Release Notes
 exl-id: c9d7876e-debc-4c8e-8ebc-91646610c876
 TQID: https://experienceleague.adobe.com/hqAMIyXTeLBPU-4B6AVRXhcWux3bkyViMCrbjoGiRwk
@@ -20,9 +20,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
 ---
-# Experience Cloud release notes - 2020 {#release-notes}
+# 2020 Release Notes {#release-notes}
 
-Feature releases, updates, or changes to the Experience Cloud Identity Service.
+Feature releases, updates, or changes to the Visitor ID Service.
 
 ## Version 5.1.1
 
@@ -47,7 +47,7 @@ For more information on these attribute values, visit [web.dev](https://web.dev/
 
 ## Version 4.6
 
-* Made `loadSSL` flag on by default. All calls to Identity Service will be on `https` by default.  Customers can set it to false if they want to call Identity Services on http from their `non-ssl` pages.
+* Made `loadSSL` flag on by default. All calls to Visitor ID Service will be on `https` by default.  Customers can set it to false if they want to call the Visitor ID Service on http from their `non-ssl` pages.
 * Updated the function used to detect `Internet-Explorer (IE)` version, to fix an issue reported by `ESLint`.
 Fix for performance issue on `Internet-Explorer (IE) 11` when ECID is given optIn `pre-approval` and updated later.
 
@@ -56,5 +56,5 @@ Fix for performance issue on `Internet-Explorer (IE) 11` when ECID is given optI
 * Beginning with version 4.5,  ECID will reject any empty IDs sent to `setCustomerIDs` method. 
 * Fixed an issue occurring when opt-in is configured as `doesOptInApply=false` and `isIabContext=true`.
 
-See [Experience Cloud release notes](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html) for monthly release notes for all products.
+See [CX Enterprise release notes](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html) for monthly release notes for all products.
 
