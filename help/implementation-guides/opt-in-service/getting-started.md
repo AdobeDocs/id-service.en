@@ -1,5 +1,5 @@
 ---
-description: Implement the Opt-in service as the single point of reference used by Experience Cloud solutions (referred to as Categories in Opt-in) to determine whether or not to create cookies on a visitor's device.
+description: Implement the Opt-in service as the single point of reference used by CX Enterprise solutions (referred to as Categories in Opt-in) to determine whether or not to create cookies on a visitor's device.
 title: Setting up Opt-in Service
 exl-id: 6e8a6531-9924-4523-a842-cb4614a7a7a0
 TQID: https://experienceleague.adobe.com/Nq3mYoy0U-0RK8MHzsu-yCIVwbCbaAJnIUR8QZDCKcs
@@ -25,9 +25,9 @@ topic_v2:
 ---
 # Setting up Opt-in Service{#setting-up-opt-in-service}
 
-Implement the Opt-in service as the single point of reference used by Experience Cloud solutions (referred to as Categories in Opt-in) to determine whether or not to create cookies on a visitor's device.
+Implement the Opt-in service as the single point of reference used by CX Enterprise solutions (referred to as Categories in Opt-in) to determine whether or not to create cookies on a visitor's device.
 
-The Opt-in service is a JavaScript library bundled with Experience Cloud ID (ECID) and exists in Visitor JS in the global `adobe` object as the `adobe.optIn` object. The installed Opt-in service lets you specify if a visitor can opt-in to Adobe solutions at once, or to present solutions in sequence for permission for each. The Opt-in service consent management feature lets you implement with various configurations for your specific privacy requirements.
+The Opt-in service is a JavaScript library bundled with ECID and exists in Visitor JS in the global `adobe` object as the `adobe.optIn` object. The installed Opt-in service lets you specify if a visitor can opt-in to Adobe solutions at once, or to present solutions in sequence for permission for each. The Opt-in service consent management feature lets you implement with various configurations for your specific privacy requirements.
 
 The Opt-in service lets you specify if a visitor can opt in to Adobe solutions at once, or to present solutions in sequence for permission for each. Once the approval process is complete and recorded by the customer, CMP visitor approvals can be retrieved by all Adobe solutions to respond with related consent calls.
 
@@ -43,7 +43,7 @@ The Opt-in service lets you specify if a visitor can opt in to Adobe solutions a
     * AppMeasurement 2.11 or later 
     * DIL 9.0 
     * AT.js version 1.7.0 
-    * AT.js Launch extension version 9.0 
+    * AT.js tag extension version 9.0 
     * For Analytics, App Measurement 2.11 with extension 1.6 
     * For Target, extension 0.9.1
 
@@ -55,13 +55,13 @@ The Opt-in service lets you specify if a visitor can opt in to Adobe solutions a
 
 1. Your company's privacy requirements will be specific to how you choose to stay compliant with GDPR. Be aware of which libraries your company privacy teams are okay with using in a pre-consent state.
 
-If using [Tags in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html), take advantage of the [Opt-in extension](../../implementation-guides/opt-in-service/launch.md) to configure Opt-in service.
+If using [tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html), take advantage of the [Opt-in extension](../../implementation-guides/opt-in-service/launch.md) to configure Opt-in service.
 
 ## Opt-in categories {#section-9ab0492ab4414f0ca16dc08d3a905f47}
 
-A visitor's Opt-in preferences are relative to an Adobe Experience Cloud solution, where each solution is represented as a category. Categories are provided by the `adobe.OptInCategories` object where, for instance, the ECID component is referred to as `adobe.OptInCategories`. `ECID`. The following is the definition of `adobe.OptInCategories`:
+A visitor's Opt-in preferences are relative to an Adobe CX Enterprise solution, where each solution is represented as a category. Categories are provided by the `adobe.OptInCategories` object where, for instance, the ECID component is referred to as `adobe.OptInCategories`. `ECID`. The following is the definition of `adobe.OptInCategories`:
 
-Opt-in settings are maintained per category, where each Experience Cloud solution is represented by a category:
+Opt-in settings are maintained per category, where each CX Enterprise solution is represented by a category:
 
 ```
 adobe.OptInCategories = { 

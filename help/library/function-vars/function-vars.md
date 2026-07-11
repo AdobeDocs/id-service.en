@@ -1,6 +1,6 @@
 ---
-description: Configure the ID service by passing these properties to the Visitor.getInstance static method.
-keywords: Organization ID;ID Service
+description: Configure the Visitor ID Service by passing these properties to the Visitor.getInstance static method.
+keywords: IMS org ID;Visitor ID Service
 title: Configurations
 exl-id: a369f624-d263-4287-bb7e-b89d584fa245
 TQID: https://experienceleague.adobe.com/Nif2uo9Emxt2c2NFoVESjM77MkMG15Qw0-Hv8o8i9w8
@@ -19,11 +19,7 @@ role_v2:
 ---
 # Configurations{#configurations}
 
-Configure the ID service by passing these properties to the Visitor.getInstance static method.
-
->[!NOTE]
->
->The *Experience Cloud ID Javascript Libraries* have moved recently. The latest release of the ECID JS libraries can be found at [https://github.com/Adobe-Marketing-Cloud/id-service/releases](https://github.com/Adobe-Marketing-Cloud/id-service/releases).
+Configure the Visitor ID Service by passing these properties to the Visitor.getInstance static method.
 
 Related articles:
 

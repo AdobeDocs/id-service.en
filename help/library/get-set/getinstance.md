@@ -1,6 +1,6 @@
 ---
-description: getInstance returns a visitor ID object for the specified Experience Cloud organization ID. This is required to initialize the visitor ID object provided to AppMeasurement through s.visitor.
-keywords: ID Service
+description: getInstance returns a visitor ID object for the specified IMS org ID. This is required to initialize the visitor ID object provided to AppMeasurement through s.visitor.
+keywords: Visitor ID Service
 title: getInstance
 exl-id: 4941cf51-a8d0-4796-a102-4cd13cd5574d
 TQID: https://experienceleague.adobe.com/XtjVkeuXAke6g-K8DNmq5kT6aUszrj6W0k9UM2NBBIA
@@ -24,14 +24,14 @@ topic_v2:
 ---
 # getInstance{#getinstance}
 
-getInstance returns a visitor ID object for the specified Experience Cloud organization ID. This is required to initialize the visitor ID object provided to AppMeasurement through s.visitor.
+getInstance returns a visitor ID object for the specified IMS org ID. This is required to initialize the visitor ID object provided to AppMeasurement through s.visitor.
 
  **Syntax**
 
 **JavaScript**
 
 ```js
-var visitor = Visitor.getInstance("INSERT-MARKETING-CLOUD-ORGANIZATION-ID-HERE", { 
+var visitor = Visitor.getInstance("INSERT-IMS-ORG-ID-HERE", { 
      trackingServer: "INSERT-TRACKING-SERVER-HERE", // same as s.trackingServer 
      trackingServerSecure: "INSERT-SECURE-TRACKING-SERVER-HERE", // same as s.trackingServerSecure 
  
@@ -44,14 +44,14 @@ var visitor = Visitor.getInstance("INSERT-MARKETING-CLOUD-ORGANIZATION-ID-HERE",
 
 >[!CAUTION]
 >
->*Do not* instantiate the Visitor function with `var visitor = new Visitor`. You must use the proper function call noted here. Applies to [!UICONTROL VisitorAPI.js] code library v3.0 or higher.
+>*Do not* instantiate the Visitor function with `var visitor = new Visitor`. You must use the proper function call noted here. Applies to `VisitorAPI.js` code library v3.0 or higher.
 
 **ActionScript / Flash**
 
 ```js
 import com.adobe.mc.Visitor; 
 ... 
-var visitor = Visitor.getInstance("INSERT-MARKETING-CLOUD-ORGANIZATION-ID-HERE", { 
+var visitor = Visitor.getInstance("INSERT-IMS-ORG-ID-HERE", { 
      trackingServer: "INSERT-TRACKING-SERVER-HERE", // same as s.trackingServer 
      trackingServerSecure: "INSERT-SECURE-TRACKING-SERVER-HERE", // same as s.trackingServerSecure 
  
@@ -62,11 +62,11 @@ var visitor = Visitor.getInstance("INSERT-MARKETING-CLOUD-ORGANIZATION-ID-HERE",
 });
 ```
 
-If `getInstance` doesn't find an existing instance, an new instance is created and returned. This is similar to the [`s_gi()` function](https://experienceleague.adobe.com/docs/analytics/implementation/vars/functions/s-gi.html) in [!DNL AppMeasurement].
+If `getInstance` doesn't find an existing instance, an new instance is created and returned. This is similar to the [`s_gi()` function](https://experienceleague.adobe.com/docs/analytics/implementation/vars/functions/s-gi.html) in AppMeasurement.
 
 **Common Use**
 
-The [!DNL Experience Cloud] ID service API maintains a list of all instances created for each [!DNL Adobe Experience Cloud] organization ID. If the application using the ID service API isn't passing around a reference to the instance, it can find that instance by calling `getInstance` instead of creating a new one. This also provides support for multiple instances for different organizations in the same web page or application.
+The Visitor ID Service API maintains a list of all instances created for each IMS org ID. If the application using the Visitor ID Service API isn't passing around a reference to the instance, it can find that instance by calling `getInstance` instead of creating a new one. This also provides support for multiple instances for different organizations in the same web page or application.
 
-This is useful for applications that don't have a clear `init` phase, but need to call into the ID service API in multiple places. You can call `getInstance` in all of those places and the first to execute will create the instance. The existing instance will be returned by subsequent calls.
+This is useful for applications that don't have a clear `init` phase, but need to call into the Visitor ID Service API in multiple places. You can call `getInstance` in all of those places and the first to execute will create the instance. The existing instance will be returned by subsequent calls.
 

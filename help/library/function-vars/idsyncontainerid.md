@@ -1,6 +1,6 @@
 ---
 description: This property sets the data source container ID that you want to use for ID syncs.
-keywords: ID Service
+keywords: Visitor ID Service
 title: idSyncContainerID
 exl-id: 6c4cd41b-902b-4872-8c3f-475a834b76f4
 TQID: https://experienceleague.adobe.com/bDW5Z4LKbLW2igmRsJ-QxajnBj8KyvoTypUjUekElj4
@@ -36,7 +36,7 @@ Contents:
 **Code Sample:**
 
 ```js
-var visitor = Visitor.getInstance ("Insert Experience Cloud organization ID here",{ 
+var visitor = Visitor.getInstance ("INSERT-IMS-ORG-ID-HERE",{ 
    ... 
    //Set container ID 
    idSyncContainerID:80 
@@ -47,16 +47,16 @@ var visitor = Visitor.getInstance ("Insert Experience Cloud organization ID here
 
 **Containers**
 
-Containers are objects created by [!DNL Audience Manager]. Although they're not externally accessible, these container list all the data sources that:
+Containers are objects created by Audience Manager. Although they're not externally accessible, these container list all the data sources that:
 
 * Are available to you, but not used, for ID syncing. 
 * Are being used for ID syncing.
 
-Even if you're not an [!DNL Audience Manager] customer, your account will have these containers if you're exchanging IDs with different data sources on different pages across your domain. This is because [!DNL Audience Manager] provides the technology and back-end functionality that enables ID synchronization.
+Even if you're not an Audience Manager customer, your account will have these containers if you're exchanging IDs with different data sources on different pages across your domain. This is because Audience Manager provides the technology and back-end functionality that enables ID synchronization.
 
 **Use Cases**
 
-Depending on your situation, you may or may not need to add this configuration to your ID service code.
+Depending on your situation, you may or may not need to add this configuration to your Visitor ID Service code.
 
 <table id="table_48621F343C7F4760A75F6BCC2DB2DA20"> 
  <thead> 
@@ -70,7 +70,7 @@ Depending on your situation, you may or may not need to add this configuration t
    <td colname="col1"> <p> <b>Not needed</b> </p> </td> 
    <td colname="col2"> <p>You do not need to use this configuration if: </p> <p> 
      <ul id="ul_4D6F794CD65C43D0BEFBA6F5DE420C2E"> 
-      <li id="li_0F048A6AC7BE4450AFA1B20B1AC25808">You use the ID service with any <span class="keyword"> Experience Cloud </span> solution and don't perform ID syncs with other data sources. In this case, your account has a default container with ID 0 and no action is required. </li> 
+      <li id="li_0F048A6AC7BE4450AFA1B20B1AC25808">You use the Visitor ID Service with any CX Enterprise solution and don't perform ID syncs with other data sources. In this case, your account has a default container with ID 0 and no action is required. </li> 
       <li id="li_5657D64D9406407D9B4DB7D8BE4F8EE4">All your data sources are in a single container. </li> 
      </ul> </p> </td> 
   </tr> 
@@ -86,10 +86,10 @@ Depending on your situation, you may or may not need to add this configuration t
  </tbody> 
 </table>
 
-## Setting Container IDs When You Use DIL and VisitorAPI.js {#section-f283cb69c8de4348b5316cc4e02a3e9e}
+## Setting Container IDs When You Use DIL and `VisitorAPI.js` {#section-f283cb69c8de4348b5316cc4e02a3e9e}
 
-If you have deployed [!UICONTROL DIL] *and* VisitorAPI.js on the same page:
+If you have deployed [!UICONTROL DIL] *and* `VisitorAPI.js` on the same page:
 
-* Visitor ID service code takes precedence over DIL for ID syncs. 
-* Set the `idSyncContainerID` configuration in the ID service code only.
+* Visitor ID Service code takes precedence over DIL for ID syncs. 
+* Set the `idSyncContainerID` configuration in the Visitor ID Service code only.
 

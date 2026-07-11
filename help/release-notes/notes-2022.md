@@ -1,6 +1,6 @@
 ---
-description: Feature releases, updates, or changes to the Experience Cloud Identity Service.
-keywords: ID Service
+description: Feature releases, updates, or changes to the Visitor ID Service.
+keywords: Visitor ID Service
 title: 2022 Release Notes
 exl-id: 2e2de89e-75b3-484d-ae4f-99054ef9956f
 TQID: https://experienceleague.adobe.com/lHj017E8DBAre6wqZ6okoFCREvtGPE4c-GQRllGyqEY
@@ -20,9 +20,9 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
 ---
-# Experience Cloud Identity Service release notes - 2022
+# Adobe Visitor ID Service release notes - 2022
 
-Feature releases, updates, or changes to the Experience Cloud Identity Service.
+Feature releases, updates, or changes to the Visitor ID Service.
 
 ## Visitor 5.5.0
 

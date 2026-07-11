@@ -1,6 +1,6 @@
 ---
-description: This property overwrites a visitor's Experience Cloud and Analytics IDs as they navigate from one domain to a second domain. To overwrite an ID, you must own and have implemented the ID service on each domain. This code does not let you overwrite IDs on domains you do not control.
-keywords: ID Service
+description: This property overwrites a visitor's ECID and Analytics IDs as they navigate from one domain to a second domain. To overwrite an ID, you must own and have implemented the Visitor ID Service on each domain. This code does not let you overwrite IDs on domains you do not control.
+keywords: Visitor ID Service
 title: overwriteCrossDomainMCIDAndAID
 exl-id: 726261b1-c8d0-4b12-b0cb-52d7e21e7fac
 TQID: https://experienceleague.adobe.com/dJUuTbc9zspC93WZrRaxBsp2BgpbE-z-iUuePQXGTeY
@@ -19,7 +19,7 @@ role_v2:
 ---
 # overwriteCrossDomainMCIDAndAID{#overwritecrossdomainmcidandaid}
 
-This property overwrites a visitor's Experience Cloud and Analytics IDs as they navigate from one domain to a second domain. To overwrite an ID, you must own and have implemented the ID service on each domain. This code does not let you overwrite IDs on domains you do not control.
+This property overwrites a visitor's ECID and Analytics IDs as they navigate from one domain to a second domain. To overwrite an ID, you must own and have implemented the Visitor ID Service on each domain. This code does not let you overwrite IDs on domains you do not control.
 
  **Syntax:** `Visitor.overwriteCrossDomainMCIDAndAID: true|false` (default is `false`)
 
@@ -28,7 +28,7 @@ This property overwrites a visitor's Experience Cloud and Analytics IDs as they 
 Your JavaScript code could look similar to the following example.
 
 ```js
-//Call the ID service 
+//Call the Visitor ID Service 
 var visitor = Visitor.getInstance("INSERT-MARKETING-CLOUD-ID-HERE", { 
      ... 
  
@@ -40,7 +40,7 @@ var visitor = Visitor.getInstance("INSERT-MARKETING-CLOUD-ID-HERE", {
 
 **Use Cases**
 
-To track site visitors, the ID service writes a [!DNL Experience Cloud] ID (or MID) to a browser cookie. The following table lists and describes the common use cases where you might want to overwrite an existing MID set by the ID service in another domain.
+To track site visitors, the Visitor ID Service writes an ECID (or MID) to a browser cookie. The following table lists and describes the common use cases where you might want to overwrite an existing MID set by the Visitor ID Service in another domain.
 
 <table id="table_FC1AF6551D6646E0BF1C4FB7C1316EBB"> 
  <thead> 

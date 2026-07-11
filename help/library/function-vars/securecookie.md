@@ -1,6 +1,6 @@
 ---
 description: An optional Boolean flag that adds a "Secure" attribute to the AMCV cookie.
-keywords: ID Service
+keywords: Visitor ID Service
 title: secureCookie
 exl-id: ba281b1c-1112-4ed6-b4fd-b8f87cabc575
 TQID: https://experienceleague.adobe.com/UBhpXY4BvJiEDp6Adje--6ng-4W12RCWun2CpMFD3kU

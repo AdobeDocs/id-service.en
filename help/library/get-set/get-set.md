@@ -1,6 +1,6 @@
 ---
-description: Public methods that let you interact with the ID service.
-keywords: ID Service
+description: Public methods that let you interact with the Visitor ID Service.
+keywords: Visitor ID Service
 title: Methods
 exl-id: 59a930f0-c0a8-477e-abad-f019d7d02d3b
 TQID: https://experienceleague.adobe.com/8guQw4YlbCGk3-V83Zc1OHxtb7-Fo13iBkJNyqITJqQ
@@ -19,11 +19,7 @@ role_v2:
 ---
 # Methods{#methods}
 
-Public methods that let you interact with the ID service.
-
->[!NOTE]
->
->The *Experience Cloud ID Javascript Libraries* have moved recently. The latest release of the ECID JS libraries can be found at [https://github.com/Adobe-Marketing-Cloud/id-service/releases](https://github.com/Adobe-Marketing-Cloud/id-service/releases).
+Public methods that let you interact with the Visitor ID Service.
 
 Related articles:
 

@@ -1,6 +1,6 @@
 ---
-description: getCustomerIDs returns any customer IDs set by the Experience Cloud Identity Service.
-keywords: ID Service
+description: getCustomerIDs returns any customer IDs set by the Visitor ID Service.
+keywords: Visitor ID Service
 title: getCustomerIDs
 exl-id: 4a05509b-99f6-42c8-a539-0784f5b9fabc
 TQID: https://experienceleague.adobe.com/I8h5eIRCupjC91ZooIoUxSDOALiKYAWZZyhytpr-kTg
@@ -19,7 +19,7 @@ role_v2:
 ---
 # getCustomerIDs{#getcustomerids}
 
-getCustomerIDs returns any customer IDs set by the Experience Cloud Identity Service.
+getCustomerIDs returns any customer IDs set by the Visitor ID Service.
 
 <!--
 Is there anything else we can say about this??

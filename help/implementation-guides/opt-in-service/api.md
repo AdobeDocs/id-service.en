@@ -36,13 +36,13 @@ adobe.OptInCategories = {
 
 ## Opt-in Configuration parameters {#section-d66018342baf401389f248bb381becbf}
 
-This section discusses using the API to configure Opt-in. Much of the configuration and implementation can be done using the Experience Platform Launch extension.
+This section discusses using the API to configure Opt-in. Much of the configuration and implementation can be done using the tag extension.
 
 Opt-in configurations are provided in the Visitor JavaScript `getInstance()` function, which instantiates the global `adobe` object. The following lists the Visitor JS configurations related to Opt-in service.
 
 **`doesOptInApply (boolean or function that evaluates to a boolean)`**:
 
-If false, indicates visitors do not need to opt in. Results in Experience Cloud creating cookies regardless of categories opted in or out. This configuration holistically enables or disables Opt-in.
+If false, indicates visitors do not need to opt in. Results in CX Enterprise creating cookies regardless of categories opted in or out. This configuration holistically enables or disables Opt-in.
 
 **`preOptInApprovals (Object <adobe.OptInCategories enum: boolean>)`**
 
@@ -106,7 +106,7 @@ Collect Opt-in permissions for a visitor at any time using one of the permission
 
 `adobe.optIn.permissions`
 
-An object listing all Experience Cloud solutions, as categories, that have been granted or denied by the visitor.
+An object listing all CX Enterprise solutions, as categories, that have been granted or denied by the visitor.
 
 `adobe.optIn.isApproved(categories)`
 
@@ -118,7 +118,7 @@ Retrieve the list of permissions asynchronously. The callback is called with the
 
 **`permissions`**
 
-An object listing all Experience Cloud solutions, as categories, that have been granted or denied by the visitor Example: `{ aa: true, ecid: false, aam: true... }`
+An object listing all CX Enterprise solutions, as categories, that have been granted or denied by the visitor Example: `{ aa: true, ecid: false, aam: true... }`
 
 **`status`**
 

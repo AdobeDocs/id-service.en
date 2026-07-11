@@ -1,7 +1,7 @@
 ---
-description: A Content Security Policy (CSP) is an HTTP header and security feature that gives browsers control over what type of resources are loaded on a Web page. Review this section if you use the ID service and have strict CSPs that use allowlists to accept resources from trusted domains. You will need to add the Adobe domains listed here to your CSP allowlists.
-keywords: ID Service
-title: Content Security Policies and the Experience Cloud Identity Service
+description: A Content Security Policy (CSP) is an HTTP header and security feature that gives browsers control over what type of resources are loaded on a Web page. Review this section if you use the Visitor ID Service and have strict CSPs that use allowlists to accept resources from trusted domains. You will need to add the Adobe domains listed here to your CSP allowlists.
+keywords: Visitor ID Service
+title: Content Security Policies and the Adobe Visitor ID Service
 exl-id: e35c6809-764e-4c3e-9139-88bb92e82338
 TQID: https://experienceleague.adobe.com/UX0RWE7v912XEHJCJE49yt1sy13t1P0I0I79gG9Z7m8
 product_v2:
@@ -22,9 +22,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
 ---
-# Content Security Policies and the Experience Cloud Identity Service {#content-security-policies-and-the-experience-cloud-id-service}
+# Content Security Policies and the Adobe Visitor ID Service {#content-security-policies-and-the-experience-cloud-id-service}
 
-A Content Security Policy (CSP) is an HTTP header and security feature that gives browsers control over what type of resources are loaded on a Web page. Review this section if you use the ID service and have strict CSPs that use allowlists to accept resources from trusted domains. You will need to add the Adobe domains listed here to your CSP allowlists.
+A Content Security Policy (CSP) is an HTTP header and security feature that gives browsers control over what type of resources are loaded on a Web page. Review this section if you use the Visitor ID Service and have strict CSPs that use allowlists to accept resources from trusted domains. You will need to add the Adobe domains listed here to your CSP allowlists.
 
 ## CSP Review {#section-5fde5c00a678455c914b8307a8caab82}
 
@@ -36,16 +36,16 @@ CSPs use the HTTP header `Content-Security-Policy` to control the type of resour
 * Site defacement attacks. 
 * Malware distribution.
 
-The use of CSPs are common and well-understood. It is not the purpose of this documentation to explain CSPs in detail (see the related information links below for more information). What is important is that you understand what Adobe domain names you should add to a CSP if you use these and have tight security policies. Adding these domains lets visitor browsers that access your site make those important calls to Experience Cloud resources that you use.
+The use of CSPs are common and well-understood. It is not the purpose of this documentation to explain CSPs in detail (see the related information links below for more information). What is important is that you understand what Adobe domain names you should add to a CSP if you use these and have tight security policies. Adding these domains lets visitor browsers that access your site make those important calls to CX Enterprise resources that you use.
 
-## Experience Cloud Domains for Allowlisting {#section-30693e9a96834edfbf04de9e698cf2aa}
+## CX Enterprise Domains for Allowlisting {#section-30693e9a96834edfbf04de9e698cf2aa}
 
-Add these domain names or URLs to your CSP for each list Experience Cloud solution or service that you use.
+Add these domain names or URLs to your CSP for each list CX Enterprise solution or service that you use.
 
 <table id="table_EC9FC999A62D4B7A830CE73B0AB9EF3C">
  <thead>
   <tr>
-   <th colname="col1" class="entry">Experience Cloud Solution or Service</th>
+   <th colname="col1" class="entry">CX Enterprise Solution or Service</th>
    <th colname="col2" class="entry">Description</th>
   </tr>
  </thead>
@@ -72,7 +72,7 @@ Add these domain names or URLs to your CSP for each list Experience Cloud soluti
   </tr>
   <tr>
    <td colname="col1">
-    <p><b>Experience Cloud ID Service and Audience Manager</b></p>
+    <p><b>Visitor ID Service and Audience Manager</b></p>
    </td>
    <td colname="col2">
     <p>Modify your CSP to include the domains below.</p>
@@ -81,9 +81,9 @@ Add these domain names or URLs to your CSP for each list Experience Cloud soluti
      <li>img-src 'self' <code>https://*.demdex.net https://cm.everesttech.net https://assets.adobedtm.com;</code></li>
      <li>script-src 'self' <code>https://*.demdex.net https://cm.everesttech.net https://assets.adobedtm.com;</code></li>
      <li>frame-src 'self' <code>https://*.demdex.net;</code></li>
-     <li>If you use Adobe Launch to deploy tags, you also have to add <code>https://assets.adobedtm.com</code> to the list of domains.</li>
+     <li>If you use tags, you also have to add <code>https://assets.adobedtm.com</code> to the list of domains.</li>
     </ul>
-    <p>Calls to the <span class="codeph">demdex.net</span> domain are used to generate the <a href="../introduction/cookies.md" format="dita" scope="local">Cookies and the Experience Cloud Identity Service</a> and for ID syncs. See also, <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html" format="https" scope="external">Understanding Calls to the Demdex Domain</a>.</p>
+    <p>Calls to the <span class="codeph">demdex.net</span> domain are used to generate the <a href="../introduction/cookies.md" format="dita" scope="local">Cookies and the Visitor ID Service</a> and for ID syncs. See also, <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html" format="https" scope="external">Understanding Calls to the Demdex Domain</a>.</p>
    </td>
   </tr>
   <tr>

@@ -1,6 +1,6 @@
 ---
-description: Feature releases, updates, or changes to the Experience Cloud Identity Service for 2017.
-keywords: ID Service
+description: Feature releases, updates, or changes to the Visitor ID Service for 2017.
+keywords: Visitor ID Service
 title: 2017 Release Notes
 exl-id: 0b51d3b1-e405-4473-9e1a-f89a55250e5e
 TQID: https://experienceleague.adobe.com/lt0zISb6FrqIuziYTt8pA6VZyU4XQkVsIha19v-LU7w
@@ -28,13 +28,13 @@ topic_v2:
 ---
 # 2017 Release Notes {#release-notes}
 
-Feature releases, updates, or changes to the Experience Cloud Identity Service for 2017.
+Feature releases, updates, or changes to the Visitor ID Service for 2017.
 
-These changes are also captured in the [Experience Cloud Release notes](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html).
+These changes are also captured in the [CX Enterprise release notes](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html).
 
 >[!NOTE]
 >
->There are no customer-facing release notes or code changes for March, April, May, and October 2017. For those months, the ID service code remained unchanged at v2.1.
+>There are no customer-facing release notes or code changes for March, April, May, and October 2017. For those months, the Visitor ID Service code remained unchanged at v2.1.
 
 ## Version 2.5 {#section-27b441509124493f80984ed09bd9e88b}
 
@@ -43,7 +43,7 @@ September, 2017
 <!--
 <p>
 <note type="important">
-ID service support for Internet Explorer 6, 7, and 8 is deprecated and will be discontinued in a future release.
+Visitor ID Service support for Internet Explorer 6, 7, and 8 is deprecated and will be discontinued in a future release.
 </note> </p>
 -->
 
@@ -57,16 +57,16 @@ ID service support for Internet Explorer 6, 7, and 8 is deprecated and will be d
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> getVisitorValues</span> </p> </td> 
-   <td colname="col2"> <p>This is an asynchronous API that returns identifiers for Analytics, the ID service, data collection opt-out, geographic location, and metadata "blob" content by default. Also, you can control which IDs you want to return with the optional <span class="codeph"> visitor.FIELDS</span> enum. See <a href="../library/get-set/getvisitorvalues.md#reference-b8c9e17c170c4291829a792df46ce279" format="dita" scope="local"> getVisitorValues</a>. </p> </td> 
+   <td colname="col2"> <p>This is an asynchronous API that returns identifiers for Analytics, the Visitor ID Service, data collection opt-out, geographic location, and metadata "blob" content by default. Also, you can control which IDs you want to return with the optional <span class="codeph"> visitor.FIELDS</span> enum. See <a href="../library/get-set/getvisitorvalues.md#reference-b8c9e17c170c4291829a792df46ce279" format="dita" scope="local"> getVisitorValues</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **Bug Fixes and Other Changes**
 
-* Fixed a Chrome-related bug that caused the ID service to throw an error when clicking the back button in that browser. 
-* The ID service now re-fires ID syncs when the region ID in the event call response changes. 
-* Added new documentation, [Content Security Policies and the Experience Cloud Identity Service](/help/reference/csp.md#concept-968c423a7392479db0a0d821ae9783e3), that explains how to whitelist calls to Adobe domains used by the ID service.
+* Fixed a Chrome-related bug that caused the Visitor ID Service to throw an error when clicking the back button in that browser. 
+* The Visitor ID Service now re-fires ID syncs when the region ID in the event call response changes. 
+* Added new documentation, [Content Security Policies and the Visitor ID Service](/help/reference/csp.md#concept-968c423a7392479db0a0d821ae9783e3), that explains how to whitelist calls to Adobe domains used by the Visitor ID Service.
 
 <!--
 ## Version 2.4 {#section-f4d1608dd8894f558a92b82e83321200}
@@ -83,14 +83,14 @@ August, 2017
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> isCoopSafe</span> </p> </td> 
-   <td colname="col2"> <p>An optional, Boolean configuration that determines if the ID service sends (or does not send) data to the Adobe Experience Cloud Device Co-op. See <a href="../library/function-vars/coopsafe.md#reference-7fbed36f38a048d1a5883c53d430ddf4" format="dita" scope="local"> isCoopSafe</a>. </p> </td> 
+   <td colname="col2"> <p>An optional, Boolean configuration that determines if the Visitor ID Service sends (or does not send) data to the Adobe Device Co-op. See <a href="../library/function-vars/coopsafe.md#reference-7fbed36f38a048d1a5883c53d430ddf4" format="dita" scope="local"> isCoopSafe</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **Revised Documentation**
 
-Updated and revised the [FAQs](/help/faq-intro/faq-intro.md) to include separate FAQs for different [!DNL Experience Cloud] solutions. 
+Updated and revised the [FAQs](/help/faq-intro/faq-intro.md) to include separate FAQs for different CX Enterprise solutions. 
 -->
 
 ## Version 2.3 {#section-ae7b1cb1e52e4ca5a46b453a3ba1f571}
@@ -118,8 +118,8 @@ July, 2017
 
 **Bug Fixes and Other Changes**
 
-* Fixed a bug in VisitorAPI.js v2.2 that prevented the ID service and Target from working together in Internet Explorer. 
-* Revised code to help improve how the ID service sends data to the Destination Publishing iFrame. This helps reduce CPU usage.
+* Fixed a bug in `VisitorAPI.js` v2.2 that prevented the Visitor ID Service and Target from working together in Internet Explorer. 
+* Revised code to help improve how the Visitor ID Service sends data to the Destination Publishing iFrame. This helps reduce CPU usage.
 
 ## Version 2.2 {#section-b7dee2495c29470e9b3a3132ec1fd951}
 
@@ -135,7 +135,7 @@ Release date: June, 2017
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="../library/function-vars/whitelistdomain.md#reference-999899ff7b5b429a8824c9db7a379808" format="dita" scope="local"> whitelistParentDomain and whitelistIframeDomains </a> </p> </td> 
-   <td colname="col2"> <p>These configurations let different instances of ID service code implemented in an iFrame and on the parent page communicate with each other. They're designed to help resolve problems with 2 specific use cases where you may or may not control the parent page/domain and you have ID service code loading in the iFrame of a domain that you do control. </p> </td> 
+   <td colname="col2"> <p>These configurations let different instances of Visitor ID Service code implemented in an iFrame and on the parent page communicate with each other. They're designed to help resolve problems with 2 specific use cases where you may or may not control the parent page/domain and you have Visitor ID Service code loading in the iFrame of a domain that you do control. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -173,7 +173,7 @@ Release date: June, 2017
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../library/function-vars/subdomain-config.md" format="dita" scope="local"> Understanding ID Synchronization and Match Rates </a> </p> </td> 
-   <td colname="col2"> <p>Revised <span class="keyword"> Media Optimizer</span> section to describe the call to <span class="codeph"> cm.eversttech.net</span>. This is the automatic ID sync that the ID service performs with <span class="keyword"> Media Optimizer</span>. This feature was released in January, 2017. See <a href="../release-notes/notes-2017.md#section-0ceac6007c1241b58ad607e2b76b2b7e" format="dita" scope="local"> Version 2.0</a> below. </p> </td> 
+   <td colname="col2"> <p>Revised <span class="keyword"> Media Optimizer</span> section to describe the call to <span class="codeph"> cm.eversttech.net</span>. This is the automatic ID sync that the Visitor ID Service performs with <span class="keyword"> Media Optimizer</span>. This feature was released in January, 2017. See <a href="../release-notes/notes-2017.md#section-0ceac6007c1241b58ad607e2b76b2b7e" format="dita" scope="local"> Version 2.0</a> below. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -193,11 +193,11 @@ Release date: February, 2017
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> ID service API property, <span class="codeph"> idSyncContainerID</span></p> </td> 
+   <td colname="col1"> <p> Visitor ID Service API property, <span class="codeph"> idSyncContainerID</span></p> </td> 
    <td colname="col2"> <p>This property sets the container ID used by <span class="keyword"> Audience Manager</span> for ID syncs. See <a href="/help/library/function-vars/idsyncontainerid.md" format="https" scope="external"> idSyncContainerID</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>ID service API method, <span class="codeph">appendSupplementalDataIDTo(<span class="varname"> URL</span>,<span class="varname"> SDID</span>)</span></p> </td> 
+   <td colname="col1"> <p>Visitor ID Service API method, <span class="codeph">appendSupplementalDataIDTo(<span class="varname"> URL</span>,<span class="varname"> SDID</span>)</span></p> </td> 
    <td colname="col2"> <p>This public method appends the <span class="wintitle"> Supplemental Data ID</span> (SDID) as a query string parameter to a redirect URL. See <a href="../library/get-set/appendsupplementaldataidto.md#reference-65d09de6fde0418f8c62fa79304a755d" format="dita" scope="local"> appendSupplementalDataIDTo</a>. (MCID-285) </p> </td> 
   </tr> 
  </tbody> 
@@ -205,11 +205,11 @@ Release date: February, 2017
 
 **Fixes**
 
-Fixed a bug that caused the ID service to make redundant server calls for an ID instead of using the ID stored in the AMCV cookie. (MCID-296)
+Fixed a bug that caused the Visitor ID Service to make redundant server calls for an ID instead of using the ID stored in the AMCV cookie. (MCID-296)
 
 **New Documentation**
 
-[Using DNS Prefetch with Different Experience Cloud Solutions and Services](https://experienceleague.adobe.com/docs/core-services/interface/more-resources/dns-prefetch.html)
+[Using DNS Prefetch with Different CX Enterprise Solutions and Services](https://experienceleague.adobe.com/docs/core-services/interface/more-resources/dns-prefetch.html)
 
 ## Version 2.0 {#section-0ceac6007c1241b58ad607e2b76b2b7e}
 
@@ -217,15 +217,15 @@ January, 2017
 
 >[!IMPORTANT]
 >
->The ID service code v2.0 automatically synchronizes IDs with Adobe Media Optimizer by default. This means you'll see a call from the page to `cm.eversttech.net`, which is a legacy [!DNL Media Optimizer] domain controlled by [!DNL Adobe]. See also, [Understanding ID Synchronization and Match Rates](../introduction/match-rates.md#concept-e55cf228b90c457fbee8c3cb06b195ab).
+>The Visitor ID Service code v2.0 automatically synchronizes IDs with Adobe Media Optimizer by default. This means you'll see a call from the page to `cm.eversttech.net`, which is a legacy Media Optimizer domain controlled by Adobe. See also, [Understanding ID Synchronization and Match Rates](../introduction/match-rates.md#concept-e55cf228b90c457fbee8c3cb06b195ab).
 
 **Fixes and Improvements**
 
 * Fixed a bug that prevented AppMeasurement from making tracking calls to Analytics. (MCID-254, MCID-256, MCID-286) 
-* Fixed a bug that prevented the ID service from failing right away if a visitor had enabled an ad blocker and that blocker was configured to exclude the demdex.net domain. This is a rare and unusual bug because most ad blocking tools do not block the demdex.net domain. (MCID-233) 
-* Fixed a bug caused by interactions between ID service code and a custom script on a customer's website. This issue prevented Internet Explorer 9 from loading Web pages. (MCID-206)
+* Fixed a bug that prevented the Visitor ID Service from failing right away if a visitor had enabled an ad blocker and that blocker was configured to exclude the demdex.net domain. This is a rare and unusual bug because most ad blocking tools do not block the demdex.net domain. (MCID-233) 
+* Fixed a bug caused by interactions between Visitor ID Service code and a custom script on a customer's website. This issue prevented Internet Explorer 9 from loading Web pages. (MCID-206)
 
 ## Previous Years {#section-aaabe2b7b0f04641b24acffc11cd7d2e}
 
-Older ID service release notes.
+Older Visitor ID Service release notes.
 

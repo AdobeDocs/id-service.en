@@ -23,11 +23,11 @@ topic_v2:
 
 The Opt-in service lets you set up protocols for the visitor to determine if you can set a cookie on the user's device or browser when visiting your site.
 
-The Opt-in service is an extension of the Experience Cloud ID (ECID), designed to let you control whether and which Experience Cloud solutions can create cookies on web pages for visitors prior to user consent. The Opt-in service also lets you set protocols to integrate with your Consent Management Platform (CMP) and existing systems as part of your larger design.
+The Opt-in service is an extension of the ECID, designed to let you control whether and which CX Enterprise solutions can create cookies on web pages for visitors prior to user consent. The Opt-in service also lets you set protocols to integrate with your Consent Management Platform (CMP) and existing systems as part of your larger design.
 
 Using the Opt-in service, you can specify if a visitor can opt in to Adobe solutions at once, or present solutions in sequence for permissions. Once the approval process is complete and recorded by the customer, you can retrieve the CMP visitor approvals from all Adobe solutions.
 
-The Opt-in service is implemented and configured easily using [Tags in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html) with the [Opt-in extension](../../implementation-guides/opt-in-service/launch.md). It can also be implemented and configured using [DTM](../../implementation-guides/opt-in-service/optin-dtm.md).
+The Opt-in service is implemented and configured easily using [tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html) with the [Opt-in extension](../../implementation-guides/opt-in-service/launch.md).
 
 See the [Setting up Opt-in Service](../../implementation-guides/opt-in-service/getting-started.md) to get started.
 
@@ -39,7 +39,7 @@ See the [Setting up Opt-in Service](../../implementation-guides/opt-in-service/g
 >
 >The contents of this document are not legal advice and are not meant to substitute for legal advice. Consult your company's legal department for advice concerning consent and practices when setting up your opt in implementation.
 
-## Opt-in across Experience Cloud Solutions {#section-053e6224505542cf961896f0ca869e52}
+## Opt-in across CX Enterprise Solutions {#section-053e6224505542cf961896f0ca869e52}
 
 Opt-in service is a tool to build a consent opt in workflow according to your own needs, allowing you to design a workflow to react (fire tags) before and after consent is given from the user or your consent controller.
 

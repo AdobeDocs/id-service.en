@@ -1,6 +1,6 @@
 ---
-description: Instructions and code samples for standard and non-standard implementations of the Experience Cloud Identity Service.
-keywords: ID Service
+description: Instructions and code samples for standard and non-standard implementations of the Visitor ID Service.
+keywords: Visitor ID Service
 solution: Experience Cloud
 title: Implementation guides
 uuid: null
@@ -27,26 +27,26 @@ topic_v2:
 ---
 # Implementation guides
 
-Instructions and code samples for standard and non-standard implementations of the Experience Cloud Identity Service.
+Instructions and code samples for standard and non-standard implementations of the Visitor ID Service.
 
 >[!IMPORTANT]
 >
->Be sure to read and understand the [ID service requirements](../reference/requirements.md) before getting started with these procedures.
+>Be sure to read and understand the [Visitor ID Service requirements](../reference/requirements.md) before getting started with these procedures.
 
 ## Standard implementation
 
-A standard implementation uses [Adobe Exprience Platform Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html) to help you get started with the ID service and integrate it with other Experience Cloud solutions. We strongly recommend that you use Experience Platform Launch when implementing the ID service.
+A standard implementation uses [tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html) to help you get started with the Visitor ID Service and integrate it with other CX Enterprise solutions. We strongly recommend that you use tags when implementing the Visitor ID Service.
 
 ## Implementation resources
 
 * [Implementation methods](implementation-methods.md)
-* [Implement with Experience Platform Launch](ecid-implement-with-launch.md)
-* [Implement the Experience Cloud Identity Service for Target](setup-target.md)
-* [Implement the Experience Cloud Identity Service for Analytics and Audience Manager](setup-aam-analytics.md)
-* [Implement the Experience Cloud Identity Service for Analytics, Audience Manager, and Target](setup-aam-analytics-target.md)
-* [Using the Experience Cloud Identity Service with A4T and a Server-side Implementation of Target](ecid-a4t-target.md)
-* [Direct Integration with the Experience Cloud Identity Service](direct-integration.md)
+* [Implement with tags](ecid-implement-with-launch.md)
+* [Implement the Visitor ID Service for Target](setup-target.md)
+* [Implement the Visitor ID Service for Analytics and Audience Manager](setup-aam-analytics.md)
+* [Implement the Visitor ID Service for Analytics, Audience Manager, and Target](setup-aam-analytics-target.md)
+* [Using the Visitor ID Service with A4T and a Server-side Implementation of Target](ecid-a4t-target.md)
+* [Direct Integration with the Visitor ID Service](direct-integration.md)
 * [Direct Integration Use Cases](direct-integration-examples.md)
-* [Test and verify the Experience Cloud Identity Service](test-verify.md)
+* [Test and verify the Visitor ID Service](test-verify.md)
 * [Opt-in Service overview](opt-in-service/optin-overview.md)
 

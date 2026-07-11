@@ -1,6 +1,6 @@
 ---
 description: A configuration within ECID that can be used to support AMCV cookies on Google AMP pages.
-keywords: ID Service
+keywords: Visitor ID Service
 title: Secure and SameSite configurations
 exl-id: c3bc44fc-5adc-4eae-8169-9d731d148458
 TQID: https://experienceleague.adobe.com/qT9et54-InwTH7usPnjGN8mdBeMMrqK-qjxGOwqsXBA
@@ -24,7 +24,7 @@ topic_v2:
 
 This configuration allows you to change the settings for your cookies and support [AMCV cookies](../../introduction/cookies.md) on Google AMP pages.
 
-The Adobe visitor ID service sets ECID cookies with the browser default setting of `SameSite = Lax`, which is inaccessible if the page is loaded in an iframe like a Google AMP page. In order to access ECID cookies, use the below configurations to update the SameSite setting to `SameSite = None`.
+The Adobe visitor Visitor ID Service sets ECID cookies with the browser default setting of `SameSite = Lax`, which is inaccessible if the page is loaded in an iframe like a Google AMP page. In order to access ECID cookies, use the below configurations to update the SameSite setting to `SameSite = None`.
 
 >[!NOTE]
 >
@@ -32,9 +32,9 @@ The Adobe visitor ID service sets ECID cookies with the browser default setting 
 
 **Implementation**:
 
-If you are using Adobe Experience Platform Launch, upgrade your Experience Cloud ID extension to version 5.1.0 and configure `secureCookie: true` and `sameSiteCookie: none`.
+If you are using tags, upgrade your [!UICONTROL Experience Cloud ID Service] tag extension to version 5.1.0 and configure `secureCookie: true` and `sameSiteCookie: none`.
 
-If you are not using Experience Platform Launch, update to the latest Visitor 5.1.0 library and follow the configurations below, while initializing the Visitor instance:
+If you are not using tags, update to the latest Visitor 5.1.0 library and follow the configurations below, while initializing the Visitor instance:
 
 **Code Sample**
 

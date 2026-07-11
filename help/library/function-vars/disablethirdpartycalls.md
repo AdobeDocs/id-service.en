@@ -1,6 +1,6 @@
 ---
-description: An optional, Boolean flag that prevents the ID service from making calls to other domains.
-keywords: cross domain tracking;ID Service
+description: An optional, Boolean flag that prevents the Visitor ID Service from making calls to other domains.
+keywords: cross domain tracking;Visitor ID Service
 title: disableThirdPartyCalls
 exl-id: 1d5b4e80-1b2d-4401-9057-449a6abf5db5
 TQID: https://experienceleague.adobe.com/mv00QfToxSqeITADmY1LbihbtJNHf1zzQef9uKDu-dc
@@ -22,28 +22,28 @@ topic_v2:
 ---
 # disableThirdPartyCalls{#disablethirdpartycalls}
 
-An optional, Boolean flag that prevents the ID service from making calls to other domains.
+An optional, Boolean flag that prevents the Visitor ID Service from making calls to other domains.
 
  **Syntax:** ` `disableThirdPartyCalls: true|false`` (default is `false`.)
 
-When `disableThirdPartyCalls: true`, the ID service will not make calls to other domains.
+When `disableThirdPartyCalls: true`, the Visitor ID Service will not make calls to other domains.
 
 **Purpose**
 
 This variable is designed for customers who need:
 
-* To prevent the ID service from making calls from their secure, authenticated pages. 
-* Site visitors to have a Experience Cloud ID (MID). 
-* Their other Experience Cloud solutions to work properly.
+* To prevent the Visitor ID Service from making calls from their secure, authenticated pages. 
+* Site visitors to have an ECID. 
+* Their other CX Enterprise solutions to work properly.
 
 **Implementation Strategy**
 
-Because other Experience Cloud solutions rely on the MID, the ID service calls Adobe to return and set this ID. If you need to stop the ID service from making calls from authenticated sections of your website, then let it make these required calls from pages that don't require authentication first. After your site visitor has a MID, then you can set `disableThirdPartyCalls= true` in the ID service code on the authenticated sections of your site. The assumption here is that most, if not all, of your customers will navigate to an authentication page before they get access to the secure parts of your site.
+Because other CX Enterprise solutions rely on the MID, the Visitor ID Service calls Adobe to return and set this ID. If you need to stop the Visitor ID Service from making calls from authenticated sections of your website, then let it make these required calls from pages that don't require authentication first. After your site visitor has a MID, then you can set `disableThirdPartyCalls= true` in the Visitor ID Service code on the authenticated sections of your site. The assumption here is that most, if not all, of your customers will navigate to an authentication page before they get access to the secure parts of your site.
 
 **Code Sample**
 
 ```js
-var visitor = Visitor.getInstance ("Insert Experience Cloud organization ID here",{ 
+var visitor = Visitor.getInstance ("INSERT-IMS-ORG-ID-HERE",{ 
    trackingServer: "Insert tracking server here here",  //Same as s.trackingServer 
    trackingServerSecure: "Insert secure tracking server here",  //Same as s.trackingServerSecure 
  

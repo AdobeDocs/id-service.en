@@ -1,6 +1,6 @@
 ---
-description: Returns the Experience Cloud Identity Service region ID. A region ID (or location hint), is a numeric identifier for the geographic location of a particular ID service data center. You need the region ID in order to make server-side API calls to Audience Manager.
-keywords: ID Service
+description: Returns the Visitor ID Service region ID. A region ID (or location hint), is a numeric identifier for the geographic location of a particular Visitor ID Service data center. You need the region ID in order to make server-side API calls to Audience Manager.
+keywords: Visitor ID Service
 title: getLocationHint
 exl-id: 0213f828-a985-4201-8a38-0a4b170ed057
 TQID: https://experienceleague.adobe.com/Q58a-bmHINs-3mhlUarH8Ipo85tNhjTjMDSlZLFcHsw
@@ -19,7 +19,7 @@ role_v2:
 ---
 # getLocationHint{#getlocationhint}
 
-Returns the Experience Cloud Identity Service region ID. A region ID (or location hint), is a numeric identifier for the geographic location of a particular ID service data center. You need the region ID in order to make server-side API calls to Audience Manager.
+Returns the Visitor ID Service region ID. A region ID (or location hint), is a numeric identifier for the geographic location of a particular Visitor ID Service data center. You need the region ID in order to make server-side API calls to Audience Manager.
 
  **Syntax:** `var *`variable name`* = visitor.getLocationHint()`
 

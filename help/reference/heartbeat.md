@@ -1,7 +1,7 @@
 ---
-description: Video heartbeat requires the Experience Cloud Identity Service. When measuring video on JavaScript or Flash, implementing the ID service on your site pages and in video playback ensures that visitors are not counted separately when viewing video.
-keywords: ID Service
-title: Video Heartbeat and the Experience Cloud Identity Service
+description: Video heartbeat requires the Visitor ID Service. When measuring video on JavaScript or Flash, implementing the Visitor ID Service on your site pages and in video playback ensures that visitors are not counted separately when viewing video.
+keywords: Visitor ID Service
+title: Video Heartbeat and the Adobe Visitor ID Service
 feature-set: Experience Cloud Services
 feature: TK421
 exl-id: 5e905925-54ba-43ce-ae87-a9bf193d7b95
@@ -19,9 +19,9 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
 ---
-# Video Heartbeat and the Experience Cloud Identity Service {#video-heartbeat-and-the-experience-cloud-id-service}
+# Video Heartbeat and the Adobe Visitor ID Service {#video-heartbeat-and-the-experience-cloud-id-service}
 
-Video heartbeat requires the Experience Cloud Identity Service. When measuring video on JavaScript or Flash, implementing the ID service on your site pages and in video playback ensures that visitors are not counted separately when viewing video.
+Video heartbeat requires the Visitor ID Service. When measuring video on JavaScript or Flash, implementing the Visitor ID Service on your site pages and in video playback ensures that visitors are not counted separately when viewing video.
 
 >[!MORELIKETHIS]
 >

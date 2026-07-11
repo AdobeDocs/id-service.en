@@ -1,6 +1,6 @@
 ---
-description: Frequently asked questions about the Experience Cloud Identity Service itself along with sections about the ID service and other Experience Cloud solution combinations.
-keywords: ID Service
+description: Frequently asked questions about the Visitor ID Service itself along with sections about the Visitor ID Service and other CX Enterprise solution combinations.
+keywords: Visitor ID Service
 title: FAQs
 feature-set: Experience Cloud Services
 feature: TK421
@@ -21,8 +21,8 @@ role_v2:
 ---
 # FAQs {#faqs}
 
-Frequently asked questions about the Experience Cloud Identity Service itself along with sections about the ID service and other Experience Cloud solution combinations.
+Frequently asked questions about the Visitor ID Service itself along with sections about the Visitor ID Service and other CX Enterprise solution combinations.
 
-* [ID Service FAQs](faq.md)
-* [FAQs for Other Experience Cloud Solutions](other-faq.md)
+* [Visitor ID Service FAQs](faq.md)
+* [FAQs for Other CX Enterprise Solutions](other-faq.md)
 

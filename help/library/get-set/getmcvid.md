@@ -1,6 +1,6 @@
 ---
-description: getMarketingCloudVisitorID returns the Experience Cloud visitor ID.
-keywords: ID Service
+description: getMarketingCloudVisitorID returns the ECID.
+keywords: Visitor ID Service
 title: getMarketingCloudVisitorID
 exl-id: bd81cc0b-0511-492d-beb8-8ba2fe5d4323
 TQID: https://experienceleague.adobe.com/Ltpdq4dlGbJ8h0vAZBD52Pq7gLaurxSDYqETkLqQfDw
@@ -22,23 +22,23 @@ topic_v2:
 ---
 # getMarketingCloudVisitorID{#getmarketingcloudvisitorid}
 
-getMarketingCloudVisitorID returns the Experience Cloud visitor ID.
+getMarketingCloudVisitorID returns the ECID.
 
  **Syntax:** `var *`variable name`* = visitor.getMarketingCloudVisitorID()`
 
-This method typically used with custom solutions that require reading the visitor ID. It is not used by a standard implementation. `getMarketingCloudVisitorID` also works with callback functions to read [!DNL Analytics] IDs and bring them in to your system or application.
+This method typically used with custom solutions that require reading the visitor ID. It is not used by a standard implementation. `getMarketingCloudVisitorID` also works with callback functions to read Analytics IDs and bring them in to your system or application.
 
 ```js
 //callback function 
 var useMarketingCloudID = function(id){ 
-     //whatever your function does with the Experience Cloud ID 
+     //whatever your function does with the ECID 
 }; 
  
-//get the Experience Cloud ID and pass it to the function 
+//get the ECID and pass it to the function 
 var mcID = visitor.getMarketingCloudVisitorID(useMarketingCloudID)
 ```
 
 >[!TIP]
 >
->If you're an [!DNL Analytics] customer, also check for and send the [!DNL Analytics] ID to your function. For example, you would want both identifiers when passing the visitor ID in a hidden form element to a server-side application that uses the data insertion API. In this case, you should collect and return the [!DNL Experience Cloud] and [!DNL Analytics] visitor IDs. See [Get Analytics Visitor ID](../../library/get-set/getanalyticsvisitorid.md).
+>If you're an Analytics customer, also check for and send the Analytics ID to your function. For example, you would want both identifiers when passing the visitor ID in a hidden form element to a server-side application that uses the data insertion API. In this case, you should collect and return the ECID and Analytics visitor IDs. See [Get Analytics Visitor ID](../../library/get-set/getanalyticsvisitorid.md).
 

@@ -48,7 +48,7 @@ For more details, please read the  [Interactive Advertising Bureau docs](https
 >
 >Opt-in is only available in ECID 4.0+.
 
-Use Adobe Experience Platform Launch to implement Opt-in's IAB TCF plugin for your site. When enabling IAB for Opt-in manually, check to make sure the following settings are set to true within the Visitor object:
+Use tags to implement Opt-in's IAB TCF plugin for your site. When enabling IAB for Opt-in manually, check to make sure the following settings are set to true within the Visitor object:
 
 ```javascript
 Visitor.getInstance("YOUR_ORG_ID", {  

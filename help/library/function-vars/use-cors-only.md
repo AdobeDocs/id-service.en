@@ -1,6 +1,6 @@
 ---
-description: An optional, Boolean flag that controls how the browser requests resources from the Experience Cloud Identity Service.
-keywords: ID Service
+description: An optional, Boolean flag that controls how the browser requests resources from the Visitor ID Service.
+keywords: Visitor ID Service
 title: useCORSOnly
 exl-id: 049a082a-8e6b-44cc-bd05-c12aaf3cbe4d
 TQID: https://experienceleague.adobe.com/QMYUbL2y8X5gSUcLmYnKZnp5mfEu7-uiogOx3rx2dkY
@@ -22,22 +22,22 @@ topic_v2:
 ---
 # useCORSOnly{#usecorsonly}
 
-An optional, Boolean flag that controls how the browser requests resources from the Experience Cloud Identity Service.
+An optional, Boolean flag that controls how the browser requests resources from the Visitor ID Service.
 
  **Syntax:** `useCORSOnly: true|false` (default is `false`.)
 
 **Overview**
 
-When set to `false`, the browser performs resource checks with CORS or JSONP. However, the ID service always tries to request resources with CORS first. It reverts to JSONP on older browsers that do not support CORS. If you need to force the browser to use CORS only, set `useCORSOnly:true` in the `Visitor.getInstance` function call.
+When set to `false`, the browser performs resource checks with CORS or JSONP. However, the Visitor ID Service always tries to request resources with CORS first. It reverts to JSONP on older browsers that do not support CORS. If you need to force the browser to use CORS only, set `useCORSOnly:true` in the `Visitor.getInstance` function call.
 
 >[!IMPORTANT]
 >
->`Set useCORSOnly: true` if you have strict security requirements. You should only enable this mode if you're confident all of your visitors use browsers that support CORS. The user experience is unaffected by browsers that do not support CORS. However, browsers without CORS support cannot request resources or exchange data with the [!DNL Adobe Experience Cloud].
+>`Set useCORSOnly: true` if you have strict security requirements. You should only enable this mode if you're confident all of your visitors use browsers that support CORS. The user experience is unaffected by browsers that do not support CORS. However, browsers without CORS support cannot request resources or exchange data with Adobe CX Enterprise.
 
 **Code Sample**
 
 ```js
-var visitor = Visitor.getInstance ("Insert Experience Cloud organization ID here",{ 
+var visitor = Visitor.getInstance ("INSERT-IMS-ORG-ID-HERE",{ 
    trackingServer: "Insert tracking server here here",  //Same as s.trackingServer 
    trackingServerSecure: "Insert secure tracking server here",  //Same as s.trackingServerSecure 
  
